@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/loop-returns",
+    "title": "Loop Returns &#038; Exchanges",
+    "websiteUrl": "https:\/\/www.loopreturns.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "Loop"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/loop-returns",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "auth_required",
+                "probeCheckedAt": "2026-08-02T11:50:23+00:00",
+                "probeEndpoint": "https:\/\/api.loopreturns.com\/mcp",
+                "probeHttpStatus": "401",
+                "probeConfidence": "high"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "vendor-endpoint"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

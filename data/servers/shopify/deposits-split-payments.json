@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/deposits-split-payments",
+    "title": "Deposit &#038; Partial Payment Depo",
+    "websiteUrl": "https:\/\/www.sidepanda.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "Sidepanda Services LLP"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/deposits-split-payments",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "endpoint_found",
+                "probeCheckedAt": "2026-08-02T11:50:32+00:00",
+                "probeEndpoint": "https:\/\/sidepanda.com\/mcp",
+                "probeHttpStatus": "200",
+                "probeConfidence": "low"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "unprobed"
+                ],
+                "pricing": [
+                    "paid"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

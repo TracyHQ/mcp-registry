@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/bundler-product-bundles",
+    "title": "Bundler ‑ Product Bundles App",
+    "websiteUrl": "https:\/\/bundler.app\/?bundles=",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "Bundler.app"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/bundler-product-bundles",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "endpoint_found",
+                "probeCheckedAt": "2026-08-02T11:49:24+00:00",
+                "probeEndpoint": "https:\/\/bundler.app\/.well-known\/mcp.json",
+                "probeHttpStatus": "200",
+                "probeConfidence": "low"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "unprobed"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

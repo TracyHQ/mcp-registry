@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/helpdesk-livechat-chatbots",
+    "title": "QuickReply",
+    "websiteUrl": "https:\/\/www.quickreply.ai\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "QuickReply.ai"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/helpdesk-livechat-chatbots",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "auth_required",
+                "probeCheckedAt": "2026-08-02T11:52:17+00:00",
+                "probeEndpoint": "https:\/\/api.quickreply.ai\/mcp",
+                "probeHttpStatus": "403",
+                "probeConfidence": "medium"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "vendor-endpoint"
+                ],
+                "pricing": [
+                    "paid"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

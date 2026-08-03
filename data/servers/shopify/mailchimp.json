@@ -1,0 +1,45 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/mailchimp",
+    "title": "Mailchimp Email SMS Marketing",
+    "websiteUrl": "https:\/\/mailchimp.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "provenance": "official",
+            "operator": {
+                "name": "Intuit Mailchimp"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/mailchimp",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "vendorMcpStatus": "official-ga",
+                "vendorMcpSurveyedAt": "2026-08-01",
+                "vendorMcpEvidenceUrl": "https:\/\/mailchimp.com\/resources\/connect-mailchimp-to-claude\/",
+                "probeStatus": "no_vendor_endpoint",
+                "probeCheckedAt": "2026-08-02T11:49:20+00:00",
+                "probeConfidence": "medium"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "endpoint-checked",
+                    "vendor-mcp"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/mailerlite-email-automation",
+    "title": "MailerLite Email Automation",
+    "websiteUrl": "https:\/\/www.mailerlite.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "MailerLite"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/mailerlite-email-automation",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "auth_required",
+                "probeCheckedAt": "2026-08-02T11:50:03+00:00",
+                "probeEndpoint": "https:\/\/mcp.mailerlite.com\/mcp",
+                "probeHttpStatus": "401",
+                "probeConfidence": "high"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "vendor-endpoint"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

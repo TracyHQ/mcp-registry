@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/product-ads-by-criteo",
+    "title": "Criteo GO",
+    "websiteUrl": "https:\/\/www.criteo.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "Criteo"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/product-ads-by-criteo",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "auth_required",
+                "probeCheckedAt": "2026-08-02T11:50:19+00:00",
+                "probeEndpoint": "https:\/\/mcp.criteo.com\/mcp",
+                "probeHttpStatus": "401",
+                "probeConfidence": "high"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "vendor-endpoint"
+                ],
+                "pricing": [
+                    "free"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

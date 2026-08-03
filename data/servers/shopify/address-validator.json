@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/address-validator",
+    "title": "Clearer.io Address Validator",
+    "websiteUrl": "https:\/\/addressvalidator.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "RoboTurk"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/address-validator",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "endpoint_found",
+                "probeCheckedAt": "2026-08-02T11:51:15+00:00",
+                "probeEndpoint": "https:\/\/addressvalidator.com\/.well-known\/mcp.json",
+                "probeHttpStatus": "200",
+                "probeConfidence": "low"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "unprobed"
+                ],
+                "pricing": [
+                    "free"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

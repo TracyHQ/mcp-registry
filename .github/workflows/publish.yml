@@ -1,0 +1,85 @@
+name: Publish
+
+# RUNS WHEN THE DATA CHANGES, NOT ON A CLOCK.
+#
+# There is no `schedule:` here, and that is a decision rather than an omission.
+# Three reasons:
+#
+#   1. The exporter's output is deterministic — the same database produces the
+#      same bytes. A nightly cron would redeploy identical content on 364 days
+#      out of every 365.
+#   2. The data only changes when a fetch/scan/probe run happens, and those run
+#      by hand on the machine that holds the database. The real event is
+#      "data/ changed", so that is the trigger.
+#   3. A cron would make the dataset LOOK freshly updated while every date in
+#      `probeCheckedAt` stayed exactly the same. This dataset sells precisely
+#      "the day we asked" — blurring that destroys the only thing it has.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# A later deploy supersedes an earlier one, but an in-flight deploy is not
+# cancelled — interrupting one can leave Pages half-updated.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # Prove determinism BEFORE building for real: build twice in-process and
+      # compare sha256. If a timestamp or filesystem ordering ever leaks in, it
+      # dies here rather than by silently producing a deploy that differs from
+      # the last one for reasons nobody can explain.
+      - name: Check determinism
+        run: node scripts/build-dist.mjs --check
+
+      # The build itself also enforces two invariants and exits non-zero if
+      # either breaks:
+      #   - `servers/{name}.json` matches the real file path
+      #   - the root of dist/ holds no files (that space belongs to skills/,
+      #     which lives in a different repo)
+      - name: Build dist
+        run: node scripts/build-dist.mjs
+
+      - name: Cross-check the record count against the exporter manifest
+        run: |
+          expected=$(jq -r '.servers' data/export-manifest.json)
+          actual=$(jq 'length' dist/servers/index.json)
+          echo "manifest=$expected index=$actual"
+          if [ "$expected" != "$actual" ]; then
+            echo "::error::servers/index.json holds $actual records, the manifest declares $expected"
+            exit 1
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

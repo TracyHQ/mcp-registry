@@ -1,0 +1,44 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/gempages",
+    "title": "GemPages Landing Page Builder",
+    "websiteUrl": "https:\/\/gempages.net\/?utm_campaign=app-listing&utm_content=website",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "GEMCOMMERCE CO., LTD"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/gempages",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "vendorMcpStatus": "none-surveyed",
+                "vendorMcpSurveyedAt": "2026-08-01",
+                "probeStatus": "endpoint_found",
+                "probeCheckedAt": "2026-08-02T11:49:25+00:00",
+                "probeEndpoint": "https:\/\/api.gempages.net\/mcp",
+                "probeHttpStatus": "200",
+                "probeConfidence": "low"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "unprobed"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

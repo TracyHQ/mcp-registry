@@ -1,0 +1,49 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/woocommerce",
+    "title": "WooCommerce",
+    "version": "10.9.4",
+    "websiteUrl": "https:\/\/woocommerce.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "provenance": "official",
+            "operator": {
+                "name": "Automattic"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce\/",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T08:57:18+00:00",
+                "restRoutes": "344",
+                "abilitiesExtracted": "6",
+                "cliCommands": "31",
+                "vendorMcpStatus": "official-beta",
+                "vendorMcpSurveyedAt": "2026-08-01",
+                "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/docs\/features\/mcp\/",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned",
+                    "vendor-mcp"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/woo-mailerlite",
+    "title": "MailerLite – WooCommerce integration",
+    "version": "3.1.24",
+    "websiteUrl": "https:\/\/mailerlite.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "MailerLite"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/woo-mailerlite\/",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T09:02:10+00:00",
+                "restRoutes": "0",
+                "abilitiesExtracted": "0",
+                "cliCommands": "0",
+                "probeStatus": "auth_required",
+                "probeCheckedAt": "2026-08-02T11:50:03+00:00",
+                "probeEndpoint": "https:\/\/mcp.mailerlite.com\/mcp",
+                "probeHttpStatus": "401",
+                "probeConfidence": "high"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "source-scanned",
+                    "vendor-endpoint"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/woocommerce-google-analytics-integration",
+    "title": "Google Analytics for WooCommerce",
+    "version": "2.3.0",
+    "websiteUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-google-analytics-integration\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "provenance": "official",
+            "operator": {
+                "name": "WooCommerce"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-google-analytics-integration\/",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T08:59:04+00:00",
+                "restRoutes": "0",
+                "abilitiesExtracted": "0",
+                "cliCommands": "0",
+                "vendorMcpStatus": "official-beta",
+                "vendorMcpSurveyedAt": "2026-08-01",
+                "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/2026\/06\/01\/expanding-abilities-across-woocommerce-extensions\/",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "source-scanned",
+                    "vendor-mcp"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

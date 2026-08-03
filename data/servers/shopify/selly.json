@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/selly",
+    "title": "SELLY ‑ Promotion &#038; Pricing",
+    "websiteUrl": "https:\/\/treedify.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "Treedify"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/selly",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "endpoint_found",
+                "probeCheckedAt": "2026-08-02T11:52:16+00:00",
+                "probeEndpoint": "https:\/\/api.treedify.com\/mcp",
+                "probeHttpStatus": "200",
+                "probeConfidence": "low"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "unprobed"
+                ],
+                "pricing": [
+                    "paid"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

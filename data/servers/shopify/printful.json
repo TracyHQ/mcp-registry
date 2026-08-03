@@ -1,0 +1,45 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/printful",
+    "title": "Printful: Print on Demand",
+    "websiteUrl": "https:\/\/www.printful.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "provenance": "community",
+            "operator": {
+                "name": "Printful Latvia AS"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/printful",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "vendorMcpStatus": "third-party-wrapper",
+                "vendorMcpSurveyedAt": "2026-08-01",
+                "vendorMcpEvidenceUrl": "https:\/\/github.com\/Purple-Horizons\/printful-mcp",
+                "probeStatus": "no_vendor_endpoint",
+                "probeCheckedAt": "2026-08-02T11:49:23+00:00",
+                "probeConfidence": "medium"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "endpoint-checked",
+                    "vendor-mcp"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

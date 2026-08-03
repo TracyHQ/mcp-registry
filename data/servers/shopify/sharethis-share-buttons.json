@@ -1,0 +1,42 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/sharethis-share-buttons",
+    "title": "ShareThis Share Buttons",
+    "websiteUrl": "https:\/\/sharethis.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "operator": {
+                "name": "ShareThis"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/sharethis-share-buttons",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "probeStatus": "endpoint_found",
+                "probeCheckedAt": "2026-08-02T11:50:30+00:00",
+                "probeEndpoint": "https:\/\/mcp.sharethis.com\/",
+                "probeHttpStatus": "200",
+                "probeConfidence": "low"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "unprobed"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

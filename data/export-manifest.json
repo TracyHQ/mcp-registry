@@ -1,0 +1,17 @@
+{
+    "servers": 162,
+    "findingsByPlatform": {
+        "joomla": 429,
+        "shopify": 1000,
+        "wordpress": 1000
+    },
+    "findingsTotal": 2429,
+    "serverSchema": "2025-12-11",
+    "serverConformance": "shaped-not-valid",
+    "includesLicensedMetrics": false,
+    "excluded": {
+        "vendorProse": "always",
+        "seededSamples": "always",
+        "licensedMetrics": "always"
+    }
+}

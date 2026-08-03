@@ -1,0 +1,46 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/17track",
+    "title": "17TRACK Order Tracking",
+    "websiteUrl": "https:\/\/www.17track.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "provenance": "community",
+            "operator": {
+                "name": "17TRACK"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/17track",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "vendorMcpStatus": "third-party-wrapper",
+                "vendorMcpSurveyedAt": "2026-08-01",
+                "vendorMcpEvidenceUrl": "https:\/\/github.com\/iamfiro\/parcel-tracking-mcp",
+                "probeStatus": "endpoint_found",
+                "probeCheckedAt": "2026-08-02T11:49:24+00:00",
+                "probeEndpoint": "https:\/\/17track.com\/.well-known\/mcp.json",
+                "probeHttpStatus": "200",
+                "probeConfidence": "low"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "vendor-mcp"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}

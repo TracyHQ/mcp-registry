@@ -1,0 +1,48 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "joomla\/mcp-server-for-joomla",
+    "title": "MCP Server for Joomla",
+    "version": "1.6.0",
+    "websiteUrl": "https:\/\/extensions.joomla.org\/extension\/mcp-server-for-joomla\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "provenance": "official",
+            "operator": {
+                "name": "Onepoint"
+            },
+            "ecosystem": [
+                "joomla"
+            ],
+            "listingUrl": "https:\/\/extensions.joomla.org\/extension\/mcp-server-for-joomla\/",
+            "license": "GPLv2 or later",
+            "businessModel": [
+                "community"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T14:42:50+00:00",
+                "sourceScanStatus": "scanned_ok",
+                "cliCommands": "0",
+                "vendorMcpStatus": "official-ga",
+                "vendorMcpSurveyedAt": "2026-08-02",
+                "vendorMcpEvidenceUrl": "https:\/\/extensions.joomla.org\/extension\/mcp-server-for-joomla\/",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "joomla"
+                ],
+                "capability": [
+                    "source-scanned",
+                    "vendor-mcp"
+                ],
+                "pricing": [
+                    "free"
+                ],
+                "directory": [
+                    "jed"
+                ]
+            }
+        }
+    }
+}

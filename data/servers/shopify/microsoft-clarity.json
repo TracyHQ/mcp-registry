@@ -1,0 +1,47 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "shopify\/microsoft-clarity",
+    "title": "Microsoft Clarity: AI Insights",
+    "websiteUrl": "https:\/\/clarity.microsoft.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "provenance": "official",
+            "operator": {
+                "name": "Microsoft Clarity"
+            },
+            "ecosystem": [
+                "shopify"
+            ],
+            "listingUrl": "https:\/\/apps.shopify.com\/microsoft-clarity",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "vendorMcpStatus": "official-ga",
+                "vendorMcpSurveyedAt": "2026-08-01",
+                "vendorMcpEvidenceUrl": "https:\/\/github.com\/microsoft\/clarity-mcp-server",
+                "probeStatus": "auth_required",
+                "probeCheckedAt": "2026-08-02T11:49:18+00:00",
+                "probeEndpoint": "https:\/\/clarity.microsoft.com\/mcp",
+                "probeHttpStatus": "401",
+                "probeConfidence": "high"
+            },
+            "classification": {
+                "platform": [
+                    "shopify"
+                ],
+                "capability": [
+                    "vendor-endpoint",
+                    "vendor-mcp"
+                ],
+                "pricing": [
+                    "free"
+                ],
+                "directory": [
+                    "shopify-app-store"
+                ]
+            }
+        }
+    }
+}
