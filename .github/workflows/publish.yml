@@ -59,6 +59,12 @@ jobs:
       - name: Build dist
         run: node scripts/build-dist.mjs
 
+      # Runs AFTER the build on purpose: the string that actually reached
+      # consumers last time was generated into dist/findings/index.json, not
+      # written in a source file. Checking only the sources would have missed it.
+      - name: Check the public surface is in English
+        run: node scripts/check-language.mjs
+
       - name: Cross-check the record count against the exporter manifest
         run: |
           expected=$(jq -r '.servers' data/export-manifest.json)
