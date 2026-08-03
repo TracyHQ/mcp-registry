@@ -80,7 +80,11 @@ first. Both are correct, and merging them makes the error invisible.
 
 ## What is deliberately absent
 
-- **Vendor prose.** Permanently.
+- **Vendor prose**, for a licensing reason rather than a policy one. This dataset is published
+  under CC BY 4.0, and `LICENSE-DATA` states that the licence covers Tracy's compilation and
+  measurements, not the things measured. Including a vendor's own description would purport to
+  license text Tracy does not own. Resolving that means narrowing the licence scope for such a
+  field, not flipping a switch.
 - **Install counts and metrics purchased from a commercial data supplier.** That is a question of
   contract terms, not copyright, and it has no written answer yet — so the default is no.
 - **Placeholder numbers from design mock-ups.** Three records carry a few hand-entered tool counts

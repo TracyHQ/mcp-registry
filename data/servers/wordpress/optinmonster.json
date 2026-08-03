@@ -14,6 +14,8 @@
                 "wordpress"
             ],
             "listingUrl": "https:\/\/wordpress.org\/plugins\/optinmonster\/",
+            "activeInstalls": 1000000,
+            "activeInstallsSource": "directory-reported",
             "businessModel": [
                 "unknown"
             ],

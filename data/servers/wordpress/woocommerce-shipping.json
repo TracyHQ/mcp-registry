@@ -15,6 +15,8 @@
                 "wordpress"
             ],
             "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-shipping\/",
+            "activeInstalls": 70000,
+            "activeInstallsSource": "directory-reported",
             "businessModel": [
                 "unknown"
             ],

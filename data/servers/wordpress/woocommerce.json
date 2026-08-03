@@ -15,6 +15,8 @@
                 "wordpress"
             ],
             "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce\/",
+            "activeInstalls": 7000000,
+            "activeInstallsSource": "directory-reported",
             "businessModel": [
                 "commercial"
             ],

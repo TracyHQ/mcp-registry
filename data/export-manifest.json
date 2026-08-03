@@ -13,5 +13,12 @@
         "vendorProse": "always",
         "seededSamples": "always",
         "licensedMetrics": "always"
+    },
+    "activeInstalls": {
+        "included": true,
+        "sources": {
+            "directory-reported": "self-reported by wordpress.org or JED, in buckets",
+            "third-party-measured": "measured by a third party"
+        }
     }
 }

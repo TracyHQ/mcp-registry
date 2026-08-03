@@ -14,6 +14,8 @@
                 "wordpress"
             ],
             "listingUrl": "https:\/\/wordpress.org\/plugins\/yotpo-social-reviews-for-woocommerce\/",
+            "activeInstalls": 2000,
+            "activeInstallsSource": "directory-reported",
             "businessModel": [
                 "unknown"
             ],

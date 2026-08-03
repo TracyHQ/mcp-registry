@@ -62,10 +62,19 @@ const VIETNAMESE = /[\u0102\u0103\u0110\u0111\u01A0\u01A1\u01AF\u01B0\u1EA0-\u1E
 const SOURCE = ['README.md', 'LICENSE', 'LICENSE-DATA', 'scripts', '.github']
 
 /**
- * Generated files that reach consumers. This entry is the one that would have
- * caught the real incident — the rest hold comments no outsider reads.
+ * Generated files carrying Tracy-authored strings.
+ *
+ * `dist/*​/index.json` is where the real incident happened. `data/export-manifest.json`
+ * was added on 2026-08-03 after the exporter grew prose fields describing what
+ * each value means: it lives under `data/`, which is exempt wholesale because it
+ * holds third-party titles — but the manifest is ours, not theirs, so the blanket
+ * exemption was hiding it. Exempt the data, not the directory.
  */
-const GENERATED = ['dist/servers/index.json', 'dist/findings/index.json']
+const GENERATED = [
+  'dist/servers/index.json',
+  'dist/findings/index.json',
+  'data/export-manifest.json',
+]
 
 function walk(rel) {
   const abs = path.join(ROOT, rel)

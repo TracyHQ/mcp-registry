@@ -14,6 +14,8 @@
                 "wordpress"
             ],
             "listingUrl": "https:\/\/wordpress.org\/plugins\/woo-mailerlite\/",
+            "activeInstalls": 30000,
+            "activeInstallsSource": "directory-reported",
             "businessModel": [
                 "unknown"
             ],
