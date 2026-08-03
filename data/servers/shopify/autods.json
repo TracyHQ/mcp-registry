@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/autods",
-    "title": "Auto DS: AI Dropshipping &#038; POD",
+    "title": "Auto DS: AI Dropshipping & POD",
     "websiteUrl": "http:\/\/autods.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Auto DS: AI Dropshipping & POD",
             "operator": {
                 "name": "AutoDS Dropshipping Tools"
             },

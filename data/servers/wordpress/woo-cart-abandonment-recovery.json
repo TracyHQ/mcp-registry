@@ -1,0 +1,47 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/woo-cart-abandonment-recovery",
+    "title": "Cart Abandonment Recovery for WooCommerce – Recover Lost Sales with Automated Emails",
+    "version": "2.1.3",
+    "websiteUrl": "https:\/\/cartflows.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "title": "Cart Abandonment Recovery for WooCommerce – Recover Lost Sales with Automated Emails",
+            "operator": {
+                "name": "Brainstorm Force"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/woo-cart-abandonment-recovery\/",
+            "activeInstalls": 300000,
+            "activeInstallsSource": "directory-reported",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T08:57:55+00:00",
+                "restRoutes": "6",
+                "abilitiesExtracted": "0",
+                "cliCommands": "0",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/surecart",
+    "version": "4.6.2",
+    "websiteUrl": "https:\/\/surecart.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "title": "SureCart – Ecommerce Made Easy For Selling Physical Products, Digital Downloads, Subscriptions, Donations, & Payments",
+            "operator": {
+                "name": "SureCart"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/surecart\/",
+            "activeInstalls": 80000,
+            "activeInstallsSource": "directory-reported",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T09:00:00+00:00",
+                "restRoutes": "92",
+                "abilitiesExtracted": "0",
+                "cliCommands": "4",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

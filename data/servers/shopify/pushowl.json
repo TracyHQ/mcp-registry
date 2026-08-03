@@ -6,6 +6,7 @@
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Brevo PushOwl: Email,Push,SMS",
             "provenance": "official",
             "operator": {
                 "name": "Brevo PushOwl"

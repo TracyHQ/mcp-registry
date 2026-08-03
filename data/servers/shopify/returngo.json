@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/returngo",
-    "title": "ReturnGO Returns &#038; Exchanges",
+    "title": "ReturnGO Returns & Exchanges",
     "websiteUrl": "https:\/\/returngo.ai\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "ReturnGO Returns & Exchanges",
             "operator": {
                 "name": "ReturnGO"
             },

@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/referralcandy",
-    "title": "Referral Candy &#038; Affiliate",
+    "title": "Referral Candy & Affiliate",
     "websiteUrl": "http:\/\/www.referralcandy.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Referral Candy & Affiliate",
             "operator": {
                 "name": "ReferralCandy"
             },

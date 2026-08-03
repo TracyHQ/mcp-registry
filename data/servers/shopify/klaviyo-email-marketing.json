@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/klaviyo-email-marketing",
-    "title": "Klaviyo: Email Marketing &#038; SMS",
+    "title": "Klaviyo: Email Marketing & SMS",
     "websiteUrl": "https:\/\/developers.klaviyo.com\/en",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Klaviyo: Email Marketing & SMS",
             "provenance": "official",
             "operator": {
                 "name": "Klaviyo"

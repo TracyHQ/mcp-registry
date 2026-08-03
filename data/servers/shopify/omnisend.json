@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/omnisend",
-    "title": "Omnisend Email Marketing &#038; SMS",
+    "title": "Omnisend Email Marketing & SMS",
     "websiteUrl": "https:\/\/www.omnisend.com",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Omnisend Email Marketing & SMS",
             "provenance": "official",
             "operator": {
                 "name": "Omnisend"

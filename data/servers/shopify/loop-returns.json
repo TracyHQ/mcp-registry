@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/loop-returns",
-    "title": "Loop Returns &#038; Exchanges",
+    "title": "Loop Returns & Exchanges",
     "websiteUrl": "https:\/\/www.loopreturns.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Loop Returns & Exchanges",
             "operator": {
                 "name": "Loop"
             },

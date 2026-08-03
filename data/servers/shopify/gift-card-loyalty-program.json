@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/gift-card-loyalty-program",
-    "title": "Rise Gift Cards &#038; Store Credit",
+    "title": "Rise Gift Cards & Store Credit",
     "websiteUrl": "https:\/\/rise.ai\/start-using-rise-ai-today",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Rise Gift Cards & Store Credit",
             "operator": {
                 "name": "Rise.ai"
             },

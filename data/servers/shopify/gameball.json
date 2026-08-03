@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/gameball",
-    "title": "Gameball: AI Loyalty &#038; Games",
+    "title": "Gameball: AI Loyalty & Games",
     "websiteUrl": "https:\/\/www.gameball.co",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Gameball: AI Loyalty & Games",
             "operator": {
                 "name": "Gameball"
             },

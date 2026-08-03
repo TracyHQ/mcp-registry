@@ -6,6 +6,7 @@
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Mailchimp Email SMS Marketing",
             "provenance": "official",
             "operator": {
                 "name": "Intuit Mailchimp"

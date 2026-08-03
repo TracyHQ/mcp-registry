@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/helpdesk",
-    "title": "Gorgias: AI, Helpdesk &#038; Chat",
+    "title": "Gorgias: AI, Helpdesk & Chat",
     "websiteUrl": "https:\/\/www.gorgias.com",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Gorgias: AI, Helpdesk & Chat",
             "operator": {
                 "name": "Gorgias Inc."
             },

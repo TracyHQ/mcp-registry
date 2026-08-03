@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/moosedesk",
-    "title": "Moose AI Chatbot &#038; Live Chat",
+    "title": "Moose AI Chatbot & Live Chat",
     "websiteUrl": "https:\/\/moosedesk.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Moose AI Chatbot & Live Chat",
             "operator": {
                 "name": "Vegahub Technology Inc."
             },

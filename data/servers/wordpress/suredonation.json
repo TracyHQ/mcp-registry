@@ -1,0 +1,47 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/suredonation",
+    "title": "SureDonation – Donation Forms, Fundraising Campaigns & Donor Management",
+    "version": "1.3.0",
+    "websiteUrl": "https:\/\/suredonation.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "title": "SureDonation – Donation Forms, Fundraising Campaigns & Donor Management",
+            "operator": {
+                "name": "Brainstorm Force"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/suredonation\/",
+            "activeInstalls": 1000,
+            "activeInstallsSource": "directory-reported",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T09:45:11+00:00",
+                "restRoutes": "23",
+                "abilitiesExtracted": "0",
+                "cliCommands": "0",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

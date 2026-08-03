@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/aitrillion",
-    "title": "AiT Loyalty, Email &#038; WhatsApp",
+    "title": "AiT Loyalty, Email & WhatsApp",
     "websiteUrl": "https:\/\/www.aitrillion.com?utm_campaign=link_click_home",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "AiT Loyalty, Email & WhatsApp",
             "operator": {
                 "name": "AiTrillion"
             },

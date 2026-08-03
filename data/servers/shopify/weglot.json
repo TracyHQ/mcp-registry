@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/weglot",
-    "title": "Weglot: AI Translation &#038; SEO",
+    "title": "Weglot: AI Translation & SEO",
     "websiteUrl": "https:\/\/weglot.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Weglot: AI Translation & SEO",
             "operator": {
                 "name": "Weglot"
             },

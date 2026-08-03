@@ -1,0 +1,47 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/sensei-lms",
+    "title": "Sensei LMS – Online Courses, Quizzes, & Learning",
+    "version": "4.26.2",
+    "websiteUrl": "https:\/\/senseilms.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "title": "Sensei LMS – Online Courses, Quizzes, & Learning",
+            "operator": {
+                "name": "Automattic"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/sensei-lms\/",
+            "activeInstalls": 9000,
+            "activeInstallsSource": "directory-reported",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T09:09:50+00:00",
+                "restRoutes": "32",
+                "abilitiesExtracted": "4",
+                "cliCommands": "8",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

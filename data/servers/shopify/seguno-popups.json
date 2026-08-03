@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/seguno-popups",
-    "title": "Seguno Popups &#038; Forms",
+    "title": "Seguno Popups & Forms",
     "websiteUrl": "https:\/\/www.seguno.com\/popups",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Seguno Popups & Forms",
             "operator": {
                 "name": "Seguno"
             },

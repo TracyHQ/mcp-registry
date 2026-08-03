@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/growave",
-    "title": "Growave: Loyalty &#038; Wishlist",
+    "title": "Growave: Loyalty & Wishlist",
     "websiteUrl": "https:\/\/www.growave.io\/?utm_campaign=english",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Growave: Loyalty & Wishlist",
             "operator": {
                 "name": "Growave"
             },

@@ -1,0 +1,47 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/ameliabooking",
+    "title": "Booking for Appointments and Events Calendar – Amelia",
+    "version": "2.4.5",
+    "websiteUrl": "https:\/\/wpamelia.com\/",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "title": "Booking for Appointments and Events Calendar – Amelia",
+            "operator": {
+                "name": "Melograno Venture Studio"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/ameliabooking\/",
+            "activeInstalls": 90000,
+            "activeInstallsSource": "directory-reported",
+            "businessModel": [
+                "commercial"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T08:59:27+00:00",
+                "restRoutes": "9",
+                "abilitiesExtracted": "18",
+                "cliCommands": "1",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned"
+                ],
+                "pricing": [
+                    "freemium"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

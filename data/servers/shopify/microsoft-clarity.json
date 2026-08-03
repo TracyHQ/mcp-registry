@@ -6,6 +6,7 @@
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Microsoft Clarity: AI Insights",
             "provenance": "official",
             "operator": {
                 "name": "Microsoft Clarity"

@@ -6,6 +6,7 @@
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Printify: Print on Demand",
             "provenance": "community",
             "operator": {
                 "name": "Printify"

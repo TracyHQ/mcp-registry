@@ -1,0 +1,47 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/latepoint",
+    "title": "Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress",
+    "version": "5.6.9",
+    "websiteUrl": "https:\/\/latepoint.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "title": "Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress",
+            "operator": {
+                "name": "LatePoint"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/latepoint\/",
+            "activeInstalls": 100000,
+            "activeInstallsSource": "directory-reported",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T08:59:06+00:00",
+                "restRoutes": "4",
+                "abilitiesExtracted": "0",
+                "cliCommands": "0",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/tidio-chat",
-    "title": "Tidio ‑ Live Chat &#038; AI Chatbot",
+    "title": "Tidio ‑ Live Chat & AI Chatbot",
     "websiteUrl": "https:\/\/www.tidio.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Tidio ‑ Live Chat & AI Chatbot",
             "operator": {
                 "name": "TIDIO LLC"
             },

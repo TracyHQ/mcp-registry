@@ -1,0 +1,47 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/surecontact",
+    "title": "SureContact – Newsletters, Email Marketing, Automation, Revenue Tracking & CRM",
+    "version": "1.5.3",
+    "websiteUrl": "https:\/\/surecontact.com",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "title": "SureContact – Newsletters, Email Marketing, Automation, Revenue Tracking & CRM",
+            "operator": {
+                "name": "Brainstorm Force"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/surecontact\/",
+            "activeInstalls": 9000,
+            "activeInstallsSource": "directory-reported",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T09:10:25+00:00",
+                "restRoutes": "44",
+                "abilitiesExtracted": "0",
+                "cliCommands": "5",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

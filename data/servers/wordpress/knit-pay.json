@@ -1,0 +1,47 @@
+{
+    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
+    "name": "wordpress\/knit-pay",
+    "title": "Knit Pay – Cashfree, Instamojo, Razorpay, PayPal and more",
+    "version": "9.6.1.0",
+    "websiteUrl": "https:\/\/www.knitpay.org",
+    "_meta": {
+        "ai.tracy.registry\/curation": {
+            "conformance": "shaped-not-valid",
+            "title": "Knit Pay – Cashfree, Instamojo, Razorpay, PayPal and more",
+            "operator": {
+                "name": "knitpay"
+            },
+            "ecosystem": [
+                "wordpress"
+            ],
+            "listingUrl": "https:\/\/wordpress.org\/plugins\/knit-pay\/",
+            "activeInstalls": 2000,
+            "activeInstallsSource": "directory-reported",
+            "businessModel": [
+                "unknown"
+            ],
+            "evidence": {
+                "sourceScannedAt": "2026-08-02T09:25:08+00:00",
+                "restRoutes": "19",
+                "abilitiesExtracted": "2",
+                "cliCommands": "16",
+                "probeStatus": "pending"
+            },
+            "classification": {
+                "platform": [
+                    "wordpress"
+                ],
+                "capability": [
+                    "mcp-abilities",
+                    "source-scanned"
+                ],
+                "pricing": [
+                    "unknown"
+                ],
+                "directory": [
+                    "wporg-directory"
+                ]
+            }
+        }
+    }
+}

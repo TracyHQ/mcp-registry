@@ -6,6 +6,7 @@
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Help Scout",
             "operator": {
                 "name": "Help Scout"
             },

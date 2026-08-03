@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/pop-up-builder-wisepops",
-    "title": "Wisepops: Popup Builder &#038; CRO",
+    "title": "Wisepops: Popup Builder & CRO",
     "websiteUrl": "https:\/\/wisepops.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Wisepops: Popup Builder & CRO",
             "operator": {
                 "name": "Wisepops"
             },

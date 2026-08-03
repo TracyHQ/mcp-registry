@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/privy",
-    "title": "Privy ‑ Email, SMS &#038; Pop Ups",
+    "title": "Privy ‑ Email, SMS & Pop Ups",
     "websiteUrl": "https:\/\/www.privy.com?utm_campaign=appstore",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Privy ‑ Email, SMS & Pop Ups",
             "operator": {
                 "name": "Privy Operations"
             },

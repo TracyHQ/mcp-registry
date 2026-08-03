@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/storeseo",
-    "title": "StoreSEO SEO &#038; Image Optimizer",
+    "title": "StoreSEO SEO & Image Optimizer",
     "websiteUrl": "https:\/\/storeseo.com",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "StoreSEO SEO & Image Optimizer",
             "operator": {
                 "name": "Storeware"
             },

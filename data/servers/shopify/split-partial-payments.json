@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/split-partial-payments",
-    "title": "SPD Split Payment &#038; Deposit",
+    "title": "SPD Split Payment & Deposit",
     "websiteUrl": "https:\/\/split-payments.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "SPD Split Payment & Deposit",
             "operator": {
                 "name": "FINLOOP SOLUTIONS LLC"
             },

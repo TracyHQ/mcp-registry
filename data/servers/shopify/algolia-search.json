@@ -1,11 +1,12 @@
 {
     "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
     "name": "shopify\/algolia-search",
-    "title": "Algolia AI Search &#038; Discovery",
+    "title": "Algolia AI Search & Discovery",
     "websiteUrl": "https:\/\/www.algolia.com\/",
     "_meta": {
         "ai.tracy.registry\/curation": {
             "conformance": "shaped-not-valid",
+            "title": "Algolia AI Search & Discovery",
             "operator": {
                 "name": "Algolia"
             },
