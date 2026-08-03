@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registry.tracy.ai/mcp/schema/mcp-record.schema.json",
+  "title": "Tracy MCP registry submission",
+  "description": "A record submitted to registry/{namespace}/{server}.json. Generated from src/record.ts — do not edit by hand. Three rules cannot be expressed here and are enforced by CI instead: the file path must match the name inside the record; the namespace must be a GitHub owner you control (io.github.{owner}); and these namespaces are reserved: wordpress, joomla, shopify, findings.",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200,
+      "pattern": "^[a-zA-Z0-9.-]+\\/[a-zA-Z0-9._-]+$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "websiteUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "repository": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source": {
+          "type": "string",
+          "enum": [
+            "github",
+            "gitlab",
+            "bitbucket"
+          ]
+        }
+      },
+      "required": [
+        "url",
+        "source"
+      ]
+    },
+    "remotes": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": [
+              "streamable-http",
+              "sse"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": [
+          "type",
+          "url"
+        ]
+      }
+    },
+    "packages": {
+      "minItems": 1,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "registryType": {
+            "type": "string",
+            "enum": [
+              "npm",
+              "pypi",
+              "oci",
+              "nuget"
+            ]
+          },
+          "identifier": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 200
+          },
+          "version": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+          }
+        },
+        "required": [
+          "registryType",
+          "identifier",
+          "version"
+        ]
+      }
+    }
+  },
+  "required": [
+    "name",
+    "description",
+    "version"
+  ],
+  "additionalProperties": false
+}

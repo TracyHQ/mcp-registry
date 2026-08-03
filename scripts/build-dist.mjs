@@ -141,6 +141,14 @@ function buildTree() {
     })
   }
 
+  // The submitter-facing schema, served at registry.tracy.ai/mcp/schema/… —
+  // the same URL its own `$id` declares, so an editor pointed there loads
+  // exactly this file.
+  const schemaFile = path.join(ROOT, 'schema', 'mcp-record.schema.json')
+  if (fs.existsSync(schemaFile)) {
+    files.set('mcp/schema/mcp-record.schema.json', fs.readFileSync(schemaFile))
+  }
+
   files.set(
     'mcp/findings/index.json',
     Buffer.from(
@@ -207,7 +215,7 @@ if (rootFiles.length) {
   process.exit(1)
 }
 
-const served = [...files.keys()].filter((k) => k.startsWith('mcp/') && k !== 'mcp/index.json' && !k.startsWith('mcp/findings/'))
+const served = [...files.keys()].filter((k) => k.startsWith('mcp/') && k !== 'mcp/index.json' && !k.startsWith('mcp/findings/') && !k.startsWith('mcp/schema/'))
 const submitted = readSubmissions().length
 console.log(`servers   ${served.length} records + index.json (${served.length - submitted} scanned, ${submitted} submitted)`)
 console.log(`findings  ${JSON.parse(files.get('mcp/findings/index.json')).totalRecords} lines`)

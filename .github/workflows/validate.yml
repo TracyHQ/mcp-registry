@@ -17,6 +17,17 @@ jobs:
       # Submissions. Pure rules only — no call reaches a vendor's endpoint from
       # CI. Whether the server actually answers is the prober's job, on its own
       # schedule and in its own sandbox (ADR 0018 §2).
+      # The committed schema must match what src/record.ts generates. Otherwise
+      # a submitter validates against one contract while CI enforces another,
+      # and they only find out after opening a pull request.
+      - name: Schema has not drifted from src/record.ts
+        run: |
+          pnpm emit-schema
+          git diff --exit-code schema/ || {
+            echo "::error::schema/ is out of date. Run 'pnpm emit-schema' and commit the result."
+            exit 1
+          }
+
       - run: pnpm validate
       - run: pnpm build-dist
       # After the build on purpose: the strings that reach consumers are
