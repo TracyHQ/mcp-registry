@@ -4,10 +4,10 @@ A public dataset of **MCP servers across CMS ecosystems**: which ones exist, and
 which candidates were checked and turned up **nothing**.
 
 ```
-https://registry.tracy.ai/servers/index.json
-https://registry.tracy.ai/servers/{platform}/{slug}.json
-https://registry.tracy.ai/findings/index.json
-https://registry.tracy.ai/findings/{platform}.ndjson.gz
+https://registry.tracy.ai/mcp/servers/index.json
+https://registry.tracy.ai/mcp/servers/{platform}/{slug}.json
+https://registry.tracy.ai/mcp/findings/index.json
+https://registry.tracy.ai/mcp/findings/{platform}.ndjson.gz
 ```
 
 Latest export: **2,429** candidates checked · **162** showing MCP signals · **16** vendor-built
@@ -50,8 +50,8 @@ files. A record's path is `servers/{name}.json` — an invariant that `scripts/b
 on every build, failing the build if it breaks. That is why records carry no redundant `path` field.
 
 ```bash
-curl -s https://registry.tracy.ai/servers/index.json | jq -r '.[].name' | head
-curl -s https://registry.tracy.ai/servers/joomla/mcp-server-for-joomla.json | jq .
+curl -s https://registry.tracy.ai/mcp/servers/index.json | jq -r '.[].name' | head
+curl -s https://registry.tracy.ai/mcp/servers/joomla/mcp-server-for-joomla.json | jq .
 ```
 
 ## Reading `findings/`
@@ -60,8 +60,8 @@ NDJSON, one record per line, split per platform. Both compressed and plain copie
 compressed to fetch, plain so a bare curl still works.
 
 ```bash
-curl -s https://registry.tracy.ai/findings/wordpress.ndjson.gz | gunzip | jq -c 'select(.findings.probeStatus == "endpoint_found")'
-curl -s https://registry.tracy.ai/findings/index.json | jq '.platforms'
+curl -s https://registry.tracy.ai/mcp/findings/wordpress.ndjson.gz | gunzip | jq -c 'select(.findings.probeStatus == "endpoint_found")'
+curl -s https://registry.tracy.ai/mcp/findings/index.json | jq '.platforms'
 ```
 
 Compression lands around 9%: 1.3 MB to 129 KB.
@@ -160,7 +160,7 @@ you to infer it.
 | Part | License | File |
 |---|---|---|
 | `data/servers/**`, `data/findings/**`, `data/export-manifest.json` | **CC BY 4.0** | [`LICENSE-DATA`](./LICENSE-DATA) |
-| Everything served at `registry.tracy.ai/servers/**` and `/findings/**` | **CC BY 4.0** | [`LICENSE-DATA`](./LICENSE-DATA) |
+| Everything served at `registry.tracy.ai/mcp/servers/**` and `/findings/**` | **CC BY 4.0** | [`LICENSE-DATA`](./LICENSE-DATA) |
 | Every `.json` / `.ndjson` derived from the above, compressed or not | **CC BY 4.0** | [`LICENSE-DATA`](./LICENSE-DATA) |
 | `scripts/build-dist.mjs`, `.github/**` | **MIT** | [`LICENSE`](./LICENSE) |
 | `TracyHQ/tracy.ai:infra/registry-router/`, `scripts/validate-registry.py`, `scripts/export-registry.php` | **MIT** | [`LICENSE`](./LICENSE) |

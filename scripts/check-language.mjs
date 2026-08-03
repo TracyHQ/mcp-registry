@@ -59,7 +59,7 @@ const ROOT = path.resolve(import.meta.dirname, '..')
 const VIETNAMESE = /[\u0102\u0103\u0110\u0111\u01A0\u01A1\u01AF\u01B0\u1EA0-\u1EF9]/u
 
 /** Tracy-authored source. Anything added here must be prose we control. */
-const SOURCE = ['README.md', 'LICENSE', 'LICENSE-DATA', 'scripts', '.github']
+const SOURCE = ['README.md', 'registry/README.md', 'LICENSE', 'LICENSE-DATA', 'scripts', '.github']
 
 /**
  * Generated files carrying Tracy-authored strings.
