@@ -1,0 +1,29 @@
+{
+  "name": "tracy-mcp-registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "packageManager": "pnpm@11.18.0",
+  "scripts": {
+    "validate": "tsx bin/validate.ts",
+    "emit-schema": "tsx bin/emit-schema.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build-dist": "node scripts/build-dist.mjs",
+    "check-language": "node scripts/check-language.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "//license": "Code is MIT. Data under registry/, curation/ and dist/servers/ is CC BY 4.0 — see LICENSE-DATA.",
+  "type": "module",
+  "dependencies": {
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "tsx": "^4.23.5",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}

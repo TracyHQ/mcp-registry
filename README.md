@@ -93,6 +93,45 @@ first. Both are correct, and merging them makes the error invisible.
   this dataset and deliberately not here — copying it into a public repo is exactly the leak it
   exists to prevent. The gate runs before anything is pushed, not here.
 
+## Submitting a server
+
+Vendors add their own server by pull request. One file:
+
+```
+registry/<namespace>/<server>.json
+```
+
+```json
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.acme/orders",
+  "description": "Read and refund Acme orders.",
+  "version": "1.2.0",
+  "remotes": [{ "type": "streamable-http", "url": "https://mcp.acme.com/mcp" }]
+}
+```
+
+Every field comes from the official `server.json` schema — nothing here is a Tracy invention, and the
+same file is publishable to the official registry unchanged.
+
+**Namespaces are proven, not claimed.** Round one supports `io.github.{owner}`, verified the same way
+the [skills registry](https://github.com/TracyHQ/skills) verifies it: the namespace must be a GitHub
+owner. Domain-verified namespaces are not implemented yet.
+
+**`wordpress`, `joomla` and `shopify` are reserved** and submissions into them are refused. Those
+namespaces hold records Tracy produced by scanning; letting a submission write there would replace a
+measurement with an assertion, which is the one thing this dataset must not allow. The two sources
+are told apart by the shape of the namespace, not by a flag a reader might skip.
+
+**CI never contacts your server.** A pull request is checked against pure rules only — schema, the
+path matching the record, namespace ownership. Whether the endpoint answers, and what tools it
+lists, is established later by Tracy's prober on its own schedule. A freshly merged record therefore
+carries no evidence, which is the same state a scanned record sits in before it has been probed.
+
+```bash
+pnpm install && pnpm test && pnpm validate
+```
+
 ## How this repo is produced
 
 `data/` is the raw output of `scripts/export-registry.php` in the private repo `TracyHQ/tracy.ai`,

@@ -70,9 +70,42 @@ function assertPathInvariant(records) {
   }
 }
 
+/**
+ * Vendor submissions from `registry/<namespace>/<server>.json`.
+ *
+ * Two sources feed one index, and they are NOT interchangeable:
+ *
+ *   data/servers/  Tracy went and measured. Namespaced by platform
+ *                  (`wordpress/…`), carries `_meta` evidence, and has no
+ *                  `description` because the only one available belongs to the
+ *                  vendor.
+ *   registry/      A vendor submitted. Namespaced by something they proved they
+ *                  own (`io.github.acme/…`), carries a `description` they wrote,
+ *                  and carries no evidence until the prober reaches it.
+ *
+ * A reader tells them apart by the SHAPE OF THE NAMESPACE, not by a trust flag
+ * they might forget to check — which is also why `src/validate.ts` refuses a
+ * submission into a platform namespace.
+ */
+function readSubmissions() {
+  const base = path.join(ROOT, 'registry')
+  if (!fs.existsSync(base)) return []
+  const out = []
+  for (const namespace of fs.readdirSync(base).sort()) {
+    const dir = path.join(base, namespace)
+    if (!fs.statSync(dir).isDirectory()) continue
+    for (const file of fs.readdirSync(dir).sort()) {
+      if (!file.endsWith('.json')) continue
+      const raw = fs.readFileSync(path.join(dir, file), 'utf8')
+      out.push({ rel: `servers/${namespace}/${file}`, raw: JSON.stringify(JSON.parse(raw), null, 2) + '\n' })
+    }
+  }
+  return out
+}
+
 function buildTree() {
   const files = new Map()
-  const servers = readServers()
+  const servers = [...readServers(), ...readSubmissions()].sort((a, b) => (a.rel < b.rel ? -1 : a.rel > b.rel ? 1 : 0))
   assertPathInvariant(servers)
 
   // Each record, byte-for-byte as it appears in `data/`. The index may only be a
@@ -174,7 +207,8 @@ if (rootFiles.length) {
   process.exit(1)
 }
 
-const servers = [...files.keys()].filter((k) => k.startsWith('servers/') && k !== 'servers/index.json')
-console.log(`servers   ${servers.length} records + index.json`)
+const served = [...files.keys()].filter((k) => k.startsWith('servers/') && k !== 'servers/index.json')
+const submitted = readSubmissions().length
+console.log(`servers   ${served.length} records + index.json (${served.length - submitted} scanned, ${submitted} submitted)`)
 console.log(`findings  ${JSON.parse(files.get('findings/index.json')).totalRecords} lines`)
 console.log(`sha256    ${digest(files)}`)

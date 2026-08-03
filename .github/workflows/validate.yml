@@ -1,0 +1,24 @@
+name: validate
+on:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+      - run: pnpm test
+      # Submissions. Pure rules only — no call reaches a vendor's endpoint from
+      # CI. Whether the server actually answers is the prober's job, on its own
+      # schedule and in its own sandbox (ADR 0018 §2).
+      - run: pnpm validate
+      - run: pnpm build-dist
+      # After the build on purpose: the strings that reach consumers are
+      # generated into dist/, not written in a source file.
+      - run: pnpm check-language
