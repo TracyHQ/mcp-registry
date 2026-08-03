@@ -86,6 +86,19 @@ jobs:
         with:
           path: dist
 
+  # "DID THIS EVER DEPLOY?" — TWO API FIELDS THAT LOOK LIKE NO, AND MEAN NOTHING
+  #
+  # `gh api repos/TracyHQ/mcp/pages` returns `status: null`, and
+  # `.../pages/builds/latest` returns 404. Both look exactly like a site that has
+  # never published. Neither is a failure signal: `builds/latest` belongs to
+  # branch-built Pages, which workflow-built sites never populate, and the same
+  # two responses come back from TracyHQ/skills while it is serving fine.
+  #
+  # The endpoint that actually answers is `repos/{owner}/{repo}/deployments` —
+  # look for environment `github-pages` and check its sha.
+  #
+  # Written here rather than in an ADR because this is where someone stands when
+  # they ask the question. It cost one round of misdiagnosis on 2026-08-03.
   deploy:
     needs: build
     runs-on: ubuntu-latest
