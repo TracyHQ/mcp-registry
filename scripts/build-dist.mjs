@@ -11,7 +11,7 @@
  * is what consumers read. They differ in three ways, and all three are
  * publishing decisions rather than extraction decisions:
  *
- *   1. `servers/index.json` — so clients never have to guess a path.
+ *   1. `index.json` — so clients never have to guess a path.
  *   2. `findings/*.ndjson.gz` — 2,429 NDJSON lines compress to 9%.
  *   3. The root of `dist/` is EMPTY. Not an oversight, a contract:
  *      `registry.tracy.ai` also serves `skills/` from a different repo, and the
@@ -41,7 +41,7 @@ function readServers() {
     if (!fs.statSync(dir).isDirectory()) continue
     for (const file of fs.readdirSync(dir).sort()) {
       if (!file.endsWith('.json')) continue
-      const rel = `mcp/servers/${platform}/${file}`
+      const rel = `mcp/${platform}/${file}`
       out.push({ rel, raw: fs.readFileSync(path.join(dir, file), 'utf8') })
     }
   }
@@ -61,7 +61,7 @@ function assertPathInvariant(records) {
   const broken = []
   for (const { rel, raw } of records) {
     const name = JSON.parse(raw).name
-    if (`mcp/servers/${name}.json` !== rel) broken.push(`${rel} declares name="${name}"`)
+    if (`mcp/${name}.json` !== rel) broken.push(`${rel} declares name="${name}"`)
   }
   if (broken.length) {
     console.error('Path invariant violated — servers/{name}.json does not match the real file:')
@@ -97,7 +97,7 @@ function readSubmissions() {
     for (const file of fs.readdirSync(dir).sort()) {
       if (!file.endsWith('.json')) continue
       const raw = fs.readFileSync(path.join(dir, file), 'utf8')
-      out.push({ rel: `mcp/servers/${namespace}/${file}`, raw: JSON.stringify(JSON.parse(raw), null, 2) + '\n' })
+      out.push({ rel: `mcp/${namespace}/${file}`, raw: JSON.stringify(JSON.parse(raw), null, 2) + '\n' })
     }
   }
   return out
@@ -116,7 +116,7 @@ function buildTree() {
   // An array, not a wrapper object: consumers call `jq 'length'` and expect the
   // record count back.
   const index = servers.map(({ raw }) => JSON.parse(raw))
-  files.set('mcp/servers/index.json', Buffer.from(JSON.stringify(index, null, 2) + '\n'))
+  files.set('mcp/index.json', Buffer.from(JSON.stringify(index, null, 2) + '\n'))
 
   // findings: BOTH forms are kept, and that is deliberate.
   //
@@ -207,7 +207,7 @@ if (rootFiles.length) {
   process.exit(1)
 }
 
-const served = [...files.keys()].filter((k) => k.startsWith('mcp/servers/') && k !== 'mcp/servers/index.json')
+const served = [...files.keys()].filter((k) => k.startsWith('mcp/') && k !== 'mcp/index.json' && !k.startsWith('mcp/findings/'))
 const submitted = readSubmissions().length
 console.log(`servers   ${served.length} records + index.json (${served.length - submitted} scanned, ${submitted} submitted)`)
 console.log(`findings  ${JSON.parse(files.get('mcp/findings/index.json')).totalRecords} lines`)

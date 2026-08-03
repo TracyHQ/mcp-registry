@@ -1,7 +1,7 @@
 # Submit your MCP server
 
 This folder is the submission queue. Add one JSON file, open a pull request, and once it merges your
-server appears in the public index at `https://registry.tracy.ai/mcp/servers/index.json`.
+server appears in the public index at `https://registry.tracy.ai/mcp/index.json`.
 
 You do not need to ask permission first, and you do not need a Tracy account.
 
@@ -90,8 +90,8 @@ pnpm validate
 The index rebuilds and publishes automatically. Your record appears at:
 
 ```
-https://registry.tracy.ai/mcp/servers/index.json
-https://registry.tracy.ai/mcp/servers/io.github.acme/orders.json
+https://registry.tracy.ai/mcp/index.json
+https://registry.tracy.ai/mcp/io.github.acme/orders.json
 ```
 
 To change or remove your record later, open another pull request against the same file. It is yours.

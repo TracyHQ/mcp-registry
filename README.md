@@ -4,8 +4,8 @@ A public dataset of **MCP servers across CMS ecosystems**: which ones exist, and
 which candidates were checked and turned up **nothing**.
 
 ```
-https://registry.tracy.ai/mcp/servers/index.json
-https://registry.tracy.ai/mcp/servers/{platform}/{slug}.json
+https://registry.tracy.ai/mcp/index.json
+https://registry.tracy.ai/mcp/{platform}/{slug}.json
 https://registry.tracy.ai/mcp/findings/index.json
 https://registry.tracy.ai/mcp/findings/{platform}.ndjson.gz
 ```
@@ -45,13 +45,13 @@ worse: it would trade an honest gap for a sentence nobody can verify.
 
 ## Paths derive from `name`, and CI guarantees it
 
-`servers/index.json` is an **array** of records whose contents are byte-identical to the individual
-files. A record's path is `servers/{name}.json` — an invariant that `scripts/build-dist.mjs` checks
+`index.json` is an **array** of records whose contents are byte-identical to the individual
+files. A record's path is `mcp/{name}.json` — an invariant that `scripts/build-dist.mjs` checks
 on every build, failing the build if it breaks. That is why records carry no redundant `path` field.
 
 ```bash
-curl -s https://registry.tracy.ai/mcp/servers/index.json | jq -r '.[].name' | head
-curl -s https://registry.tracy.ai/mcp/servers/joomla/mcp-server-for-joomla.json | jq .
+curl -s https://registry.tracy.ai/mcp/index.json | jq -r '.[].name' | head
+curl -s https://registry.tracy.ai/mcp/joomla/mcp-server-for-joomla.json | jq .
 ```
 
 ## Reading `findings/`
@@ -160,7 +160,7 @@ you to infer it.
 | Part | License | File |
 |---|---|---|
 | `data/servers/**`, `data/findings/**`, `data/export-manifest.json` | **CC BY 4.0** | [`LICENSE-DATA`](./LICENSE-DATA) |
-| Everything served at `registry.tracy.ai/mcp/servers/**` and `/findings/**` | **CC BY 4.0** | [`LICENSE-DATA`](./LICENSE-DATA) |
+| Everything served at `registry.tracy.ai/mcp/**` | **CC BY 4.0** | [`LICENSE-DATA`](./LICENSE-DATA) |
 | Every `.json` / `.ndjson` derived from the above, compressed or not | **CC BY 4.0** | [`LICENSE-DATA`](./LICENSE-DATA) |
 | `scripts/build-dist.mjs`, `.github/**` | **MIT** | [`LICENSE`](./LICENSE) |
 | `TracyHQ/tracy.ai:infra/registry-router/`, `scripts/validate-registry.py`, `scripts/export-registry.php` | **MIT** | [`LICENSE`](./LICENSE) |

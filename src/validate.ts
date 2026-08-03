@@ -62,8 +62,11 @@ export function validateRecordFile(filePath: string, raw: unknown): ValidationEr
     errors.push({
       code: 'namespace_reserved',
       message:
-        `"${namespace}" is reserved for records Tracy discovers by scanning, and cannot be submitted. ` +
-        `Use a namespace you can prove you own, e.g. io.github.{your-org}.`
+        namespace === 'findings'
+          ? `"findings" is reserved: /mcp/findings/ is the second dataset, and a namespace by that ` +
+            `name would publish files into it. Use a namespace you can prove you own, e.g. io.github.{your-org}.`
+          : `"${namespace}" is reserved for records Tracy discovers by scanning, and cannot be submitted. ` +
+            `Use a namespace you can prove you own, e.g. io.github.{your-org}.`
     })
   }
 

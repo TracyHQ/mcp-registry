@@ -71,7 +71,7 @@ const SOURCE = ['README.md', 'registry/README.md', 'LICENSE', 'LICENSE-DATA', 's
  * exemption was hiding it. Exempt the data, not the directory.
  */
 const GENERATED = [
-  'dist/mcp/servers/index.json',
+  'dist/mcp/index.json',
   'dist/mcp/findings/index.json',
   'data/export-manifest.json',
 ]

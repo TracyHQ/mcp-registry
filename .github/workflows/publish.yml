@@ -74,10 +74,10 @@ jobs:
         run: |
           scanned=$(jq -r '.servers' data/export-manifest.json)
           submitted=$(find registry -name '*.json' 2>/dev/null | wc -l | tr -d ' ')
-          actual=$(jq 'length' dist/mcp/servers/index.json)
+          actual=$(jq 'length' dist/mcp/index.json)
           echo "scanned=$scanned submitted=$submitted index=$actual"
           if [ "$actual" != "$((scanned + submitted))" ]; then
-            echo "::error::mcp/servers/index.json holds $actual records; $scanned scanned + $submitted submitted = $((scanned + submitted))"
+            echo "::error::mcp/index.json holds $actual records; $scanned scanned + $submitted submitted = $((scanned + submitted))"
             exit 1
           fi
 

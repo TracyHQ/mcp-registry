@@ -41,7 +41,17 @@ const NameSchema = z
  * SHAPES, and a reader can tell them apart without consulting a trust flag they
  * might forget to read.
  */
-export const RESERVED_NAMESPACES = ['wordpress', 'joomla', 'shopify'] as const
+export const RESERVED_NAMESPACES = [
+  // Platform namespaces: Tracy assigns these when it discovers something.
+  'wordpress',
+  'joomla',
+  'shopify',
+  // Path collision, not provenance. Server records are served at
+  // `/mcp/{namespace}/{server}.json`, and `/mcp/findings/` is the second
+  // dataset. A namespace literally called `findings` would publish files into
+  // that directory and shadow it.
+  'findings'
+] as const
 
 /** Remote endpoint. Transport values are the official schema's. */
 const RemoteSchema = z.object({
