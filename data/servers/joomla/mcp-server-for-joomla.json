@@ -24,6 +24,7 @@
                 "sourceScannedAt": "2026-08-02T14:42:50+00:00",
                 "sourceScanStatus": "scanned_ok",
                 "cliCommands": "0",
+                "scanWriteHints": "0",
                 "vendorMcpStatus": "official-ga",
                 "vendorMcpSurveyedAt": "2026-08-02",
                 "vendorMcpEvidenceUrl": "https:\/\/extensions.joomla.org\/extension\/mcp-server-for-joomla\/",

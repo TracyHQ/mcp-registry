@@ -25,6 +25,8 @@
                 "restRoutes": "1",
                 "abilitiesExtracted": "0",
                 "cliCommands": "6",
+                "scanZipVersion": "1.6.0",
+                "scanWriteHints": "0",
                 "probeStatus": "pending"
             },
             "classification": {

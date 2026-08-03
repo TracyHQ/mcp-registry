@@ -26,6 +26,8 @@
                 "restRoutes": "10",
                 "abilitiesExtracted": "0",
                 "cliCommands": "0",
+                "scanZipVersion": "5.4.2",
+                "scanWriteHints": "6",
                 "vendorMcpStatus": "official-beta",
                 "vendorMcpSurveyedAt": "2026-08-01",
                 "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/2026\/06\/01\/expanding-abilities-across-woocommerce-extensions\/",

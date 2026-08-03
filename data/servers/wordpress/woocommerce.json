@@ -26,6 +26,8 @@
                 "restRoutes": "344",
                 "abilitiesExtracted": "6",
                 "cliCommands": "31",
+                "scanZipVersion": "10.9.4",
+                "scanWriteHints": "363",
                 "vendorMcpStatus": "official-beta",
                 "vendorMcpSurveyedAt": "2026-08-01",
                 "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/docs\/features\/mcp\/",
