@@ -65,13 +65,19 @@ jobs:
       - name: Check the public surface is in English
         run: node scripts/check-language.mjs
 
-      - name: Cross-check the record count against the exporter manifest
+      # The index carries two sources now, so the identity has two terms:
+      # scanned records (what the exporter manifest counts) plus vendor
+      # submissions under registry/. Checking only the first term is what failed
+      # on the commit that introduced submissions — correctly, which is the point
+      # of having the gate.
+      - name: Cross-check the record count against its two sources
         run: |
-          expected=$(jq -r '.servers' data/export-manifest.json)
+          scanned=$(jq -r '.servers' data/export-manifest.json)
+          submitted=$(find registry -name '*.json' 2>/dev/null | wc -l | tr -d ' ')
           actual=$(jq 'length' dist/servers/index.json)
-          echo "manifest=$expected index=$actual"
-          if [ "$expected" != "$actual" ]; then
-            echo "::error::servers/index.json holds $actual records, the manifest declares $expected"
+          echo "scanned=$scanned submitted=$submitted index=$actual"
+          if [ "$actual" != "$((scanned + submitted))" ]; then
+            echo "::error::servers/index.json holds $actual records; $scanned scanned + $submitted submitted = $((scanned + submitted))"
             exit 1
           fi
 
