@@ -41,7 +41,7 @@ function readServers() {
     if (!fs.statSync(dir).isDirectory()) continue
     for (const file of fs.readdirSync(dir).sort()) {
       if (!file.endsWith('.json')) continue
-      const rel = `servers/${platform}/${file}`
+      const rel = `mcp/servers/${platform}/${file}`
       out.push({ rel, raw: fs.readFileSync(path.join(dir, file), 'utf8') })
     }
   }
@@ -61,7 +61,7 @@ function assertPathInvariant(records) {
   const broken = []
   for (const { rel, raw } of records) {
     const name = JSON.parse(raw).name
-    if (`servers/${name}.json` !== rel) broken.push(`${rel} declares name="${name}"`)
+    if (`mcp/servers/${name}.json` !== rel) broken.push(`${rel} declares name="${name}"`)
   }
   if (broken.length) {
     console.error('Path invariant violated — servers/{name}.json does not match the real file:')
@@ -97,7 +97,7 @@ function readSubmissions() {
     for (const file of fs.readdirSync(dir).sort()) {
       if (!file.endsWith('.json')) continue
       const raw = fs.readFileSync(path.join(dir, file), 'utf8')
-      out.push({ rel: `servers/${namespace}/${file}`, raw: JSON.stringify(JSON.parse(raw), null, 2) + '\n' })
+      out.push({ rel: `mcp/servers/${namespace}/${file}`, raw: JSON.stringify(JSON.parse(raw), null, 2) + '\n' })
     }
   }
   return out
@@ -116,7 +116,7 @@ function buildTree() {
   // An array, not a wrapper object: consumers call `jq 'length'` and expect the
   // record count back.
   const index = servers.map(({ raw }) => JSON.parse(raw))
-  files.set('servers/index.json', Buffer.from(JSON.stringify(index, null, 2) + '\n'))
+  files.set('mcp/servers/index.json', Buffer.from(JSON.stringify(index, null, 2) + '\n'))
 
   // findings: BOTH forms are kept, and that is deliberate.
   //
@@ -130,19 +130,19 @@ function buildTree() {
     if (!file.endsWith('.ndjson')) continue
     const buf = fs.readFileSync(path.join(findingsDir, file))
     const gz = gzipSync(buf, { level: 9 })
-    files.set(`findings/${file}`, buf)
-    files.set(`findings/${file}.gz`, gz)
+    files.set(`mcp/findings/${file}`, buf)
+    files.set(`mcp/findings/${file}.gz`, gz)
     platforms.push({
       platform: path.basename(file, '.ndjson'),
       records: buf.toString('utf8').trimEnd().split('\n').filter(Boolean).length,
       bytes: buf.length,
       gzipBytes: gz.length,
-      files: { ndjson: `findings/${file}`, gzip: `findings/${file}.gz` },
+      files: { ndjson: `mcp/findings/${file}`, gzip: `mcp/findings/${file}.gz` },
     })
   }
 
   files.set(
-    'findings/index.json',
+    'mcp/findings/index.json',
     Buffer.from(
       JSON.stringify(
         {
@@ -151,8 +151,8 @@ function buildTree() {
             'One line per checked candidate, INCLUDING the ones where no MCP server was found. ' +
             'Most records are of that kind, and they are the point of this dataset rather than leftovers.',
           read: {
-            gzip: 'curl -s https://registry.tracy.ai/findings/<platform>.ndjson.gz | gunzip | jq -c .',
-            plain: 'curl -s https://registry.tracy.ai/findings/<platform>.ndjson | jq -c .',
+            gzip: 'curl -s https://registry.tracy.ai/mcp/findings/<platform>.ndjson.gz | gunzip | jq -c .',
+            plain: 'curl -s https://registry.tracy.ai/mcp/findings/<platform>.ndjson | jq -c .',
           },
           totalRecords: platforms.reduce((n, p) => n + p.records, 0),
           platforms,
@@ -207,8 +207,8 @@ if (rootFiles.length) {
   process.exit(1)
 }
 
-const served = [...files.keys()].filter((k) => k.startsWith('servers/') && k !== 'servers/index.json')
+const served = [...files.keys()].filter((k) => k.startsWith('mcp/servers/') && k !== 'mcp/servers/index.json')
 const submitted = readSubmissions().length
 console.log(`servers   ${served.length} records + index.json (${served.length - submitted} scanned, ${submitted} submitted)`)
-console.log(`findings  ${JSON.parse(files.get('findings/index.json')).totalRecords} lines`)
+console.log(`findings  ${JSON.parse(files.get('mcp/findings/index.json')).totalRecords} lines`)
 console.log(`sha256    ${digest(files)}`)

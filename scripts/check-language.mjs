@@ -71,8 +71,8 @@ const SOURCE = ['README.md', 'LICENSE', 'LICENSE-DATA', 'scripts', '.github']
  * exemption was hiding it. Exempt the data, not the directory.
  */
 const GENERATED = [
-  'dist/servers/index.json',
-  'dist/findings/index.json',
+  'dist/mcp/servers/index.json',
+  'dist/mcp/findings/index.json',
   'data/export-manifest.json',
 ]
 
