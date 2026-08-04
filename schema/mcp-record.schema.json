@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://registry.tracy.ai/mcp/schema/mcp-record.schema.json",
   "title": "Tracy MCP registry submission",
-  "description": "A record submitted to registry/{namespace}/{server}.json. Generated from src/record.ts — do not edit by hand. Three rules cannot be expressed here and are enforced by CI instead: the file path must match the name inside the record; the namespace must be a GitHub owner you control (io.github.{owner}); and these namespaces are reserved: wordpress, joomla, shopify, findings.",
+  "description": "A record submitted to registry/{namespace}/{server}.json. Generated from src/record.ts — do not edit by hand. Three rules cannot be expressed here and are enforced by CI instead: the file path must match the name inside the record; the namespace must be a GitHub owner you control (io.github.{owner}); and these namespaces are reserved: wordpress, joomla, shopify, official-registry, findings.",
   "type": "object",
   "properties": {
     "$schema": {
