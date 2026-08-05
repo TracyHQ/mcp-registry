@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/common-ninja-faq",
-    "title": "Common Ninja FAQ",
-    "websiteUrl": "https:\/\/www.commoninja.com\/plugins\/faq",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Common Ninja FAQ",
-            "operator": {
-                "name": "Common Ninja"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/common-ninja-faq",
-            "activeInstalls": 2789,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:51:07+00:00",
-                "probeEndpoint": "https:\/\/mcp.commoninja.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/common-ninja-faq",
+  "title": "Common Ninja FAQ",
+  "websiteUrl": "https://www.commoninja.com/plugins/faq",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Common Ninja FAQ",
+      "listingUrl": "https://apps.shopify.com/common-ninja-faq",
+      "identity": {
+        "operator": {
+          "name": "Common Ninja"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.commoninja.com/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:77ef92233c61f3d465ba04ada53a29fa8770713f42fd347cdf23cf9ded55f959"
     }
+  }
 }

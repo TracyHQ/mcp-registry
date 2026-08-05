@@ -1,49 +1,59 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/pushengage",
-    "title": "PushEngage – Web Push Notifications, WooCommerce Automation & Chat Widget",
-    "version": "4.2.8",
-    "websiteUrl": "https:\/\/www.pushengage.com\/?utm_source=WordPress&utm_campaign=Plugin&utm_medium=pluginHeader&utm_content=plugin-uri-link",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "PushEngage – Web Push Notifications, WooCommerce Automation & Chat Widget",
-            "operator": {
-                "name": "Syed Balkhi"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/pushengage\/",
-            "activeInstalls": 9000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:10:03+00:00",
-                "restRoutes": "1",
-                "abilitiesExtracted": "0",
-                "cliCommands": "0",
-                "scanZipVersion": "4.2.8",
-                "scanWriteHints": "0",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/pushengage",
+  "title": "PushEngage – Web Push Notifications, WooCommerce Automation & Chat Widget",
+  "version": "4.2.8",
+  "websiteUrl": "https://www.pushengage.com/?utm_source=WordPress&utm_campaign=Plugin&utm_medium=pluginHeader&utm_content=plugin-uri-link",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "PushEngage – Web Push Notifications, WooCommerce Automation & Chat Widget",
+      "listingUrl": "https://wordpress.org/plugins/pushengage/",
+      "identity": {
+        "operator": {
+          "name": "Syed Balkhi"
         }
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:10:03+00:00",
+          "restRoutes": "1",
+          "abilitiesExtracted": "0",
+          "cliCommands": "0",
+          "scanZipVersion": "4.2.8",
+          "writeHints": "0"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
+        }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ]
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:2577a454f6cf2b0a9948e60dd922783286c5657d0ba9842e215d61e3c7c99d3a"
     }
+  }
 }

@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/freegifts",
-    "title": "BOGOS: Free Gift Bundle Upsell",
-    "websiteUrl": "https:\/\/bogos.io\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "BOGOS: Free Gift Bundle Upsell",
-            "operator": {
-                "name": "BOGOS"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/freegifts",
-            "activeInstalls": 15125,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:49:52+00:00",
-                "probeEndpoint": "https:\/\/mcp.bogos.io\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/freegifts",
+  "title": "BOGOS: Free Gift Bundle Upsell",
+  "websiteUrl": "https://bogos.io/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "BOGOS: Free Gift Bundle Upsell",
+      "listingUrl": "https://apps.shopify.com/freegifts",
+      "identity": {
+        "operator": {
+          "name": "BOGOS"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.bogos.io/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:84a1f9c10242702164d39b1b966a4396cc89898c8d81b0d4520af20bb3168b7a"
     }
+  }
 }

@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/zigpoll",
-    "title": "Zigpoll Customer Surveys",
-    "websiteUrl": "https:\/\/www.zigpoll.com",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Zigpoll Customer Surveys",
-            "operator": {
-                "name": "Argonautic Labs"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/zigpoll",
-            "activeInstalls": 3909,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:50:45+00:00",
-                "probeEndpoint": "https:\/\/mcp.zigpoll.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/zigpoll",
+  "title": "Zigpoll Customer Surveys",
+  "websiteUrl": "https://www.zigpoll.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Zigpoll Customer Surveys",
+      "listingUrl": "https://apps.shopify.com/zigpoll",
+      "identity": {
+        "operator": {
+          "name": "Argonautic Labs"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.zigpoll.com/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:9518b1f00fe48e3c9346617b0d3dc413f85d548b9558287b7adcb6028b4c87e9"
     }
+  }
 }

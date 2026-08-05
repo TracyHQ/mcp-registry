@@ -1,50 +1,55 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/klaviyo-email-marketing",
-    "title": "Klaviyo: Email Marketing & SMS",
-    "websiteUrl": "https:\/\/developers.klaviyo.com\/en",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Klaviyo: Email Marketing & SMS",
-            "provenance": "official",
-            "operator": {
-                "name": "Klaviyo"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/klaviyo-email-marketing",
-            "activeInstalls": 416754,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "vendorMcpStatus": "official-ga",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/developers.klaviyo.com\/en\/docs\/klaviyo_mcp_server",
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:49:20+00:00",
-                "probeEndpoint": "https:\/\/developers.klaviyo.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
-        }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/klaviyo-email-marketing",
+  "title": "Klaviyo: Email Marketing & SMS",
+  "websiteUrl": "https://developers.klaviyo.com/en",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Klaviyo: Email Marketing & SMS",
+      "listingUrl": "https://apps.shopify.com/klaviyo-email-marketing",
+      "identity": {
+        "operator": {
+          "name": "Klaviyo"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://developers.klaviyo.com/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "vendorAnnouncement": {
+          "status": "official-ga",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:fb989d2b3ba269e518c6ec6e4f73c332a3511902cf462185b15fef5cb4c76d12"
     }
+  }
 }

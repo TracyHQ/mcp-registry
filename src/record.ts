@@ -46,6 +46,14 @@ export const RESERVED_NAMESPACES = [
   'wordpress',
   'joomla',
   'shopify',
+  // Tracy's own curated mirror of entries already published, under proven
+  // ownership, to the official registry (registry.modelcontextprotocol.io) —
+  // filtered for commerce/website-management relevance. The ownership proof
+  // already happened once, upstream, at the official registry; a submission
+  // here would let a second party override Tracy's curation of that same
+  // upstream record, which is the same failure mode RESERVED_NAMESPACES exists
+  // to prevent for wordpress/joomla/shopify.
+  'official-registry',
   // Path collision, not provenance. Server records are served at
   // `/mcp/{namespace}/{server}.json`, and `/mcp/findings/` is the second
   // dataset. A namespace literally called `findings` would publish files into

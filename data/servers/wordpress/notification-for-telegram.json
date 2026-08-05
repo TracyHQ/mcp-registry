@@ -1,49 +1,58 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/notification-for-telegram",
-    "title": "Notification for Telegram",
-    "version": "3.5.2",
-    "websiteUrl": "https:\/\/www.reggae.it\/my-wordpress-plugins",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Notification for Telegram",
-            "operator": {
-                "name": "rainafarai"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/notification-for-telegram\/",
-            "activeInstalls": 4000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:17:25+00:00",
-                "restRoutes": "1",
-                "abilitiesExtracted": "1",
-                "cliCommands": "0",
-                "scanZipVersion": "3.5.2",
-                "scanWriteHints": "1",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/notification-for-telegram",
+  "title": "Notification for Telegram",
+  "version": "3.5.2",
+  "websiteUrl": "https://www.reggae.it/my-wordpress-plugins",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Notification for Telegram",
+      "listingUrl": "https://wordpress.org/plugins/notification-for-telegram/",
+      "identity": {
+        "operator": {
+          "name": "rainafarai"
         }
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:17:25+00:00",
+          "restRoutes": "1",
+          "abilitiesExtracted": "1",
+          "cliCommands": "0",
+          "scanZipVersion": "3.5.2",
+          "writeHints": "1"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "endpoint_found",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "low",
+          "checkedUrl": "https://reggae.it/.well-known/mcp.json",
+          "httpStatus": "200"
+        }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:b0935388b9e02f2828cdaccb441f2d096b1fb847f4e951017ba222785154d5d8"
     }
+  }
 }

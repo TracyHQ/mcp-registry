@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/influencer-marketing-for-shopify-by-grin",
-    "title": "GRIN Influencer Marketing",
-    "websiteUrl": "https:\/\/www.grin.co\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "GRIN Influencer Marketing",
-            "operator": {
-                "name": "Grin, Inc."
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/influencer-marketing-for-shopify-by-grin",
-            "activeInstalls": 1390,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:52:00+00:00",
-                "probeEndpoint": "https:\/\/mcp.grin.co\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "free"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/influencer-marketing-for-shopify-by-grin",
+  "title": "GRIN Influencer Marketing",
+  "websiteUrl": "https://www.grin.co/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "GRIN Influencer Marketing",
+      "listingUrl": "https://apps.shopify.com/influencer-marketing-for-shopify-by-grin",
+      "identity": {
+        "operator": {
+          "name": "Grin, Inc."
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.grin.co/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "free"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:702f55273249d5901d54f23533a43f9047c533bf88a2d4f9b7ea571c09cc64d6"
     }
+  }
 }

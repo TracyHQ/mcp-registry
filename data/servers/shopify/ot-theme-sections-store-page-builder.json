@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/ot-theme-sections-store-page-builder",
-    "title": "OT Section: Theme Sections",
-    "websiteUrl": "https:\/\/omnithemes.com\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "OT Section: Theme Sections",
-            "operator": {
-                "name": "Omni Themes"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/ot-theme-sections-store-page-builder",
-            "activeInstalls": 4697,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:50:36+00:00",
-                "probeEndpoint": "https:\/\/api.omnithemes.com\/mcp",
-                "probeHttpStatus": "403",
-                "probeConfidence": "medium"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "free"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/ot-theme-sections-store-page-builder",
+  "title": "OT Section: Theme Sections",
+  "websiteUrl": "https://omnithemes.com/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "OT Section: Theme Sections",
+      "listingUrl": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+      "identity": {
+        "operator": {
+          "name": "Omni Themes"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://api.omnithemes.com/mcp",
+          "httpStatus": "403",
+          "confidence": "medium"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "free"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:97b6f3cae7372449c4be3eeb239a808f229e1211b0bb5ce2d46e4742033ba098"
     }
+  }
 }

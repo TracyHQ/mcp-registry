@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/moosedesk",
-    "title": "Moose AI Chatbot & Live Chat",
-    "websiteUrl": "https:\/\/moosedesk.com\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Moose AI Chatbot & Live Chat",
-            "operator": {
-                "name": "Vegahub Technology Inc."
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/moosedesk",
-            "activeInstalls": 5422,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:50:32+00:00",
-                "probeEndpoint": "https:\/\/moosedesk.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/moosedesk",
+  "title": "Moose AI Chatbot & Live Chat",
+  "websiteUrl": "https://moosedesk.com/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Moose AI Chatbot & Live Chat",
+      "listingUrl": "https://apps.shopify.com/moosedesk",
+      "identity": {
+        "operator": {
+          "name": "Vegahub Technology Inc."
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://moosedesk.com/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:d7f3955c38490bb74bb0d5986751a4cd1d233c230bfd14ddd58c8d241387ccea"
     }
+  }
 }

@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/returngo",
-    "title": "ReturnGO Returns & Exchanges",
-    "websiteUrl": "https:\/\/returngo.ai\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "ReturnGO Returns & Exchanges",
-            "operator": {
-                "name": "ReturnGO"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/returngo",
-            "activeInstalls": 3306,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:50:56+00:00",
-                "probeEndpoint": "https:\/\/api.returngo.ai\/mcp",
-                "probeHttpStatus": "403",
-                "probeConfidence": "medium"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "paid"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/returngo",
+  "title": "ReturnGO Returns & Exchanges",
+  "websiteUrl": "https://returngo.ai/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "ReturnGO Returns & Exchanges",
+      "listingUrl": "https://apps.shopify.com/returngo",
+      "identity": {
+        "operator": {
+          "name": "ReturnGO"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://api.returngo.ai/mcp",
+          "httpStatus": "403",
+          "confidence": "medium"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "paid"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:36012b7dc44604c9396c24a907d369904408e1b6096e4eb5650fdc9a39f84358"
     }
+  }
 }

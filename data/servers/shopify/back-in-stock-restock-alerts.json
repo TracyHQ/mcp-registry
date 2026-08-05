@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/back-in-stock-restock-alerts",
-    "title": "Preorder, Back In Stock ‑ STOQ",
-    "websiteUrl": "https:\/\/stoqapp.com",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Preorder, Back In Stock ‑ STOQ",
-            "operator": {
-                "name": "Artos Software"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/back-in-stock-restock-alerts",
-            "activeInstalls": 24614,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:49:39+00:00",
-                "probeEndpoint": "https:\/\/api.stoqapp.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/back-in-stock-restock-alerts",
+  "title": "Preorder, Back In Stock ‑ STOQ",
+  "websiteUrl": "https://stoqapp.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Preorder, Back In Stock ‑ STOQ",
+      "listingUrl": "https://apps.shopify.com/back-in-stock-restock-alerts",
+      "identity": {
+        "operator": {
+          "name": "Artos Software"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://api.stoqapp.com/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:fcb1ca774a911769778d098c74ad89c52c60a407ba80ce820a9c9d55cada2f7b"
     }
+  }
 }

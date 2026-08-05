@@ -1,50 +1,60 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "joomla\/mcp-server-for-joomla",
-    "title": "MCP Server for Joomla",
-    "version": "1.6.0",
-    "websiteUrl": "https:\/\/extensions.joomla.org\/extension\/mcp-server-for-joomla\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "MCP Server for Joomla",
-            "provenance": "official",
-            "operator": {
-                "name": "Onepoint"
-            },
-            "ecosystem": [
-                "joomla"
-            ],
-            "listingUrl": "https:\/\/extensions.joomla.org\/extension\/mcp-server-for-joomla\/",
-            "license": "GPLv2 or later",
-            "businessModel": [
-                "community"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T14:42:50+00:00",
-                "sourceScanStatus": "scanned_ok",
-                "cliCommands": "0",
-                "scanWriteHints": "0",
-                "vendorMcpStatus": "official-ga",
-                "vendorMcpSurveyedAt": "2026-08-02",
-                "vendorMcpEvidenceUrl": "https:\/\/extensions.joomla.org\/extension\/mcp-server-for-joomla\/",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "joomla"
-                ],
-                "capability": [
-                    "source-scanned",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "free"
-                ],
-                "directory": [
-                    "jed"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "joomla/mcp-server-for-joomla",
+  "title": "MCP Server for Joomla",
+  "version": "1.6.0",
+  "websiteUrl": "https://extensions.joomla.org/extension/mcp-server-for-joomla/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "MCP Server for Joomla",
+      "listingUrl": "https://extensions.joomla.org/extension/mcp-server-for-joomla/",
+      "identity": {
+        "operator": {
+          "name": "Onepoint"
+        },
+        "provenance": "official",
+        "license": "GPLv2 or later"
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T14:42:50+00:00",
+          "status": "scanned_ok",
+          "cliCommands": "0",
+          "writeHints": "0"
+        },
+        "vendorAnnouncement": {
+          "status": "official-ga",
+          "surveyedAt": "2026-08-02",
+          "evidenceUrl": "https://extensions.joomla.org/extension/mcp-server-for-joomla/"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_domain",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "note": "websiteUrl (https://extensions.joomla.org/extension/mcp-server-for-joomla/) is a marketplace/directory listing, not the vendor's own domain — no vendor domain to probe."
         }
+      },
+      "classification": {
+        "capability": [
+          "source-scanned",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "free"
+        ],
+        "businessModel": [
+          "community"
+        ],
+        "ecosystem": [
+          "joomla"
+        ]
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:c489e68454c79d55fefa3abdc72872dba179624bb4434a08f02ef403e9fba4ed"
     }
+  }
 }

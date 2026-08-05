@@ -1,49 +1,59 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/sensei-lms",
-    "title": "Sensei LMS – Online Courses, Quizzes, & Learning",
-    "version": "4.26.2",
-    "websiteUrl": "https:\/\/senseilms.com\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Sensei LMS – Online Courses, Quizzes, & Learning",
-            "operator": {
-                "name": "Automattic"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/sensei-lms\/",
-            "activeInstalls": 9000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:09:50+00:00",
-                "restRoutes": "32",
-                "abilitiesExtracted": "4",
-                "cliCommands": "8",
-                "scanZipVersion": "4.26.2",
-                "scanWriteHints": "26",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/sensei-lms",
+  "title": "Sensei LMS – Online Courses, Quizzes, & Learning",
+  "version": "4.26.2",
+  "websiteUrl": "https://senseilms.com/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Sensei LMS – Online Courses, Quizzes, & Learning",
+      "listingUrl": "https://wordpress.org/plugins/sensei-lms/",
+      "identity": {
+        "operator": {
+          "name": "Automattic"
         }
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:09:50+00:00",
+          "restRoutes": "32",
+          "abilitiesExtracted": "4",
+          "cliCommands": "8",
+          "scanZipVersion": "4.26.2",
+          "writeHints": "26"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "low",
+          "negativeEvidence": {
+            "clean_refusals": 3,
+            "paths_tried": 6
+          }
+        }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ]
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:771d0f0a39fa76e92e1efe785eac1c3a1a1044af43f3bb8cdb683876180dd382"
     }
+  }
 }

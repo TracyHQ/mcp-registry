@@ -1,45 +1,45 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/vendor-seguno",
-    "title": "Seguno",
-    "websiteUrl": "https:\/\/apps.shopify.com\/partners\/seguno",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Seguno",
-            "operator": {
-                "name": "Seguno"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/partners\/seguno",
-            "activeInstalls": 1123,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:50:59+00:00",
-                "probeEndpoint": "https:\/\/api.seguno.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/vendor-seguno",
+  "title": "Seguno",
+  "websiteUrl": "https://apps.shopify.com/partners/seguno",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Seguno",
+      "listingUrl": "https://apps.shopify.com/partners/seguno",
+      "identity": {
+        "operator": {
+          "name": "Seguno"
         }
+      },
+      "measurement": {
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_domain",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "note": "websiteUrl (https://apps.shopify.com/partners/seguno) is a marketplace/directory listing, not the vendor's own domain — no vendor domain to probe."
+        }
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ]
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:c83c12010734e5cac5339d4456feb74f570f944b856a80e79afedbae11150a49"
     }
+  }
 }

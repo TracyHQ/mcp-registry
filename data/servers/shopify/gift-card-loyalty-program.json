@@ -1,45 +1,48 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/gift-card-loyalty-program",
-    "title": "Rise Gift Cards & Store Credit",
-    "websiteUrl": "https:\/\/rise.ai\/start-using-rise-ai-today",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Rise Gift Cards & Store Credit",
-            "operator": {
-                "name": "Rise.ai"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/gift-card-loyalty-program",
-            "activeInstalls": 5468,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:50:32+00:00",
-                "probeEndpoint": "https:\/\/mcp.rise.ai\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "paid"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/gift-card-loyalty-program",
+  "title": "Rise Gift Cards & Store Credit",
+  "websiteUrl": "https://rise.ai/start-using-rise-ai-today",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Rise Gift Cards & Store Credit",
+      "listingUrl": "https://apps.shopify.com/gift-card-loyalty-program",
+      "identity": {
+        "operator": {
+          "name": "Rise.ai"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.rise.ai/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "paid"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:a24455b8b70b671fd0cd87c2c27cb5bfce64bd446b095f56afcdb0ba60f686f7"
     }
+  }
 }

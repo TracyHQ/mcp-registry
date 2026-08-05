@@ -1,53 +1,61 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/woocommerce-google-analytics-integration",
-    "title": "Google Analytics for WooCommerce",
-    "version": "2.3.0",
-    "websiteUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-google-analytics-integration\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Google Analytics for WooCommerce",
-            "provenance": "official",
-            "operator": {
-                "name": "WooCommerce"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-google-analytics-integration\/",
-            "activeInstalls": 100000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T08:59:04+00:00",
-                "restRoutes": "0",
-                "abilitiesExtracted": "0",
-                "cliCommands": "0",
-                "scanZipVersion": "2.3.0",
-                "scanWriteHints": "0",
-                "vendorMcpStatus": "official-beta",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/2026\/06\/01\/expanding-abilities-across-woocommerce-extensions\/",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "source-scanned",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/woocommerce-google-analytics-integration",
+  "title": "Google Analytics for WooCommerce",
+  "version": "2.3.0",
+  "websiteUrl": "https://wordpress.org/plugins/woocommerce-google-analytics-integration/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Google Analytics for WooCommerce",
+      "listingUrl": "https://wordpress.org/plugins/woocommerce-google-analytics-integration/",
+      "identity": {
+        "operator": {
+          "name": "WooCommerce"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T08:59:04+00:00",
+          "restRoutes": "0",
+          "abilitiesExtracted": "0",
+          "cliCommands": "0",
+          "scanZipVersion": "2.3.0",
+          "writeHints": "0"
+        },
+        "vendorAnnouncement": {
+          "status": "official-beta",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://developer.woocommerce.com/2026/06/01/expanding-abilities-across-woocommerce-extensions/"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_domain",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "note": "websiteUrl (https://wordpress.org/plugins/woocommerce-google-analytics-integration/) is a marketplace/directory listing, not the vendor's own domain — no vendor domain to probe."
         }
+      },
+      "classification": {
+        "capability": [
+          "source-scanned",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ]
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:f2a2acc7236d464cdc4124df19790080dbe89ba497d51c3dbc8f944e6120c38f"
     }
+  }
 }

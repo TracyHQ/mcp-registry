@@ -1,56 +1,61 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/omnisend-connect",
-    "title": "Email Marketing for WooCommerce by Omnisend",
-    "version": "1.20.0",
-    "websiteUrl": "https:\/\/www.omnisend.com",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Email Marketing for WooCommerce by Omnisend",
-            "operator": {
-                "name": "Omnisend"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/omnisend-connect\/",
-            "activeInstalls": 40000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:01:32+00:00",
-                "restRoutes": "5",
-                "abilitiesExtracted": "0",
-                "cliCommands": "0",
-                "scanZipVersion": "1.20.0",
-                "scanWriteHints": "3",
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:49:25+00:00",
-                "probeEndpoint": "https:\/\/mcp.omnisend.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "source-scanned",
-                    "vendor-endpoint"
-                ],
-                "access": [
-                    "no-credential"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/omnisend-connect",
+  "title": "Email Marketing for WooCommerce by Omnisend",
+  "version": "1.20.0",
+  "websiteUrl": "https://www.omnisend.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Email Marketing for WooCommerce by Omnisend",
+      "listingUrl": "https://wordpress.org/plugins/omnisend-connect/",
+      "identity": {
+        "operator": {
+          "name": "Omnisend"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.omnisend.com/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:01:32+00:00",
+          "restRoutes": "5",
+          "abilitiesExtracted": "0",
+          "cliCommands": "0",
+          "scanZipVersion": "1.20.0",
+          "writeHints": "3"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "source-scanned",
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "access": [
+          "no-credential"
+        ],
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:653085e8581ed555e0d644a9dd9a865eaee33c42b398f87e6836b10f535ebe60"
     }
+  }
 }
