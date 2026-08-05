@@ -45,6 +45,7 @@
           "Store Management",
           "Infrastructure"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

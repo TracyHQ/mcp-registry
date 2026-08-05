@@ -55,6 +55,7 @@
         "capability": [
           "Infrastructure"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

@@ -35,6 +35,7 @@
         "capability": [
           "Billing & Payments"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

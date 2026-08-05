@@ -36,6 +36,9 @@
           "Store Management",
           "Billing & Payments"
         ],
+        "platform": [
+          "WordPress"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

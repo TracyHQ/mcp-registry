@@ -43,6 +43,10 @@
           "Store Management",
           "Billing & Payments"
         ],
+        "platform": [
+          "Shopify",
+          "PrestaShop"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

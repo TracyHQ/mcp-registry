@@ -35,6 +35,7 @@
           "Billing & Payments",
           "Infrastructure"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

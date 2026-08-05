@@ -32,6 +32,10 @@
           "Store Management",
           "Analytics"
         ],
+        "platform": [
+          "WordPress",
+          "Shopify"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

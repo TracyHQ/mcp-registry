@@ -30,6 +30,7 @@
           "Site Management",
           "Analytics"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

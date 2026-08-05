@@ -46,6 +46,7 @@
           "Billing & Payments",
           "Analytics"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

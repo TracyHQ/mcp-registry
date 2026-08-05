@@ -32,6 +32,9 @@
           "Store Management",
           "Analytics"
         ],
+        "platform": [
+          "Shopify"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

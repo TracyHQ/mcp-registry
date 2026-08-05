@@ -37,6 +37,9 @@
           "Store Management",
           "Billing & Payments"
         ],
+        "platform": [
+          "Shopify"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

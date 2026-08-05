@@ -34,6 +34,10 @@
         "capability": [
           "Store Management"
         ],
+        "platform": [
+          "WordPress",
+          "Shopify"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

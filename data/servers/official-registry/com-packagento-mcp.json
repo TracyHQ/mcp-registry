@@ -29,6 +29,9 @@
         "capability": [
           "Store Management"
         ],
+        "platform": [
+          "Magento"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

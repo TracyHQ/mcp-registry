@@ -50,6 +50,7 @@
         "capability": [
           "Analytics"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

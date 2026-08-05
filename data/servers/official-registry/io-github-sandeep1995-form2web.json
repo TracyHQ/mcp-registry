@@ -44,6 +44,9 @@
         "capability": [
           "Store Management"
         ],
+        "platform": [
+          "Wix"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

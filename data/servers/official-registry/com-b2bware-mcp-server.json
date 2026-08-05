@@ -38,6 +38,7 @@
         "capability": [
           "Store Management"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

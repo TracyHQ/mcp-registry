@@ -31,6 +31,10 @@
         "capability": [
           "Store Management"
         ],
+        "platform": [
+          "Shopify",
+          "Wix"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

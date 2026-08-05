@@ -35,6 +35,9 @@
         "capability": [
           "Site Management"
         ],
+        "platform": [
+          "WordPress"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

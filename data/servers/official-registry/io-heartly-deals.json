@@ -38,6 +38,10 @@
           "Store Management",
           "Billing & Payments"
         ],
+        "platform": [
+          "WordPress",
+          "Shopify"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

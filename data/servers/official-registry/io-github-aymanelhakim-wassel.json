@@ -30,6 +30,7 @@
           "Store Management",
           "Billing & Payments"
         ],
+        "platform": [],
         "directory": [
           "official-mcp-registry"
         ],

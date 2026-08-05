@@ -28,6 +28,9 @@
         "capability": [
           "Site Management"
         ],
+        "platform": [
+          "Webflow"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -55,6 +55,9 @@
         "capability": [
           "Store Management"
         ],
+        "platform": [
+          "Shopify"
+        ],
         "directory": [
           "official-mcp-registry"
         ],
