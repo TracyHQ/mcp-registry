@@ -1,0 +1,125 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-tdobrowolski1-flashalpha",
+  "description": "Real-time & historical options analytics: GEX, dealer positioning, greeks, SVI vol, VRP, 0DTE",
+  "version": "1.5.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/gex"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/gex"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/directional"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/directional"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/premium"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/premium"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/spreads"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/spreads"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/0dte"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/0dte"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/swing"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/swing"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/volarb"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/volarb"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/quant"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/quant"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp/earnings"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://lab.flashalpha.com/mcp-oauth/earnings"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "FlashAlpha-lab"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-07T19:45:09.036669Z",
+        "upstreamUpdatedAt": "2026-06-07T19:45:09.036669Z",
+        "verifiedAt": "2026-08-05T02:04:35+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 73,
+        "readWriteSummary": {
+          "read": 73,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-30T07:06:36Z",
+        "url": "https://github.com/FlashAlpha-lab/flashalpha-mcp"
+      }
+    }
+  }
+}

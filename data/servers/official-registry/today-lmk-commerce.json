@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/today-lmk-commerce",
+  "description": "Cross-merchant product search with real price history, comparisons, and demand signals.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lmk.today/api/ucp/mcp"
+    }
+  ],
+  "websiteUrl": "https://lmk.today/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lmk"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-01T20:18:14.277681Z",
+        "upstreamUpdatedAt": "2026-07-01T20:18:14.277681Z",
+        "verifiedAt": "2026-08-05T02:04:55+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 13,
+        "readWriteSummary": {
+          "read": 13,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

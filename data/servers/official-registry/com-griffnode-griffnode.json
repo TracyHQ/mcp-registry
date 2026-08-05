@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-griffnode-griffnode",
+  "description": "Non-custodial crypto payments for AI assistants: balances, payments, and create payment links.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.griffnode.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://griffnode.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "griffnode"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-07T13:02:32.920315Z",
+        "upstreamUpdatedAt": "2026-07-07T13:02:32.920315Z",
+        "verifiedAt": "2026-08-05T02:02:47+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

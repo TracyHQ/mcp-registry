@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-operatorsheets-mcp-uptime",
+  "title": "MCP Registry Validator — Check Endpoints Actually Resolve",
+  "description": "Check an MCP endpoint resolves: liveness, live tool list, schema drift. Free.",
+  "version": "0.2.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-uptime.theopslog.workers.dev/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "MCP Registry Validator — Check Endpoints Actually Resolve",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "operatorsheets"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-01T18:25:15.573332Z",
+        "upstreamUpdatedAt": "2026-08-01T18:25:15.573332Z",
+        "verifiedAt": "2026-08-04T11:15:29+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

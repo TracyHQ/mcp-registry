@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-ndkasndakn-refund-decide",
+  "description": "Refund eligibility notary for US subscriptions. Returns ALLOWED/DENIED/UNKNOWN.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://refund.decide.fyi/api/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ndkasndakn"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-01-15T23:32:17.175204Z",
+        "upstreamUpdatedAt": "2026-01-15T23:32:17.175204Z",
+        "verifiedAt": "2026-08-05T02:04:22+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 1,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-08-05T01:43:26Z",
+        "url": "https://github.com/decidefyi/decide"
+      }
+    }
+  }
+}

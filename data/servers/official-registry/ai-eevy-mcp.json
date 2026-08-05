@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ai-eevy-mcp",
+  "title": "Eevy",
+  "description": "Shopify CRO platform via MCP: 100+ tools for analytics, experiments, authoring, proven lift.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.eevy.ai/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://eevy.ai/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Eevy",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "eevy"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-10T04:31:42.484368Z",
+        "upstreamUpdatedAt": "2026-07-10T04:31:42.484368Z",
+        "verifiedAt": "2026-08-05T02:02:19+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

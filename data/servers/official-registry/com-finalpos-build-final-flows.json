@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-finalpos-build-final-flows",
+  "title": "Final POS",
+  "description": "Build custom POS, kiosk, self-checkout & in-person payment apps with AI agents on Final POS.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://build.finalpos.com/api/mcp",
+      "headers": [
+        {
+          "description": "Bearer <sk_... organization API key>. Optional if your client supports OAuth 2.1 — mint a key at build.finalpos.com (open a flow, chat rail, cable icon, \"Connect your AI tool\").",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://finalpos.com/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Final POS",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Final-Commerce"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-28T00:19:09.544336Z",
+        "upstreamUpdatedAt": "2026-07-28T00:19:09.544336Z",
+        "verifiedAt": "2026-08-05T02:02:44+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer <sk_... organization API key>. Optional if your client supports OAuth 2.1 — mint a key at build.finalpos.com (open a flow, chat rail, cable icon, \"Connect your AI tool\")."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-28T00:20:31Z",
+        "url": "https://github.com/Final-Commerce/final-pos-mcp"
+      }
+    }
+  }
+}

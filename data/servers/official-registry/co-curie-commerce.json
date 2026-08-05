@@ -1,0 +1,65 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/co-curie-commerce",
+  "title": "Curie Commerce",
+  "description": "Search, compare in 3D, and buy products from 5.6M+ Shopify stores. Free tier; Pro adds checkout.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://chat.curie.app/api/mcp/global"
+    },
+    {
+      "type": "sse",
+      "url": "https://chat.curie.app/api/mcp/{shop_id}",
+      "headers": [
+        {
+          "description": "Optional 'Bearer <token>' from Curie Pro OAuth (https://chat.curie.app/api/oauth/authorize). Without it, the free tier (100 req/min/IP) is used.",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ],
+      "variables": {
+        "shop_id": {
+          "description": "Shopify shop ID for a specific merchant catalog. Omit to use the global catalog.",
+          "default": "global"
+        }
+      }
+    }
+  ],
+  "websiteUrl": "https://chat.curie.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Curie Commerce",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "curievision"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-20T06:10:54.531321Z",
+        "upstreamUpdatedAt": "2026-05-20T06:10:54.531321Z",
+        "verifiedAt": "2026-08-05T02:02:31+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 30,
+        "readWriteSummary": {
+          "read": 16,
+          "write": 8,
+          "unknown": 6
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

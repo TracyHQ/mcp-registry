@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-morphious33453-can-tap-verified-mcp",
+  "title": "CAN-TAP Verified",
+  "description": "Free dofollow backlinks for Canadian businesses. Claim, verify, and track NFC tap analytics.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.can-tap-verified.com"
+    }
+  ],
+  "websiteUrl": "https://can-tap-verified.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "CAN-TAP Verified",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "morphious33453"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-07T11:26:19.534944Z",
+        "upstreamUpdatedAt": "2026-04-07T11:26:19.534944Z",
+        "verifiedAt": "2026-08-05T02:04:21+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 5,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-04-07T11:23:21Z",
+        "url": "https://github.com/morphious33453/can-tap-verified-mcp"
+      }
+    }
+  }
+}

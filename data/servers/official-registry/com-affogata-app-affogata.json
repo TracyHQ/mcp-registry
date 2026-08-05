@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-affogata-app-affogata",
+  "description": "Social listening analytics — query topics, filters, trending keywords, and conversation clusters.",
+  "version": "1.0.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.affogata.com/mcp",
+      "headers": [
+        {
+          "description": "Bearer token from your Affogata → Settings → API Keys",
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "affogata"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-06T12:58:46.901406Z",
+        "upstreamUpdatedAt": "2026-05-06T12:58:46.901406Z",
+        "verifiedAt": "2026-08-05T02:02:33+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

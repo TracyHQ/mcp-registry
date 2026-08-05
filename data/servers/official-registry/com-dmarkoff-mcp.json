@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-dmarkoff-mcp",
+  "title": "DMARKOFF — DMARC, SPF & DKIM Analytics",
+  "description": "DMARC analytics for AI assistants — domain health, SPF/DKIM records, compliance stats, anomalies.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.dmarkoff.com/mcp",
+      "headers": [
+        {
+          "description": "DMARKOFF API key in the format 'Bearer YOUR_API_KEY'. Get yours at app.dmarkoff.com/account/mcp",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "DMARKOFF — DMARC, SPF & DKIM Analytics",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "dmarcoff"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-30T13:35:06.110811Z",
+        "upstreamUpdatedAt": "2026-04-30T13:35:06.110811Z",
+        "verifiedAt": "2026-08-05T02:02:42+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "DMARKOFF API key in the format 'Bearer YOUR_API_KEY'. Get yours at app.dmarkoff.com/account/mcp"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 8,
+        "pushed_at": "2026-04-30T13:34:40Z",
+        "url": "https://github.com/dmarcoff/mcp"
+      }
+    }
+  }
+}

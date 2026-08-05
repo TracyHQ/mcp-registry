@@ -1,0 +1,48 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/io-github-marketscore-marketscore-direct-mcp",
+  "description": "MCP for Yandex Direct: manage ad campaigns & analytics from Claude or ChatGPT",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.marketscore.ru/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://app.marketscore.ru",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "marketscore"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-30T16:20:27.683467Z",
+        "upstreamUpdatedAt": "2026-06-30T16:20:27.683467Z",
+        "verifiedAt": "2026-08-05T02:04:15+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized: подключите аккаунт через OAuth или укажите ключ"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-11T20:17:14Z",
+        "url": "https://github.com/marketscore/marketscore-direct-mcp"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-silly-geese-quality-qr",
+  "title": "Quality QR",
+  "description": "Create and manage trackable QR codes with scan tracking, analytics, and dynamic URL updates.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quality-qr.app/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://quality-qr.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Quality QR",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "silly-geese"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-12T11:34:57.701759Z",
+        "upstreamUpdatedAt": "2026-04-12T11:34:57.701759Z",
+        "verifiedAt": "2026-08-05T02:04:31+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 6,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 3,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-01T08:40:57Z",
+        "url": "https://github.com/silly-geese/quality-qr-mcp"
+      }
+    }
+  }
+}

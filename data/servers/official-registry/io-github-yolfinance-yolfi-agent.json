@@ -1,0 +1,81 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-yolfinance-yolfi-agent",
+  "title": "Yolfi Payments MCP",
+  "description": "Let AI agents add Yolfi crypto checkout, paylinks, webhooks, and status checks.",
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.yolfi.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@yolfi/agent",
+      "version": "0.2.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "value": "mcp",
+          "type": "positional"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "description": "Optional. Explicit environment credentials take precedence over the protected credential stored by yolfi setup/checkin. Private API tools require one of these credentials.",
+          "format": "string",
+          "isSecret": true,
+          "name": "YOLFI_API_KEY"
+        },
+        {
+          "description": "Optional override for webhook verification in CI or deployed environments. Local create/rotate tools otherwise use endpoint-specific secrets from the protected Yolfi config.",
+          "format": "string",
+          "isSecret": true,
+          "name": "YOLFI_WEBHOOK_SECRET"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://yolfi.com/ai-agent-kit",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Yolfi Payments MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "yolfinance"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-21T06:41:37.429393Z",
+        "upstreamUpdatedAt": "2026-07-21T06:41:37.429393Z",
+        "verifiedAt": "2026-08-05T02:04:38+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 196,
+        "pushed_at": "2026-07-20T12:20:39Z",
+        "url": "https://github.com/yolfinance/yolfi-agent"
+      }
+    }
+  }
+}

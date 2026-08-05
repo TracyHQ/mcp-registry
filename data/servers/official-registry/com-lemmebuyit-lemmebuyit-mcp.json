@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-lemmebuyit-lemmebuyit-mcp",
+  "description": "Search 86 US retailers — 260M+ products with real-time pricing, stock, and price history.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lemmebuyit.com/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "LemmeBuyIt"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-08T21:46:39.844025Z",
+        "upstreamUpdatedAt": "2026-06-08T21:46:39.844025Z",
+        "verifiedAt": "2026-08-05T02:02:50+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

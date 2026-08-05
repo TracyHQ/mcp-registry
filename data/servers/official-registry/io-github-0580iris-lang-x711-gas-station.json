@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-0580iris-lang-x711-gas-station",
+  "title": "x711 — Universal Agent Gas Station",
+  "description": "Pay-per-use tool API for AI agents. Free tier, x402 USDC micropayments, or API key.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x711.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://x711.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "x711 — Universal Agent Gas Station",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "0580iris-lang"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-05T15:07:09.832196Z",
+        "upstreamUpdatedAt": "2026-05-05T15:07:09.832196Z",
+        "verifiedAt": "2026-08-05T02:03:14+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 47,
+        "readWriteSummary": {
+          "read": 28,
+          "write": 19,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

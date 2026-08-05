@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/io-github-reitsmasieto-wq-overcome-stress",
+  "description": "Stress recovery protocols via Lightning payments: post-concussion, post-COVID, burnout",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.overcomestress.io/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "reitsmasieto-wq"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-18T20:05:47.505767Z",
+        "upstreamUpdatedAt": "2026-02-18T20:05:47.505767Z",
+        "verifiedAt": "2026-08-05T02:04:28+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 5,
+        "readWriteSummary": {
+          "read": 3,
+          "write": 0,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-02-20T10:25:31Z",
+        "url": "https://github.com/reitsmasieto-wq/overcome-stress-mcp"
+      }
+    }
+  }
+}

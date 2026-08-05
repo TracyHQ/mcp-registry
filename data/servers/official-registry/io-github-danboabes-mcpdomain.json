@@ -1,0 +1,83 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-danboabes-mcpdomain",
+  "title": "MCPDomain",
+  "description": "Buy & manage domains from any AI chat: availability, register, DNS, email forwarding, AI bot stats.",
+  "version": "1.0.7",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpdomain.ai/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "mcpdomain",
+      "version": "1.0.7",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Operation mode: 'mock' for testing (default) or 'live' for real OpenSRS API calls.",
+          "format": "string",
+          "default": "mock",
+          "name": "OPENSRS_MODE"
+        },
+        {
+          "description": "OpenSRS reseller username (only required in live mode).",
+          "format": "string",
+          "isSecret": true,
+          "name": "OPENSRS_USERNAME"
+        },
+        {
+          "description": "OpenSRS API key (only required in live mode).",
+          "format": "string",
+          "isSecret": true,
+          "name": "OPENSRS_KEY"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://mcpdomain.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "MCPDomain",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "danboabes"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-18T19:16:58.204495Z",
+        "upstreamUpdatedAt": "2026-04-18T19:16:58.204495Z",
+        "verifiedAt": "2026-08-05T02:03:59+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 1,
+          "unknown": 4
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-04-20T14:07:57Z",
+        "url": "https://github.com/danboabes/mcpdomain"
+      }
+    }
+  }
+}

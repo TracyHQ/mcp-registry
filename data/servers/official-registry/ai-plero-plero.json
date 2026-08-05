@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/ai-plero-plero",
+  "description": "Operating system for creative companies: clients, projects, estimates, contracts, invoices, talent",
+  "version": "2026.7.18",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://plero.ai/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://plero.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "plero"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T20:01:54.276248Z",
+        "upstreamUpdatedAt": "2026-07-31T20:01:54.276248Z",
+        "verifiedAt": "2026-08-05T02:02:21+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

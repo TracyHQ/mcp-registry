@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-getmunin-munin",
+  "description": "Open-source all-in-one MCP-first customer platform: KB, Conversations, CRM, CMS, Outreach, Analytics",
+  "version": "4.77.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getmunin.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://getmunin.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "getmunin"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T10:52:37.447916Z",
+        "upstreamUpdatedAt": "2026-07-31T10:52:37.447916Z",
+        "verifiedAt": "2026-08-05T02:02:45+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Site Management",
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 11,
+        "pushed_at": "2026-08-04T20:06:13Z",
+        "url": "https://github.com/getmunin/munin"
+      }
+    }
+  }
+}

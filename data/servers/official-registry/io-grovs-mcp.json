@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-grovs-mcp",
+  "title": "Grovs",
+  "description": "Manage deep links, attribution, analytics, and campaigns on Grovs — open-source Branch alternative.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.grovs.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://grovs.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Grovs",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "grovs-io"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-14T10:51:14.292539Z",
+        "upstreamUpdatedAt": "2026-04-14T10:51:14.292539Z",
+        "verifiedAt": "2026-08-05T02:04:39+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-05-13T10:36:57Z",
+        "url": "https://github.com/grovs-io/mcp"
+      }
+    }
+  }
+}

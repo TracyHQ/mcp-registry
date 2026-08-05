@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/online-siima-esim",
+  "title": "Siima eSIM",
+  "description": "Search travel eSIM plans for 150+ countries and buy via Stripe link; eSIM QR delivered by email.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.siima.online/mcp"
+    }
+  ],
+  "websiteUrl": "https://siima.online/ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Siima eSIM",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "siima"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-10T12:11:51.769721Z",
+        "upstreamUpdatedAt": "2026-07-10T12:11:51.769721Z",
+        "verifiedAt": "2026-08-05T02:04:51+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 3,
+          "write": 1,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

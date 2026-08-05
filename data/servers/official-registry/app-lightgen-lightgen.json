@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/app-lightgen-lightgen",
+  "description": "Generate and edit images and create short videos inside Claude. Prepaid credits, no subscription.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://lightgen.app/mcp"
+    }
+  ],
+  "websiteUrl": "https://lightgen.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lightgen"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-11T12:04:00.365999Z",
+        "upstreamUpdatedAt": "2026-07-11T12:04:00.365999Z",
+        "verifiedAt": "2026-08-05T02:02:26+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized: Authentication required"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

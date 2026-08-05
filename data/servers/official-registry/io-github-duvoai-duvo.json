@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-duvoai-duvo",
+  "title": "Duvo MCP",
+  "description": "Governed retail, FMCG, and CPG operational tools: runs, cases, approvals, audit-ready execution.",
+  "version": "2026-05-24",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.duvo.ai/v1/mcp",
+      "headers": [
+        {
+          "description": "Bearer token for an approved Duvo workspace.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.duvo.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Duvo MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "duvoai"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-24T12:28:21.690423Z",
+        "upstreamUpdatedAt": "2026-05-24T12:28:21.690423Z",
+        "verifiedAt": "2026-08-05T02:04:01+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token for an approved Duvo workspace."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

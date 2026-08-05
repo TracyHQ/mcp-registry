@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ai-iturri-market-data",
+  "description": "Verified market data for AI trading agents: quality-flagged candles, funding, OI, order flow. x402.",
+  "version": "0.2.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://iturri.ai/mcp",
+      "headers": [
+        {
+          "description": "Optional: 'Bearer <membership token>' from https://iturri.ai/subscribe — covers metered tools. Omit to pay per call via x402.",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://iturri.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "iturri-ai"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-13T02:31:38.876373Z",
+        "upstreamUpdatedAt": "2026-07-13T02:31:38.876373Z",
+        "verifiedAt": "2026-08-05T02:02:20+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 21,
+        "readWriteSummary": {
+          "read": 19,
+          "write": 1,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

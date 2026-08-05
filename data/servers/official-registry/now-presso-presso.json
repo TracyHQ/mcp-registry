@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/now-presso-presso",
+  "title": "Presso",
+  "description": "Connect e-commerce and marketing data to AI assistants via MCP.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.presso.now/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Presso",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "stellagent"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-27T16:31:16.176024Z",
+        "upstreamUpdatedAt": "2026-02-27T16:31:16.176024Z",
+        "verifiedAt": "2026-08-05T02:04:50+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized: Missing API key or token. Please login with 'presso login' or check your API key settings at https://app.presso.now"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-02-27T23:31:23Z",
+        "url": "https://github.com/stellagent/presso-setup"
+      }
+    }
+  }
+}

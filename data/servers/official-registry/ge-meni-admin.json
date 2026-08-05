@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ge-meni-admin",
+  "description": "Restaurant management API for meni.ge owners: manage menus, locations, orders, and settings.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meni.ge/mcp"
+    }
+  ],
+  "websiteUrl": "https://meni.ge/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "meni"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-12T20:14:09.948765Z",
+        "upstreamUpdatedAt": "2026-06-12T20:14:09.948765Z",
+        "verifiedAt": "2026-08-05T02:03:11+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-defianceinternational-storefront",
+  "title": "Defiance Storefront",
+  "description": "Read-only catalog, sequence, evidence, policy, and COA-verification lookup for an RUO supplier.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://defianceinternational.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://defianceinternational.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Defiance Storefront",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "defianceinternational"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-11T12:36:56.419047Z",
+        "upstreamUpdatedAt": "2026-07-11T12:36:56.419047Z",
+        "verifiedAt": "2026-08-05T02:03:14+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 5,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

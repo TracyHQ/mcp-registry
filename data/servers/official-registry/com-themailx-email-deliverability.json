@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-themailx-email-deliverability",
+  "title": "MailX Email Deliverability",
+  "description": "Check SPF/DKIM/DMARC/BIMI, blacklists, SMTP/IMAP; DNS lookups; generate email DNS records.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://themailx.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://themailx.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "MailX Email Deliverability",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "themailx"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-17T21:04:43.17105Z",
+        "upstreamUpdatedAt": "2026-04-17T21:04:43.17105Z",
+        "verifiedAt": "2026-08-05T02:03:01+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 16,
+        "readWriteSummary": {
+          "read": 14,
+          "write": 2,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

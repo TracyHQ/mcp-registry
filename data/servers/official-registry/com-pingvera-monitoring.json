@@ -1,0 +1,53 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/com-pingvera-monitoring",
+  "description": "Client-website monitoring for agencies: uptime, incidents, SSL/domain expiry, server metrics.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.pingvera.com/mcp",
+      "headers": [
+        {
+          "description": "Bearer <API token from the Pingvera dashboard>",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://pingvera.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "pingvera"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-23T15:40:13.096713Z",
+        "upstreamUpdatedAt": "2026-07-23T15:40:13.096713Z",
+        "verifiedAt": "2026-08-05T02:02:56+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer <API token from the Pingvera dashboard>"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

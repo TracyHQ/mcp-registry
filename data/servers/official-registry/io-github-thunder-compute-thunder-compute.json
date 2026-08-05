@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-thunder-compute-thunder-compute",
+  "title": "Thunder Compute",
+  "description": "GPU cloud platform — create, manage, and monitor instances, snapshots, SSH keys, and billing.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.thundercompute.com:8443/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Thunder Compute",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Thunder-Compute"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-09T02:03:55.495779Z",
+        "upstreamUpdatedAt": "2026-04-09T02:03:55.495779Z",
+        "verifiedAt": "2026-08-05T02:03:52+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 34,
+        "pushed_at": "2026-07-30T05:18:37Z",
+        "url": "https://github.com/Thunder-Compute/thunder-cli"
+      }
+    }
+  }
+}

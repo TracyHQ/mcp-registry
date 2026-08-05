@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/dev-toolvend-dns-whois-domain-tools",
+  "title": "toolvend - DNS, WHOIS & domain tools",
+  "description": "DNS, WHOIS/RDAP, DMARC/SPF, LEI, sitemap, web extract, VAT, QR. Paid per call in USDC, no signup.",
+  "version": "0.1.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://toolvend.dev/mcp"
+    }
+  ],
+  "websiteUrl": "https://toolvend.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "toolvend - DNS, WHOIS & domain tools",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "toolvend"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-02T16:59:26.883773Z",
+        "upstreamUpdatedAt": "2026-08-02T16:59:26.883773Z",
+        "verifiedAt": "2026-08-04T11:15:26+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 10,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 0,
+          "unknown": 10
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

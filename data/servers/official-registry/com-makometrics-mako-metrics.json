@@ -1,0 +1,53 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-makometrics-mako-metrics",
+  "title": "Mako Metrics",
+  "description": "Competitor Meta ads intelligence reports. List plans, create orders, Stripe checkout for humans.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ufupdlaxddckqxbgbhwu.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "websiteUrl": "https://makometrics.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Mako Metrics",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "loganriebel"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-19T23:24:57.401951Z",
+        "upstreamUpdatedAt": "2026-05-19T23:24:57.401951Z",
+        "verifiedAt": "2026-08-05T02:02:51+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 2,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 1,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-21T23:04:49Z",
+        "url": "https://github.com/loganriebel/mako-metrics-mcp"
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ai-uxbert-cms",
+  "description": "UXBERT Labs headless CMS: model, write and publish bilingual content, media, delivery checks.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cms-mcp.uxbert.ai/mcp",
+      "headers": [
+        {
+          "description": "Bearer <management API key> — minted per space in the CMS admin under Space → API keys",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://cms.uxbert.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "uxbert"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-22T11:18:21.351823Z",
+        "upstreamUpdatedAt": "2026-07-22T11:18:21.351823Z",
+        "verifiedAt": "2026-08-04T11:15:19+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer <management API key> — minted per space in the CMS admin under Space → API keys"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

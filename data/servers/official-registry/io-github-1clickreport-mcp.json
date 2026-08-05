@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-1clickreport-mcp",
+  "title": "1ClickReport",
+  "description": "40 tools for marketing analytics, campaign management, and AI monitoring across 6 platforms.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.1clickreport.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.1clickreport.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "1ClickReport",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "1clickreport"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-26T00:24:10.01638Z",
+        "upstreamUpdatedAt": "2026-05-26T00:24:10.01638Z",
+        "verifiedAt": "2026-08-05T02:03:15+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-05-26T21:18:21Z",
+        "url": "https://github.com/1clickreport/mcp"
+      }
+    }
+  }
+}

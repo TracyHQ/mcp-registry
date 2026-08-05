@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/com-pingvalid-mcp-server",
+  "description": "Email validation for Claude and any MCP client — verdicts with evidence, bulk jobs, refunds.",
+  "version": "0.4.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pingvalid.com/mcp",
+      "headers": [
+        {
+          "description": "Bearer pv_live_… — a pingvalid API key. Create at https://pingvalid.com/dashboard/api-keys",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://pingvalid.com/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "pingvalid"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-12T02:35:01.883015Z",
+        "upstreamUpdatedAt": "2026-07-12T02:35:01.883015Z",
+        "verifiedAt": "2026-08-05T02:02:55+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer pv_live_… — a pingvalid API key. Create at https://pingvalid.com/dashboard/api-keys",
+          "server_message": "Authentication required — sign in or configure an API key."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

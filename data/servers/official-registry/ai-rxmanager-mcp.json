@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/ai-rxmanager-mcp",
+  "description": "Live US drug acquisition costs (CMS NADAC) for AI assistants. Free, no auth, weekly data.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rxmanager.ai/mcp"
+    }
+  ],
+  "websiteUrl": "https://rxmanager.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "rxmanager"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-11T03:04:45.957939Z",
+        "upstreamUpdatedAt": "2026-06-11T03:04:45.957939Z",
+        "verifiedAt": "2026-08-05T02:02:23+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 8,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 0,
+          "unknown": 3
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

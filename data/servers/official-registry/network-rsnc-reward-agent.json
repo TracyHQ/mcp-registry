@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/network-rsnc-reward-agent",
+  "title": "Resonance Reward Agent",
+  "description": "Find shopping deals, earn cashback, and redeem rewards across retail, dining, and travel brands.",
+  "version": "2.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agent.rsnc.network/mcp"
+    }
+  ],
+  "websiteUrl": "https://rsnc.network",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Resonance Reward Agent",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "RSNCNetwork"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-28T23:58:42.514856Z",
+        "upstreamUpdatedAt": "2026-02-28T23:58:42.514856Z",
+        "verifiedAt": "2026-08-05T02:04:50+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 45,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 6,
+          "unknown": 34
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

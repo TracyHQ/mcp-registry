@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-qualyhq-qualy",
+  "title": "Qualy",
+  "description": "AI access to your Qualy payments back office: contacts, payment requests, and search.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.qualyhq.com/v1/mcp",
+      "headers": [
+        {
+          "description": "Your Qualy API key as a bearer token, e.g. `Bearer pk_prod_...`",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://docs.qualyhq.com/docs/mcp-server",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Qualy",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "QualyHQ"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-08T10:24:03.266127Z",
+        "upstreamUpdatedAt": "2026-07-08T10:24:03.266127Z",
+        "verifiedAt": "2026-08-05T02:02:56+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Your Qualy API key as a bearer token, e.g. `Bearer pk_prod_...`"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

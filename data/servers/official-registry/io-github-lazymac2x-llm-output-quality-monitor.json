@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-lazymac2x-llm-output-quality-monitor",
+  "description": "Cloudflare Workers MCP server: llm-output-quality-monitor",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lazy-mac.com/llm-output-quality-monitor/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lazymac2x"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-16T11:50:36.833736Z",
+        "upstreamUpdatedAt": "2026-05-16T11:50:36.833736Z",
+        "verifiedAt": "2026-08-05T02:04:14+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 5,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 4
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-05-17T02:58:29Z",
+        "url": "https://github.com/lazymac2x/llm-output-quality-monitor-api"
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-cedrickouma-facturx-toolkit",
+  "description": "Validate, extract, repair and generate French Factur-X / EN16931 invoices via AgentForge API",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apim-agentforge-6lfm33.azure-api.net/facturx/mcp",
+      "headers": [
+        {
+          "description": "APIM subscription key (free tier works for smoke tests)",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Ocp-Apim-Subscription-Key"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "agentforge-facturx-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "AgentForge APIM gateway base URL",
+          "format": "string",
+          "name": "AGENTFORGE_BASE_URL"
+        },
+        {
+          "description": "APIM subscription key (Ocp-Apim-Subscription-Key / x-api-key)",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "AGENTFORGE_API_KEY"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "CedricKouma"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-15T02:12:01.491008Z",
+        "upstreamUpdatedAt": "2026-06-15T02:12:01.491008Z",
+        "verifiedAt": "2026-08-05T02:03:40+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Ocp-Apim-Subscription-Key"
+          ],
+          "hint": "APIM subscription key (free tier works for smoke tests)"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

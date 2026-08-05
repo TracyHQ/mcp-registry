@@ -1,0 +1,63 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-gocushy-mcp",
+  "description": "The checkout your AI runs — bumps, upsells, subscriptions, tax and affiliates on your own Stripe.",
+  "version": "0.15.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.gocushy.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@gocushy/mcp",
+      "version": "0.15.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your gocushy API key (gc_...) — create an account at https://gocushy.com/signup",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "GOCUSHY_API_KEY"
+        },
+        {
+          "description": "API base URL (defaults to https://api.gocushy.com)",
+          "format": "string",
+          "name": "GOCUSHY_API_URL"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://gocushy.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "gocushy"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-04T06:07:17.855552Z",
+        "upstreamUpdatedAt": "2026-08-04T06:07:17.855552Z",
+        "verifiedAt": "2026-08-05T02:02:46+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

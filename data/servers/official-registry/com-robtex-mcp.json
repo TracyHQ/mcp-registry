@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-robtex-mcp",
+  "description": "DNS, IP, AS, domain reputation, and Lightning Network intelligence (44 tools)",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.robtex.com/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "robtex"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-18T16:49:12.314659Z",
+        "upstreamUpdatedAt": "2026-02-18T16:49:12.314659Z",
+        "verifiedAt": "2026-08-05T02:02:57+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 46,
+        "readWriteSummary": {
+          "read": 46,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

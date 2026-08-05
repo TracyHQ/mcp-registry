@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-viddler-viddler-mcp",
+  "title": "Viddler",
+  "description": "Official Viddler MCP: list videos, manage access control, pull proof-of-viewing analytics.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.viddler.com/mcp",
+      "headers": [
+        {
+          "description": "Bearer token: a Viddler Personal Access Token in the form 'Bearer vdl_<prefix>_<secret>'. Create one at https://viddler.com under account settings.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://viddler.com/for-agents",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Viddler",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "viddler"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-28T15:56:53.13915Z",
+        "upstreamUpdatedAt": "2026-06-28T15:56:53.13915Z",
+        "verifiedAt": "2026-08-05T02:03:04+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 12,
+        "readWriteSummary": {
+          "read": 3,
+          "write": 7,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

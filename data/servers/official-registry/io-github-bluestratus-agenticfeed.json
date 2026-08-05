@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-bluestratus-agenticfeed",
+  "description": "Match shopper intent to a merchant's products and fetch live price, stock and product Q&A.",
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agenticfeed.ai/mcp"
+    }
+  ],
+  "websiteUrl": "https://agenticfeed.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "bluestratus"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-17T15:21:26.528173Z",
+        "upstreamUpdatedAt": "2026-07-17T15:21:26.528173Z",
+        "verifiedAt": "2026-08-05T02:03:56+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-11T18:06:57Z",
+        "url": "https://github.com/bluestratus/agenticfeed"
+      }
+    }
+  }
+}

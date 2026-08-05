@@ -1,0 +1,64 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-coordinalo-mcp-server",
+  "title": "Coordinalo — Service Business Operations",
+  "description": "Scheduling, availability, clients, billing and CRM for appointment-based services.",
+  "version": "4.1.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://coordinalo.com/api/mcp",
+      "headers": [
+        {
+          "description": "Organization API key (sk_admin_...). Required for org-scoped tools. Omit it to use the public booking lane.",
+          "isSecret": true,
+          "name": "X-Org-Api-Key"
+        },
+        {
+          "description": "Bootstrap key for admin_create_organization only. Self-service at https://coordinalo.com/developers",
+          "isSecret": true,
+          "name": "X-Bootstrap-Key"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://coordinalo.com/developers",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Coordinalo — Service Business Operations",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "danioni"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-25T17:42:23.618469Z",
+        "upstreamUpdatedAt": "2026-07-25T17:42:23.618469Z",
+        "verifiedAt": "2026-08-05T02:02:41+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 112,
+        "readWriteSummary": {
+          "read": 46,
+          "write": 30,
+          "unknown": 36
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-04-12T20:17:30Z",
+        "url": "https://github.com/danioni/coordinalo-mcp"
+      }
+    }
+  }
+}

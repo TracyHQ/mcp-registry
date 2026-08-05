@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-sandeep1995-form2web",
+  "title": "SlateHut",
+  "description": "AI website builder (Wix/Framer alt). SlateHut MCP over HTTP: tools, schemas. Bearer auth.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://slatehut.com/api/mcp",
+      "headers": [
+        {
+          "description": "Bearer token: SlateHut live API key (sh_live_…) or MCP OAuth access token",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "SlateHut",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "sandeep1995"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-20T19:00:17.397031Z",
+        "upstreamUpdatedAt": "2026-04-20T19:00:17.397031Z",
+        "verifiedAt": "2026-08-05T02:04:29+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token: SlateHut live API key (sh_live_…) or MCP OAuth access token"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

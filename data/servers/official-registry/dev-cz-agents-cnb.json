@@ -1,0 +1,61 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/dev-cz-agents-cnb",
+  "description": "Official ČNB exchange rates — daily & historical CZK vs EUR, USD, 30+ currencies. For accounting.",
+  "version": "0.1.7",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://cnb.cz-agents.dev/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@czagents/cnb",
+      "version": "0.1.5",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "websiteUrl": "https://cz-agents.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "martinhavel"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-02T11:42:26.272617Z",
+        "upstreamUpdatedAt": "2026-06-02T11:42:26.272617Z",
+        "verifiedAt": "2026-08-05T02:03:06+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 3,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 5,
+        "pushed_at": "2026-08-03T05:45:45Z",
+        "url": "https://github.com/martinhavel/cz-agents-mcp"
+      }
+    }
+  }
+}

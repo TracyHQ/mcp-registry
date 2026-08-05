@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-allpdfmagic-allpdfmagic",
+  "title": "AllPDFMagic",
+  "description": "PDF tools + invoice extraction, bank statement parsing, GST reconciliation & GSTIN validation.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.allpdfmagic.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.allpdfmagic.com/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "AllPDFMagic",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "allpdfmagic"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-18T05:14:18.38123Z",
+        "upstreamUpdatedAt": "2026-07-18T05:14:18.38123Z",
+        "verifiedAt": "2026-08-05T02:02:35+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 6
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

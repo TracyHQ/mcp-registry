@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-gitsim-chat",
+  "title": "Gitsim Chat",
+  "description": "Search, order, and manage eSIM data packages for 190+ countries.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chat.gitsim.com/api/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Gitsim Chat",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "gitsim"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-01T15:29:07.96264Z",
+        "upstreamUpdatedAt": "2026-04-01T15:29:07.96264Z",
+        "verifiedAt": "2026-08-05T02:02:46+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 9,
+        "readWriteSummary": {
+          "read": 7,
+          "write": 1,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

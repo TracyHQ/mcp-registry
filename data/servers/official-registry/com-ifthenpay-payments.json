@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-ifthenpay-payments",
+  "title": "ifthenpay Payments MCP",
+  "description": "Remote MCP for ifthenpay payments: Multibanco, MB WAY and Payshop.",
+  "version": "1.0.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai.ifthenpay.com/mcp/payments/"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "ifthenpay Payments MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ifthenpay"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-25T10:52:34.197667Z",
+        "upstreamUpdatedAt": "2026-06-25T10:52:34.197667Z",
+        "verifiedAt": "2026-08-04T11:15:22+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 9,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 6,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-25T16:17:49Z",
+        "url": "https://github.com/ifthenpay/mcp-payments"
+      }
+    }
+  }
+}

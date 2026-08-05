@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-glauberfrancodesign-francolabs",
+  "title": "FrancoLabs",
+  "description": "UX research platform: manage studies, browse templates, read responses and analytics.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://francolabs.vercel.app/mcp"
+    }
+  ],
+  "websiteUrl": "https://francolabs.vercel.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "FrancoLabs",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "glauberfrancodesign"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-03T17:46:57.208663Z",
+        "upstreamUpdatedAt": "2026-06-03T17:46:57.208663Z",
+        "verifiedAt": "2026-08-05T02:04:04+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Missing or malformed Authorization header"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-12T00:13:44Z",
+        "url": "https://github.com/glauberfrancodesign/francolabs-mcp"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-dinequickly-gphub",
+  "title": "Good Peeps Hub",
+  "description": "Good Peeps retail-media data spine: clients, warehouse performance, meetings, agents. Team only.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gphub.app/mcp"
+    }
+  ],
+  "websiteUrl": "https://gphub.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Good Peeps Hub",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "dinequickly"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-23T22:36:27.924665Z",
+        "upstreamUpdatedAt": "2026-07-23T22:36:27.924665Z",
+        "verifiedAt": "2026-08-05T02:04:01+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Not connected to GP Hub. Configure the Authorization header with your GP Hub MCP token."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

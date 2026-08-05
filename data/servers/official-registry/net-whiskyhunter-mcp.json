@@ -1,0 +1,56 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/net-whiskyhunter-mcp",
+  "title": "Whisky Hunter",
+  "description": "Whisky auction market data: past and live lots, prices, distillery stats and retail listings.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whiskyhunter.net/mcp/",
+      "headers": [
+        {
+          "description": "Bearer <token>: MCP API token (wh_mcp_...) generated in your Whisky Hunter profile. Connection guide: https://whiskyhunter.net/mcp/docs/",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://whiskyhunter.net/mcp/docs/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Whisky Hunter",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "whiskyhunter"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-19T09:42:06.683388Z",
+        "upstreamUpdatedAt": "2026-07-19T09:42:06.683388Z",
+        "verifiedAt": "2026-08-05T02:04:49+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer <token>: MCP API token (wh_mcp_...) generated in your Whisky Hunter profile. Connection guide: https://whiskyhunter.net/mcp/docs/",
+          "server_message": "Authentication credentials were not provided"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/net-singular-mcp-server",
+  "description": "Marketing intelligence MCP server providing campaign performance data and analytics tools.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://mcp.singular.net/mcp-server/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.singular.net/mcp-server/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "singular"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2025-09-25T09:51:48.507426Z",
+        "upstreamUpdatedAt": "2025-09-25T09:51:48.507426Z",
+        "verifiedAt": "2026-08-05T02:04:49+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

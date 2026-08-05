@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-design-smith-muntuai-mcp",
+  "title": "MuntuAI",
+  "description": "Hosted MCP server for MuntuAI outreach campaigns, leads, senders, domains, and analytics.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.muntuai.com/api/mcp",
+      "headers": [
+        {
+          "description": "Bearer token in the format: Bearer mnt_<keyId>.<secret>. Create an agent key in MuntuAI Settings -> Agent Keys.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "MuntuAI",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "design-smith"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-09T23:28:11.473348Z",
+        "upstreamUpdatedAt": "2026-05-09T23:28:11.473348Z",
+        "verifiedAt": "2026-08-05T02:04:00+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token in the format: Bearer mnt_<keyId>.<secret>. Create an agent key in MuntuAI Settings -> Agent Keys."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-25T02:17:08Z",
+        "url": "https://github.com/design-smith/MuntuAI-MCP"
+      }
+    }
+  }
+}

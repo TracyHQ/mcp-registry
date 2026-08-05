@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/app-miniaccountant-mini-accountant",
+  "title": "Mini Accountant",
+  "description": "Hosted MCP server for Mini Accountant: invoices, expenses, customers, analytics, tax estimates.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.miniaccountant.app/v1beta"
+    }
+  ],
+  "websiteUrl": "https://ad.miniaccountant.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Mini Accountant",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "miniaccountant"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-03T19:05:40.203146Z",
+        "upstreamUpdatedAt": "2026-08-03T19:05:40.203146Z",
+        "verifiedAt": "2026-08-05T02:02:26+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments",
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-08-03T19:07:21Z",
+        "url": "https://github.com/miniaccountant/mcp-setup"
+      }
+    }
+  }
+}

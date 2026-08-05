@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-soondoobu1111-star-percept",
+  "title": "Perceptdot",
+  "description": "B2A2H platform — tracks GA4, Vercel deployments, GitHub workflows with AI-powered ROI analytics.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.perceptdot.com/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Perceptdot",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "soondoobu1111-star"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-01T06:11:44.051744Z",
+        "upstreamUpdatedAt": "2026-06-01T06:11:44.051744Z",
+        "verifiedAt": "2026-08-05T02:04:32+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 1,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

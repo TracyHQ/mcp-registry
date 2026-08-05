@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ai-craneledger-crane-ledger",
+  "title": "Crane Ledger",
+  "description": "Headless API-first double-entry accounting & bookkeeping engine. 84 MCP tools over HTTP.",
+  "version": "0.1.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.craneledger.ai/mcp",
+      "headers": [
+        {
+          "description": "Bearer key (ha_live_... or ha_test_...). Org scope is derived from the key — no organization_id needed. Get 500 free credits at https://craneledger.ai/auth/signin",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://craneledger.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Crane Ledger",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "craneledger"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-25T16:03:19.605397Z",
+        "upstreamUpdatedAt": "2026-06-25T16:03:19.605397Z",
+        "verifiedAt": "2026-08-05T02:02:18+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer key (ha_live_... or ha_test_...). Org scope is derived from the key — no organization_id needed. Get 500 free credits at https://craneledger.ai/auth/signin"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

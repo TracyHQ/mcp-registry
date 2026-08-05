@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-shabsi7700-proppely",
+  "title": "Proppely",
+  "description": "Governed property-management MCP: portfolio, leasing, accounting, maintenance, OAuth 2.1.",
+  "version": "0.2.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.proppely.com/api/v1/mcp"
+    }
+  ],
+  "websiteUrl": "https://proppely.com/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Proppely",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "shabsi7700"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-13T18:58:09.866161Z",
+        "upstreamUpdatedAt": "2026-07-13T18:58:09.866161Z",
+        "verifiedAt": "2026-08-05T02:04:30+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

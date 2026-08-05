@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/space-syntheticuserlab-syntheticuserlab-mcp",
+  "title": "SyntheticUser Lab MCP",
+  "description": "Paid remote MCP for synthetic user testing, UX validation, analytics, checkout, and readiness.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://syntheticuserlab.space/mcp",
+      "headers": [
+        {
+          "description": "Bearer token issued after checkout and MCP token claim.",
+          "isRequired": true,
+          "isSecret": true,
+          "placeholder": "Bearer <token>",
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://syntheticuserlab.space/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "SyntheticUser Lab MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "syntheticuserlab"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-17T19:04:21.312101Z",
+        "upstreamUpdatedAt": "2026-05-17T19:04:21.312101Z",
+        "verifiedAt": "2026-08-05T02:04:55+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token issued after checkout and MCP token claim.",
+          "server_message": "Unauthorized MCP request."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments",
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

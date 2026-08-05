@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-healthai-radar",
+  "title": "Constat MCP — FDA Device Evidence Lifecycle",
+  "description": "FDA and CMS evidence for AI medical devices: 510(k), postmarket, reimbursement, and compliance.",
+  "version": "0.5.3",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://constat.dev/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://constat.dev/connect",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Constat MCP — FDA Device Evidence Lifecycle",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "healthai-hq"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-30T03:24:08.805083Z",
+        "upstreamUpdatedAt": "2026-07-30T03:24:08.805083Z",
+        "verifiedAt": "2026-08-05T02:02:47+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 14,
+        "readWriteSummary": {
+          "read": 8,
+          "write": 0,
+          "unknown": 6
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

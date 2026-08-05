@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/de-fakturai-erechnung",
+  "title": "Fakturai — German E-Invoice (ZUGFeRD / Factur-X / E-Rechnung)",
+  "description": "KoSIT-verified German e-invoices: generate & validate ZUGFeRD, Factur-X, XRechnung, EN 16931.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fakturai.de/mcp"
+    }
+  ],
+  "websiteUrl": "https://fakturai.de",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Fakturai — German E-Invoice (ZUGFeRD / Factur-X / E-Rechnung)",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "fakturai"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-17T13:59:59.814249Z",
+        "upstreamUpdatedAt": "2026-06-17T13:59:59.814249Z",
+        "verifiedAt": "2026-08-05T02:03:06+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 1,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

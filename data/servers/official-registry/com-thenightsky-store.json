@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-thenightsky-store",
+  "description": "Design custom star maps and engraved jewellery in chat; checkout finishes on thenightsky.com.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.thenightsky.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.thenightsky.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "thenightsky"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-21T19:10:34.180941Z",
+        "upstreamUpdatedAt": "2026-07-21T19:10:34.180941Z",
+        "verifiedAt": "2026-08-05T02:03:02+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized — OAuth 2.1 bearer token required"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

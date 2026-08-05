@@ -1,0 +1,48 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-shamsuzzaman1-syncmetrics",
+  "description": "Ask Claude about your ads: Meta, Google, TikTok, LinkedIn, GA4 & Shopify. No AI credits.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.syncmetrics.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://syncmetrics.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "shamsuzzaman1"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-10T07:01:37.779514Z",
+        "upstreamUpdatedAt": "2026-07-10T07:01:37.779514Z",
+        "verifiedAt": "2026-08-05T02:04:31+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-10T07:00:43Z",
+        "url": "https://github.com/shamsuzzaman1/syncmetrics-mcp"
+      }
+    }
+  }
+}

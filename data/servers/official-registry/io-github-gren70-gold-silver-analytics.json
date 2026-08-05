@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-gren70-gold-silver-analytics",
+  "description": "Analytical Re-Rate (RR) Scores + 9-factor breakdowns on ~300 junior precious-metals miners.",
+  "version": "0.1.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gold-silver-analytics-mcp-production.up.railway.app/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Gren70"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-05T15:32:06.334126Z",
+        "upstreamUpdatedAt": "2026-07-05T15:32:06.334126Z",
+        "verifiedAt": "2026-08-04T11:15:28+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

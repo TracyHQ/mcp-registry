@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-jasoncolapietro-agentic-commerce-catalog",
+  "description": "AI music, video, image, and voice tools callable by agents with USDC payments via x402 on Base.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.suedeai.ai/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://app.suedeai.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Suede-AI"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-27T16:09:20.127696Z",
+        "upstreamUpdatedAt": "2026-05-27T16:09:20.127696Z",
+        "verifiedAt": "2026-08-05T02:03:43+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 1,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-bolotstudio-store",
+  "description": "Custom metal-print storefront: catalog search, product details, shipping, reviews. Read-only.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bolotstudio.com/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://bolotstudio.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "bolotstudio"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-02T17:47:52.682204Z",
+        "upstreamUpdatedAt": "2026-07-02T17:47:52.682204Z",
+        "verifiedAt": "2026-08-05T02:02:39+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 11,
+        "readWriteSummary": {
+          "read": 11,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

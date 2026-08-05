@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/dev-postlake-social",
+  "title": "PostLake",
+  "description": "Post, schedule and read analytics on X, LinkedIn, Instagram, TikTok, YouTube, Bluesky and more.",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.postlake.dev/mcp"
+    }
+  ],
+  "websiteUrl": "https://postlake.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "PostLake",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "postlake"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-25T01:19:01.539104Z",
+        "upstreamUpdatedAt": "2026-07-25T01:19:01.539104Z",
+        "verifiedAt": "2026-08-05T02:03:09+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-25T01:08:57Z",
+        "url": "https://github.com/PostLake/postlake-mcp"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-endlss-endlss-mcp-server",
+  "title": "Endlss",
+  "description": "Manage Endlss ambassador programs: sellers, offers, invites, messaging, and analytics.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.endlss.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://endlss.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Endlss",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "endlss"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-29T18:19:10.043635Z",
+        "upstreamUpdatedAt": "2026-06-29T18:19:10.043635Z",
+        "verifiedAt": "2026-08-05T02:03:14+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-arseniigruzdev-index-now-ru",
+  "title": "Index-Now.ru",
+  "description": "Отправка URL, статусы, Sitemap и SEO-аудит через облачный API Index-Now.ru.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://index-now.ru/mcp",
+      "headers": [
+        {
+          "description": "Bearer API-ключ Index-Now.ru",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Index-Now.ru",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "arseniigruzdev"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-27T11:31:35.589887Z",
+        "upstreamUpdatedAt": "2026-07-27T11:31:35.589887Z",
+        "verifiedAt": "2026-08-05T02:03:56+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer API-ключ Index-Now.ru"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-27T11:30:32Z",
+        "url": "https://github.com/arseniigruzdev/index-now-ru-mcp"
+      }
+    }
+  }
+}

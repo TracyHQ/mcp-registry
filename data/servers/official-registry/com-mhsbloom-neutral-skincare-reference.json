@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-mhsbloom-neutral-skincare-reference",
+  "description": "Neutral, payment-blind reference of 1,682 dermacosmetic products: lookup, search, alternatives.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://europe-west3-mhs-bloom.cloudfunctions.net/bloomMcp"
+    }
+  ],
+  "websiteUrl": "https://mhsbloom.com/mcp/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "mhsbloom"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-17T18:58:27.652429Z",
+        "upstreamUpdatedAt": "2026-07-17T18:58:27.652429Z",
+        "verifiedAt": "2026-08-05T02:02:52+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

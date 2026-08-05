@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-namefi-mcp",
+  "title": "Namefi",
+  "description": "Search, buy, and manage domains, DNS records, orders, and NFSC balance on Namefi.",
+  "version": "3.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.namefi.io/mcp",
+      "headers": [
+        {
+          "description": "Namefi API key, created at https://namefi.io/api-key. Optional: instead of a key, clients can sign in with OAuth 2.1 (authorization code + PKCE, dynamic client registration), which this server advertises via RFC 9728 metadata on a 401. Every request must be authenticated by one method or the other — there is no anonymous access, including for read-only availability and pricing lookups.",
+          "isSecret": true,
+          "name": "X-API-Key"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://namefi.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Namefi",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "namefi"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-03T12:21:48.937851Z",
+        "upstreamUpdatedAt": "2026-08-03T12:21:48.937851Z",
+        "verifiedAt": "2026-08-05T02:04:41+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "X-API-Key"
+          ],
+          "hint": "Namefi API key, created at https://namefi.io/api-key. Optional: instead of a key, clients can sign in with OAuth 2.1 (authorization code + PKCE, dynamic client registration), which this server advertises via RFC 9728 metadata on a 401. Every request must be authenticated by one method or the other — there is no anonymous access, including for read-only availability and pricing lookups."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

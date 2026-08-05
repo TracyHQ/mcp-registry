@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/com-rivalsweeper-signals",
+  "description": "Beta. Pay-per-call eCommerce competitive intel: pricing, promotions, history, AI-readiness.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.rivalsweeper.com/mcp",
+      "headers": [
+        {
+          "description": "Bearer rsk_... Signals API key. Get one at https://www.rivalsweeper.com/solutions/signals-api (unauthenticated initialize/tools-list allowed for discovery).",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.rivalsweeper.com/solutions/signals-api",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "rivalsweeper"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-23T11:34:30.398924Z",
+        "upstreamUpdatedAt": "2026-07-23T11:34:30.398924Z",
+        "verifiedAt": "2026-08-05T02:02:57+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 6,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

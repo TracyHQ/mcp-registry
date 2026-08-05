@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-merlonix-monitoring",
+  "title": "Merlonix Monitoring",
+  "description": "Monitoring for agencies — uptime, SSL, DNS, AI visibility, MCP health. 6 public tools, no auth.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.merlonix.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://merlonix.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Merlonix Monitoring",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "merlonix"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-03T13:57:08.664421Z",
+        "upstreamUpdatedAt": "2026-08-03T13:57:08.664421Z",
+        "verifiedAt": "2026-08-05T02:02:52+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 16,
+        "readWriteSummary": {
+          "read": 12,
+          "write": 3,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

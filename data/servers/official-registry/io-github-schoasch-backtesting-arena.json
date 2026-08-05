@@ -1,0 +1,56 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-schoasch-backtesting-arena",
+  "description": "Crypto backtesting & Bitcoin cycle analytics. Point-in-time, DSR-corrected, look-ahead-aware.",
+  "version": "1.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tradingstrategies.work/api/mcp",
+      "headers": [
+        {
+          "description": "Bearer <API key> — get a free key at https://tradingstrategies.work/dashboard/account/api-keys (or use claude.ai one-click OAuth)",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Schoasch"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-13T13:37:57.435889Z",
+        "upstreamUpdatedAt": "2026-07-13T13:37:57.435889Z",
+        "verifiedAt": "2026-08-05T02:03:50+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 74,
+        "readWriteSummary": {
+          "read": 63,
+          "write": 5,
+          "unknown": 6
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-25T14:37:59Z",
+        "url": "https://github.com/Schoasch/skill-backtesting-arena"
+      }
+    }
+  }
+}

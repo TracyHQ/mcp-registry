@@ -1,0 +1,90 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-itcons-app-mcp",
+  "title": "Itcons.app",
+  "description": "Connect AI assistants to Itcons.app work orders, reports, projects, users, and resources.",
+  "version": "0.5.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.itcons.app/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://mcp.itcons.app/sse"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@itcons-app/mcp",
+      "version": "0.5.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Itcons.app tenant domain, for example 'demo' for https://demo.itcons.app.",
+          "isRequired": true,
+          "format": "string",
+          "name": "ITCONS_DOMAIN"
+        },
+        {
+          "description": "Itcons.app username or email for local stdio usage.",
+          "format": "string",
+          "name": "ITCONS_USERNAME"
+        },
+        {
+          "description": "Itcons.app password for local stdio usage.",
+          "format": "string",
+          "isSecret": true,
+          "name": "ITCONS_PASSWORD"
+        },
+        {
+          "description": "Existing Itcons.app bearer token. Can be used instead of username and password.",
+          "format": "string",
+          "isSecret": true,
+          "name": "ITCONS_TOKEN"
+        },
+        {
+          "description": "Timezone used for date-based queries.",
+          "format": "string",
+          "default": "Europe/Madrid",
+          "name": "ITCONS_TIMEZONE"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Itcons.app",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "itcons-app"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-21T11:42:39.419518Z",
+        "upstreamUpdatedAt": "2026-04-21T11:42:39.419518Z",
+        "verifiedAt": "2026-08-05T02:04:06+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-05-10T20:02:57Z",
+        "url": "https://github.com/itcons-app/mcp"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-cwjgege-genflowai",
+  "title": "GenflowAI",
+  "description": "Run GenflowAI templates and AI creative workflows for ecommerce visuals, UGC ads, and videos.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.genflowai.io/mcp",
+      "headers": [
+        {
+          "description": "Optional. Use Bearer <GENFLOWAI_API_KEY> for private saved workflows, asset uploads, template/workflow runs, and async result polling. Public template discovery works without this header.",
+          "isSecret": true,
+          "name": "Authorization"
+        },
+        {
+          "description": "Optional GenflowAI API key alternative for clients that do not support Authorization bearer headers.",
+          "isSecret": true,
+          "name": "x-api-key"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "GenflowAI",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "cwjgege"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-29T04:35:39.150256Z",
+        "upstreamUpdatedAt": "2026-06-29T04:35:39.150256Z",
+        "verifiedAt": "2026-08-05T02:03:58+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization",
+            "x-api-key"
+          ],
+          "hint": "Optional. Use Bearer <GENFLOWAI_API_KEY> for private saved workflows, asset uploads, template/workflow runs, and async result polling. Public template discovery works without this header."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-06-29T04:06:10Z",
+        "url": "https://github.com/cwjgege/genflowai-codex-plugin"
+      }
+    }
+  }
+}

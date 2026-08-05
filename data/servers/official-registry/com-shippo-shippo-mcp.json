@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-shippo-shippo-mcp",
+  "title": "Shippo",
+  "description": "Multi-carrier shipping for AI agents: compare rates, buy labels, track packages, validate addresses",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.shippo.com"
+    }
+  ],
+  "websiteUrl": "https://docs.goshippo.com/docs/Guides_general/MCPServer",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Shippo",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "goshippo"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-10T15:13:39.638011Z",
+        "upstreamUpdatedAt": "2026-07-10T15:13:39.638011Z",
+        "verifiedAt": "2026-08-05T02:02:59+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Missing Bearer token"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-24T14:54:02Z",
+        "url": "https://github.com/goshippo/ai"
+      }
+    }
+  }
+}

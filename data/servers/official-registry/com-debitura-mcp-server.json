@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-debitura-mcp-server",
+  "description": "Cross-border debt collection: submit and track cases handled by local partners in 183 countries.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.debitura.com/mcp",
+      "headers": [
+        {
+          "description": "Your Debitura API key. Create one at https://app.debitura.com/CreditorApiKey",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "XApiKey"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.debitura.com/integration/mcp-server",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "debitura"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-23T08:36:20.838898Z",
+        "upstreamUpdatedAt": "2026-06-23T08:36:20.838898Z",
+        "verifiedAt": "2026-08-05T02:02:42+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 16,
+        "readWriteSummary": {
+          "read": 13,
+          "write": 3,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-08-02T09:06:01Z",
+        "url": "https://github.com/debitura/Debitura.MCP"
+      }
+    }
+  }
+}

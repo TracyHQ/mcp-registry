@@ -1,0 +1,56 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/cloud-metrifyr-mcp",
+  "title": "Metrifyr",
+  "description": "SEO & marketing toolkit for AI agents: GA4, Search Console, AdSense, GTM, PageSpeed, Trends.",
+  "version": "2.36.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.metrifyr.cloud/mcp",
+      "headers": [
+        {
+          "description": "Bearer token — an OAuth 2.1 access token obtained via the server's authorization flow (dynamic client registration supported). Connect your account at https://www.metrifyr.cloud/",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.metrifyr.cloud/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Metrifyr",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "metrifyr"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-03T05:22:50.786175Z",
+        "upstreamUpdatedAt": "2026-08-03T05:22:50.786175Z",
+        "verifiedAt": "2026-08-05T02:02:31+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token — an OAuth 2.1 access token obtained via the server's authorization flow (dynamic client registration supported). Connect your account at https://www.metrifyr.cloud/",
+          "server_message": "Your Metrifyr session is missing, expired, or invalid. In Claude, open Settings → Connectors and reconnect Metrifyr to sign in again."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

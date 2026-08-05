@@ -1,0 +1,98 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-apideck-mcp",
+  "description": "Apideck Unified API MCP — 330 tools across 200+ SaaS connectors (accounting, CRM, HRIS, ATS).",
+  "version": "0.1.13",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apideck.dev/mcp",
+      "headers": [
+        {
+          "description": "Your Apideck API key.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "x-apideck-api-key"
+        },
+        {
+          "description": "Your Apideck application ID.",
+          "isRequired": true,
+          "name": "x-apideck-app-id"
+        },
+        {
+          "description": "The end-user/customer ID whose Vault connections should be used.",
+          "isRequired": true,
+          "name": "x-apideck-consumer-id"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@apideck/mcp",
+      "version": "0.1.13",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Apideck API key (from https://platform.apideck.com/configuration/api-keys).",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "APIDECK_API_KEY"
+        },
+        {
+          "description": "Your Apideck application ID (from https://platform.apideck.com/configuration/api-keys).",
+          "isRequired": true,
+          "name": "APIDECK_APP_ID"
+        },
+        {
+          "description": "The end-user/customer ID whose Vault connections should be used.",
+          "isRequired": true,
+          "name": "APIDECK_CONSUMER_ID"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.apideck.com/mcp-server",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "apideck-libraries"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-25T07:54:53.765783Z",
+        "upstreamUpdatedAt": "2026-04-25T07:54:53.765783Z",
+        "verifiedAt": "2026-08-05T02:02:36+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 3,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 15,
+        "pushed_at": "2026-08-02T00:10:56Z",
+        "url": "https://github.com/apideck-libraries/mcp"
+      }
+    }
+  }
+}

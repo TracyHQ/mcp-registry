@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-acjlabs-catalog-normalizer",
+  "title": "Catalog Attribute Normalizer",
+  "description": "Catalog attribute normalizer, taxonomy-grounded — no fabricated Google/Shopify category IDs.",
+  "version": "0.1.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://catalog-normalizer.acjlabs.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://acjlabs.com/products",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Catalog Attribute Normalizer",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "acjlabs"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T00:59:22.496324Z",
+        "upstreamUpdatedAt": "2026-07-31T00:59:22.496324Z",
+        "verifiedAt": "2026-08-05T02:02:32+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 1,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-08-02T00:33:59Z",
+        "url": "https://github.com/ACJLabs/catalog-normalizer"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/dev-goodbarber-goodbarber-public-mcp",
+  "description": "Manage your GoodBarber eCommerce, Community, and Membership app via natural language.",
+  "version": "1.2.0",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://mcp.goodbarber.dev/mcp/sse"
+    }
+  ],
+  "websiteUrl": "https://www.goodbarber.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "goodbarber"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-01T14:43:37.04613Z",
+        "upstreamUpdatedAt": "2026-06-01T14:43:37.04613Z",
+        "verifiedAt": "2026-08-05T02:03:07+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-06-03T11:44:05Z",
+        "url": "https://github.com/goodbarber/goodbarber-skills"
+      }
+    }
+  }
+}

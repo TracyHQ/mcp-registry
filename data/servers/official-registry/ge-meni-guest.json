@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/ge-meni-guest",
+  "description": "Guest API for meni.ge restaurants: browse menus, place orders, reserve tables. No auth needed.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.meni.ge/llm/mcp"
+    }
+  ],
+  "websiteUrl": "https://meni.ge/docs/llm-api",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "meni"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-12T20:10:05.166787Z",
+        "upstreamUpdatedAt": "2026-06-12T20:10:05.166787Z",
+        "verifiedAt": "2026-08-05T02:03:11+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 9,
+        "readWriteSummary": {
+          "read": 6,
+          "write": 3,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

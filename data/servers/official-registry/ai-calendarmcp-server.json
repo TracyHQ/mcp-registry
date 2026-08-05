@@ -1,0 +1,60 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ai-calendarmcp-server",
+  "title": "CalendarMCP",
+  "description": "Hosted Google Calendar MCP server for AI agents. No self-hosting or Google Cloud setup.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://calendarmcp.ai/api/mcp",
+      "headers": [
+        {
+          "description": "Bearer token. Get yours at https://calendarmcp.ai/dashboard",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://calendarmcp.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "CalendarMCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Full-Vibe"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-20T07:09:04.298867Z",
+        "upstreamUpdatedAt": "2026-05-20T07:09:04.298867Z",
+        "verifiedAt": "2026-08-05T02:02:18+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token. Get yours at https://calendarmcp.ai/dashboard"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-07T18:12:00Z",
+        "url": "https://github.com/Full-Vibe/calendarmcp-public"
+      }
+    }
+  }
+}

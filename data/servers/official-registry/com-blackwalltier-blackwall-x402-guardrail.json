@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-blackwalltier-blackwall-x402-guardrail",
+  "description": "Pre-signature x402 payment verdict (GO/HOLD/STOP) for AI agents, with a verifiable signed receipt.",
+  "version": "0.1.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.blackwalltier.com"
+    }
+  ],
+  "websiteUrl": "https://blackwalltier.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "bluetieroperations-create"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-08T03:00:54.394849Z",
+        "upstreamUpdatedAt": "2026-07-08T03:00:54.394849Z",
+        "verifiedAt": "2026-08-05T02:02:38+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 1,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-08T03:00:20Z",
+        "url": "https://github.com/bluetieroperations-create/blackwall-mcp-remote"
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-lazymac2x-smart-data-extractor",
+  "description": "smart-data-extractor MCP server on Cloudflare Workers · REST + MCP JSON-RPC · free tier",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lazy-mac.com/smart-data-extractor/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "lazymac-mcp-smart-data-extractor",
+      "version": "1.0.0",
+      "transport": {
+        "type": "streamable-http",
+        "url": "https://api.lazy-mac.com/smart-data-extractor/mcp"
+      }
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lazymac2x"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-17T12:55:36.083386Z",
+        "upstreamUpdatedAt": "2026-05-17T12:55:36.083386Z",
+        "verifiedAt": "2026-08-05T02:04:14+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 0,
+          "unknown": 4
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-05-17T04:04:39Z",
+        "url": "https://github.com/lazymac2x/smart-data-extractor-worker"
+      }
+    }
+  }
+}

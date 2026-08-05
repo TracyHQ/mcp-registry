@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-getboxkite-xero-backup-export",
+  "title": "Boxkite — Xero Backup & Export",
+  "description": "Complete read-only backup and export of Xero accounting data as a ZIP plus a manifest.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.getboxkite.com/mcp",
+      "headers": [
+        {
+          "description": "Optional. The server supports OAuth, so most clients need no key: connect and you will be sent to Boxkite to sign in and approve access. Supply a key here only if your client cannot do OAuth. Keys come from app.getboxkite.com/settings/api-keys; send the raw key with no prefix.",
+          "isSecret": true,
+          "name": "X-API-Key"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.getboxkite.com/agents",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Boxkite — Xero Backup & Export",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "getboxkite"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T04:05:58.310817Z",
+        "upstreamUpdatedAt": "2026-07-31T04:05:58.310817Z",
+        "verifiedAt": "2026-08-05T02:02:45+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 6,
+          "write": 1,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/no-restplass-travel-search",
+  "title": "Restplass travel search",
+  "description": "Realtime package holiday and charter flight prices from Norway. Inventory not on Google Flights.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.restplass.no/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.restplass.no/api",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Restplass travel search",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "restplass"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-16T12:55:07.785016Z",
+        "upstreamUpdatedAt": "2026-07-16T12:55:07.785016Z",
+        "verifiedAt": "2026-08-05T02:04:50+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 2,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

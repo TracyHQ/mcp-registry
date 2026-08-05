@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-lazymac2x-agent-trace-auditor",
+  "description": "Cloudflare Workers MCP server: agent-trace-auditor",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lazy-mac.com/agent-trace-auditor/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lazymac2x"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-16T11:51:42.91421Z",
+        "upstreamUpdatedAt": "2026-05-16T11:51:42.91421Z",
+        "verifiedAt": "2026-08-05T02:04:10+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 0,
+          "unknown": 3
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-05-17T02:57:12Z",
+        "url": "https://github.com/lazymac2x/agent-trace-auditor-api"
+      }
+    }
+  }
+}

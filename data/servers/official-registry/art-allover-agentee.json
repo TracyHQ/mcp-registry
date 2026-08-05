@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/art-allover-agentee",
+  "description": "Shop all-over print cotton tees with your AI agent: search, cart, promos, checkout. Human pays.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://allover.art/mcp"
+    }
+  ],
+  "websiteUrl": "https://allover.art/agentee",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "allover"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-15T15:27:17.530738Z",
+        "upstreamUpdatedAt": "2026-07-15T15:27:17.530738Z",
+        "verifiedAt": "2026-08-05T02:02:28+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 31,
+        "readWriteSummary": {
+          "read": 17,
+          "write": 8,
+          "unknown": 6
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

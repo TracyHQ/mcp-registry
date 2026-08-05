@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-unstoppabledomains-mcp-server",
+  "title": "Unstoppable Domains",
+  "description": "Domain search, registration, DNS, marketplace, and checkout with your AI agent.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.unstoppabledomains.com/mcp/v1/"
+    }
+  ],
+  "websiteUrl": "https://unstoppabledomains.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Unstoppable Domains",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "unstoppabledomains"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-03T18:15:11.348217Z",
+        "upstreamUpdatedAt": "2026-06-03T18:15:11.348217Z",
+        "verifiedAt": "2026-08-05T02:03:03+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments",
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-06-03T15:52:23Z",
+        "url": "https://github.com/unstoppabledomains/unstoppable-mcp-server"
+      }
+    }
+  }
+}

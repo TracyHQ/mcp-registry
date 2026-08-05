@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-toughtongueai-mcp",
+  "title": "ToughTongue AI",
+  "description": "Create voice-agent scenarios, pull session analytics, place SIP calls, schedule meeting bots.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.toughtongueai.com/api/public/mcp"
+    }
+  ],
+  "websiteUrl": "https://app.toughtongueai.com/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "ToughTongue AI",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "tough-tongue"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-21T19:30:29.216668Z",
+        "upstreamUpdatedAt": "2026-07-21T19:30:29.216668Z",
+        "verifiedAt": "2026-08-05T02:03:03+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 5,
+        "pushed_at": "2026-07-26T18:11:10Z",
+        "url": "https://github.com/tough-tongue/toughtongue-skills"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/red-atlas-red-atlas-api",
+  "description": "Puerto Rico & Colombia real estate: listings, sales, parcels, permits, analytics, AVM reports.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://apiv3.atlas.red/external-api/v1/mcp"
+    }
+  ],
+  "websiteUrl": "https://api.atlas.red",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "atlas"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-28T19:43:30.574088Z",
+        "upstreamUpdatedAt": "2026-07-28T19:43:30.574088Z",
+        "verifiedAt": "2026-08-05T02:04:52+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

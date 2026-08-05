@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-ontarioprotocol-ontario-protocol",
+  "title": "Ontario Protocol",
+  "description": "Verify x402 endpoints before payment or publish service profiles for agent discovery.",
+  "version": "1.0.3",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ontarioprotocol.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://ontarioprotocol.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Ontario Protocol",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "thom899g"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T00:09:37.644051Z",
+        "upstreamUpdatedAt": "2026-07-31T00:09:37.644051Z",
+        "verifiedAt": "2026-08-05T02:02:55+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 8,
+        "readWriteSummary": {
+          "read": 6,
+          "write": 0,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

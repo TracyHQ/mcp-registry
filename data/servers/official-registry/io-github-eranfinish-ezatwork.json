@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-eranfinish-ezatwork",
+  "title": "EZ@Work",
+  "description": "Manage clients, projects, time, and invoices in EZ@Work — business management for freelancers.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ezatwork.com/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "EZ@Work",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "eranfinish"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-17T10:50:19.324113Z",
+        "upstreamUpdatedAt": "2026-06-17T10:50:19.324113Z",
+        "verifiedAt": "2026-08-05T02:04:02+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-19T11:44:00Z",
+        "url": "https://github.com/eranfinish/ezatwork-mcp"
+      }
+    }
+  }
+}

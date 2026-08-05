@@ -1,0 +1,66 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-shulex-voc-smart-crawler",
+  "description": "E-commerce competitor intelligence, VOC sentiment, Amazon ASIN analysis, Reddit growth playbooks.",
+  "version": "0.2.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://smartcrawler.io/mcp/",
+      "headers": [
+        {
+          "description": "API Key in the form 'Bearer sck_...'. Generate a key in the smart-crawler console under 'API 接入'.",
+          "isRequired": true,
+          "value": "Bearer {api_key}",
+          "isSecret": true,
+          "variables": {
+            "api_key": {
+              "description": "smart-crawler API key, prefixed with sck_",
+              "isRequired": true,
+              "format": "string",
+              "isSecret": true
+            }
+          },
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "shulex-voc"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-08T10:43:58.949101Z",
+        "upstreamUpdatedAt": "2026-06-08T10:43:58.949101Z",
+        "verifiedAt": "2026-08-05T02:04:31+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "API Key in the form 'Bearer sck_...'. Generate a key in the smart-crawler console under 'API 接入'."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-08T10:04:12Z",
+        "url": "https://github.com/shulex-voc/smart-crawler"
+      }
+    }
+  }
+}

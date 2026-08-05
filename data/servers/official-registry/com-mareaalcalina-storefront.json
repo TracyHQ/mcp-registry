@@ -1,0 +1,56 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-mareaalcalina-storefront",
+  "title": "Marea — Storefront Backend for Agents",
+  "description": "Hosted storefront backend for AI agents: products, cart, Stripe + PayPal, delivery, order tracking.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mareaalcalina.com/mcp",
+      "headers": [
+        {
+          "description": "Bearer mk_dev_* (developer key) or mk_user_* (user key). Issue one at https://mareaalcalina.com/developers/keys after sign-up.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Marea — Storefront Backend for Agents",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "irvmar"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-14T00:28:27.178241Z",
+        "upstreamUpdatedAt": "2026-05-14T00:28:27.178241Z",
+        "verifiedAt": "2026-08-05T02:02:51+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer mk_dev_* (developer key) or mk_user_* (user key). Issue one at https://mareaalcalina.com/developers/keys after sign-up.",
+          "server_message": "Missing Authorization header. Pass `Authorization: Bearer mk_dev_…`, `Bearer mk_user_…`, or an OAuth `Bearer mat_live_…` token. OAuth discovery available via `WWW-Authenticate`."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

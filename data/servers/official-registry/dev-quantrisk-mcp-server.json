@@ -1,0 +1,70 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/dev-quantrisk-mcp-server",
+  "title": "QuantRisk",
+  "description": "Portfolio risk analytics — VaR, Monte Carlo, optimization, options Greeks, stress testing.",
+  "version": "1.0.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://quantrisk-mcp.quantrisk.workers.dev/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@quantrisk/mcp-server",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "API key from https://quantrisk.dev/upgrade. Optional — without one, requests run on the free tier (limited tools and call quotas).",
+          "isSecret": true,
+          "name": "QUANTRISK_API_KEY"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://quantrisk.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "QuantRisk",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "78degrees"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-09T21:53:30.280311Z",
+        "upstreamUpdatedAt": "2026-05-09T21:53:30.280311Z",
+        "verifiedAt": "2026-08-05T02:03:09+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 10,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 9
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-05-26T18:19:39Z",
+        "url": "https://github.com/78degrees/mcp-server"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/app-aiconduit-conduit",
+  "title": "Conduit Agentic Commerce",
+  "description": "Search multi-merchant supply, checkout, and track orders via MCP.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.aiconduit.app/mcp"
+    }
+  ],
+  "websiteUrl": "https://aiconduit.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Conduit Agentic Commerce",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "asmodeoux"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-26T00:29:53.168047Z",
+        "upstreamUpdatedAt": "2026-07-26T00:29:53.168047Z",
+        "verifiedAt": "2026-08-05T02:02:25+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 17,
+        "readWriteSummary": {
+          "read": 8,
+          "write": 4,
+          "unknown": 5
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

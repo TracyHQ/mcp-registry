@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-gluecron-gluecron",
+  "title": "Gluecron",
+  "description": "AI-native git hosting — repos, PRs, issues, CI gates, and AI code review over MCP (60 tools).",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gluecron.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://gluecron.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Gluecron",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "gluecron"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-14T06:35:08.1068Z",
+        "upstreamUpdatedAt": "2026-07-14T06:35:08.1068Z",
+        "verifiedAt": "2026-08-05T02:02:46+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 60,
+        "readWriteSummary": {
+          "read": 26,
+          "write": 14,
+          "unknown": 20
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

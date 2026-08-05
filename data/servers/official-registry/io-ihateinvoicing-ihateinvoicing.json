@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-ihateinvoicing-ihateinvoicing",
+  "title": "I Hate Invoicing",
+  "description": "Send invoices from Claude and ChatGPT. One sentence becomes a PDF with a Stripe payment link.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ihateinvoicing.io/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.ihateinvoicing.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "I Hate Invoicing",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ihateinvoicing"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-17T12:20:40.965543Z",
+        "upstreamUpdatedAt": "2026-07-17T12:20:40.965543Z",
+        "verifiedAt": "2026-08-05T02:04:39+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized: connect with OAuth"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

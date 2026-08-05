@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-timzinin-api-apify-market-intelligence",
+  "title": "Apify Market Intelligence",
+  "description": "Pay-per-call Apify Store analytics with free MCP discovery and x402 payments.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timzinin.com/mcp/apify-market-intelligence"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Apify Market Intelligence",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "timzinin"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-01T07:10:49.378704Z",
+        "upstreamUpdatedAt": "2026-08-01T07:10:49.378704Z",
+        "verifiedAt": "2026-08-05T02:03:03+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 6,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 0,
+          "unknown": 6
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments",
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

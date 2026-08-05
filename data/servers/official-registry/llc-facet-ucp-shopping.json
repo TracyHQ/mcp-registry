@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/llc-facet-ucp-shopping",
+  "title": "Facet UCP Shopping",
+  "description": "The independent agent-commerce protocol for AI-agent checkout on any online store.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.facet.llc/ucp/mcp",
+      "headers": [
+        {
+          "description": "Optional Facet KYA bearer, an ES256 JWT from the default issuer https://issuer.facet.llc (or another issuer advertised at /.well-known/agents.txt KYA-Issuers). Not required for tools/list or catalog discovery; required for gated tools/call, per the endpoint's agents.txt (MCP-Auth: kya-bearer).",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://facet.llc",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Facet UCP Shopping",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "facet"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-18T01:26:28.280027Z",
+        "upstreamUpdatedAt": "2026-07-18T01:26:28.280027Z",
+        "verifiedAt": "2026-08-05T02:04:47+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 9,
+        "readWriteSummary": {
+          "read": 8,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

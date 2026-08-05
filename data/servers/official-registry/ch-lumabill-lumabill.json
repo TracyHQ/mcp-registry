@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/ch-lumabill-lumabill",
+  "description": "Swiss invoicing and bookkeeping: QR-invoices, clients, expenses, bank import, VAT and reports.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.lumabill.ch/mcp"
+    }
+  ],
+  "websiteUrl": "https://lumabill.ch",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lumabill"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-06T08:36:07.304367Z",
+        "upstreamUpdatedAt": "2026-07-06T08:36:07.304367Z",
+        "verifiedAt": "2026-08-05T02:02:30+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

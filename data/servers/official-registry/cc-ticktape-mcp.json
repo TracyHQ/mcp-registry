@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/cc-ticktape-mcp",
+  "description": "Polymarket preflight verdicts: OK/CAUTION/VETO on orders, COPY/WATCH/VETO on wallets. x402-paid.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ticktape.cc/mcp"
+    }
+  ],
+  "websiteUrl": "https://ticktape.cc",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ticktape"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-15T00:47:04.26188Z",
+        "upstreamUpdatedAt": "2026-07-15T00:47:04.26188Z",
+        "verifiedAt": "2026-08-05T02:02:30+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 5,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

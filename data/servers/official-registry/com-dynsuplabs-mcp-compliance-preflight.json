@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-dynsuplabs-mcp-compliance-preflight",
+  "title": "MCP Compliance Preflight",
+  "description": "Scan an MCP server for EU AI Act Art. 50, tool quality, OAuth hygiene & security before shipping.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stream-4-mcp-compliance-preflight.dynsup.workers.dev/mcp",
+      "headers": [
+        {
+          "description": "Bearer token for API authentication (e.g. 'Bearer sk-...')",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://stream-4-mcp-compliance-preflight.dynsup.workers.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "MCP Compliance Preflight",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "dynsuplabs"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-07T00:16:36.469854Z",
+        "upstreamUpdatedAt": "2026-06-07T00:16:36.469854Z",
+        "verifiedAt": "2026-08-05T02:02:44+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token for API authentication (e.g. 'Bearer sk-...')"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

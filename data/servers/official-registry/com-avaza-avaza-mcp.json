@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-avaza-avaza-mcp",
+  "title": "Avaza",
+  "description": "Manage Avaza projects, tasks, timesheets, expenses, invoices, and scheduling from AI assistants.",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.avaza.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.avaza.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Avaza",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "avaza"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-25T20:42:58.855857Z",
+        "upstreamUpdatedAt": "2026-06-25T20:42:58.855857Z",
+        "verifiedAt": "2026-08-05T02:02:38+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

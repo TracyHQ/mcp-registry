@@ -1,0 +1,61 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-nikolife2016-pulsefeed-x402",
+  "description": "Verify x402 payment endpoints before an AI agent pays: scam scan, on-chain checks, trust scores.",
+  "version": "1.0.6",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pulsefeed.dev/mcp-server"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "pulsefeed-x402-mcp",
+      "version": "1.0.6",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "websiteUrl": "https://pulsefeed.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Nikolife2016"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T08:03:03.369565Z",
+        "upstreamUpdatedAt": "2026-07-31T08:03:03.369565Z",
+        "verifiedAt": "2026-08-05T02:03:46+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 10,
+        "readWriteSummary": {
+          "read": 10,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-08-04T23:40:00Z",
+        "url": "https://github.com/Nikolife2016/pulsefeed-x402"
+      }
+    }
+  }
+}

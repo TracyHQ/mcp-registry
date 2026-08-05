@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-lazymac2x-api-payload-auditor",
+  "description": "Cloudflare Workers MCP server: api-payload-auditor",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lazy-mac.com/api-payload-auditor/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lazymac2x"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-16T11:55:24.41392Z",
+        "upstreamUpdatedAt": "2026-05-16T11:55:24.41392Z",
+        "verifiedAt": "2026-08-05T02:04:12+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 3
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-04-25T16:03:08Z",
+        "url": "https://github.com/lazymac2x/api-payload-auditor-api"
+      }
+    }
+  }
+}

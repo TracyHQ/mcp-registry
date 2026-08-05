@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-dyndns-server-noon-ai-noonai-dis-mcp-server",
+  "title": "NoonAI DIS Automatic Face Blur/Redaction MCP",
+  "description": "YOLO auto-detects faces for image/video anonymization; face-only blur, body and plate masking.",
+  "version": "0.1.8",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://noon-ai.dyndns-server.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://noon-ai.dyndns-server.com/mcp-proof",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "NoonAI DIS Automatic Face Blur/Redaction MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "MHNCity"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-01T07:02:32.595654Z",
+        "upstreamUpdatedAt": "2026-06-01T07:02:32.595654Z",
+        "verifiedAt": "2026-08-04T11:15:21+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

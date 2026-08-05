@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-systemprompt-reports",
+  "title": "systemprompt.io reports",
+  "description": "Paid EU AI Act compliance reports for agents. $1.50 per call via x402 (USDC on Base) or Stripe.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://systemprompt.io/api/v1/mcp/systemprompt-reports/mcp"
+    }
+  ],
+  "websiteUrl": "https://systemprompt.io/tools/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "systemprompt.io reports",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "systemprompt"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-18T09:39:40.801661Z",
+        "upstreamUpdatedAt": "2026-07-18T09:39:40.801661Z",
+        "verifiedAt": "2026-08-05T02:04:43+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 2,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

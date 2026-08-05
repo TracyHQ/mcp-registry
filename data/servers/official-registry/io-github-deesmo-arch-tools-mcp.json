@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-deesmo-arch-tools-mcp",
+  "description": "63 production tools for AI agents — one API key, pay per call in USDC (x402) or Stripe credits.",
+  "version": "2.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://archtools.dev/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://arch-tools-mcp.onrender.com/sse"
+    }
+  ],
+  "websiteUrl": "https://archtools.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Deesmo"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-28T19:56:40.259775Z",
+        "upstreamUpdatedAt": "2026-07-28T19:56:40.259775Z",
+        "verifiedAt": "2026-08-05T02:03:41+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 63,
+        "readWriteSummary": {
+          "read": 16,
+          "write": 11,
+          "unknown": 36
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-08-04T19:02:55Z",
+        "url": "https://github.com/Deesmo/Arch-AI-Tools"
+      }
+    }
+  }
+}

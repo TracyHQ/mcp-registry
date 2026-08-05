@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-kwizzlesurp10-ctrl-x402-mcp",
+  "description": "Pay for HTTP APIs and charge for your own: x402 micropayments in USDC on Base.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://x402-mcp.onrender.com/mcp/mcp"
+    }
+  ],
+  "websiteUrl": "https://x402-mcp.onrender.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "kwizzlesurp10-ctrl"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-22T07:21:48.907868Z",
+        "upstreamUpdatedAt": "2026-07-22T07:21:48.907868Z",
+        "verifiedAt": "2026-08-05T02:04:08+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 16,
+        "readWriteSummary": {
+          "read": 8,
+          "write": 2,
+          "unknown": 6
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-08-05T01:25:37Z",
+        "url": "https://github.com/kwizzlesurp10-ctrl/x402-mcp"
+      }
+    }
+  }
+}

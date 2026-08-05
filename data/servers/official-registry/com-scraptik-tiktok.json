@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/com-scraptik-tiktok",
+  "description": "Unofficial TikTok API & scraper: creator analytics, video data, comments, search. x402, no API key.",
+  "version": "0.2.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.scraptik.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://scraptik.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "scraptik"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-13T11:03:11.861205Z",
+        "upstreamUpdatedAt": "2026-07-13T11:03:11.861205Z",
+        "verifiedAt": "2026-08-05T02:02:57+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 19,
+        "readWriteSummary": {
+          "read": 6,
+          "write": 0,
+          "unknown": 13
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

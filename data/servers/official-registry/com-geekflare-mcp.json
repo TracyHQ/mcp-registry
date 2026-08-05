@@ -1,0 +1,83 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-geekflare-mcp",
+  "description": "Geekflare MCP server for scraping, search, screenshots, broken links, DNS lookup, and network tools.",
+  "version": "0.3.6",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.geekflare.com/{API_KEY}/mcp",
+      "variables": {
+        "API_KEY": {
+          "description": "Your Geekflare API key",
+          "isRequired": true
+        }
+      }
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@geekflare/mcp",
+      "version": "0.3.5",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Geekflare API key",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "API_KEY"
+        }
+      ]
+    },
+    {
+      "registryType": "oci",
+      "identifier": "geekflarehq/geekflare-api-mcp:0.3.5",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Geekflare API key",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "API_KEY"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "geekflare"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-15T08:06:38.200631Z",
+        "upstreamUpdatedAt": "2026-06-15T08:06:38.200631Z",
+        "verifiedAt": "2026-08-05T02:02:45+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 20,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 1,
+          "unknown": 17
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

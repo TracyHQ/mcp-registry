@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-maxbeech-denialpath",
+  "title": "DenialPath",
+  "description": "Deterministic CMS NCCI/MUE claim scrubbing and CARC/RARC denial explanations, cited to source.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://denialpath.vercel.app/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://denialpath.vercel.app/developers/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "DenialPath",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "maxbeech"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-22T10:29:26.232094Z",
+        "upstreamUpdatedAt": "2026-07-22T10:29:26.232094Z",
+        "verifiedAt": "2026-08-05T02:04:16+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 6,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 1,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

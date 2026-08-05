@@ -1,0 +1,48 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+  "name": "official-registry/com-royalplugins-royal-mcp",
+  "description": "Security-first WordPress MCP server. 129 tools for Claude, ChatGPT, Gemini. Free on wp.org.",
+  "version": "1.4.34",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://demo.royalplugins.com/wp-json/royal-mcp/v1/mcp"
+    }
+  ],
+  "websiteUrl": "https://royalplugins.com/royal-mcp/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "royalplugins"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-10T01:30:43.264312Z",
+        "upstreamUpdatedAt": "2026-07-10T01:30:43.264312Z",
+        "verifiedAt": "2026-08-05T02:02:57+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Authentication required. Use Authorization: Bearer <token> or X-Royal-MCP-API-Key header."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 8,
+        "pushed_at": "2026-08-04T03:52:27Z",
+        "url": "https://github.com/royalplugins/royal-mcp"
+      }
+    }
+  }
+}

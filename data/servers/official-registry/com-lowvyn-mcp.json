@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-lowvyn-mcp",
+  "title": "Lowvyn",
+  "description": "Verify Canadian deals, find the same product cheaper across .ca retailers, track CAD price history.",
+  "version": "0.1.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lowvyn.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://lowvyn.com/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Lowvyn",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lowvyn"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-22T02:30:37.956837Z",
+        "upstreamUpdatedAt": "2026-06-22T02:30:37.956837Z",
+        "verifiedAt": "2026-08-05T02:02:51+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 7,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

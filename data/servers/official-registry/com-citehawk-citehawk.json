@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-citehawk-citehawk",
+  "title": "CiteHawk",
+  "description": "AI-search visibility (GEO) analytics: brand scores, competitor rankings, recommendations, evidence.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.citehawk.com/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.citehawk.com/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "CiteHawk",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "citehawk"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-10T12:27:25.931653Z",
+        "upstreamUpdatedAt": "2026-07-10T12:27:25.931653Z",
+        "verifiedAt": "2026-08-05T02:02:39+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

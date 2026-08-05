@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/com-jpyc-service-ec-storefront",
+  "description": "JPYC (JPY stablecoin) EC platform MCP: product search, x402 gasless checkout, order status.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ec.jpyc-service.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://ec.jpyc-service.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "jpyc-service"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-15T06:24:02.93828Z",
+        "upstreamUpdatedAt": "2026-07-15T06:24:02.93828Z",
+        "verifiedAt": "2026-08-05T02:02:49+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 8,
+        "readWriteSummary": {
+          "read": 6,
+          "write": 0,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

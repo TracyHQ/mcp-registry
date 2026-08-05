@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-aeotool-mcp",
+  "description": "Pilot AEO/GEO from Claude: bulk audits, server-side fixes via WordPress plugin, AI citations.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://aeotool.io/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://aeotool.io/mcp-agences",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "aeotool"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-20T13:48:24.807937Z",
+        "upstreamUpdatedAt": "2026-06-20T13:48:24.807937Z",
+        "verifiedAt": "2026-08-05T02:03:12+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 23,
+        "readWriteSummary": {
+          "read": 13,
+          "write": 1,
+          "unknown": 9
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-ukraineborder-ukraine-travel",
+  "title": "UkraineBorder — travel guidance and war-risk insurance",
+  "description": "Ukraine entry rules, border crossings, customs, safety and war-risk travel insurance. 10 languages.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.ukraineborder.com/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.ukraineborder.com/en/essentials/insurance-partner",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "UkraineBorder — travel guidance and war-risk insurance",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ukraineborder"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-02T20:14:22.01188Z",
+        "upstreamUpdatedAt": "2026-08-02T20:14:22.01188Z",
+        "verifiedAt": "2026-08-04T11:15:25+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 7,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

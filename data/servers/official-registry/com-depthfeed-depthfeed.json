@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-depthfeed-depthfeed",
+  "title": "DepthFeed",
+  "description": "Order-book depth & history for Polymarket, Kalshi & Limitless. Keyless demo, key for full access.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.depthfeed.com/mcp",
+      "headers": [
+        {
+          "description": "DepthFeed API key as 'Bearer df_…' (from https://depthfeed.com). Omit to use the keyless demo tier (BTC + Polymarket, top-of-book).",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://depthfeed.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "DepthFeed",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "depthfeed"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-29T10:07:06.585574Z",
+        "upstreamUpdatedAt": "2026-06-29T10:07:06.585574Z",
+        "verifiedAt": "2026-08-05T02:02:42+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 12,
+        "readWriteSummary": {
+          "read": 12,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

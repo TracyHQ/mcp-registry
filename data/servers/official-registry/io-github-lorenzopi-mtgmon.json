@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-lorenzopi-mtgmon",
+  "title": "mtgmon Mortgage Analytics",
+  "description": "Read-only U.S. mortgage market, lender, GSE performance, and servicing analytics.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mtgmon.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://mtgmon.com/mcp-server",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "mtgmon Mortgage Analytics",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lorenzopi"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-17T16:12:27.810184Z",
+        "upstreamUpdatedAt": "2026-07-17T16:12:27.810184Z",
+        "verifiedAt": "2026-08-05T02:04:15+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 9,
+        "readWriteSummary": {
+          "read": 9,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

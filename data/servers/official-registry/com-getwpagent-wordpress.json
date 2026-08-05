@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-getwpagent-wordpress",
+  "title": "WP Agent - WordPress publishing & management with Claude",
+  "description": "WordPress MCP server: publish posts, AI images, SEO and full site management, self-hosted",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.getwpagent.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.getwpagent.com/docs",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "WP Agent - WordPress publishing & management with Claude",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "yaniv-fink"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-03T18:59:11.838982Z",
+        "upstreamUpdatedAt": "2026-07-03T18:59:11.838982Z",
+        "verifiedAt": "2026-08-04T11:15:21+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-03T21:56:43Z",
+        "url": "https://github.com/yaniv-fink/wp-agent-mcp"
+      }
+    }
+  }
+}

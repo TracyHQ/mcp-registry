@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-alamavar-taskrail-taskrail",
+  "title": "TaskRail",
+  "description": "Delivered-price deals, cancel/refund paths, used-value comparisons, and compatibility checks.",
+  "version": "1.3.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://taskrail.alamavar.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://taskrail.alamavar.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "TaskRail",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "shuqairns"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-30T03:03:53.808471Z",
+        "upstreamUpdatedAt": "2026-07-30T03:03:53.808471Z",
+        "verifiedAt": "2026-08-05T02:02:35+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

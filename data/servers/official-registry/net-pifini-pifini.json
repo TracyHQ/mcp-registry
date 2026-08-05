@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/net-pifini-pifini",
+  "description": "Real events, reviewed places, and ticket checkout across the Caribbean and Latin America.",
+  "version": "2.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pifini.net/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://pifini.net/agents",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "pifini"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-28T03:35:22.580081Z",
+        "upstreamUpdatedAt": "2026-07-28T03:35:22.580081Z",
+        "verifiedAt": "2026-08-05T02:04:49+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 6,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 1,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

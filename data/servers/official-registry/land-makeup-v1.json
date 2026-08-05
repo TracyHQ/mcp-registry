@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/land-makeup-v1",
+  "title": "makeup.land",
+  "description": "Israeli cosmetics retailer: ΔE shade matching, customer wallet, cart, orders, gift cards.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://makeup.land/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://makeup.land",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "makeup.land",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "makeup"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-24T18:23:47.767965Z",
+        "upstreamUpdatedAt": "2026-05-24T18:23:47.767965Z",
+        "verifiedAt": "2026-08-05T02:04:47+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 8,
+        "readWriteSummary": {
+          "read": 8,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-arod90-virlo",
+  "title": "Virlo",
+  "description": "Short-form video analytics and trend intelligence for TikTok, YouTube, and Instagram",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://dev.virlo.ai/api/mcp/mcp",
+      "headers": [
+        {
+          "description": "Bearer token for Virlo API (format: Bearer virlo_tkn_YOUR_KEY). Get your key at https://dev.virlo.ai/dashboard/api-keys",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Virlo",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Virlo-AI"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-01T02:11:05.522296Z",
+        "upstreamUpdatedAt": "2026-04-01T02:11:05.522296Z",
+        "verifiedAt": "2026-08-05T02:03:55+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token for Virlo API (format: Bearer virlo_tkn_YOUR_KEY). Get your key at https://dev.virlo.ai/dashboard/api-keys"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

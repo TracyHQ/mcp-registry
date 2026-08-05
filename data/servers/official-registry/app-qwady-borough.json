@@ -1,0 +1,60 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/app-qwady-borough",
+  "title": "Borough NYC Real Estate API",
+  "description": "Search NYC rentals and sales, property details, building data, and market analytics",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://borough.qwady.app/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@borough/mcp",
+      "version": "1.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Borough API key (get one free at https://borough.qwady.app/pricing)",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "BOROUGH_API_KEY"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://docs.qwady.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Borough NYC Real Estate API",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "jdmay2"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-20T16:40:27.384696Z",
+        "upstreamUpdatedAt": "2026-02-20T16:40:27.384696Z",
+        "verifiedAt": "2026-08-05T02:02:27+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/tech-skybridge-ecommerce-ecom-carousel",
+  "title": "Skybridge Ecommerce Example",
+  "description": "Example MCP App based on Skybridge framework showing an e-commerce products based on request\n",
+  "version": "0.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ecommerce.skybridge.tech"
+    },
+    {
+      "type": "sse",
+      "url": "https://ecommerce.skybridge.tech"
+    }
+  ],
+  "websiteUrl": "https://skybridge.tech",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Skybridge Ecommerce Example",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "skybridge"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-20T10:22:33.40208Z",
+        "upstreamUpdatedAt": "2026-02-20T10:22:33.40208Z",
+        "verifiedAt": "2026-08-05T02:04:55+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 1,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

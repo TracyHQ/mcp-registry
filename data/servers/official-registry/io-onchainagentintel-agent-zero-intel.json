@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-onchainagentintel-agent-zero-intel",
+  "title": "Agent Zero — ERC-8004 Agent Intelligence",
+  "description": "Free read-only ERC-8004 agent-intel tools: coverage, leaderboards, agent vetting, payment graph",
+  "version": "1.8.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.onchainagentintel.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://onchainagentintel.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Agent Zero — ERC-8004 Agent Intelligence",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "onchainagentintel"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-15T21:13:19.267029Z",
+        "upstreamUpdatedAt": "2026-06-15T21:13:19.267029Z",
+        "verifiedAt": "2026-08-05T02:04:41+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

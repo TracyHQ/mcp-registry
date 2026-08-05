@@ -1,0 +1,72 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-sravanmodugula-solved-nexatron-mcp",
+  "title": "Nexatron",
+  "description": "Ask your enterprise data in plain English. Governed analytics over MCP, from dotSolved.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.nexatron.io/api/v1/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://api.nexatron.io/api/v1/mcp/stream"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "nexatron-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Nexatron API key starting with `nxa_`. Mint in the Nexatron app under Settings -> API Keys.",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "NEXATRON_API_KEY"
+        },
+        {
+          "description": "Nexatron API base URL. Defaults to https://api.nexatron.io/api/v1. Override for self-hosted or staging environments.",
+          "format": "string",
+          "default": "https://api.nexatron.io/api/v1",
+          "name": "NEXATRON_URL"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://nexatron.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Nexatron",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "sravanmodugula-solved"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-22T02:58:28.283041Z",
+        "upstreamUpdatedAt": "2026-06-22T02:58:28.283041Z",
+        "verifiedAt": "2026-08-05T02:04:32+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

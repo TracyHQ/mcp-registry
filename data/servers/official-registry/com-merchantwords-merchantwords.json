@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-merchantwords-merchantwords",
+  "description": "Amazon keyword volume, reverse-ASIN, and SERP data across 11 marketplaces.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.merchantwords.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.merchantwords.com/developers/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "merchantwords"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-07T17:12:47.685833Z",
+        "upstreamUpdatedAt": "2026-07-07T17:12:47.685833Z",
+        "verifiedAt": "2026-08-05T02:02:52+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 0,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

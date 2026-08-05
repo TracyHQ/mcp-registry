@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-rabyavalla-bonsai-health",
+  "title": "B.O.N.S.A.I. Health Intelligence API",
+  "description": "Lifestyle medicine health intelligence via x402 micropayments. 637+ peer-reviewed references.",
+  "version": "3.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://web-production-ae61.up.railway.app"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "B.O.N.S.A.I. Health Intelligence API",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "rabyavalla"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-26T22:25:06.306134Z",
+        "upstreamUpdatedAt": "2026-02-26T22:25:06.306134Z",
+        "verifiedAt": "2026-08-05T02:04:28+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 9,
+        "readWriteSummary": {
+          "read": 9,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

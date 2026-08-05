@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-eigi-ai-eigi",
+  "title": "Eigi.ai Voice Agents",
+  "description": "Create and manage AI voice agents, real-time conversations, and analytics with eigi.ai",
+  "version": "1.0.10",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.eigi.ai/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Eigi.ai Voice Agents",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "eigi-ai"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-14T11:01:29.39195Z",
+        "upstreamUpdatedAt": "2026-02-14T11:01:29.39195Z",
+        "verifiedAt": "2026-08-05T02:04:02+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized - OAuth authentication required"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

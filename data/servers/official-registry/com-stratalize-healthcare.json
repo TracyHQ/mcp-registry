@@ -1,0 +1,48 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-stratalize-healthcare",
+  "title": "Stratalize Healthcare",
+  "description": "CMS benchmarks, travel nurse rates, pharmacy spend, billing risk, and payer intelligence.",
+  "version": "1.1.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.stratalize.com/api/mcp-public?vertical=healthcare"
+    }
+  ],
+  "websiteUrl": "https://www.stratalize.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Stratalize Healthcare",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Stratalize"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-21T16:10:06.400596Z",
+        "upstreamUpdatedAt": "2026-06-21T16:10:06.400596Z",
+        "verifiedAt": "2026-08-05T02:03:00+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 29,
+        "readWriteSummary": {
+          "read": 29,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

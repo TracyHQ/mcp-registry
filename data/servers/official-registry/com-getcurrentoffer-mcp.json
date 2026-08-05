@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-getcurrentoffer-mcp",
+  "title": "GetCurrentOffer",
+  "description": "Search live credit card merchant offers across Amex, Chase, Citi, PayPal, Rakuten, Capital One.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getcurrentoffer.com/api/mcp",
+      "headers": [
+        {
+          "description": "API key for the GetCurrentOffer MCP server. Generate one for free at https://getcurrentoffer.com/api-keys. Alternatively, hosted clients (Claude Desktop, ChatGPT connectors, Claude.ai) can omit this header and use the OAuth 2.1 + Dynamic Client Registration flow advertised in the WWW-Authenticate response.",
+          "isSecret": true,
+          "name": "X-API-Key"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://getcurrentoffer.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "GetCurrentOffer",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "stanley17112000"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-11T22:17:11.726423Z",
+        "upstreamUpdatedAt": "2026-04-11T22:17:11.726423Z",
+        "verifiedAt": "2026-08-05T02:02:45+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "X-API-Key"
+          ],
+          "hint": "API key for the GetCurrentOffer MCP server. Generate one for free at https://getcurrentoffer.com/api-keys. Alternatively, hosted clients (Claude Desktop, ChatGPT connectors, Claude.ai) can omit this header and use the OAuth 2.1 + Dynamic Client Registration flow advertised in the WWW-Authenticate response."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-04-11T22:21:36Z",
+        "url": "https://github.com/stanley17112000/getcurrentoffer-mcp"
+      }
+    }
+  }
+}

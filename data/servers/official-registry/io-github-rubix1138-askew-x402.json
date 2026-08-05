@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-rubix1138-askew-x402",
+  "title": "Askew x402",
+  "description": "DeFi yields, staking routing, semantic research & security intel via x402 micro-payments on Base",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.askew.network/mcp"
+    }
+  ],
+  "websiteUrl": "https://mcp.askew.network",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Askew x402",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "rubix1138"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-07T23:30:21.510972Z",
+        "upstreamUpdatedAt": "2026-05-07T23:30:21.510972Z",
+        "verifiedAt": "2026-08-05T02:04:28+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 8,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 7
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-05-09T00:23:26Z",
+        "url": "https://github.com/rubix1138/askew-mcp"
+      }
+    }
+  }
+}

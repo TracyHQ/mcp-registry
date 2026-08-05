@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-devids77-mcp-market-ru",
+  "title": "MCP Market Russia",
+  "description": "Russian construction market: 3,395 contractors, 20,322 projects, 24 search/analytics tools.",
+  "version": "3.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-market.ru/mcp/"
+    }
+  ],
+  "websiteUrl": "https://mcp-market.ru",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "MCP Market Russia",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "devids77"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-13T11:37:47.720373Z",
+        "upstreamUpdatedAt": "2026-07-13T11:37:47.720373Z",
+        "verifiedAt": "2026-08-05T02:04:00+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 24,
+        "readWriteSummary": {
+          "read": 11,
+          "write": 0,
+          "unknown": 13
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-08-01T08:08:30Z",
+        "url": "https://github.com/devids77/mcp-market-ru"
+      }
+    }
+  }
+}

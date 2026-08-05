@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-virgen101-xportalx",
+  "title": "xportalx",
+  "description": "AI agent gateway with web fetching, data extraction, crypto pricing, and x402 payments",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://fflpdljiuruqdnewvwkk.supabase.co/functions/v1/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "xportalx",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "virgen101"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-01-01T22:58:32.434479Z",
+        "upstreamUpdatedAt": "2026-01-01T22:58:32.434479Z",
+        "verifiedAt": "2026-08-05T02:04:37+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 29,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 2,
+          "unknown": 22
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

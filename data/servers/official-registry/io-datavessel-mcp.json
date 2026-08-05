@@ -1,0 +1,42 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-datavessel-mcp",
+  "title": "datavessel",
+  "description": "200+ read/write tools for GA4, Search Console, Google Ads, Shopify, WooCommerce, Shopware & more.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.datavessel.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://datavessel.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "datavessel",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "datavessel"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-01T12:39:56.862309Z",
+        "upstreamUpdatedAt": "2026-08-01T12:39:56.862309Z",
+        "verifiedAt": "2026-08-05T02:03:13+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

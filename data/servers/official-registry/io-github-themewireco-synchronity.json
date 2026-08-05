@@ -1,0 +1,74 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-themewireco-synchronity",
+  "title": "Synchronity",
+  "description": "Shop connected e-commerce stores: search, compare, cart, and checkout with buyer approval.",
+  "version": "0.5.21",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.synchronity.app/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@synchronity/mcp-server",
+      "version": "0.5.21",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Synchronity gateway base URL. Defaults to the hosted gateway.",
+          "default": "https://api.synchronity.app",
+          "name": "GATEWAY_URL"
+        },
+        {
+          "description": "Optional store ID to use when the assistant does not name a store.",
+          "name": "DEFAULT_SITE_ID"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://synchronity.app",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Synchronity",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "themewireco"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-21T16:28:03.599817Z",
+        "upstreamUpdatedAt": "2026-07-21T16:28:03.599817Z",
+        "verifiedAt": "2026-08-05T02:04:35+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 26,
+        "readWriteSummary": {
+          "read": 12,
+          "write": 7,
+          "unknown": 7
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-25T19:25:52Z",
+        "url": "https://github.com/themewireco/synchronity"
+      }
+    }
+  }
+}

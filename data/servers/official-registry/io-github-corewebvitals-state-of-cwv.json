@@ -1,0 +1,53 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-corewebvitals-state-of-cwv",
+  "title": "State of Web Vitals",
+  "description": "Core Web Vitals metrics by CMS, CDN, and framework — free remote MCP, no auth.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.corewebvitals.io/api/state-of-cwv/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.corewebvitals.io/state-of-cwv",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "State of Web Vitals",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "corewebvitals"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-16T17:40:51.896617Z",
+        "upstreamUpdatedAt": "2026-07-16T17:40:51.896617Z",
+        "verifiedAt": "2026-08-05T02:03:58+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 3,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management",
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-16T18:28:39Z",
+        "url": "https://github.com/corewebvitals/state-of-cwv-mcp"
+      }
+    }
+  }
+}

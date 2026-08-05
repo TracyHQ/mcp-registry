@@ -1,0 +1,74 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-rumblingb-agentpay",
+  "title": "AgentPay",
+  "description": "Agent payments, API key vaulting, and governed mandates. Agents spend within user-defined limits.",
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.agentpay.so/api/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@agentpayxyz/mcp-server",
+      "version": "0.2.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "AgentPay merchant API key used for authenticated tool calls",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "AGENTPAY_API_KEY"
+        },
+        {
+          "description": "Optional AgentPay merchant ID for intent creation and attribution",
+          "format": "string",
+          "name": "AGENTPAY_MERCHANT_ID"
+        },
+        {
+          "description": "Optional override for the AgentPay API base URL",
+          "format": "string",
+          "name": "AGENTPAY_API_URL"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "AgentPay",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Rumblingb"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-07T13:21:24.365497Z",
+        "upstreamUpdatedAt": "2026-06-07T13:21:24.365497Z",
+        "verifiedAt": "2026-08-05T02:03:49+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-08-04T17:55:37Z",
+        "url": "https://github.com/Rumblingb/Agentpay"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-dropwatchhq-price-check",
+  "title": "Scalper Price Checker",
+  "description": "Check if a collectible's price is FAIR/OVER/SCALPED vs the current retail median across shops.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://price.dropwatchhq.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://price.dropwatchhq.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Scalper Price Checker",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "dropwatchhq"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-22T11:34:11.867766Z",
+        "upstreamUpdatedAt": "2026-06-22T11:34:11.867766Z",
+        "verifiedAt": "2026-08-05T02:02:43+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 2,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-jaylee7777-daemoon",
+  "description": "One PAT, any MCP agent: Vercel, GitHub, Cloudflare, Supabase, GCP — unified dev infra gateway.",
+  "version": "1.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://daemoon.dev/api/mcp",
+      "headers": [
+        {
+          "description": "Daemoon PAT — generate one at https://daemoon.dev/dashboard. Format: Bearer dmn_...",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://daemoon.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "daemoon-dev"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-18T16:27:04.372426Z",
+        "upstreamUpdatedAt": "2026-06-18T16:27:04.372426Z",
+        "verifiedAt": "2026-08-05T02:04:07+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Daemoon PAT — generate one at https://daemoon.dev/dashboard. Format: Bearer dmn_...",
+          "server_message": "unauthenticated"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-21T04:43:22Z",
+        "url": "https://github.com/daemoon-dev/daemoon"
+      }
+    }
+  }
+}

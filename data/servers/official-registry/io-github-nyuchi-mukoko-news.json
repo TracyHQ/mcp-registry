@@ -1,0 +1,63 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-nyuchi-mukoko-news",
+  "title": "Mukoko News",
+  "description": "Pan-African news & analytics for Zimbabwe and 15 African countries: briefings and trends.",
+  "version": "1.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://news.mukoko.dev/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@nyuchi/mukoko-news-mcp",
+      "version": "1.2.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "websiteUrl": "https://news.mukoko.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Mukoko News",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "nyuchi"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-30T21:26:45.989025Z",
+        "upstreamUpdatedAt": "2026-06-30T21:26:45.989025Z",
+        "verifiedAt": "2026-08-05T02:04:23+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 16,
+        "readWriteSummary": {
+          "read": 12,
+          "write": 0,
+          "unknown": 4
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-15T19:23:50Z",
+        "url": "https://github.com/nyuchi/mukoko-news"
+      }
+    }
+  }
+}

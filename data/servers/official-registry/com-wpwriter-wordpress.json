@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-wpwriter-wordpress",
+  "title": "WPWriter — WordPress AI Content & SEO",
+  "description": "WordPress MCP server: generate SEO posts, AI images, autoblog & WooCommerce on your self-hosted site",
+  "version": "2.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.wpwriter.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.wpwriter.com/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "WPWriter — WordPress AI Content & SEO",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "yaniv-fink"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-21T08:00:19.40073Z",
+        "upstreamUpdatedAt": "2026-06-21T08:00:19.40073Z",
+        "verifiedAt": "2026-08-04T11:15:26+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-21T07:59:50Z",
+        "url": "https://github.com/yaniv-fink/wpwriter-mcp"
+      }
+    }
+  }
+}

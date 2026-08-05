@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/info-appgoblin-app-store-analytics",
+  "title": "AppGoblin - App Store ASO & App Intel",
+  "description": "Research iOS and Android apps, use keyword marketing tools, see app installs, revenue and sdks.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://appgoblin.info/api/v1/mcp",
+      "headers": [
+        {
+          "description": "Your AppGoblin API key (Format: Bearer YOUR_KEY). Generate a free key from your AppGoblin account dashboard.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "AppGoblin - App Store ASO & App Intel",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "appgoblin"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-21T05:54:06.311331Z",
+        "upstreamUpdatedAt": "2026-06-21T05:54:06.311331Z",
+        "verifiedAt": "2026-08-04T11:15:27+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Your AppGoblin API key (Format: Bearer YOUR_KEY). Generate a free key from your AppGoblin account dashboard."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

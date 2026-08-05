@@ -1,0 +1,56 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-uxjulie-climate-sustainability-auditor",
+  "description": "Website carbon footprint auditor. CO2/page, grade A–F, green hosting check, and recommendations.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.climateux.net/mcp",
+      "headers": [
+        {
+          "value": "{api_key}",
+          "name": "X-API-Key"
+        }
+      ],
+      "variables": {
+        "api_key": {
+          "description": "Your ClimateUX API key. Get a free key at https://api.climateux.net/api/v1/keys/register",
+          "isSecret": true
+        }
+      }
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "uxjulie-climate"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-06T04:37:35.403161Z",
+        "upstreamUpdatedAt": "2026-04-06T04:37:35.403161Z",
+        "verifiedAt": "2026-08-05T02:04:37+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 1,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

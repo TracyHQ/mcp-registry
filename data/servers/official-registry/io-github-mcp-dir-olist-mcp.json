@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-mcp-dir-olist-mcp",
+  "title": "Olist Tiny ERP",
+  "description": "Olist Tiny e-commerce ERP (formerly Tiny ERP) with the full official REST API v3, products, stock, o",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_olist"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Olist Tiny ERP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "mcp-dir"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-12T18:59:46.487975Z",
+        "upstreamUpdatedAt": "2026-06-12T18:59:46.487975Z",
+        "verifiedAt": "2026-08-05T02:04:19+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 3
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-06-12T18:59:43Z",
+        "url": "https://github.com/mcp-dir/olist-mcp"
+      }
+    }
+  }
+}

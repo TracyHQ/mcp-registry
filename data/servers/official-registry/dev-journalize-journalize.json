@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/dev-journalize-journalize",
+  "description": "Agent-native double-entry accounting ledger with x402 micropayments",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://journalize.dev/mcp"
+    }
+  ],
+  "websiteUrl": "https://journalize.dev",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "journalize"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-09T01:48:10.337692Z",
+        "upstreamUpdatedAt": "2026-07-09T01:48:10.337692Z",
+        "verifiedAt": "2026-08-05T02:03:08+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 11,
+        "readWriteSummary": {
+          "read": 7,
+          "write": 1,
+          "unknown": 3
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ai-radiusos-www-crm",
+  "title": "RadiusOS CRM",
+  "description": "34-tool CRM server — contacts, pipeline, quotes, invoices, scheduling, email, and AI scoring.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.radiusos.ai/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.radiusos.ai/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "RadiusOS CRM",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "chadrnewell-hash"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-22T19:14:38.551374Z",
+        "upstreamUpdatedAt": "2026-04-22T19:14:38.551374Z",
+        "verifiedAt": "2026-08-05T02:02:22+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Missing Authorization: Bearer <api-key> header or ?api_key= query parameter"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

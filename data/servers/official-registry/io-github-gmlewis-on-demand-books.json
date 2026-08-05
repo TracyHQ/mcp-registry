@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-gmlewis-on-demand-books",
+  "title": "On-Demand-Books",
+  "description": "Find personalized puzzle books by first name from a 100,000+ title Shopify catalog.",
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://on-demand-books-dq2yvpdh.fermyon.app/"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "On-Demand-Books",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "gmlewis"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-08T15:00:48.826154Z",
+        "upstreamUpdatedAt": "2026-07-08T15:00:48.826154Z",
+        "verifiedAt": "2026-08-05T02:04:04+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-08T17:29:02Z",
+        "url": "https://github.com/gmlewis/on-demand-books-mcp"
+      }
+    }
+  }
+}

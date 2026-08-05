@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-misar-mail-misarmail",
+  "title": "MisarMail",
+  "description": "Full email marketing platform: inbox, campaigns, contacts, templates, and analytics via MCP.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mail.misar.io/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://mail.misar.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "MisarMail",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "misar"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-03-20T20:04:36.44175Z",
+        "upstreamUpdatedAt": "2026-03-20T20:04:36.44175Z",
+        "verifiedAt": "2026-08-05T02:04:40+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

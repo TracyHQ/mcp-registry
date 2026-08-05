@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ch-arvi-catalog",
+  "title": "ARVI Wine Catalog",
+  "description": "Swiss merchant ARVI SA: 27,000+ fine & rare wine labels, 300,000+ bottles ready to ship. No auth.",
+  "version": "1.10.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.arvi.ch/"
+    }
+  ],
+  "websiteUrl": "https://arvi.ch",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "ARVI Wine Catalog",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "arvi"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-23T15:18:23.319554Z",
+        "upstreamUpdatedAt": "2026-07-23T15:18:23.319554Z",
+        "verifiedAt": "2026-08-05T02:02:30+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 6,
+        "readWriteSummary": {
+          "read": 6,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

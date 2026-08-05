@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-chadanalytics-chad",
+  "title": "Chad Analytics",
+  "description": "Read-only website analytics, AI referrals, crawlers, goals, revenue, and funnels.",
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://chadanalytics.com/api/mcp",
+      "headers": [
+        {
+          "value": "Bearer {chad_mcp_token}",
+          "variables": {
+            "chad_mcp_token": {
+              "description": "Read-only credential issued privately by /chad mcp in Slack.",
+              "isRequired": true,
+              "isSecret": true,
+              "placeholder": "chad_mcp_…"
+            }
+          },
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://chadanalytics.com/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Chad Analytics",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "chadanalytics"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-21T18:19:42.64812Z",
+        "upstreamUpdatedAt": "2026-07-21T18:19:42.64812Z",
+        "verifiedAt": "2026-08-04T11:15:21+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

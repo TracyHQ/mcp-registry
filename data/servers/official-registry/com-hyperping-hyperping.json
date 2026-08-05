@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-hyperping-hyperping",
+  "description": "Uptime, API and server monitoring with outages, reporting, on-call and status pages.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.hyperping.io/v1/mcp",
+      "headers": [
+        {
+          "description": "Bearer token. Create a read_only or read_write API key under Project Settings, API Keys.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://hyperping.com/docs/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "hyperping"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-29T05:26:12.46864Z",
+        "upstreamUpdatedAt": "2026-07-29T05:26:12.46864Z",
+        "verifiedAt": "2026-08-05T02:02:48+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 26,
+        "readWriteSummary": {
+          "read": 22,
+          "write": 2,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-30T17:54:06Z",
+        "url": "https://github.com/hyperping/mcp-server"
+      }
+    }
+  }
+}

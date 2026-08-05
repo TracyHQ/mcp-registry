@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "official-registry/com-webflow-mcp",
+  "description": "AI-powered design and management for Webflow Sites",
+  "version": "2.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.webflow.com/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "official",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "webflow"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2025-10-27T21:00:28.378216Z",
+        "upstreamUpdatedAt": "2025-10-27T21:00:28.378216Z",
+        "verifiedAt": "2026-08-04T11:15:25+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 135,
+        "pushed_at": "2026-06-09T05:00:48Z",
+        "url": "https://github.com/webflow/mcp-server"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-actablesite-ai-crawler-robots-monitor",
+  "title": "ActableSite AI Crawler Monitor",
+  "description": "Check AI crawler robots.txt policy and monitor public-site policy, sitemap, and llms.txt changes.",
+  "version": "1.4.2",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://actablesite.com/mcp/"
+    }
+  ],
+  "websiteUrl": "https://actablesite.com/mcp-server",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "ActableSite AI Crawler Monitor",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "unitedideas"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-13T13:16:14.126526Z",
+        "upstreamUpdatedAt": "2026-07-13T13:16:14.126526Z",
+        "verifiedAt": "2026-08-05T02:02:32+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 5,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-17T09:46:14Z",
+        "url": "https://github.com/unitedideas/actablesite-mcp"
+      }
+    }
+  }
+}

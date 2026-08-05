@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-rotwang9000-seneschal-data",
+  "title": "Seneschal Data",
+  "description": "Monero/Zcash payment webhooks + DeFi liquidation & Ethereum builder data over MCP. Free tier; x402.",
+  "version": "0.1.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.seneschal.space/"
+    }
+  ],
+  "websiteUrl": "https://seneschal.space",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Seneschal Data",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Rotwang9000"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-29T06:08:39.440181Z",
+        "upstreamUpdatedAt": "2026-05-29T06:08:39.440181Z",
+        "verifiedAt": "2026-08-05T02:03:48+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 35,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 4,
+          "unknown": 26
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-08-01T16:19:50Z",
+        "url": "https://github.com/Rotwang9000/seneschal-data-api"
+      }
+    }
+  }
+}

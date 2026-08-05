@@ -1,0 +1,64 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/md-eureka-eureka",
+  "title": "Eureka EHR",
+  "description": "The Eureka EHR as MCP tools: patients, schedule, notes, messages, billing, and orders.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.eureka.md/mcp",
+      "headers": [
+        {
+          "description": "Your Eureka API key",
+          "isRequired": true,
+          "value": "Bearer {api_key}",
+          "isSecret": true,
+          "variables": {
+            "api_key": {
+              "description": "Your per-doctor Eureka API key (ask in your practice Slack channel or eureka.md/support)",
+              "isRequired": true,
+              "isSecret": true
+            }
+          },
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://eureka.md/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Eureka EHR",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "eureka"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-27T19:43:59.194055Z",
+        "upstreamUpdatedAt": "2026-07-27T19:43:59.194055Z",
+        "verifiedAt": "2026-08-05T02:04:47+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Your Eureka API key"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-rippermercs-terminalfeed",
+  "description": "Real-time data feeds for AI agents with USDC micropayments on Base for premium tools.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://terminalfeed.io/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://terminalfeed.io/developers",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "RipperMercs"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-29T03:30:31.094185Z",
+        "upstreamUpdatedAt": "2026-04-29T03:30:31.094185Z",
+        "verifiedAt": "2026-08-05T02:03:48+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 27,
+        "readWriteSummary": {
+          "read": 15,
+          "write": 12,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-08-02T20:33:03Z",
+        "url": "https://github.com/RipperMercs/terminalfeed"
+      }
+    }
+  }
+}

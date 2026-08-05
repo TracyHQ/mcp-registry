@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/my-taokeh-mcp",
+  "description": "Malaysian SME accounting, e-Invoice and payroll for your AI. 37 tools; writes are approved drafts.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://taokeh.my/mcp"
+    }
+  ],
+  "websiteUrl": "https://taokeh.my/mcp-server",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "taokeh"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-29T09:43:07.857205Z",
+        "upstreamUpdatedAt": "2026-07-29T09:43:07.857205Z",
+        "verifiedAt": "2026-08-05T02:04:48+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized: a valid MCP bearer token is required."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

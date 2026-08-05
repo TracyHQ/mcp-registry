@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/store-getsoma-soma-brewing",
+  "title": "SOMA Brewing Company",
+  "description": "India's first non-alcoholic craft brewery: catalog, nutrition, wallet, checkout links for AI agents.",
+  "version": "1.3.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getsoma.store/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://getsoma.store/agents",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "SOMA Brewing Company",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "getsoma"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-27T14:06:16.065317Z",
+        "upstreamUpdatedAt": "2026-07-27T14:06:16.065317Z",
+        "verifiedAt": "2026-08-05T02:04:55+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 13,
+        "readWriteSummary": {
+          "read": 12,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-sezerpro-fichepro-mcp",
+  "title": "FichePro for Claude",
+  "description": "E-commerce autonomy for dropshippers — listings, SEO, catalog audit, niche & ad intel.",
+  "version": "1.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.fichepro.ai/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://fichepro.ai/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "FichePro for Claude",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "SezerPro"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-15T22:16:06.911081Z",
+        "upstreamUpdatedAt": "2026-04-15T22:16:06.911081Z",
+        "verifiedAt": "2026-08-05T02:03:50+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Missing token. Provide it via the Authorization: Bearer header."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-04-15T23:16:24Z",
+        "url": "https://github.com/SezerPro/fichepro-mcp"
+      }
+    }
+  }
+}

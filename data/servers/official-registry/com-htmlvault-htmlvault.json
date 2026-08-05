@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-htmlvault-htmlvault",
+  "title": "HTMLvault",
+  "description": "Publish and manage secure HTML links: PII/secret scanning, batch create, patch edits, analytics.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://htmlvault.com/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://htmlvault.com/connect",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "HTMLvault",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "rwesleyevans"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-26T07:03:45.078281Z",
+        "upstreamUpdatedAt": "2026-07-26T07:03:45.078281Z",
+        "verifiedAt": "2026-08-05T02:02:48+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

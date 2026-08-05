@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-tapads-propswot",
+  "title": "PropSWOT — Property Management AI",
+  "description": "Property management AI: work orders, vendors, appliances, and triage for Claude and ChatGPT.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://pm.propswot.com/api/mcp",
+      "headers": [
+        {
+          "description": "PropSWOT API key — generate at pm.propswot.com/dashboard/settings/mcp. Choose Read scope for lookups, Write scope for work order actions.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "X-MCP-Key"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "PropSWOT — Property Management AI",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "TapAds"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-19T22:41:26.45281Z",
+        "upstreamUpdatedAt": "2026-05-19T22:41:26.45281Z",
+        "verifiedAt": "2026-08-05T02:03:52+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "X-MCP-Key"
+          ],
+          "hint": "PropSWOT API key — generate at pm.propswot.com/dashboard/settings/mcp. Choose Read scope for lookups, Write scope for work order actions.",
+          "server_message": "Missing X-MCP-Key header."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

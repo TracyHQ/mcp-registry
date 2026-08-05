@@ -1,0 +1,59 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-ziggsai-ziggs",
+  "title": "Ziggs",
+  "description": "Ziggs delegate MCP: chat, agreements, context, payments via OAuth or operator key.",
+  "version": "0.9.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ziggsai.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ziggs-ai/ziggs-mcp",
+      "version": "0.9.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Agent-scoped Ziggs operator key (stdio path). Remote OAuth does not need this.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "ZIGGS_OPERATOR_KEY"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://ziggsai.com/docs#connect-assistant",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Ziggs",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ZiggsAI"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-04T04:36:38.299505Z",
+        "upstreamUpdatedAt": "2026-08-04T04:36:38.299505Z",
+        "verifiedAt": "2026-08-05T02:03:53+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

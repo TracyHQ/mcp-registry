@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ai-timix-time-tracking",
+  "title": "Timix.AI",
+  "description": "Time tracking, live project budgets, and billing exports for service firms.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.timix.ai/api/integration/v1/mcp"
+    }
+  ],
+  "websiteUrl": "https://timix.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Timix.AI",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "timix"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-15T10:32:15.514926Z",
+        "upstreamUpdatedAt": "2026-07-15T10:32:15.514926Z",
+        "verifiedAt": "2026-08-05T02:02:24+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 114,
+        "readWriteSummary": {
+          "read": 27,
+          "write": 52,
+          "unknown": 35
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

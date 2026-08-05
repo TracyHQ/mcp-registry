@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-packagento-mcp",
+  "description": "Magento 2 extension marketplace over MCP: search, buy, publish, and install packages.",
+  "version": "1.0.8",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.packagento.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://packagento.com/docs/mcp-overview/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "packagento"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-15T10:52:34.284021Z",
+        "upstreamUpdatedAt": "2026-07-15T10:52:34.284021Z",
+        "verifiedAt": "2026-08-05T02:02:55+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-piwe-compliance-api",
+  "title": "AgentEconomy Compliance API",
+  "description": "Paid KYC, AML, and regulatory risk assessment over MCP via x402 USDC micropayments on Base.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.netbrainis.co.za/mcp"
+    }
+  ],
+  "websiteUrl": "https://api.netbrainis.co.za",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "AgentEconomy Compliance API",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Piwe"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-15T14:46:17.263179Z",
+        "upstreamUpdatedAt": "2026-05-15T14:46:17.263179Z",
+        "verifiedAt": "2026-08-05T02:03:48+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 4,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-jmpy-me-jmpy-mcp-server",
+  "description": "Official JMPY.me MCP Server: URL shortener, QR codes, and 70+ marketing analytics tools.",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://jmpy.me/mcp/sse"
+    }
+  ],
+  "websiteUrl": "https://jmpy.me",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "jmpy-me"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-18T16:23:04.836886Z",
+        "upstreamUpdatedAt": "2026-04-18T16:23:04.836886Z",
+        "verifiedAt": "2026-08-05T02:03:43+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-13T01:06:21Z",
+        "url": "https://github.com/Jmpy-me/jmpy-mcp-server"
+      }
+    }
+  }
+}

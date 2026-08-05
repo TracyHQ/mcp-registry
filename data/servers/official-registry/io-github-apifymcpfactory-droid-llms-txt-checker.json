@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-apifymcpfactory-droid-llms-txt-checker",
+  "title": "llms.txt Checker - AI Readiness Audit",
+  "description": "Checks llms.txt, AI crawler access in robots.txt, and sitemap - with a 0-100 AI readiness score.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=apifmcpfactory/llms-txt-checker",
+      "headers": [
+        {
+          "description": "Apify API token as 'Bearer <token>'. Optional if your MCP client supports OAuth.",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "llms.txt Checker - AI Readiness Audit",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "apifymcpfactory-droid"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-20T10:08:34.652181Z",
+        "upstreamUpdatedAt": "2026-07-20T10:08:34.652181Z",
+        "verifiedAt": "2026-08-05T02:03:55+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Apify API token as 'Bearer <token>'. Optional if your MCP client supports OAuth."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-20T10:09:00Z",
+        "url": "https://github.com/apifymcpfactory-droid/mcp-factory-servers"
+      }
+    }
+  }
+}

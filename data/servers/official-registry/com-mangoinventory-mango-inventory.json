@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-mangoinventory-mango-inventory",
+  "title": "Mango Inventory",
+  "description": "Inventory management for small organizations: search, assign, report, order, set up by chat.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.mangoinventory.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://mangoinventory.com/en/ai-agents",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Mango Inventory",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "mangoinventory"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-24T07:20:04.670759Z",
+        "upstreamUpdatedAt": "2026-07-24T07:20:04.670759Z",
+        "verifiedAt": "2026-08-04T11:15:22+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

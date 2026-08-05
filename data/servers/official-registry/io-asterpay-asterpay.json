@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-asterpay-asterpay",
+  "title": "AsterPay — EUR Settlement for AI Agents",
+  "description": "EUR settlement + trust for AI agent commerce: budgets, KYA, merchant discovery. 22 tools.",
+  "version": "2.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-api.asterpay.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://asterpay.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "AsterPay — EUR Settlement for AI Agents",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "AsterPay"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-04T15:16:54.724294Z",
+        "upstreamUpdatedAt": "2026-07-04T15:16:54.724294Z",
+        "verifiedAt": "2026-08-05T02:03:12+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-03-10T06:16:25Z",
+        "url": "https://github.com/AsterPay/erc8183-kya-hook"
+      }
+    }
+  }
+}

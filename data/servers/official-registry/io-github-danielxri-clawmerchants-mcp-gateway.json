@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-danielxri-clawmerchants-mcp-gateway",
+  "description": "MCP Gateway: wrap any MCP server with cold-start retries, uptime SLA, and per-execution MPP billing.",
+  "version": "2.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://clawmerchants.com/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "danielxri"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-03-27T10:27:02.356754Z",
+        "upstreamUpdatedAt": "2026-03-27T10:27:02.356754Z",
+        "verifiedAt": "2026-08-05T02:03:59+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 2,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments",
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

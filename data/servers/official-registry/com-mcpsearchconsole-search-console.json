@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-mcpsearchconsole-search-console",
+  "title": "Google Search Console MCP",
+  "description": "Query Google Search Console analytics (clicks, impressions, CTR, position) over MCP.",
+  "version": "0.1.7",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcpsearchconsole.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://mcpsearchconsole.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Google Search Console MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "mcpsearchconsole"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-20T00:15:50.737932Z",
+        "upstreamUpdatedAt": "2026-06-20T00:15:50.737932Z",
+        "verifiedAt": "2026-08-04T11:15:23+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

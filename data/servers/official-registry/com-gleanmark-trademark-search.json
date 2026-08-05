@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-gleanmark-trademark-search",
+  "title": "GleanMark Trademark Search",
+  "description": "Search 13.7M+ USPTO trademarks. Clearance, phonetic matching, TTAB stats, analytics.",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gleanmark.com/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "GleanMark Trademark Search",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "gleanmark"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-02-19T16:31:31.548367Z",
+        "upstreamUpdatedAt": "2026-02-19T16:31:31.548367Z",
+        "verifiedAt": "2026-08-05T02:02:46+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 60,
+        "readWriteSummary": {
+          "read": 60,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

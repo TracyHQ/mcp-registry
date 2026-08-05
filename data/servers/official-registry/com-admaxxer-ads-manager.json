@@ -1,0 +1,44 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-admaxxer-ads-manager",
+  "title": "Admaxxer",
+  "description": "AI-powered DTC analytics & ads manager for Meta + Google",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://admaxxer.com/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://admaxxer.com/mcp/sse"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Admaxxer",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "fortuneflick"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-25T18:17:22.714591Z",
+        "upstreamUpdatedAt": "2026-04-25T18:17:22.714591Z",
+        "verifiedAt": "2026-08-05T02:02:33+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-digitaldataonline-mcp-e-yearbook",
+  "title": "e-yearbook.com Archive Search",
+  "description": "Search over 300K U.S. yearbooks, over 100M mentions. Free preview; subscription unlocks scans.",
+  "version": "0.4.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.digitaldataonline.com/mcp",
+      "headers": [
+        {
+          "description": "Bearer <token>. Free public token at https://www.e-yearbook.com/for-ai-agents/. Paid tiers unlock get_person_summary and get_yearbook_report.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.e-yearbook.com/for-ai-agents/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "e-yearbook.com Archive Search",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "digitaldataonline"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-31T20:23:30.400298Z",
+        "upstreamUpdatedAt": "2026-05-31T20:23:30.400298Z",
+        "verifiedAt": "2026-08-05T02:02:42+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer <token>. Free public token at https://www.e-yearbook.com/for-ai-agents/. Paid tiers unlock get_person_summary and get_yearbook_report."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/com-getsavitools-savi-tools",
+  "description": "Ask your AI assistant about your Savi Tools business: invoices, expenses, mileage, and more.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getsavitools.com/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://getsavitools.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "getsavitools"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-15T16:50:51.176468Z",
+        "upstreamUpdatedAt": "2026-07-15T16:50:51.176468Z",
+        "verifiedAt": "2026-08-05T02:02:45+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 25,
+        "readWriteSummary": {
+          "read": 25,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

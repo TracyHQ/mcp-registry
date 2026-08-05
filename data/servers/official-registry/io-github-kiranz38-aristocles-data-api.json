@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-kiranz38-aristocles-data-api",
+  "title": "Aristocles Data API",
+  "description": "Subscription pricing, trade costs, and financial data for AI agents across 5 countries.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.aristocles.com.au/mcp/mcp/",
+      "headers": [
+        {
+          "description": "API key from api.aristocles.com.au — free tier: 100 requests/day",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "X-API-Key"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Aristocles Data API",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "kiranz38"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-03-02T07:20:47.848013Z",
+        "upstreamUpdatedAt": "2026-03-02T07:20:47.848013Z",
+        "verifiedAt": "2026-08-05T02:04:08+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "X-API-Key"
+          ],
+          "hint": "API key from api.aristocles.com.au — free tier: 100 requests/day"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

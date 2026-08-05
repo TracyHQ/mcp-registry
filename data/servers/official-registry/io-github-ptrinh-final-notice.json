@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-ptrinh-final-notice",
+  "description": "Free demand-letter PDF generator for unpaid invoices, 80+ jurisdictions, 29 languages.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://finalnotice.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://finalnotice.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ptrinh"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-19T17:05:13.618869Z",
+        "upstreamUpdatedAt": "2026-06-19T17:05:13.618869Z",
+        "verifiedAt": "2026-08-05T02:04:27+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 1,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-06T08:29:00Z",
+        "url": "https://github.com/ptrinh/finalnotice-mcp"
+      }
+    }
+  }
+}

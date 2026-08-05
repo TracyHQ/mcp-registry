@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-youtubestudiomcp-youtube-studio",
+  "title": "YouTube Studio MCP",
+  "description": "Hosted MCP for YouTube Studio: uploads, metadata, playlists, comments, analytics, captions.",
+  "version": "0.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.youtubestudiomcp.com/api/mcp"
+    }
+  ],
+  "websiteUrl": "https://www.youtubestudiomcp.com/docs",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "YouTube Studio MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Harper-Labs"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-24T19:43:25.086279Z",
+        "upstreamUpdatedAt": "2026-05-24T19:43:25.086279Z",
+        "verifiedAt": "2026-08-05T02:03:06+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [],
+          "server_message": "Unauthorized. Complete OAuth and send the resulting Bearer token."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

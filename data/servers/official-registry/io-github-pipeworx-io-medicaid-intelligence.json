@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-pipeworx-io-medicaid-intelligence",
+  "title": "Medicaid Intelligence",
+  "description": "Medicaid drug utilization by NDC, managed-care enrollment and state enrollment operations from CMS",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/medicaid-intelligence/mcp"
+    }
+  ],
+  "websiteUrl": "https://pipeworx.io/packs/medicaid-intelligence",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Medicaid Intelligence",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "pipeworx-io"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-03T01:21:52.749886Z",
+        "upstreamUpdatedAt": "2026-08-03T01:21:52.749886Z",
+        "verifiedAt": "2026-08-05T02:04:25+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 39,
+        "readWriteSummary": {
+          "read": 34,
+          "write": 3,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-08-04T06:48:27Z",
+        "url": "https://github.com/pipeworx-io/mcp-medicaid-intelligence"
+      }
+    }
+  }
+}

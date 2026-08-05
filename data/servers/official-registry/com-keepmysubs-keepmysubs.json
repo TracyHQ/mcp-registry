@@ -1,0 +1,63 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-keepmysubs-keepmysubs",
+  "title": "KeepMySubs",
+  "description": "Manage your KeepMySubs subscriptions, spend, renewals, and bills from any MCP client.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://keepmysubs.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@keepmysubs/mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your KeepMySubs API key. Create one at https://keepmysubs.com/dashboard/settings (Settings → API keys), or run `kms auth login`.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "KMS_API_KEY"
+        },
+        {
+          "description": "Override the API host (defaults to https://keepmysubs.com). Rarely needed.",
+          "name": "KMS_BASE_URL"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://keepmysubs.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "KeepMySubs",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "golts"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-11T20:57:46.318045Z",
+        "upstreamUpdatedAt": "2026-06-11T20:57:46.318045Z",
+        "verifiedAt": "2026-08-05T02:02:50+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-agnicpay-prog-agnicpay",
+  "title": "AgnicPay",
+  "description": "X402 payment MCP for AI agents. Auto-pay 300+ APIs with USDC on Base and Solana.",
+  "version": "1.0.3",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://mcp.agnic.ai/sse",
+      "variables": {
+        "apiKey": {
+          "description": "Your AgnicPay API token",
+          "format": "string"
+        }
+      }
+    }
+  ],
+  "websiteUrl": "https://pay.agnic.ai",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "AgnicPay",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "agnicpay-prog"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-03-19T02:12:12.741122Z",
+        "upstreamUpdatedAt": "2026-03-19T02:12:12.741122Z",
+        "verifiedAt": "2026-08-05T02:03:54+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-dante-is-shipping-keepflash-agent-access",
+  "title": "KeepFlash Agent Access",
+  "description": "Search, read, cite, create, and safely update a user's private KeepFlash knowledge library.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://keepflash.com/api/mcp",
+      "headers": [
+        {
+          "description": "KeepFlash Agent Access bearer token",
+          "value": "Bearer {token}",
+          "variables": {
+            "token": {
+              "description": "Token created in KeepFlash Agent Access settings",
+              "isRequired": true,
+              "isSecret": true
+            }
+          },
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.skills.sh/dante-is-shipping/keepflash-skills/keepflash",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "KeepFlash Agent Access",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "dante-is-shipping"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-01T13:17:51.879816Z",
+        "upstreamUpdatedAt": "2026-08-01T13:17:51.879816Z",
+        "verifiedAt": "2026-08-04T11:15:29+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

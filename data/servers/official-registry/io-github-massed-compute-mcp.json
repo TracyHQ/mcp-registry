@@ -1,0 +1,96 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-massed-compute-mcp",
+  "description": "Massed Compute MCP — GPU inventory, VM lifecycle, billing, SSH keys, and setup recipes.",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://vm.massedcompute.com/api/mcp",
+      "headers": [
+        {
+          "description": "Your Massed Compute API key as a Bearer token (include the 'Bearer ' prefix). Generate one at https://vm.massedcompute.com/settings/api — use a read-only key for analysis-only assistants so destructive tool calls (launch, restart, terminate, SSH-key deletion) are rejected at call time.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "massed-compute-mcp",
+      "version": "1.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Massed Compute API key (Bearer token). Generate at https://vm.massedcompute.com/settings/api. Optional — `massed-compute-mcp init` provides an interactive first-run flow that prompts for the key, validates it, and stores it locally with 0600 permissions.",
+          "format": "string",
+          "isSecret": true,
+          "name": "MASSED_COMPUTE_API_KEY"
+        }
+      ]
+    },
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "massed-compute-mcp",
+      "version": "1.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your Massed Compute API key (Bearer token). Generate at https://vm.massedcompute.com/settings/api. Optional — `massed-compute-mcp init` provides an interactive first-run flow that prompts for the key, validates it, and stores it locally with 0600 permissions.",
+          "format": "string",
+          "isSecret": true,
+          "name": "MASSED_COMPUTE_API_KEY"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Massed-Compute"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T14:14:29.721179Z",
+        "upstreamUpdatedAt": "2026-07-31T14:14:29.721179Z",
+        "verifiedAt": "2026-08-05T02:03:45+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 17,
+        "readWriteSummary": {
+          "read": 12,
+          "write": 3,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-08-03T20:55:26Z",
+        "url": "https://github.com/Massed-Compute/massed-compute-mcp"
+      }
+    }
+  }
+}

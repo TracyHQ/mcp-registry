@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/ai-smithery-ramadasmr-networkcalc-mcp",
+  "description": "Look up DNS information for any domain to troubleshoot issues and gather insights. Get fast, relia…",
+  "version": "1.13.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://server.smithery.ai/@ramadasmr/networkcalc-mcp/mcp",
+      "headers": [
+        {
+          "description": "Bearer token for Smithery authentication",
+          "isRequired": true,
+          "value": "Bearer {smithery_api_key}",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ramadasmr"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2025-09-20T10:10:47.321873Z",
+        "upstreamUpdatedAt": "2025-09-20T10:10:47.321873Z",
+        "verifiedAt": "2026-08-05T02:02:24+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Bearer token for Smithery authentication"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-03-02T18:06:56Z",
+        "url": "https://github.com/ramadasmr/networkcalc-mcp"
+      }
+    }
+  }
+}

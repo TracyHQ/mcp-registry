@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-manganate006-openlmnp",
+  "title": "OpenLMNP",
+  "description": "Accounting MCP for French LMNP furnished rentals: income, expenses, depreciation, tax return & FEC",
+  "version": "1.1.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.openlmnp.fr/mcp?demo_token=openlmnp_demo_ro_ebd891f45e8a771ca1a718f239b733b438a31d48",
+      "headers": [
+        {
+          "description": "Optional — your personal Bearer token to access your own data (overrides the public read-only demo)",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "OpenLMNP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "manganate006"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-30T07:21:30.859603Z",
+        "upstreamUpdatedAt": "2026-07-30T07:21:30.859603Z",
+        "verifiedAt": "2026-08-05T02:04:15+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 44,
+        "readWriteSummary": {
+          "read": 23,
+          "write": 20,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-08-03T19:05:28Z",
+        "url": "https://github.com/manganate006/openlmnp"
+      }
+    }
+  }
+}

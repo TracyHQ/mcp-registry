@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-nirholas-threews-3d-studio-free",
+  "title": "three.ws 3D Studio (free)",
+  "description": "Free text/image → 3D: generate, rig, avatar-ify, and refine GLB models. No auth, no payment.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://three.ws/api/mcp-studio"
+    }
+  ],
+  "websiteUrl": "https://three.ws",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "three.ws 3D Studio (free)",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "nirholas"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-20T21:38:33.09204Z",
+        "upstreamUpdatedAt": "2026-07-20T21:38:33.09204Z",
+        "verifiedAt": "2026-08-05T02:04:22+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 10,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 1,
+          "unknown": 7
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 91,
+        "pushed_at": "2026-08-05T00:58:19Z",
+        "url": "https://github.com/nirholas/three.ws"
+      }
+    }
+  }
+}

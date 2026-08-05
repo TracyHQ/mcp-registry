@@ -1,0 +1,156 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-cyanheads-devops-status-mcp-server",
+  "description": "Vendor status pages, TLS cert inspection, DNS propagation checks, and incident-response playbooks.",
+  "version": "0.8.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://devops-status.caseyjhand.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@cyanheads/devops-status-mcp-server",
+      "version": "0.8.0",
+      "runtimeHint": "bun",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "value": "run",
+          "type": "positional"
+        },
+        {
+          "value": "start:stdio",
+          "type": "positional"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+          "format": "string",
+          "default": "info",
+          "name": "MCP_LOG_LEVEL"
+        },
+        {
+          "description": "When 'true', disables SSRF guards for user-supplied URLs and domains. For trusted local/intranet deployments only. Leave unset or 'false' for hosted/public deployments.",
+          "format": "string",
+          "default": "false",
+          "name": "DEVOPS_STATUS_ALLOW_PRIVATE_TARGETS"
+        },
+        {
+          "description": "When 'true', omits the arbitrary-target probe tools (devops_check_dns, devops_check_certs) from the registered tool surface; the five vendor-registry/incident tools remain. For shared/public multi-tenant instances. Leave unset or 'false' to register both tools.",
+          "format": "string",
+          "default": "false",
+          "name": "DEVOPS_STATUS_DISABLE_ACTIVE_PROBES"
+        }
+      ]
+    },
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@cyanheads/devops-status-mcp-server",
+      "version": "0.8.0",
+      "runtimeHint": "bun",
+      "transport": {
+        "type": "streamable-http",
+        "url": "http://localhost:3010/mcp"
+      },
+      "packageArguments": [
+        {
+          "value": "run",
+          "type": "positional"
+        },
+        {
+          "value": "start:http",
+          "type": "positional"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "description": "The hostname for the HTTP server.",
+          "format": "string",
+          "default": "127.0.0.1",
+          "name": "MCP_HTTP_HOST"
+        },
+        {
+          "description": "The port to run the HTTP server on.",
+          "format": "string",
+          "default": "3010",
+          "name": "MCP_HTTP_PORT"
+        },
+        {
+          "description": "The endpoint path for the MCP server.",
+          "format": "string",
+          "default": "/mcp",
+          "name": "MCP_HTTP_ENDPOINT_PATH"
+        },
+        {
+          "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+          "format": "string",
+          "default": "none",
+          "name": "MCP_AUTH_MODE"
+        },
+        {
+          "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+          "format": "string",
+          "default": "info",
+          "name": "MCP_LOG_LEVEL"
+        },
+        {
+          "description": "When 'true', disables SSRF guards for user-supplied URLs and domains. For trusted local/intranet deployments only. Leave unset or 'false' for hosted/public deployments.",
+          "format": "string",
+          "default": "false",
+          "name": "DEVOPS_STATUS_ALLOW_PRIVATE_TARGETS"
+        },
+        {
+          "description": "When 'true', omits the arbitrary-target probe tools (devops_check_dns, devops_check_certs) from the registered tool surface; the five vendor-registry/incident tools remain. For shared/public multi-tenant instances. Leave unset or 'false' to register both tools.",
+          "format": "string",
+          "default": "false",
+          "name": "DEVOPS_STATUS_DISABLE_ACTIVE_PROBES"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "cyanheads"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T08:14:50.004656Z",
+        "upstreamUpdatedAt": "2026-07-31T08:14:50.004656Z",
+        "verifiedAt": "2026-08-05T02:03:59+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 7,
+        "readWriteSummary": {
+          "read": 6,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-31T08:17:44Z",
+        "url": "https://github.com/cyanheads/devops-status-mcp-server"
+      }
+    }
+  }
+}

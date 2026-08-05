@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-br0ski777-token-price",
+  "title": "Token Price API",
+  "description": "Real-time crypto token prices â€” price, 24h change, market cap, volume. x402 micropayment.",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://token-price.api.klymax402.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://github.com/Br0ski777/token-price-x402",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Token Price API",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Br0ski777"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-16T13:33:12.430792Z",
+        "upstreamUpdatedAt": "2026-05-16T13:33:12.430792Z",
+        "verifiedAt": "2026-08-05T02:03:33+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 1,
+        "readWriteSummary": {
+          "read": 1,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-18T16:48:11Z",
+        "url": "https://github.com/Br0ski777/token-price-x402"
+      }
+    }
+  }
+}

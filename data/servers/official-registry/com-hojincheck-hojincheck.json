@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-hojincheck-hojincheck",
+  "title": "HojinCheck — Japanese corporate verification API (hojin = 法人/corporate entity)",
+  "description": "Verify Japanese companies, invoice-issuer registrations and addresses against government open data.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hojincheck.com/mcp",
+      "headers": [
+        {
+          "description": "API key as a Bearer token, e.g. 'Bearer hjc_live_...'. Get a free key at https://hojincheck.com/signup (100 requests/day). X-Api-Key is also accepted.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://hojincheck.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "HojinCheck — Japanese corporate verification API (hojin = 法人/corporate entity)",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "hojincheck"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-14T10:45:34.418649Z",
+        "upstreamUpdatedAt": "2026-07-14T10:45:34.418649Z",
+        "verifiedAt": "2026-08-05T02:02:48+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 6,
+        "readWriteSummary": {
+          "read": 4,
+          "write": 0,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

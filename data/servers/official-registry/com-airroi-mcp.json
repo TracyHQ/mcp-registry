@@ -1,0 +1,55 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-airroi-mcp",
+  "title": "AirROI",
+  "description": "Airbnb & short-term rental market analytics: occupancy, ADR, RevPAR, revenue, comparables.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.airroi.com",
+      "headers": [
+        {
+          "description": "AirROI API key (free at airroi.com)",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "X-API-KEY"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.airroi.com/mcp-server",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "AirROI",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "airroi"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-02T02:21:02.867661Z",
+        "upstreamUpdatedAt": "2026-08-02T02:21:02.867661Z",
+        "verifiedAt": "2026-08-05T02:02:35+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "X-API-KEY"
+          ],
+          "hint": "AirROI API key (free at airroi.com)"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

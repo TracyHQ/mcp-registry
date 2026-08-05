@@ -1,0 +1,58 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/io-github-dan-cleary-convalytics",
+  "description": "Read-only analytics for Convex apps, queryable via MCP from Claude, Cursor, and other clients.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.convalytics.dev/mcp",
+      "headers": [
+        {
+          "description": "Convalytics API token. Create at https://convalytics.dev/tokens. Paste as 'Bearer cnv_...'.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://convalytics.dev/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Dan-Cleary"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-04-23T16:05:27.678167Z",
+        "upstreamUpdatedAt": "2026-04-23T16:05:27.678167Z",
+        "verifiedAt": "2026-08-05T02:03:41+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 15,
+        "readWriteSummary": {
+          "read": 12,
+          "write": 3,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 7,
+        "pushed_at": "2026-07-17T15:09:58Z",
+        "url": "https://github.com/Dan-Cleary/convalytics"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-nflmcp-nfl-mcp",
+  "title": "NFL MCP",
+  "description": "NFL analytics tools for AI agents: stats, fantasy, injuries, schedules, and advanced analysis.",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.nflmcp.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://nflmcp.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "NFL MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "nflmcp"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-22T20:51:29.233801Z",
+        "upstreamUpdatedAt": "2026-07-22T20:51:29.233801Z",
+        "verifiedAt": "2026-08-05T02:02:54+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

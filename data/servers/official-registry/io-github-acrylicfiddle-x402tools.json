@@ -1,0 +1,56 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-acrylicfiddle-x402tools",
+  "description": "10 pay-per-call tools for AI agents: QR, screenshots, DNS, OCR, PDF, email & more. USDC on Base.",
+  "version": "1.8.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.x402tools.xyz/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@x402-tools/mcp",
+      "version": "1.8.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "websiteUrl": "https://x402tools.xyz",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "acrylicfiddle"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-27T16:34:48.771188Z",
+        "upstreamUpdatedAt": "2026-07-27T16:34:48.771188Z",
+        "verifiedAt": "2026-08-05T02:03:53+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 11,
+        "readWriteSummary": {
+          "read": 11,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

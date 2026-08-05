@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-benspank-pollbolt",
+  "description": "AI-native survey & form builder. Manage surveys, responses, analytics, and webhooks.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.pollbolt.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://pollbolt.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "BenSpank"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-14T15:26:14.871291Z",
+        "upstreamUpdatedAt": "2026-06-14T15:26:14.871291Z",
+        "verifiedAt": "2026-08-05T02:03:15+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 15,
+        "readWriteSummary": {
+          "read": 7,
+          "write": 6,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

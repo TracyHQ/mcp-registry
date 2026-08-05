@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-capataina-agentfulfyl",
+  "description": "Research storefront for AI agents: fixed GBP prices, evidence ledgers, citation-refund guarantee.",
+  "version": "0.1.20",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentfulfyl.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://agentfulfyl.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Capataina"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-10T17:32:07.017835Z",
+        "upstreamUpdatedAt": "2026-07-10T17:32:07.017835Z",
+        "verifiedAt": "2026-08-05T02:03:40+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 3,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management",
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

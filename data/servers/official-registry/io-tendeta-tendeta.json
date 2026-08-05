@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-tendeta-tendeta",
+  "title": "Tendeta",
+  "description": "Manage a Tendeta store's catalogue and orders with store-scoped permissions.",
+  "version": "2.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.tendeta.io/mcp"
+    }
+  ],
+  "websiteUrl": "https://tendeta.io/agents",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Tendeta",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "tendeta"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-17T23:26:39.892126Z",
+        "upstreamUpdatedAt": "2026-07-17T23:26:39.892126Z",
+        "verifiedAt": "2026-08-05T02:04:43+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

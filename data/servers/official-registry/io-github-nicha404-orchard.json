@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-nicha404-orchard",
+  "title": "Orchard — Agentic Cloud Backend",
+  "description": "Managed database, auth, file storage, email, analytics, and deployment for coding agents.",
+  "version": "0.1.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://orchard-mcp.orchardagentic.workers.dev/mcp"
+    }
+  ],
+  "websiteUrl": "https://orchard-dashboard.pages.dev/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Orchard — Agentic Cloud Backend",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Nicha404"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-18T09:47:57.861373Z",
+        "upstreamUpdatedAt": "2026-07-18T09:47:57.861373Z",
+        "verifiedAt": "2026-08-05T02:03:45+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

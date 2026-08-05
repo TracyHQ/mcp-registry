@@ -1,0 +1,70 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-abtdomain-domainkits-mcp",
+  "title": "DomainKits",
+  "description": "Search newly registered, expired, aged, active, deleted and for-sale domains, plus WHOIS and DNS.",
+  "version": "2.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.domainkits.com/v1/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@domainkits/mcp",
+      "version": "0.1.4",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Optional API key. Without it the server runs on the guest quota.",
+          "format": "string",
+          "isSecret": true,
+          "name": "DOMAINKITS_API_KEY"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://domainkits.com/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "DomainKits",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "ABTdomain"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-31T07:59:04.310993Z",
+        "upstreamUpdatedAt": "2026-07-31T07:59:04.310993Z",
+        "verifiedAt": "2026-08-05T02:03:15+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 28,
+        "readWriteSummary": {
+          "read": 25,
+          "write": 0,
+          "unknown": 3
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 6,
+        "pushed_at": "2026-07-31T18:43:03Z",
+        "url": "https://github.com/ABTdomain/domainkits-mcp"
+      }
+    }
+  }
+}

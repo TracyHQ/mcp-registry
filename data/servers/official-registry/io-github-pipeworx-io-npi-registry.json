@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-pipeworx-io-npi-registry",
+  "title": "Npi Registry",
+  "description": "CMS NPI Registry MCP",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/npi-registry/mcp"
+    }
+  ],
+  "websiteUrl": "https://pipeworx.io/packs/npi-registry",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Npi Registry",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "pipeworx-io"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-13T15:41:10.686939Z",
+        "upstreamUpdatedAt": "2026-05-13T15:41:10.686939Z",
+        "verifiedAt": "2026-08-05T02:04:25+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 33,
+        "readWriteSummary": {
+          "read": 28,
+          "write": 3,
+          "unknown": 2
+        }
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-08-04T07:10:12Z",
+        "url": "https://github.com/pipeworx-io/mcp-npi-registry"
+      }
+    }
+  }
+}

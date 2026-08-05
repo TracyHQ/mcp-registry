@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-16/server.schema.json",
+  "name": "official-registry/ai-smithery-keremurat-json",
+  "description": "Compare two JSON files deeply without worrying about key or array order. Detect missing, extra, an…",
+  "version": "1.16.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://server.smithery.ai/@keremurat/json/mcp",
+      "headers": [
+        {
+          "description": "Bearer token for Smithery authentication",
+          "value": "Bearer {smithery_api_key}",
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "keremurat"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2025-10-03T13:28:40.425657Z",
+        "upstreamUpdatedAt": "2025-10-03T13:28:40.425657Z",
+        "verifiedAt": "2026-08-05T02:02:24+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2025-10-03T13:41:07Z",
+        "url": "https://github.com/keremurat/mcp"
+      }
+    }
+  }
+}

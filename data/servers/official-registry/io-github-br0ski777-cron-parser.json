@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-br0ski777-cron-parser",
+  "title": "Cron Parser API",
+  "description": "Parse, validate and explain cron expressions. Get next run times. x402 micropayment.",
+  "version": "1.1.0",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://cron-parser.api.klymax402.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://github.com/Br0ski777/cron-parser-x402",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Cron Parser API",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "Br0ski777"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-16T13:32:09.200158Z",
+        "upstreamUpdatedAt": "2026-05-16T13:32:09.200158Z",
+        "verifiedAt": "2026-08-05T02:03:17+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 1,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-18T16:47:28Z",
+        "url": "https://github.com/Br0ski777/cron-parser-x402"
+      }
+    }
+  }
+}

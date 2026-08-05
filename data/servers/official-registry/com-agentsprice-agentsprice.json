@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "official-registry/com-agentsprice-agentsprice",
+  "title": "AgentsPrice",
+  "description": "Verified best price across crypto, retail, tools & Rx generics — real sellers, never fabricated.",
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentsprice.com/mcp"
+    }
+  ],
+  "websiteUrl": "https://agentsprice.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "AgentsPrice",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "agentsprice"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-12T05:23:06.515976Z",
+        "upstreamUpdatedAt": "2026-06-12T05:23:06.515976Z",
+        "verifiedAt": "2026-08-05T02:02:35+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 12,
+        "readWriteSummary": {
+          "read": 2,
+          "write": 0,
+          "unknown": 10
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

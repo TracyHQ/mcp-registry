@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-infotrackglobal-us",
+  "title": "InfoTrack (US)",
+  "description": "Court e-filing and process serving. Submit filings, serve process, and manage orders.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://search.infotrack.com/services/mcp-us-server/mcp"
+    }
+  ],
+  "websiteUrl": "https://search.infotrack.com/services/mcp-us-server/docs",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "InfoTrack (US)",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "InfoTrackGlobal"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-29T22:19:51.35943Z",
+        "upstreamUpdatedAt": "2026-06-29T22:19:51.35943Z",
+        "verifiedAt": "2026-08-05T02:03:43+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

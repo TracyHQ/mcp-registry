@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "official-registry/io-github-lazymac2x-graphql-rest-bridge",
+  "description": "Cloudflare Workers MCP server: graphql-rest-bridge",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.lazy-mac.com/graphql-rest-bridge/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "lazymac2x"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-05-16T12:00:16.478597Z",
+        "upstreamUpdatedAt": "2026-05-16T12:00:16.478597Z",
+        "verifiedAt": "2026-08-05T02:04:14+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 0,
+          "write": 0,
+          "unknown": 4
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-04-22T19:39:21Z",
+        "url": "https://github.com/lazymac2x/graphql-rest-bridge-api"
+      }
+    }
+  }
+}

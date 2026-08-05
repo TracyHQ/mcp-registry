@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/io-github-periskop-ai-shopping-discovery",
+  "description": "Product discovery for AI agents: ranked products and bundles from the open merchant web.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.periskop.ai/v1/mcp",
+      "headers": [
+        {
+          "description": "Bearer <your Periskop API key, e.g. dp_xxx>. Get one at https://periskop.ai/developer",
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "periskop-ai"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-30T23:03:01.935777Z",
+        "upstreamUpdatedAt": "2026-06-30T23:03:01.935777Z",
+        "verifiedAt": "2026-08-05T02:03:47+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 0,
+        "pushed_at": "2026-07-01T11:42:27Z",
+        "url": "https://github.com/Periskop-ai/periskop-mcp"
+      }
+    }
+  }
+}

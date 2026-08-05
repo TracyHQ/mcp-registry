@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-infinitemindos-doai-signal-relay",
+  "title": "D.O.A.I. Signal Relay",
+  "description": "Intelligence subscription protocol for AI agents. Scored, filtered AI intelligence signals via MCP.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://doaiorbit.com/mcp",
+      "headers": [
+        {
+          "description": "API key for authentication. Register at https://doaiorbit.com/api/agent-register to get a free key.",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "X-Agent-Key"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "D.O.A.I. Signal Relay",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "infinitemindos-doai"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-29T23:22:38.489684Z",
+        "upstreamUpdatedAt": "2026-07-29T23:22:38.489684Z",
+        "verifiedAt": "2026-08-05T02:04:06+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "X-Agent-Key"
+          ],
+          "hint": "API key for authentication. Register at https://doaiorbit.com/api/agent-register to get a free key."
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

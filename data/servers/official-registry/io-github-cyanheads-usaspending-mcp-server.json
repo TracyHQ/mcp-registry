@@ -1,0 +1,132 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-cyanheads-usaspending-mcp-server",
+  "description": "Access US federal award, recipient, agency, and spending analytics data from USAspending.gov.",
+  "version": "0.4.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://usaspending.caseyjhand.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@cyanheads/usaspending-mcp-server",
+      "version": "0.4.1",
+      "runtimeHint": "node",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "value": "run",
+          "type": "positional"
+        },
+        {
+          "value": "start:stdio",
+          "type": "positional"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+          "format": "string",
+          "default": "info",
+          "name": "MCP_LOG_LEVEL"
+        }
+      ]
+    },
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "@cyanheads/usaspending-mcp-server",
+      "version": "0.4.1",
+      "runtimeHint": "node",
+      "transport": {
+        "type": "streamable-http",
+        "url": "http://localhost:3010/mcp"
+      },
+      "packageArguments": [
+        {
+          "value": "run",
+          "type": "positional"
+        },
+        {
+          "value": "start:http",
+          "type": "positional"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "description": "The hostname for the HTTP server.",
+          "format": "string",
+          "default": "127.0.0.1",
+          "name": "MCP_HTTP_HOST"
+        },
+        {
+          "description": "The port to run the HTTP server on.",
+          "format": "string",
+          "default": "3010",
+          "name": "MCP_HTTP_PORT"
+        },
+        {
+          "description": "The endpoint path for the MCP server.",
+          "format": "string",
+          "default": "/mcp",
+          "name": "MCP_HTTP_ENDPOINT_PATH"
+        },
+        {
+          "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+          "format": "string",
+          "default": "none",
+          "name": "MCP_AUTH_MODE"
+        },
+        {
+          "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+          "format": "string",
+          "default": "info",
+          "name": "MCP_LOG_LEVEL"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "cyanheads"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-27T20:54:26.14292Z",
+        "upstreamUpdatedAt": "2026-07-27T20:54:26.14292Z",
+        "verifiedAt": "2026-08-05T02:03:59+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 18,
+        "readWriteSummary": {
+          "read": 18,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-07-27T20:54:09Z",
+        "url": "https://github.com/cyanheads/usaspending-mcp-server"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "official-registry/com-agilitycms-mcp-server",
+  "description": "An MCP server that provides access to Agility CMS.  See https://mcp.agilitycms.com for more details.",
+  "version": "2.2.6",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.agilitycms.com/api/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "agility"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-08-03T11:39:31.404447Z",
+        "upstreamUpdatedAt": "2026-08-03T11:39:31.404447Z",
+        "verifiedAt": "2026-08-04T11:15:21+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Site Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

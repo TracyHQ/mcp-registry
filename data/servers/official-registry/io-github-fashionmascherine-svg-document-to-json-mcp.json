@@ -1,0 +1,60 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-fashionmascherine-svg-document-to-json-mcp",
+  "title": "Document to JSON – PDF Invoice/Statement/Contract Parser",
+  "description": "Turn any PDF into structured JSON via AI + OCR: invoices, bank statements, contracts.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?actors=opportunity-biz/document-to-json-mcp",
+      "headers": [
+        {
+          "description": "Apify API token as 'Bearer <APIFY_TOKEN>'. Get it at https://console.apify.com/account/integrations",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://apify.com/opportunity-biz/document-to-json-mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Document to JSON – PDF Invoice/Statement/Contract Parser",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "fashionmascherine-svg"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-24T17:38:23.829707Z",
+        "upstreamUpdatedAt": "2026-06-24T17:38:23.829707Z",
+        "verifiedAt": "2026-08-05T02:04:03+00:00",
+        "probeStatus": "auth_required",
+        "authHint": {
+          "declared_headers": [
+            "Authorization"
+          ],
+          "hint": "Apify API token as 'Bearer <APIFY_TOKEN>'. Get it at https://console.apify.com/account/integrations"
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 8,
+        "pushed_at": "2026-06-25T16:25:08Z",
+        "url": "https://github.com/fashionmascherine-svg/document-to-json-mcp"
+      }
+    }
+  }
+}

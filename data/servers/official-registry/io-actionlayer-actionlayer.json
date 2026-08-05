@@ -1,0 +1,64 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-actionlayer-actionlayer",
+  "description": "Concierge for AI agents: takes action in the physical world — book, order, register, resolve.",
+  "version": "0.7.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.actionlayer.io/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "actionlayer",
+      "version": "0.7.1",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "API key from https://actionlayer.io/app#settings",
+          "isRequired": true,
+          "isSecret": true,
+          "name": "ACTIONLAYER_API_KEY"
+        },
+        {
+          "description": "ActionLayer API base URL",
+          "default": "https://api.actionlayer.io",
+          "name": "ACTIONLAYER_API_URL"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://actionlayer.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "actionlayer"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-14T18:22:46.693023Z",
+        "upstreamUpdatedAt": "2026-07-14T18:22:46.693023Z",
+        "verifiedAt": "2026-08-05T02:03:12+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

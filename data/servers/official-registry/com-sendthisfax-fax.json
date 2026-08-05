@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-sendthisfax-fax",
+  "title": "SendThisFax",
+  "description": "Send real faxes to EU institutions: pay per fax via checkout link or prepaid API key.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.sendthisfax.com/mcp",
+      "headers": [
+        {
+          "description": "Optional: Bearer stf_live_... prepaid API key for autonomous sending (buy at https://www.sendthisfax.com/en/credits). Omit for pay-per-fax checkout links.",
+          "isSecret": true,
+          "name": "Authorization"
+        }
+      ]
+    }
+  ],
+  "websiteUrl": "https://www.sendthisfax.com/en/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "SendThisFax",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "sendthisfax"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-08T17:33:41.250799Z",
+        "upstreamUpdatedAt": "2026-07-08T17:33:41.250799Z",
+        "verifiedAt": "2026-08-05T02:02:58+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 4,
+        "readWriteSummary": {
+          "read": 3,
+          "write": 0,
+          "unknown": 1
+        }
+      },
+      "classification": {
+        "capability": [
+          "Billing & Payments"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

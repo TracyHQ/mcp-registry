@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/io-github-retampweb-pa1m-hyperliquid",
+  "title": "Pa1m Hyperliquid",
+  "description": "Hyperliquid DEX data: prices, order books, candles, funding rates, portfolios. Pay-per-call, x402.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://hyperliquid.hypa1m.xyz/mcp"
+    }
+  ],
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "Pa1m Hyperliquid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "retampweb"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-27T13:06:43.140719Z",
+        "upstreamUpdatedAt": "2026-07-27T13:06:43.140719Z",
+        "verifiedAt": "2026-08-05T02:04:28+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 14,
+        "readWriteSummary": {
+          "read": 14,
+          "write": 0,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/ai-seocrawl-mcp",
+  "title": "SEOcrawl AI",
+  "description": "Live Google Search Console data, keyword/page analysis, site audit and SEO tasks from SEOcrawl AI.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.seocrawl.ai"
+    }
+  ],
+  "websiteUrl": "https://seocrawl.ai/mcp",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "SEOcrawl AI",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "seocrawl"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-06-07T21:47:17.425106Z",
+        "upstreamUpdatedAt": "2026-06-07T21:47:17.425106Z",
+        "verifiedAt": "2026-08-05T02:02:23+00:00",
+        "probeStatus": "auth_required"
+      },
+      "classification": {
+        "capability": [
+          "Analytics"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      }
+    }
+  }
+}

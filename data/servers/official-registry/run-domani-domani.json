@@ -1,0 +1,50 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/run-domani-domani",
+  "description": "Internet identity for AI agents: register or broker domains, email, DNS - pay by card or USDC.",
+  "version": "0.4.15",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://domani.run/mcp"
+    }
+  ],
+  "websiteUrl": "https://domani.run",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "gwendall"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-10T14:01:45.466164Z",
+        "upstreamUpdatedAt": "2026-07-10T14:01:45.466164Z",
+        "verifiedAt": "2026-08-05T02:04:53+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 122,
+        "readWriteSummary": {
+          "read": 47,
+          "write": 33,
+          "unknown": 42
+        }
+      },
+      "classification": {
+        "capability": [
+          "Infrastructure"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 1,
+        "pushed_at": "2026-07-28T06:34:09Z",
+        "url": "https://github.com/gwendall/domani"
+      }
+    }
+  }
+}

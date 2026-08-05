@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "official-registry/com-1inch-business-mcp",
+  "title": "1inch MCP",
+  "description": "Doc search, intent & cross-chain swaps, limit orders, portfolio, spot prices, gas & all APIs.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.1inch.com/mcp/protocol"
+    }
+  ],
+  "websiteUrl": "https://business.1inch.com/portal/documentation/ai-integration",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "valid",
+      "title": "1inch MCP",
+      "provenance": "community",
+      "provenanceConfidence": "inferred",
+      "operator": {
+        "name": "1inch"
+      },
+      "evidence": {
+        "upstreamRegistry": "https://registry.modelcontextprotocol.io",
+        "upstreamPublishedAt": "2026-07-26T19:08:20.352491Z",
+        "upstreamUpdatedAt": "2026-07-26T19:08:20.352491Z",
+        "verifiedAt": "2026-08-05T02:02:32+00:00",
+        "probeStatus": "tools_listed",
+        "toolCount": 9,
+        "readWriteSummary": {
+          "read": 5,
+          "write": 4,
+          "unknown": 0
+        }
+      },
+      "classification": {
+        "capability": [
+          "Store Management"
+        ],
+        "directory": [
+          "official-mcp-registry"
+        ],
+        "hosting": "hosted"
+      },
+      "github": {
+        "stars": 2,
+        "pushed_at": "2026-08-02T19:09:18Z",
+        "url": "https://github.com/1inch/1inch-ai"
+      }
+    }
+  }
+}
