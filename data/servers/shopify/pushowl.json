@@ -1,50 +1,59 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/pushowl",
-    "title": "Brevo PushOwl: Email,Push,SMS",
-    "websiteUrl": "https:\/\/pushowl.com?utm_campaign=developer-website",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Brevo PushOwl: Email,Push,SMS",
-            "provenance": "official",
-            "operator": {
-                "name": "Brevo PushOwl"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/pushowl",
-            "activeInstalls": 96290,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "vendorMcpStatus": "official-ga",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/developers.brevo.com\/docs\/mcp-protocol",
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:49:21+00:00",
-                "probeEndpoint": "https:\/\/mcp.pushowl.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
-        }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/pushowl",
+  "title": "Brevo PushOwl: Email,Push,SMS",
+  "websiteUrl": "https://pushowl.com?utm_campaign=developer-website",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Brevo PushOwl: Email,Push,SMS",
+      "listingUrl": "https://apps.shopify.com/pushowl",
+      "identity": {
+        "operator": {
+          "name": "Brevo PushOwl"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.pushowl.com/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "vendorAnnouncement": {
+          "status": "official-ga",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://developers.brevo.com/docs/mcp-protocol"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "installs": {
+          "count": 96290,
+          "source": "third-party-measured"
+        },
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:b9e557bbebc49d637dd1e3c55d52d9e21a6c28f064cf8b63adec163836e221ec"
     }
+  }
 }

@@ -1,49 +1,59 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/enable-abilities-for-mcp",
-    "title": "Enable Abilities for MCP",
-    "version": "2.0.24",
-    "websiteUrl": "https:\/\/wordpress.org\/plugins\/enable-abilities-for-mcp\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Enable Abilities for MCP",
-            "operator": {
-                "name": "fabiomontenegro1987"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/enable-abilities-for-mcp\/",
-            "activeInstalls": 2000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:30:16+00:00",
-                "restRoutes": "0",
-                "abilitiesExtracted": "0",
-                "cliCommands": "0",
-                "scanZipVersion": "2.0.24",
-                "scanWriteHints": "0",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/enable-abilities-for-mcp",
+  "title": "Enable Abilities for MCP",
+  "version": "2.0.24",
+  "websiteUrl": "https://wordpress.org/plugins/enable-abilities-for-mcp/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Enable Abilities for MCP",
+      "listingUrl": "https://wordpress.org/plugins/enable-abilities-for-mcp/",
+      "identity": {
+        "operator": {
+          "name": "fabiomontenegro1987"
         }
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:30:16+00:00",
+          "restRoutes": "0",
+          "abilitiesExtracted": "0",
+          "cliCommands": "0",
+          "scanZipVersion": "2.0.24",
+          "writeHints": "0"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_domain",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "note": "websiteUrl (https://wordpress.org/plugins/enable-abilities-for-mcp/) is a marketplace/directory listing, not the vendor's own domain — no vendor domain to probe."
+        }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "installs": {
+          "count": 2000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:26cc07558d53b9cc2c400f1b1a717efef4a81da786b0017051e401d83678b378"
     }
+  }
 }

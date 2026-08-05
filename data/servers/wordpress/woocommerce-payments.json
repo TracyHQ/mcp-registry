@@ -1,53 +1,69 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/woocommerce-payments",
-    "title": "WooPayments: Integrated WooCommerce Payments",
-    "version": "10.9.0",
-    "websiteUrl": "https:\/\/woocommerce.com\/payments\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "WooPayments: Integrated WooCommerce Payments",
-            "provenance": "official",
-            "operator": {
-                "name": "WooCommerce"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-payments\/",
-            "activeInstalls": 900000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T08:57:27+00:00",
-                "restRoutes": "142",
-                "abilitiesExtracted": "0",
-                "cliCommands": "1",
-                "scanZipVersion": "10.9.0",
-                "scanWriteHints": "68",
-                "vendorMcpStatus": "official-beta",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/2026\/06\/01\/expanding-abilities-across-woocommerce-extensions\/",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "source-scanned",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/woocommerce-payments",
+  "title": "WooPayments: Integrated WooCommerce Payments",
+  "version": "10.9.0",
+  "websiteUrl": "https://woocommerce.com/payments/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "WooPayments: Integrated WooCommerce Payments",
+      "listingUrl": "https://wordpress.org/plugins/woocommerce-payments/",
+      "identity": {
+        "operator": {
+          "name": "WooCommerce"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T08:57:27+00:00",
+          "restRoutes": "142",
+          "abilitiesExtracted": "0",
+          "cliCommands": "1",
+          "scanZipVersion": "10.9.0",
+          "writeHints": "68"
+        },
+        "vendorAnnouncement": {
+          "status": "official-beta",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://developer.woocommerce.com/2026/06/01/expanding-abilities-across-woocommerce-extensions/"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
         }
+      },
+      "classification": {
+        "capability": [
+          "source-scanned",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "installs": {
+          "count": 900000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:5bf2cd29397006e4eea15c8fe27de05d7e0c3f68d0b0671a285fdd13f111fcd3"
     }
+  }
 }

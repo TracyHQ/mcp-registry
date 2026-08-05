@@ -1,45 +1,52 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/reviews-co-uk-product-and-merchant-review-collection",
-    "title": "REVIEWS.io Product Reviews App",
-    "websiteUrl": "https:\/\/developer.reviews.io\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "REVIEWS.io Product Reviews App",
-            "operator": {
-                "name": "Reviews.io"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/reviews-co-uk-product-and-merchant-review-collection",
-            "activeInstalls": 9315,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:50:04+00:00",
-                "probeEndpoint": "https:\/\/developer.reviews.io\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/reviews-co-uk-product-and-merchant-review-collection",
+  "title": "REVIEWS.io Product Reviews App",
+  "websiteUrl": "https://developer.reviews.io/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "REVIEWS.io Product Reviews App",
+      "listingUrl": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection",
+      "identity": {
+        "operator": {
+          "name": "Reviews.io"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://developer.reviews.io/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "installs": {
+          "count": 9315,
+          "source": "third-party-measured"
+        },
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:24ed21f2415026560215fa5748ee5e0b208eef17650fc9e730baf2a2c1c8047f"
     }
+  }
 }

@@ -1,45 +1,52 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/variant-image-automator",
-    "title": "SA Variant Image Automator",
-    "websiteUrl": "https:\/\/www.starapps.studio",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "SA Variant Image Automator",
-            "operator": {
-                "name": "StarApps"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/variant-image-automator",
-            "activeInstalls": 4289,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:49:49+00:00",
-                "probeEndpoint": "https:\/\/api.starapps.studio\/mcp",
-                "probeHttpStatus": "403",
-                "probeConfidence": "medium"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/variant-image-automator",
+  "title": "SA Variant Image Automator",
+  "websiteUrl": "https://www.starapps.studio",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "SA Variant Image Automator",
+      "listingUrl": "https://apps.shopify.com/variant-image-automator",
+      "identity": {
+        "operator": {
+          "name": "StarApps"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://api.starapps.studio/mcp",
+          "httpStatus": "403",
+          "confidence": "medium"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "installs": {
+          "count": 4289,
+          "source": "third-party-measured"
+        },
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:e0cfc0ba2c9b9f6ebe11d0f9abe812fdad2ade9ed55b1babc80773a8e646ab85"
     }
+  }
 }

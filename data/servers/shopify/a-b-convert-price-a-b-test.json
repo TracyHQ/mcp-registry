@@ -1,45 +1,52 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/a-b-convert-price-a-b-test",
-    "title": "ABConvert: A\/B Testing",
-    "websiteUrl": "https:\/\/abconvert.io",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "ABConvert: A\/B Testing",
-            "operator": {
-                "name": "ABConvert"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/a-b-convert-price-a-b-test",
-            "activeInstalls": 1444,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:51:54+00:00",
-                "probeEndpoint": "https:\/\/mcp.abconvert.io\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "paid"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/a-b-convert-price-a-b-test",
+  "title": "ABConvert: A/B Testing",
+  "websiteUrl": "https://abconvert.io",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "ABConvert: A/B Testing",
+      "listingUrl": "https://apps.shopify.com/a-b-convert-price-a-b-test",
+      "identity": {
+        "operator": {
+          "name": "ABConvert"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.abconvert.io/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "paid"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "installs": {
+          "count": 1444,
+          "source": "third-party-measured"
+        },
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:e60827dd9983e6518164cea723e9da1f7f9e6a3c536a969650e5ab1dbe60f28f"
     }
+  }
 }

@@ -1,45 +1,52 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/happyreturns",
-    "title": "Happy Returns, a UPS Company",
-    "websiteUrl": "https:\/\/happyreturns.com\/frp-hr-home",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Happy Returns, a UPS Company",
-            "operator": {
-                "name": "Happy Returns"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/happyreturns",
-            "activeInstalls": 1483,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:51:56+00:00",
-                "probeEndpoint": "https:\/\/mcp.happyreturns.com\/mcp",
-                "probeHttpStatus": "403",
-                "probeConfidence": "medium"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint"
-                ],
-                "pricing": [
-                    "paid"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/happyreturns",
+  "title": "Happy Returns, a UPS Company",
+  "websiteUrl": "https://happyreturns.com/frp-hr-home",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Happy Returns, a UPS Company",
+      "listingUrl": "https://apps.shopify.com/happyreturns",
+      "identity": {
+        "operator": {
+          "name": "Happy Returns"
         }
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.happyreturns.com/mcp",
+          "httpStatus": "403",
+          "confidence": "medium"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint"
+        ],
+        "pricing": [
+          "paid"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "installs": {
+          "count": 1483,
+          "source": "third-party-measured"
+        },
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:b8ff384b81b34d752a49caf96cfac268669fd801ee6f443a37bd23dc603a03e5"
     }
+  }
 }

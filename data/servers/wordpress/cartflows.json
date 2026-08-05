@@ -1,49 +1,60 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/cartflows",
-    "title": "CartFlows – Funnel Builder & Checkout Plugin for WooCommerce",
-    "version": "3.1.3",
-    "websiteUrl": "https:\/\/cartflows.com\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "CartFlows – Funnel Builder & Checkout Plugin for WooCommerce",
-            "operator": {
-                "name": "Brainstorm Force"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/cartflows\/",
-            "activeInstalls": 200000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T08:58:08+00:00",
-                "restRoutes": "26",
-                "abilitiesExtracted": "0",
-                "cliCommands": "5",
-                "scanZipVersion": "3.1.3",
-                "scanWriteHints": "16",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/cartflows",
+  "title": "CartFlows – Funnel Builder & Checkout Plugin for WooCommerce",
+  "version": "3.1.3",
+  "websiteUrl": "https://cartflows.com/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "CartFlows – Funnel Builder & Checkout Plugin for WooCommerce",
+      "listingUrl": "https://wordpress.org/plugins/cartflows/",
+      "identity": {
+        "operator": {
+          "name": "Brainstorm Force"
         }
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T08:58:08+00:00",
+          "restRoutes": "26",
+          "abilitiesExtracted": "0",
+          "cliCommands": "5",
+          "scanZipVersion": "3.1.3",
+          "writeHints": "16"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "blocked",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "low",
+          "httpStatus": "403"
+        }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "installs": {
+          "count": 200000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:aadb95eede3078d07ced49354231f0d1527da46416c7f616c3bb6d16d2a8e2e4"
     }
+  }
 }

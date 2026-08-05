@@ -1,54 +1,70 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/woocommerce-square",
-    "title": "WooCommerce Square",
-    "version": "5.4.2",
-    "websiteUrl": "https:\/\/woocommerce.com\/products\/square\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "WooCommerce Square",
-            "provenance": "official",
-            "operator": {
-                "name": "WooCommerce"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-square\/",
-            "activeInstalls": 80000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:00:12+00:00",
-                "restRoutes": "10",
-                "abilitiesExtracted": "0",
-                "cliCommands": "0",
-                "scanZipVersion": "5.4.2",
-                "scanWriteHints": "6",
-                "vendorMcpStatus": "official-beta",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/2026\/06\/01\/expanding-abilities-across-woocommerce-extensions\/",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/woocommerce-square",
+  "title": "WooCommerce Square",
+  "version": "5.4.2",
+  "websiteUrl": "https://woocommerce.com/products/square/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "WooCommerce Square",
+      "listingUrl": "https://wordpress.org/plugins/woocommerce-square/",
+      "identity": {
+        "operator": {
+          "name": "WooCommerce"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:00:12+00:00",
+          "restRoutes": "10",
+          "abilitiesExtracted": "0",
+          "cliCommands": "0",
+          "scanZipVersion": "5.4.2",
+          "writeHints": "6"
+        },
+        "vendorAnnouncement": {
+          "status": "official-beta",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://developer.woocommerce.com/2026/06/01/expanding-abilities-across-woocommerce-extensions/"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
         }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "installs": {
+          "count": 80000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:47d4992e12e7243ec8b05090208dc489107009262f287ec01d05269504463355"
     }
+  }
 }

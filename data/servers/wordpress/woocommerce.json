@@ -1,54 +1,70 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/woocommerce",
-    "title": "WooCommerce",
-    "version": "10.9.4",
-    "websiteUrl": "https:\/\/woocommerce.com\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "WooCommerce",
-            "provenance": "official",
-            "operator": {
-                "name": "Automattic"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce\/",
-            "activeInstalls": 7000000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T08:57:18+00:00",
-                "restRoutes": "344",
-                "abilitiesExtracted": "6",
-                "cliCommands": "31",
-                "scanZipVersion": "10.9.4",
-                "scanWriteHints": "363",
-                "vendorMcpStatus": "official-beta",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/docs\/features\/mcp\/",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/woocommerce",
+  "title": "WooCommerce",
+  "version": "10.9.4",
+  "websiteUrl": "https://woocommerce.com/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "WooCommerce",
+      "listingUrl": "https://wordpress.org/plugins/woocommerce/",
+      "identity": {
+        "operator": {
+          "name": "Automattic"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T08:57:18+00:00",
+          "restRoutes": "344",
+          "abilitiesExtracted": "6",
+          "cliCommands": "31",
+          "scanZipVersion": "10.9.4",
+          "writeHints": "363"
+        },
+        "vendorAnnouncement": {
+          "status": "official-beta",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://developer.woocommerce.com/docs/features/mcp/"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
         }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "installs": {
+          "count": 7000000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:a1d6f225dc553be4481caf4e73a89c6fdb8e94bdbf004a1fc132eccf9437b0c6"
     }
+  }
 }

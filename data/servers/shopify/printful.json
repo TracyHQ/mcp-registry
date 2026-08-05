@@ -1,48 +1,60 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/printful",
-    "title": "Printful: Print on Demand",
-    "websiteUrl": "https:\/\/www.printful.com\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Printful: Print on Demand",
-            "provenance": "community",
-            "operator": {
-                "name": "Printful Latvia AS"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/printful",
-            "activeInstalls": 139864,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "vendorMcpStatus": "third-party-wrapper",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/github.com\/Purple-Horizons\/printful-mcp",
-                "probeStatus": "no_vendor_endpoint",
-                "probeCheckedAt": "2026-08-02T11:49:23+00:00",
-                "probeConfidence": "medium"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "endpoint-checked",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/printful",
+  "title": "Printful: Print on Demand",
+  "websiteUrl": "https://www.printful.com/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Printful: Print on Demand",
+      "listingUrl": "https://apps.shopify.com/printful",
+      "identity": {
+        "operator": {
+          "name": "Printful Latvia AS"
+        },
+        "provenance": "community"
+      },
+      "measurement": {
+        "vendorAnnouncement": {
+          "status": "third-party-wrapper",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://github.com/Purple-Horizons/printful-mcp"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
         }
+      },
+      "classification": {
+        "capability": [
+          "endpoint-checked",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "installs": {
+          "count": 139864,
+          "source": "third-party-measured"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:e85572670d19a54322101c609ea0958dbbf320a8f246a25b197896c54bc7e252"
     }
+  }
 }

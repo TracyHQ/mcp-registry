@@ -1,54 +1,70 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/woocommerce-paypal-payments",
-    "title": "WooCommerce PayPal Payments",
-    "version": "4.1.1",
-    "websiteUrl": "https:\/\/woocommerce.com\/products\/woocommerce-paypal-payments\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "WooCommerce PayPal Payments",
-            "provenance": "official",
-            "operator": {
-                "name": "WooCommerce"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-paypal-payments\/",
-            "activeInstalls": 800000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T08:57:31+00:00",
-                "restRoutes": "37",
-                "abilitiesExtracted": "0",
-                "cliCommands": "0",
-                "scanZipVersion": "4.1.1",
-                "scanWriteHints": "23",
-                "vendorMcpStatus": "official-beta",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/2026\/06\/01\/expanding-abilities-across-woocommerce-extensions\/",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/woocommerce-paypal-payments",
+  "title": "WooCommerce PayPal Payments",
+  "version": "4.1.1",
+  "websiteUrl": "https://woocommerce.com/products/woocommerce-paypal-payments/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "WooCommerce PayPal Payments",
+      "listingUrl": "https://wordpress.org/plugins/woocommerce-paypal-payments/",
+      "identity": {
+        "operator": {
+          "name": "WooCommerce"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T08:57:31+00:00",
+          "restRoutes": "37",
+          "abilitiesExtracted": "0",
+          "cliCommands": "0",
+          "scanZipVersion": "4.1.1",
+          "writeHints": "23"
+        },
+        "vendorAnnouncement": {
+          "status": "official-beta",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://developer.woocommerce.com/2026/06/01/expanding-abilities-across-woocommerce-extensions/"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
         }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "installs": {
+          "count": 800000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:46065dcb623db5286b3d19eb32b58214680f0c99eef15f1ad63e0673632d5c5a"
     }
+  }
 }

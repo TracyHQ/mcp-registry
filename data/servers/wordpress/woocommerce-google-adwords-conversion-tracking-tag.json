@@ -1,52 +1,66 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/woocommerce-google-adwords-conversion-tracking-tag",
-    "title": "Pixel Manager for WooCommerce – Conversion Tracking, Google Ads, GA4, TikTok, Dynamic Remarketing",
-    "version": "1.64.0",
-    "websiteUrl": "https:\/\/sweetcode.com\/plugins\/pmw\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Pixel Manager for WooCommerce – Conversion Tracking, Google Ads, GA4, TikTok, Dynamic Remarketing",
-            "operator": {
-                "name": "SweetCode"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-google-adwords-conversion-tracking-tag\/",
-            "activeInstalls": 40000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:01:23+00:00",
-                "restRoutes": "36",
-                "abilitiesExtracted": "8",
-                "cliCommands": "3",
-                "scanZipVersion": "1.64.0",
-                "scanWriteHints": "20",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned"
-                ],
-                "access": [
-                    "can-write-you-approve"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/woocommerce-google-adwords-conversion-tracking-tag",
+  "title": "Pixel Manager for WooCommerce – Conversion Tracking, Google Ads, GA4, TikTok, Dynamic Remarketing",
+  "version": "1.64.0",
+  "websiteUrl": "https://sweetcode.com/plugins/pmw/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Pixel Manager for WooCommerce – Conversion Tracking, Google Ads, GA4, TikTok, Dynamic Remarketing",
+      "listingUrl": "https://wordpress.org/plugins/woocommerce-google-adwords-conversion-tracking-tag/",
+      "identity": {
+        "operator": {
+          "name": "SweetCode"
         }
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:01:23+00:00",
+          "restRoutes": "36",
+          "abilitiesExtracted": "8",
+          "cliCommands": "3",
+          "scanZipVersion": "1.64.0",
+          "writeHints": "20"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
+        }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "access": [
+          "can-write-you-approve"
+        ],
+        "installs": {
+          "count": 40000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:d5939112264ebda425a110edbc5bbdc99a097e55b787dd8326312e8b57fb5627"
     }
+  }
 }

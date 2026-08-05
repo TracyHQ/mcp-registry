@@ -1,56 +1,72 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/woocommerce-shipping",
-    "title": "WooCommerce Shipping",
-    "version": "2.3.12",
-    "websiteUrl": "https:\/\/woocommerce.com\/products\/shipping\/",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "WooCommerce Shipping",
-            "provenance": "official",
-            "operator": {
-                "name": "WooCommerce"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/woocommerce-shipping\/",
-            "activeInstalls": 70000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:00:33+00:00",
-                "restRoutes": "77",
-                "abilitiesExtracted": "0",
-                "cliCommands": "1",
-                "scanZipVersion": "2.3.12",
-                "scanWriteHints": "47",
-                "vendorMcpStatus": "official-beta",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/developer.woocommerce.com\/2026\/06\/01\/expanding-abilities-across-woocommerce-extensions\/",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "source-scanned",
-                    "vendor-mcp"
-                ],
-                "access": [
-                    "read-only"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/woocommerce-shipping",
+  "title": "WooCommerce Shipping",
+  "version": "2.3.12",
+  "websiteUrl": "https://woocommerce.com/products/shipping/",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "WooCommerce Shipping",
+      "listingUrl": "https://wordpress.org/plugins/woocommerce-shipping/",
+      "identity": {
+        "operator": {
+          "name": "WooCommerce"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:00:33+00:00",
+          "restRoutes": "77",
+          "abilitiesExtracted": "0",
+          "cliCommands": "1",
+          "scanZipVersion": "2.3.12",
+          "writeHints": "47"
+        },
+        "vendorAnnouncement": {
+          "status": "official-beta",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://developer.woocommerce.com/2026/06/01/expanding-abilities-across-woocommerce-extensions/"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
         }
+      },
+      "classification": {
+        "capability": [
+          "source-scanned",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "access": [
+          "read-only"
+        ],
+        "installs": {
+          "count": 70000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:4138d3f0cdeaa6efe7fbed19526c6434045221cc1c98a008b20dec8c9341bafb"
     }
+  }
 }

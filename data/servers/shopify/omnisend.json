@@ -1,50 +1,59 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/omnisend",
-    "title": "Omnisend Email Marketing & SMS",
-    "websiteUrl": "https:\/\/www.omnisend.com",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Omnisend Email Marketing & SMS",
-            "provenance": "official",
-            "operator": {
-                "name": "Omnisend"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/omnisend",
-            "activeInstalls": 66236,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "vendorMcpStatus": "official-ga",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/support.omnisend.com\/en\/articles\/15096086-connect-omnisend-mcp-to-ai-tools",
-                "probeStatus": "auth_required",
-                "probeCheckedAt": "2026-08-02T11:49:25+00:00",
-                "probeEndpoint": "https:\/\/mcp.omnisend.com\/mcp",
-                "probeHttpStatus": "401",
-                "probeConfidence": "high"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "vendor-endpoint",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
-        }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/omnisend",
+  "title": "Omnisend Email Marketing & SMS",
+  "websiteUrl": "https://www.omnisend.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Omnisend Email Marketing & SMS",
+      "listingUrl": "https://apps.shopify.com/omnisend",
+      "identity": {
+        "operator": {
+          "name": "Omnisend"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "verification": {
+          "endpoint": "auth_required",
+          "checkedAt": "2026-08-05T12:15:55+00:00",
+          "checkedUrl": "https://mcp.omnisend.com/mcp",
+          "httpStatus": "401",
+          "confidence": "high"
+        },
+        "vendorAnnouncement": {
+          "status": "official-ga",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://support.omnisend.com/en/articles/15096086-connect-omnisend-mcp-to-ai-tools"
+        },
+        "upstreamStatus": "active"
+      },
+      "classification": {
+        "capability": [
+          "vendor-endpoint",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "installs": {
+          "count": 66236,
+          "source": "third-party-measured"
+        },
+        "hosting": "remote-capable"
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:926b5a102960e87a69c73fa7e6122e245bee825fdcc06d138940eeebfe338bef"
     }
+  }
 }

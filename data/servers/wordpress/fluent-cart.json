@@ -1,49 +1,63 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "wordpress\/fluent-cart",
-    "title": "FluentCart A New Era of eCommerce – Faster, Lighter, and Simpler",
-    "version": "1.6.0",
-    "websiteUrl": "https:\/\/fluentcart.com",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "FluentCart A New Era of eCommerce – Faster, Lighter, and Simpler",
-            "operator": {
-                "name": "WPManageNinja"
-            },
-            "ecosystem": [
-                "wordpress"
-            ],
-            "listingUrl": "https:\/\/wordpress.org\/plugins\/fluent-cart\/",
-            "activeInstalls": 7000,
-            "activeInstallsSource": "directory-reported",
-            "businessModel": [
-                "unknown"
-            ],
-            "evidence": {
-                "sourceScannedAt": "2026-08-02T09:12:25+00:00",
-                "restRoutes": "1",
-                "abilitiesExtracted": "0",
-                "cliCommands": "6",
-                "scanZipVersion": "1.6.0",
-                "scanWriteHints": "0",
-                "probeStatus": "pending"
-            },
-            "classification": {
-                "platform": [
-                    "wordpress"
-                ],
-                "capability": [
-                    "mcp-abilities",
-                    "source-scanned"
-                ],
-                "pricing": [
-                    "unknown"
-                ],
-                "directory": [
-                    "wporg-directory"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "wordpress/fluent-cart",
+  "title": "FluentCart A New Era of eCommerce – Faster, Lighter, and Simpler",
+  "version": "1.6.0",
+  "websiteUrl": "https://fluentcart.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "FluentCart A New Era of eCommerce – Faster, Lighter, and Simpler",
+      "listingUrl": "https://wordpress.org/plugins/fluent-cart/",
+      "identity": {
+        "operator": {
+          "name": "WPManageNinja"
         }
+      },
+      "measurement": {
+        "sourceScan": {
+          "scannedAt": "2026-08-02T09:12:25+00:00",
+          "restRoutes": "1",
+          "abilitiesExtracted": "0",
+          "cliCommands": "6",
+          "scanZipVersion": "1.6.0",
+          "writeHints": "0"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
+        }
+      },
+      "classification": {
+        "capability": [
+          "mcp-abilities",
+          "source-scanned"
+        ],
+        "pricing": [
+          "unknown"
+        ],
+        "businessModel": [
+          "unknown"
+        ],
+        "ecosystem": [
+          "wordpress"
+        ],
+        "installs": {
+          "count": 7000,
+          "source": "directory-reported"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:88351e697804f6d94748bba25b37d6e00b0647acc2989248c88e2d9a462d3214"
     }
+  }
 }

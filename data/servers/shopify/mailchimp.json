@@ -1,48 +1,60 @@
 {
-    "$schema": "https:\/\/static.modelcontextprotocol.io\/schemas\/2025-12-11\/server.schema.json",
-    "name": "shopify\/mailchimp",
-    "title": "Mailchimp Email SMS Marketing",
-    "websiteUrl": "https:\/\/mailchimp.com",
-    "_meta": {
-        "ai.tracy.registry\/curation": {
-            "conformance": "shaped-not-valid",
-            "title": "Mailchimp Email SMS Marketing",
-            "provenance": "official",
-            "operator": {
-                "name": "Intuit Mailchimp"
-            },
-            "ecosystem": [
-                "shopify"
-            ],
-            "listingUrl": "https:\/\/apps.shopify.com\/mailchimp",
-            "activeInstalls": 145187,
-            "activeInstallsSource": "third-party-measured",
-            "businessModel": [
-                "commercial"
-            ],
-            "evidence": {
-                "vendorMcpStatus": "official-ga",
-                "vendorMcpSurveyedAt": "2026-08-01",
-                "vendorMcpEvidenceUrl": "https:\/\/mailchimp.com\/resources\/connect-mailchimp-to-claude\/",
-                "probeStatus": "no_vendor_endpoint",
-                "probeCheckedAt": "2026-08-02T11:49:20+00:00",
-                "probeConfidence": "medium"
-            },
-            "classification": {
-                "platform": [
-                    "shopify"
-                ],
-                "capability": [
-                    "endpoint-checked",
-                    "vendor-mcp"
-                ],
-                "pricing": [
-                    "freemium"
-                ],
-                "directory": [
-                    "shopify-app-store"
-                ]
-            }
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "shopify/mailchimp",
+  "title": "Mailchimp Email SMS Marketing",
+  "websiteUrl": "https://mailchimp.com",
+  "_meta": {
+    "ai.tracy.registry/curation": {
+      "conformance": "shaped-not-valid",
+      "title": "Mailchimp Email SMS Marketing",
+      "listingUrl": "https://apps.shopify.com/mailchimp",
+      "identity": {
+        "operator": {
+          "name": "Intuit Mailchimp"
+        },
+        "provenance": "official"
+      },
+      "measurement": {
+        "vendorAnnouncement": {
+          "status": "official-ga",
+          "surveyedAt": "2026-08-01",
+          "evidenceUrl": "https://mailchimp.com/resources/connect-mailchimp-to-claude/"
+        },
+        "upstreamStatus": "active",
+        "verification": {
+          "endpoint": "no_vendor_endpoint",
+          "checkedAt": "2026-08-05T12:19:06+00:00",
+          "confidence": "medium",
+          "negativeEvidence": {
+            "clean_refusals": 6,
+            "paths_tried": 6
+          }
         }
+      },
+      "classification": {
+        "capability": [
+          "endpoint-checked",
+          "vendor-mcp"
+        ],
+        "pricing": [
+          "freemium"
+        ],
+        "businessModel": [
+          "commercial"
+        ],
+        "ecosystem": [
+          "shopify"
+        ],
+        "installs": {
+          "count": 145187,
+          "source": "third-party-measured"
+        }
+      },
+      "curation": {
+        "tier": "listed"
+      },
+      "updatedAt": "2026-08-05T12:22:43+00:00",
+      "digest": "sha256:3d41e54a38f9906e7c1689e60d7b95309c34c1d50686fd3c78ff1768014d77aa"
     }
+  }
 }
