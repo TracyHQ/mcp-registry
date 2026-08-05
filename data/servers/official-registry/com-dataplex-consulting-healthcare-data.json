@@ -18,12 +18,20 @@
       "operator": {
         "name": "dataplex-consulting"
       },
+      "ecosystem": [],
+      "listingUrl": "https://docs.dataplex-consulting.com/snowflake-access/mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:42+00:00",
+        "probeEndpoint": "https://mcp.dataplex-consulting.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T22:25:03.603274Z",
         "upstreamUpdatedAt": "2026-07-31T22:25:03.603274Z",
-        "verifiedAt": "2026-08-05T02:02:42+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 8,
@@ -36,6 +44,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

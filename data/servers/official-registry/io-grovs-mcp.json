@@ -20,18 +20,29 @@
       "operator": {
         "name": "grovs-io"
       },
+      "ecosystem": [],
+      "listingUrl": "https://grovs.io",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:39+00:00",
+        "probeEndpoint": "https://mcp.grovs.io/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-14T10:51:14.292539Z",
-        "upstreamUpdatedAt": "2026-04-14T10:51:14.292539Z",
-        "verifiedAt": "2026-08-05T02:04:39+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-04-14T10:51:14.292539Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

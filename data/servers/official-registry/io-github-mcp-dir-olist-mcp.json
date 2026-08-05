@@ -19,12 +19,20 @@
       "operator": {
         "name": "mcp-dir"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/mcp-dir/olist-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:19+00:00",
+        "probeEndpoint": "https://api.mcp.ai/p_olist",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T18:59:46.487975Z",
         "upstreamUpdatedAt": "2026-06-12T18:59:46.487975Z",
-        "verifiedAt": "2026-08-05T02:04:19+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 4,
@@ -37,6 +45,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

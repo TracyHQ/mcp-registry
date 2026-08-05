@@ -20,12 +20,20 @@
       "operator": {
         "name": "deviljin17"
       },
+      "ecosystem": [],
+      "listingUrl": "https://remode.app",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:01+00:00",
+        "probeEndpoint": "https://remode-assistant-mcp.onrender.com/mcp?platform=mcp_registry",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-10T01:48:14.655649Z",
         "upstreamUpdatedAt": "2026-07-10T01:48:14.655649Z",
-        "verifiedAt": "2026-08-05T02:04:01+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -18,12 +18,20 @@
       "operator": {
         "name": "jeb-scarbrough"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.ironscout.ai/.well-known/ids.md",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:19+00:00",
+        "probeEndpoint": "https://mcp.ironscout.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-08T21:51:00.310323Z",
         "upstreamUpdatedAt": "2026-06-08T21:51:00.310323Z",
-        "verifiedAt": "2026-08-05T02:02:19+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 5,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

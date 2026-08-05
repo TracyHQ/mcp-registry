@@ -20,12 +20,20 @@
       "operator": {
         "name": "OV3RK177"
       },
+      "ecosystem": [],
+      "listingUrl": "https://kairossignal.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:46+00:00",
+        "probeEndpoint": "https://kairossignal.com/mcp/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-27T18:43:17.253315Z",
         "upstreamUpdatedAt": "2026-06-27T18:43:17.253315Z",
-        "verifiedAt": "2026-08-05T02:03:46+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 10,
         "readWriteSummary": {
           "read": 7,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

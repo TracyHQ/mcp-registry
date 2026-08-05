@@ -20,18 +20,29 @@
       "operator": {
         "name": "tendeta"
       },
+      "ecosystem": [],
+      "listingUrl": "https://tendeta.io/agents",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:43+00:00",
+        "probeEndpoint": "https://mcp.tendeta.io/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-17T23:26:39.892126Z",
-        "upstreamUpdatedAt": "2026-07-17T23:26:39.892126Z",
-        "verifiedAt": "2026-08-05T02:04:43+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-17T23:26:39.892126Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

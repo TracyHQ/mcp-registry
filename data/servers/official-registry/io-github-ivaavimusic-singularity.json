@@ -20,12 +20,20 @@
       "operator": {
         "name": "ivaavimusic"
       },
+      "ecosystem": [],
+      "listingUrl": "https://studio.x402layer.cc/docs/agentic-access/mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:06+00:00",
+        "probeEndpoint": "https://mcp.x402layer.cc/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-27T05:43:08.776833Z",
         "upstreamUpdatedAt": "2026-04-27T05:43:08.776833Z",
-        "verifiedAt": "2026-08-05T02:04:06+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 38,
         "readWriteSummary": {
           "read": 16,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

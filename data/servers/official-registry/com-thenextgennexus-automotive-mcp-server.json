@@ -26,12 +26,20 @@
       "operator": {
         "name": "thenextgennexus"
       },
+      "ecosystem": [],
+      "listingUrl": "https://apify.com/nexgendata/automotive-mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:01+00:00",
+        "probeEndpoint": "https://nexgendata-mcp-proxy.steve-corbeil.workers.dev/automotive-mcp-server/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-26T18:49:31.893867Z",
         "upstreamUpdatedAt": "2026-04-26T18:49:31.893867Z",
-        "verifiedAt": "2026-08-05T02:03:01+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 2,
@@ -44,6 +52,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

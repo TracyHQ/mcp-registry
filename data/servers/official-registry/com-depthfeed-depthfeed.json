@@ -27,12 +27,20 @@
       "operator": {
         "name": "depthfeed"
       },
+      "ecosystem": [],
+      "listingUrl": "https://depthfeed.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:42+00:00",
+        "probeEndpoint": "https://api.depthfeed.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-29T10:07:06.585574Z",
         "upstreamUpdatedAt": "2026-06-29T10:07:06.585574Z",
-        "verifiedAt": "2026-08-05T02:02:42+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 12,
         "readWriteSummary": {
           "read": 12,
@@ -45,6 +53,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

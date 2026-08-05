@@ -20,12 +20,20 @@
       "operator": {
         "name": "olyport"
       },
+      "ecosystem": [],
+      "listingUrl": "https://olyport.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:55+00:00",
+        "probeEndpoint": "https://mcp.olyport.com/epa/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-02T02:26:42.456909Z",
         "upstreamUpdatedAt": "2026-04-02T02:26:42.456909Z",
-        "verifiedAt": "2026-08-05T02:02:55+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 5,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -20,12 +20,20 @@
       "operator": {
         "name": "nitrosend"
       },
+      "ecosystem": [],
+      "listingUrl": "https://nitrosend.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:54+00:00",
+        "probeEndpoint": "https://api.nitrosend.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-18T12:30:50.464467Z",
         "upstreamUpdatedAt": "2026-06-18T12:30:50.464467Z",
-        "verifiedAt": "2026-08-05T02:02:54+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Authentication required. Send a Bearer token (API key or OAuth). GET https://api.nitrosend.com/mcp for setup instructions."
@@ -36,6 +44,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -25,12 +25,19 @@
       "operator": {
         "name": "statsig"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:00+00:00",
+        "probeEndpoint": "https://api.statsig.com/v1/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-09-19T18:53:25.028837Z",
         "upstreamUpdatedAt": "2025-09-19T18:53:25.028837Z",
-        "verifiedAt": "2026-08-05T02:03:00+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "statsig-api-key"
@@ -43,6 +50,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

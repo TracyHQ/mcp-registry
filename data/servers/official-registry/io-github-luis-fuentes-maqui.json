@@ -19,18 +19,29 @@
       "operator": {
         "name": "somosmaqui"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/somosmaqui/maqui-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:15+00:00",
+        "probeEndpoint": "https://app.somosmaqui.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-29T05:26:17.654366Z",
-        "upstreamUpdatedAt": "2026-05-29T05:26:17.654366Z",
-        "verifiedAt": "2026-08-05T02:04:15+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-29T05:26:17.654366Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

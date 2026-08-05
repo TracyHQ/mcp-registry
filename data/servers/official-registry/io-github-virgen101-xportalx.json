@@ -19,12 +19,19 @@
       "operator": {
         "name": "virgen101"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:37+00:00",
+        "probeEndpoint": "https://fflpdljiuruqdnewvwkk.supabase.co/functions/v1/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-01-01T22:58:32.434479Z",
         "upstreamUpdatedAt": "2026-01-01T22:58:32.434479Z",
-        "verifiedAt": "2026-08-05T02:04:37+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 29,
         "readWriteSummary": {
           "read": 5,
@@ -37,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

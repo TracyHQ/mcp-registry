@@ -19,12 +19,20 @@
       "operator": {
         "name": "AgentNOMOS"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/AgentNOMOS/nomos-crossborder-broker",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:27+00:00",
+        "probeEndpoint": "https://tooloracle.io/mcp/nomos",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-03T10:53:15.169231Z",
         "upstreamUpdatedAt": "2026-06-03T10:53:15.169231Z",
-        "verifiedAt": "2026-08-04T11:15:27+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 1,
@@ -37,6 +45,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

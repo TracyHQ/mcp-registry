@@ -20,12 +20,22 @@
       "operator": {
         "name": "eevy"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://eevy.ai/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:19+00:00",
+        "probeEndpoint": "https://mcp.eevy.ai/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-10T04:31:42.484368Z",
-        "upstreamUpdatedAt": "2026-07-10T04:31:42.484368Z",
-        "verifiedAt": "2026-08-05T02:02:19+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-10T04:31:42.484368Z"
       },
       "classification": {
         "capability": [
@@ -34,6 +44,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

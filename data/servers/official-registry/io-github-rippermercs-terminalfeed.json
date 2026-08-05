@@ -18,12 +18,20 @@
       "operator": {
         "name": "RipperMercs"
       },
+      "ecosystem": [],
+      "listingUrl": "https://terminalfeed.io/developers",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:48+00:00",
+        "probeEndpoint": "https://terminalfeed.io/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-29T03:30:31.094185Z",
         "upstreamUpdatedAt": "2026-04-29T03:30:31.094185Z",
-        "verifiedAt": "2026-08-05T02:03:48+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 27,
         "readWriteSummary": {
           "read": 15,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

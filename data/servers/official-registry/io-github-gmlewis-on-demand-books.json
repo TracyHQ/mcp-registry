@@ -19,12 +19,22 @@
       "operator": {
         "name": "gmlewis"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://github.com/gmlewis/on-demand-books-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:04+00:00",
+        "probeEndpoint": "https://on-demand-books-dq2yvpdh.fermyon.app/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-08T15:00:48.826154Z",
         "upstreamUpdatedAt": "2026-07-08T15:00:48.826154Z",
-        "verifiedAt": "2026-08-05T02:04:04+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +48,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

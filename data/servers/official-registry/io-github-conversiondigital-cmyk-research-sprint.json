@@ -19,12 +19,19 @@
       "operator": {
         "name": "conversiondigital-cmyk"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:58+00:00",
+        "probeEndpoint": "https://research-sprint.vercel.app/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-01T07:43:41.021263Z",
         "upstreamUpdatedAt": "2026-06-01T07:43:41.021263Z",
-        "verifiedAt": "2026-08-05T02:03:58+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 1,
@@ -37,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

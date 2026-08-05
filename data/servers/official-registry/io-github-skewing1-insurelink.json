@@ -19,12 +19,19 @@
       "operator": {
         "name": "skewing1"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:31+00:00",
+        "probeEndpoint": "https://ivnmscuuljqubunqcgkh.supabase.co/functions/v1/mcp-server/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-15T22:48:59.265733Z",
         "upstreamUpdatedAt": "2026-04-15T22:48:59.265733Z",
-        "verifiedAt": "2026-08-05T02:04:31+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 32,
         "readWriteSummary": {
           "read": 14,
@@ -37,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

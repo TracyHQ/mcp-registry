@@ -18,12 +18,20 @@
       "operator": {
         "name": "kwizzlesurp10-ctrl"
       },
+      "ecosystem": [],
+      "listingUrl": "https://x402-mcp.onrender.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:08+00:00",
+        "probeEndpoint": "https://x402-mcp.onrender.com/mcp/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-22T07:21:48.907868Z",
         "upstreamUpdatedAt": "2026-07-22T07:21:48.907868Z",
-        "verifiedAt": "2026-08-05T02:04:08+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 16,
         "readWriteSummary": {
           "read": 8,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

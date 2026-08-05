@@ -28,12 +28,20 @@
       "operator": {
         "name": "patchistry"
       },
+      "ecosystem": [],
+      "listingUrl": "https://patchistry.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:23+00:00",
+        "probeEndpoint": "https://patchistry-mcp-server.vercel.app/rpc",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T04:25:49.183964Z",
         "upstreamUpdatedAt": "2026-06-12T04:25:49.183964Z",
-        "verifiedAt": "2026-08-05T02:04:23+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 5,
@@ -46,6 +54,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -29,12 +29,20 @@
       "operator": {
         "name": "diavgis"
       },
+      "ecosystem": [],
+      "listingUrl": "https://diavgis.gr/docs/en",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:11+00:00",
+        "probeEndpoint": "https://mcp.diavgis.gr/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T06:52:12.937498Z",
         "upstreamUpdatedAt": "2026-08-02T06:52:12.937498Z",
-        "verifiedAt": "2026-08-05T02:03:11+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 7,
@@ -47,6 +55,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

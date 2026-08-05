@@ -24,12 +24,20 @@
       "operator": {
         "name": "Schoasch"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Schoasch/skill-backtesting-arena",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:50+00:00",
+        "probeEndpoint": "https://tradingstrategies.work/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-13T13:37:57.435889Z",
         "upstreamUpdatedAt": "2026-07-13T13:37:57.435889Z",
-        "verifiedAt": "2026-08-05T02:03:50+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 74,
         "readWriteSummary": {
           "read": 63,
@@ -42,6 +50,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

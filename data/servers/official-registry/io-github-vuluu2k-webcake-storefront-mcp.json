@@ -70,12 +70,20 @@
       "operator": {
         "name": "vuluu2k"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/vuluu2k/webcake-storefront-mcp#readme",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:37+00:00",
+        "probeEndpoint": "https://store.toolvn.io.vn/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-29T02:41:32.731196Z",
         "upstreamUpdatedAt": "2026-06-29T02:41:32.731196Z",
-        "verifiedAt": "2026-08-05T02:04:37+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "x-webcake-jwt",
@@ -89,6 +97,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -28,12 +28,20 @@
       "operator": {
         "name": "craneledger"
       },
+      "ecosystem": [],
+      "listingUrl": "https://craneledger.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:18+00:00",
+        "probeEndpoint": "https://api.craneledger.ai/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-25T16:03:19.605397Z",
         "upstreamUpdatedAt": "2026-06-25T16:03:19.605397Z",
-        "verifiedAt": "2026-08-05T02:02:18+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -46,6 +54,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -17,12 +17,19 @@
       "operator": {
         "name": "eventify"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:14+00:00",
+        "probeEndpoint": "https://amcp.eventify.io/api/v2/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-25T07:35:41.217579Z",
         "upstreamUpdatedAt": "2026-04-25T07:35:41.217579Z",
-        "verifiedAt": "2026-08-05T02:03:14+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized — OAuth required"
@@ -33,6 +40,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

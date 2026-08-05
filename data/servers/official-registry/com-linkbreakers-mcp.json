@@ -27,12 +27,20 @@
       "operator": {
         "name": "linkbreakers-com"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/linkbreakers-com/api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:50+00:00",
+        "probeEndpoint": "https://mcp.linkbreakers.com",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-03T21:19:46.162581Z",
         "upstreamUpdatedAt": "2026-08-03T21:19:46.162581Z",
-        "verifiedAt": "2026-08-05T02:02:50+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

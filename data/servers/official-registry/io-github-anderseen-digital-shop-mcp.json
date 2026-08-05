@@ -19,12 +19,21 @@
       "operator": {
         "name": "anderseen-digital"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:54+00:00",
+        "probeEndpoint": "https://www.shopmcp.net/mcp-shopify.ashx",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-17T00:21:29.14165Z",
-        "upstreamUpdatedAt": "2026-06-17T00:21:29.14165Z",
-        "verifiedAt": "2026-08-05T02:03:54+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-17T00:21:29.14165Z"
       },
       "classification": {
         "capability": [
@@ -32,6 +41,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

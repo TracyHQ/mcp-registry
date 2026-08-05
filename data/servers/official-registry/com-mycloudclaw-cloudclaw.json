@@ -33,12 +33,20 @@
       "operator": {
         "name": "mkc909"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/mkc909/cloudclaw-core",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:53+00:00",
+        "probeEndpoint": "https://mycloudclaw.com/api/agents/{agent_id}/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-01T15:35:37.555975Z",
         "upstreamUpdatedAt": "2026-03-01T15:35:37.555975Z",
-        "verifiedAt": "2026-08-05T02:02:53+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -51,6 +59,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

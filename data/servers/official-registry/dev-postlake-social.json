@@ -20,18 +20,29 @@
       "operator": {
         "name": "postlake"
       },
+      "ecosystem": [],
+      "listingUrl": "https://postlake.dev",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:09+00:00",
+        "probeEndpoint": "https://api.postlake.dev/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-25T01:19:01.539104Z",
-        "upstreamUpdatedAt": "2026-07-25T01:19:01.539104Z",
-        "verifiedAt": "2026-08-05T02:03:09+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-25T01:19:01.539104Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

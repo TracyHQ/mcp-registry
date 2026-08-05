@@ -20,12 +20,20 @@
       "operator": {
         "name": "pipeworx-io"
       },
+      "ecosystem": [],
+      "listingUrl": "https://pipeworx.io/packs/homebrew-formulae",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:25+00:00",
+        "probeEndpoint": "https://gateway.pipeworx.io/homebrew-formulae/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-18T19:30:40.986181Z",
         "upstreamUpdatedAt": "2026-05-18T19:30:40.986181Z",
-        "verifiedAt": "2026-08-05T02:04:25+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 36,
         "readWriteSummary": {
           "read": 31,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

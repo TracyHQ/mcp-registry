@@ -20,18 +20,29 @@
       "operator": {
         "name": "agentcat"
       },
+      "ecosystem": [],
+      "listingUrl": "https://agentcat.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:33+00:00",
+        "probeEndpoint": "https://mcp.agentcat.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-06T19:46:33.953308Z",
-        "upstreamUpdatedAt": "2026-07-06T19:46:33.953308Z",
-        "verifiedAt": "2026-08-05T02:02:33+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-06T19:46:33.953308Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

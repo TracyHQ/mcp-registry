@@ -27,12 +27,20 @@
       "operator": {
         "name": "seogrep"
       },
+      "ecosystem": [],
+      "listingUrl": "https://seogrep.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:59+00:00",
+        "probeEndpoint": "https://mcp.seogrep.com/mcp/{key}",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-27T14:05:58.022431Z",
         "upstreamUpdatedAt": "2026-07-27T14:05:58.022431Z",
-        "verifiedAt": "2026-08-05T02:02:59+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Invalid API key format"
@@ -43,6 +51,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

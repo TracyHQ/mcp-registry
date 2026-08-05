@@ -37,12 +37,20 @@
       "operator": {
         "name": "attestagents"
       },
+      "ecosystem": [],
+      "listingUrl": "https://attestagent.org",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:56+00:00",
+        "probeEndpoint": "https://attestagent.org/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-07T03:48:31.251984Z",
         "upstreamUpdatedAt": "2026-06-07T03:48:31.251984Z",
-        "verifiedAt": "2026-08-05T02:03:56+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 0,
@@ -55,6 +63,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

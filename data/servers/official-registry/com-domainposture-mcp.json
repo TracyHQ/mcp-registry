@@ -18,12 +18,20 @@
       "operator": {
         "name": "domainposture"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.domainposture.com/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:42+00:00",
+        "probeEndpoint": "https://www.domainposture.com/mcp/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-09T13:41:39.693018Z",
         "upstreamUpdatedAt": "2026-07-09T13:41:39.693018Z",
-        "verifiedAt": "2026-08-05T02:02:42+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 19,
         "readWriteSummary": {
           "read": 2,
@@ -36,6 +44,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

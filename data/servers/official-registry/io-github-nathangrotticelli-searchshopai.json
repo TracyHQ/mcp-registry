@@ -19,12 +19,22 @@
       "operator": {
         "name": "nathangrotticelli"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://github.com/nathangrotticelli/searchshopai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:22+00:00",
+        "probeEndpoint": "https://searchshopai-mcp.fly.dev/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-16T07:50:06.125703Z",
         "upstreamUpdatedAt": "2026-04-16T08:09:21.19881Z",
-        "verifiedAt": "2026-08-05T02:04:22+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 11,
         "readWriteSummary": {
           "read": 8,
@@ -39,6 +49,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

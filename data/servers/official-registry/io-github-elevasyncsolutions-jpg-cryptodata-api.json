@@ -19,12 +19,20 @@
       "operator": {
         "name": "elevasyncsolutions-jpg"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/elevasyncsolutions-jpg/cryptodata-api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:02+00:00",
+        "probeEndpoint": "https://cryptodata-api.datachain.workers.dev/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-07T05:21:32.181411Z",
         "upstreamUpdatedAt": "2026-07-07T05:21:32.181411Z",
-        "verifiedAt": "2026-08-05T02:04:02+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 48,
         "readWriteSummary": {
           "read": 40,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

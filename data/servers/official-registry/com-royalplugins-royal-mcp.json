@@ -18,12 +18,22 @@
       "operator": {
         "name": "royalplugins"
       },
+      "ecosystem": [
+        "wordpress"
+      ],
+      "listingUrl": "https://royalplugins.com/royal-mcp/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:57+00:00",
+        "probeEndpoint": "https://demo.royalplugins.com/wp-json/royal-mcp/v1/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-10T01:30:43.264312Z",
         "upstreamUpdatedAt": "2026-07-10T01:30:43.264312Z",
-        "verifiedAt": "2026-08-05T02:02:57+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Authentication required. Use Authorization: Bearer <token> or X-Royal-MCP-API-Key header."
@@ -35,6 +45,9 @@
         ],
         "platform": [
           "WordPress"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

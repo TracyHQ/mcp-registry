@@ -20,18 +20,29 @@
       "operator": {
         "name": "baozugong"
       },
+      "ecosystem": [],
+      "listingUrl": "https://baozugong.app/mcp-guide",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:25+00:00",
+        "probeEndpoint": "https://baozugong.app/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T18:11:33.109894Z",
-        "upstreamUpdatedAt": "2026-08-02T18:11:33.109894Z",
-        "verifiedAt": "2026-08-05T02:02:25+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-02T18:11:33.109894Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

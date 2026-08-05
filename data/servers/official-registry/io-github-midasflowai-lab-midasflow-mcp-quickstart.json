@@ -18,12 +18,20 @@
       "operator": {
         "name": "midasflowai-lab"
       },
+      "ecosystem": [],
+      "listingUrl": "https://midasflow.ai/docs/api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:21+00:00",
+        "probeEndpoint": "https://mcp.midasflow.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-29T09:57:38.292085Z",
         "upstreamUpdatedAt": "2026-06-29T09:57:38.292085Z",
-        "verifiedAt": "2026-08-05T02:04:21+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 14,
         "readWriteSummary": {
           "read": 14,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

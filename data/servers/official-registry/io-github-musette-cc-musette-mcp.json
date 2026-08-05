@@ -18,12 +18,20 @@
       "operator": {
         "name": "musette-cc"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.musette.cc/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:21+00:00",
+        "probeEndpoint": "https://mcp.musette.cc",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-30T18:07:50.501293Z",
         "upstreamUpdatedAt": "2026-06-30T18:07:50.501293Z",
-        "verifiedAt": "2026-08-05T02:04:21+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 2,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

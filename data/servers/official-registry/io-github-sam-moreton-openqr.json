@@ -26,12 +26,20 @@
       "operator": {
         "name": "sam-moreton"
       },
+      "ecosystem": [],
+      "listingUrl": "https://openqr.uk/api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:29+00:00",
+        "probeEndpoint": "https://openqr.uk/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-26T17:58:58.012575Z",
         "upstreamUpdatedAt": "2026-06-26T17:58:58.012575Z",
-        "verifiedAt": "2026-08-05T02:04:29+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 13,
         "readWriteSummary": {
           "read": 4,
@@ -44,6 +52,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -20,12 +20,22 @@
       "operator": {
         "name": "jediapps"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://apps.shopify.com/jedi-collection-sort",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:07+00:00",
+        "probeEndpoint": "https://api.collection-sort.jediapps.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-15T10:00:41.201174Z",
-        "upstreamUpdatedAt": "2026-07-15T10:00:41.201174Z",
-        "verifiedAt": "2026-08-05T02:04:07+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-15T10:00:41.201174Z"
       },
       "classification": {
         "capability": [
@@ -33,6 +43,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

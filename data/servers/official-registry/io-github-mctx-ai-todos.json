@@ -20,12 +20,20 @@
       "operator": {
         "name": "mctx-ai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://todos.mctx.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:21+00:00",
+        "probeEndpoint": "https://todos.mctx.ai/v2.0.8",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-24T22:48:12.650274Z",
         "upstreamUpdatedAt": "2026-03-24T22:48:12.650274Z",
-        "verifiedAt": "2026-08-05T02:04:21+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized"
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

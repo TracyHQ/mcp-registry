@@ -25,12 +25,20 @@
       "operator": {
         "name": "balldontlie-api"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/balldontlie-api/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:13+00:00",
+        "probeEndpoint": "https://mcp.balldontlie.io/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-09-18T00:35:55.642005Z",
         "upstreamUpdatedAt": "2025-09-18T00:35:55.642005Z",
-        "verifiedAt": "2026-08-05T02:03:13+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -44,6 +52,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

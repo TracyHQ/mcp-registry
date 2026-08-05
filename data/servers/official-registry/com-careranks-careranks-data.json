@@ -20,12 +20,20 @@
       "operator": {
         "name": "careranks"
       },
+      "ecosystem": [],
+      "listingUrl": "https://careranks.com/docs/data/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:39+00:00",
+        "probeEndpoint": "https://careranks.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-03T12:15:34.699638Z",
         "upstreamUpdatedAt": "2026-08-03T12:15:34.699638Z",
-        "verifiedAt": "2026-08-05T02:02:39+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 5,
@@ -38,6 +46,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

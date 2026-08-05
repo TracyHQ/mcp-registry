@@ -27,12 +27,19 @@
       "operator": {
         "name": "michu5696"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:21+00:00",
+        "probeEndpoint": "https://paycrow-app.fly.dev/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-04T01:05:37.001134Z",
         "upstreamUpdatedAt": "2026-03-04T01:05:37.001134Z",
-        "verifiedAt": "2026-08-05T02:04:21+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 10,
         "readWriteSummary": {
           "read": 1,
@@ -45,6 +52,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

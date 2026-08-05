@@ -17,18 +17,29 @@
       "operator": {
         "name": "LemmeBuyIt"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/LemmeBuyIt/cloudflare-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:50+00:00",
+        "probeEndpoint": "https://mcp.lemmebuyit.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-08T21:46:39.844025Z",
-        "upstreamUpdatedAt": "2026-06-08T21:46:39.844025Z",
-        "verifiedAt": "2026-08-05T02:02:50+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-08T21:46:39.844025Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

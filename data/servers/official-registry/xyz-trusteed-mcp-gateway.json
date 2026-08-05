@@ -25,12 +25,23 @@
       "operator": {
         "name": "trusteed"
       },
+      "ecosystem": [
+        "shopify",
+        "prestashop"
+      ],
+      "listingUrl": "https://trusteed.xyz",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:56+00:00",
+        "probeEndpoint": "https://trusteed.xyz/demo-store/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-25T16:08:27.985139Z",
         "upstreamUpdatedAt": "2026-04-25T16:08:27.985139Z",
-        "verifiedAt": "2026-08-05T02:04:56+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 48,
         "readWriteSummary": {
           "read": 24,
@@ -46,6 +57,9 @@
         "platform": [
           "Shopify",
           "PrestaShop"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

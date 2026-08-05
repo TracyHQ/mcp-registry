@@ -20,18 +20,29 @@
       "operator": {
         "name": "ploicloud"
       },
+      "ecosystem": [],
+      "listingUrl": "https://ploi.cloud",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:27+00:00",
+        "probeEndpoint": "https://ploi.cloud/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-04T09:48:33.430116Z",
-        "upstreamUpdatedAt": "2026-05-04T09:48:33.430116Z",
-        "verifiedAt": "2026-08-05T02:04:27+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-04T09:48:33.430116Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

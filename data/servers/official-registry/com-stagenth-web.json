@@ -27,12 +27,19 @@
       "operator": {
         "name": "stagenth"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:00+00:00",
+        "probeEndpoint": "https://stagenth.com/mcp/web/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-05T15:48:44.652181Z",
         "upstreamUpdatedAt": "2026-07-05T15:48:44.652181Z",
-        "verifiedAt": "2026-08-05T02:03:00+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 0,
@@ -45,6 +52,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

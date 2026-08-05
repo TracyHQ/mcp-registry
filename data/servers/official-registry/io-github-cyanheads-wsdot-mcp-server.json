@@ -112,12 +112,20 @@
       "operator": {
         "name": "cyanheads"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/cyanheads/wsdot-mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:59+00:00",
+        "probeEndpoint": "https://wsdot.caseyjhand.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T03:30:26.289401Z",
         "upstreamUpdatedAt": "2026-07-31T03:30:26.289401Z",
-        "verifiedAt": "2026-08-05T02:03:59+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 12,
         "readWriteSummary": {
           "read": 12,
@@ -130,6 +138,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -28,12 +28,20 @@
       "operator": {
         "name": "whiskyhunter"
       },
+      "ecosystem": [],
+      "listingUrl": "https://whiskyhunter.net/mcp/docs/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:49+00:00",
+        "probeEndpoint": "https://whiskyhunter.net/mcp/",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-19T09:42:06.683388Z",
         "upstreamUpdatedAt": "2026-07-19T09:42:06.683388Z",
-        "verifiedAt": "2026-08-05T02:04:49+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -47,6 +55,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

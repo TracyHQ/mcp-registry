@@ -20,12 +20,20 @@
       "operator": {
         "name": "talktosims"
       },
+      "ecosystem": [],
+      "listingUrl": "https://indieco.shop/infinite-search",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:34+00:00",
+        "probeEndpoint": "https://indieco.shop/api/agent/network/v0/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-19T21:41:15.092478Z",
         "upstreamUpdatedAt": "2026-07-19T21:41:15.092478Z",
-        "verifiedAt": "2026-08-05T02:04:34+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

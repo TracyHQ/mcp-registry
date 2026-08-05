@@ -44,12 +44,20 @@
       "operator": {
         "name": "yaotsakpo"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/yaotsakpo/inbin-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:38+00:00",
+        "probeEndpoint": "https://api.inbin.dev/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-25T13:30:11.963266Z",
         "upstreamUpdatedAt": "2026-07-25T13:30:11.963266Z",
-        "verifiedAt": "2026-08-05T02:04:38+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -63,6 +71,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

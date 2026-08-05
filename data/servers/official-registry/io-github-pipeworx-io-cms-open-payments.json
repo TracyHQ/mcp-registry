@@ -20,12 +20,20 @@
       "operator": {
         "name": "pipeworx-io"
       },
+      "ecosystem": [],
+      "listingUrl": "https://pipeworx.io/packs/cms-open-payments",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:30+00:00",
+        "probeEndpoint": "https://gateway.pipeworx.io/cms-open-payments/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-03T16:27:19.528046Z",
         "upstreamUpdatedAt": "2026-08-03T16:27:19.528046Z",
-        "verifiedAt": "2026-08-04T11:15:30+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 41,
         "readWriteSummary": {
           "read": 36,
@@ -39,6 +47,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

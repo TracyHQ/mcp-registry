@@ -20,12 +20,20 @@
       "operator": {
         "name": "edesent"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.elijahdesent.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:44+00:00",
+        "probeEndpoint": "https://www.elijahdesent.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-25T02:50:50.646623Z",
-        "upstreamUpdatedAt": "2026-06-25T02:50:50.646623Z",
-        "verifiedAt": "2026-08-05T02:02:44+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-25T02:50:50.646623Z"
       },
       "classification": {
         "capability": [
@@ -33,6 +41,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

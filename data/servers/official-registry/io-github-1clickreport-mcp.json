@@ -20,18 +20,29 @@
       "operator": {
         "name": "1clickreport"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.1clickreport.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:15+00:00",
+        "probeEndpoint": "https://mcp.1clickreport.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-26T00:24:10.01638Z",
-        "upstreamUpdatedAt": "2026-05-26T00:24:10.01638Z",
-        "verifiedAt": "2026-08-05T02:03:15+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-26T00:24:10.01638Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

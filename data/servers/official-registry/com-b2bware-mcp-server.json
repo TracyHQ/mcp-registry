@@ -21,12 +21,19 @@
       "operator": {
         "name": "b2bware"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:38+00:00",
+        "probeEndpoint": "https://mcp.b2bware.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-22T20:45:45.21637Z",
         "upstreamUpdatedAt": "2026-06-22T20:45:45.21637Z",
-        "verifiedAt": "2026-08-05T02:02:38+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 163,
         "readWriteSummary": {
           "read": 69,
@@ -39,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -18,18 +18,29 @@
       "operator": {
         "name": "atlas"
       },
+      "ecosystem": [],
+      "listingUrl": "https://api.atlas.red",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:52+00:00",
+        "probeEndpoint": "https://apiv3.atlas.red/external-api/v1/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-28T19:43:30.574088Z",
-        "upstreamUpdatedAt": "2026-07-28T19:43:30.574088Z",
-        "verifiedAt": "2026-08-05T02:04:52+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-28T19:43:30.574088Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -20,12 +20,20 @@
       "operator": {
         "name": "loganriebel"
       },
+      "ecosystem": [],
+      "listingUrl": "https://makometrics.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:51+00:00",
+        "probeEndpoint": "https://ufupdlaxddckqxbgbhwu.supabase.co/functions/v1/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-19T23:24:57.401951Z",
         "upstreamUpdatedAt": "2026-05-19T23:24:57.401951Z",
-        "verifiedAt": "2026-08-05T02:02:51+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 1,
@@ -39,6 +47,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

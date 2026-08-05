@@ -20,12 +20,20 @@
       "operator": {
         "name": "corewebvitals"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.corewebvitals.io/state-of-cwv",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:58+00:00",
+        "probeEndpoint": "https://www.corewebvitals.io/api/state-of-cwv/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-16T17:40:51.896617Z",
         "upstreamUpdatedAt": "2026-07-16T17:40:51.896617Z",
-        "verifiedAt": "2026-08-05T02:03:58+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 3,
@@ -39,6 +47,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

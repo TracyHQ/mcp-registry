@@ -22,12 +22,20 @@
       "operator": {
         "name": "iPAYX-Technologies"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcp.ipayx.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:05+00:00",
+        "probeEndpoint": "https://mcp.ipayx.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-12T19:14:12.523517Z",
         "upstreamUpdatedAt": "2026-05-12T19:14:12.523517Z",
-        "verifiedAt": "2026-08-05T02:04:05+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 4,
@@ -41,6 +49,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

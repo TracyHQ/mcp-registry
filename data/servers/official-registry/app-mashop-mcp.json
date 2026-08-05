@@ -20,12 +20,20 @@
       "operator": {
         "name": "appmashop"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mashop.app/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:26+00:00",
+        "probeEndpoint": "https://mcp.mashop.app/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-10T17:41:03.793724Z",
         "upstreamUpdatedAt": "2026-06-10T17:41:03.793724Z",
-        "verifiedAt": "2026-08-05T02:02:26+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Authorization required"
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

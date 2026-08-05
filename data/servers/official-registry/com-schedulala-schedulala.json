@@ -35,18 +35,29 @@
       "operator": {
         "name": "schedulala"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/schedulala/schedulala-agent",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:57+00:00",
+        "probeEndpoint": "https://schedulala.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-01T21:26:17.568706Z",
-        "upstreamUpdatedAt": "2026-08-01T21:26:17.568706Z",
-        "verifiedAt": "2026-08-05T02:02:57+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-01T21:26:17.568706Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

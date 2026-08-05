@@ -27,12 +27,20 @@
       "operator": {
         "name": "mandateshield"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mandateshield.com/connect",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:22+00:00",
+        "probeEndpoint": "https://mandateshield.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-28T18:28:01.853949Z",
         "upstreamUpdatedAt": "2026-07-28T18:28:01.853949Z",
-        "verifiedAt": "2026-08-04T11:15:22+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 3,
@@ -45,6 +53,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

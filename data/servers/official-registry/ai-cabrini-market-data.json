@@ -19,12 +19,20 @@
       "operator": {
         "name": "nlapi"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/nlapi/cabrini-py",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:18+00:00",
+        "probeEndpoint": "https://cabrini.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-29T17:12:49.69068Z",
         "upstreamUpdatedAt": "2026-07-29T17:12:49.69068Z",
-        "verifiedAt": "2026-08-05T02:02:18+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 15,
         "readWriteSummary": {
           "read": 14,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

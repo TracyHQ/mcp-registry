@@ -26,12 +26,20 @@
       "operator": {
         "name": "uxbert"
       },
+      "ecosystem": [],
+      "listingUrl": "https://cms.uxbert.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:19+00:00",
+        "probeEndpoint": "https://cms-mcp.uxbert.ai/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-22T11:18:21.351823Z",
         "upstreamUpdatedAt": "2026-07-22T11:18:21.351823Z",
-        "verifiedAt": "2026-08-04T11:15:19+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -44,6 +52,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

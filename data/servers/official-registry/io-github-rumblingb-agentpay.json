@@ -48,18 +48,29 @@
       "operator": {
         "name": "Rumblingb"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Rumblingb/Agentpay",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:49+00:00",
+        "probeEndpoint": "https://api.agentpay.so/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-07T13:21:24.365497Z",
-        "upstreamUpdatedAt": "2026-06-07T13:21:24.365497Z",
-        "verifiedAt": "2026-08-05T02:03:49+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-07T13:21:24.365497Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

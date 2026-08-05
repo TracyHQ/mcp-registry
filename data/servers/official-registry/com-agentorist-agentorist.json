@@ -17,12 +17,19 @@
       "operator": {
         "name": "agentorist"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:34+00:00",
+        "probeEndpoint": "https://mcp.agentorist.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-19T19:33:00.189436Z",
         "upstreamUpdatedAt": "2026-05-19T19:33:00.189436Z",
-        "verifiedAt": "2026-08-05T02:02:34+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 5,
@@ -35,6 +42,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

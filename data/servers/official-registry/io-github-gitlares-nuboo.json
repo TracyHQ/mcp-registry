@@ -20,18 +20,29 @@
       "operator": {
         "name": "gitlares"
       },
+      "ecosystem": [],
+      "listingUrl": "https://nuboohub.com/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:04+00:00",
+        "probeEndpoint": "https://api.nuboohub.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-18T08:02:02.712164Z",
-        "upstreamUpdatedAt": "2026-07-18T08:02:02.712164Z",
-        "verifiedAt": "2026-08-05T02:04:04+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-18T08:02:02.712164Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

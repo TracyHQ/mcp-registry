@@ -20,12 +20,20 @@
       "operator": {
         "name": "maxbeech"
       },
+      "ecosystem": [],
+      "listingUrl": "https://denialpath.vercel.app/developers/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:16+00:00",
+        "probeEndpoint": "https://denialpath.vercel.app/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-22T10:29:26.232094Z",
         "upstreamUpdatedAt": "2026-07-22T10:29:26.232094Z",
-        "verifiedAt": "2026-08-05T02:04:16+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 4,
@@ -38,6 +46,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

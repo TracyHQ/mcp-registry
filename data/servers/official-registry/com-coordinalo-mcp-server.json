@@ -32,12 +32,20 @@
       "operator": {
         "name": "danioni"
       },
+      "ecosystem": [],
+      "listingUrl": "https://coordinalo.com/developers",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:41+00:00",
+        "probeEndpoint": "https://coordinalo.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-25T17:42:23.618469Z",
         "upstreamUpdatedAt": "2026-07-25T17:42:23.618469Z",
-        "verifiedAt": "2026-08-05T02:02:41+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 112,
         "readWriteSummary": {
           "read": 46,
@@ -50,6 +58,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

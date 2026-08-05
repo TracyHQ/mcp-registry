@@ -27,12 +27,20 @@
       "operator": {
         "name": "aiproductscout"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/aiproductscout/FinCore",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:56+00:00",
+        "probeEndpoint": "https://api.aiproductscout.shop/fincore/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-28T12:27:56.167786Z",
         "upstreamUpdatedAt": "2026-05-28T12:27:56.167786Z",
-        "verifiedAt": "2026-08-05T02:03:56+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 6,
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -18,18 +18,29 @@
       "operator": {
         "name": "octolens"
       },
+      "ecosystem": [],
+      "listingUrl": "https://octolens.com/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:54+00:00",
+        "probeEndpoint": "https://app.octolens.com/api/mcp/v2",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T16:42:46.913215Z",
-        "upstreamUpdatedAt": "2026-07-31T16:42:46.913215Z",
-        "verifiedAt": "2026-08-05T02:02:54+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-31T16:42:46.913215Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

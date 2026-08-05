@@ -26,12 +26,20 @@
       "operator": {
         "name": "custom-digital-services"
       },
+      "ecosystem": [],
+      "listingUrl": "https://parsedoc.custom-digital-services.fr",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:10+00:00",
+        "probeEndpoint": "https://parsedoc.custom-digital-services.fr/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-17T15:51:44.004271Z",
         "upstreamUpdatedAt": "2026-07-17T15:51:44.004271Z",
-        "verifiedAt": "2026-08-05T02:03:10+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -44,6 +52,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

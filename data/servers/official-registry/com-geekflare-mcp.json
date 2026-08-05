@@ -56,12 +56,19 @@
       "operator": {
         "name": "geekflare"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:45+00:00",
+        "probeEndpoint": "https://mcp.geekflare.com/{API_KEY}/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-15T08:06:38.200631Z",
         "upstreamUpdatedAt": "2026-06-15T08:06:38.200631Z",
-        "verifiedAt": "2026-08-05T02:02:45+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 20,
         "readWriteSummary": {
           "read": 2,
@@ -74,6 +81,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

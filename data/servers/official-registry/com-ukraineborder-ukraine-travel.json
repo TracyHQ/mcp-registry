@@ -20,12 +20,20 @@
       "operator": {
         "name": "ukraineborder"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.ukraineborder.com/en/essentials/insurance-partner",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:25+00:00",
+        "probeEndpoint": "https://www.ukraineborder.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T20:14:22.01188Z",
         "upstreamUpdatedAt": "2026-08-02T20:14:22.01188Z",
-        "verifiedAt": "2026-08-04T11:15:25+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 7,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

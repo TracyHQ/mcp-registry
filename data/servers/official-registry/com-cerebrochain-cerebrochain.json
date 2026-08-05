@@ -19,18 +19,28 @@
       "operator": {
         "name": "cerebrochain"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:39+00:00",
+        "probeEndpoint": "https://cerebrochain.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-24T17:47:16.139868Z",
-        "upstreamUpdatedAt": "2026-06-24T17:47:16.139868Z",
-        "verifiedAt": "2026-08-05T02:02:39+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-24T17:47:16.139868Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

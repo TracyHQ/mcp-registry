@@ -20,12 +20,20 @@
       "operator": {
         "name": "unitedideas"
       },
+      "ecosystem": [],
+      "listingUrl": "https://actablesite.com/mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:32+00:00",
+        "probeEndpoint": "https://actablesite.com/mcp/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-13T13:16:14.126526Z",
         "upstreamUpdatedAt": "2026-07-13T13:16:14.126526Z",
-        "verifiedAt": "2026-08-05T02:02:32+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 5,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

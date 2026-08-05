@@ -20,12 +20,20 @@
       "operator": {
         "name": "unitedideas"
       },
+      "ecosystem": [],
+      "listingUrl": "https://actablesite.com/medicare-revalidation-mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:36+00:00",
+        "probeEndpoint": "https://actablesite.com/mcp/pending-medicare/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-17T14:43:29.390267Z",
         "upstreamUpdatedAt": "2026-07-17T14:43:29.390267Z",
-        "verifiedAt": "2026-08-05T02:04:36+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 4,
@@ -38,6 +46,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

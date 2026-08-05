@@ -20,18 +20,29 @@
       "operator": {
         "name": "mcpsearchconsole"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcpsearchconsole.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:23+00:00",
+        "probeEndpoint": "https://mcpsearchconsole.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-20T00:15:50.737932Z",
-        "upstreamUpdatedAt": "2026-06-20T00:15:50.737932Z",
-        "verifiedAt": "2026-08-04T11:15:23+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-20T00:15:50.737932Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

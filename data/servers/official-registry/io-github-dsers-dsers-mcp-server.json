@@ -20,12 +20,23 @@
       "operator": {
         "name": "dsers"
       },
+      "ecosystem": [
+        "shopify",
+        "wix"
+      ],
+      "listingUrl": "https://www.dsers.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:01+00:00",
+        "probeEndpoint": "https://mcp.dsers.com/dropshipping/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-08T10:17:11.557601Z",
-        "upstreamUpdatedAt": "2026-05-08T10:17:11.557601Z",
-        "verifiedAt": "2026-08-05T02:04:01+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-08T10:17:11.557601Z"
       },
       "classification": {
         "capability": [
@@ -34,6 +45,9 @@
         "platform": [
           "Shopify",
           "Wix"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

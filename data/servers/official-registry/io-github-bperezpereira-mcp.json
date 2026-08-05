@@ -24,18 +24,29 @@
       "operator": {
         "name": "bperezpereira"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/bperezpereira/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:57+00:00",
+        "probeEndpoint": "https://mcp.wasabil.com",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-18T20:09:05.939578Z",
-        "upstreamUpdatedAt": "2026-05-18T20:09:05.939578Z",
-        "verifiedAt": "2026-08-05T02:03:57+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-18T20:09:05.939578Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

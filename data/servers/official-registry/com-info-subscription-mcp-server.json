@@ -35,18 +35,28 @@
       "operator": {
         "name": "info-subscription"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:22+00:00",
+        "probeEndpoint": "https://s4mcp-prod.azurewebsites.net/{tenantId}",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-01T08:58:20.334603Z",
-        "upstreamUpdatedAt": "2026-07-01T08:58:20.334603Z",
-        "verifiedAt": "2026-08-04T11:15:22+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-01T08:58:20.334603Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -41,12 +41,20 @@
       "operator": {
         "name": "socialai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://socialai.one/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:50+00:00",
+        "probeEndpoint": "https://socialai.one/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-18T11:11:05.089398Z",
         "upstreamUpdatedAt": "2026-07-18T11:11:05.089398Z",
-        "verifiedAt": "2026-08-05T02:04:50+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized"
@@ -57,6 +65,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

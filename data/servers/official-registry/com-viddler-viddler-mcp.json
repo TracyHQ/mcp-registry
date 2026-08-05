@@ -28,12 +28,20 @@
       "operator": {
         "name": "viddler"
       },
+      "ecosystem": [],
+      "listingUrl": "https://viddler.com/for-agents",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:04+00:00",
+        "probeEndpoint": "https://mcp.viddler.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-28T15:56:53.13915Z",
         "upstreamUpdatedAt": "2026-06-28T15:56:53.13915Z",
-        "verifiedAt": "2026-08-05T02:03:04+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 12,
         "readWriteSummary": {
           "read": 3,
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

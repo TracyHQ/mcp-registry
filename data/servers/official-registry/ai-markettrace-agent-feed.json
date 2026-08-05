@@ -20,18 +20,29 @@
       "operator": {
         "name": "MarketTrace"
       },
+      "ecosystem": [],
+      "listingUrl": "https://markettrace.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:20+00:00",
+        "probeEndpoint": "https://api.markettrace.ai/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-04T06:35:37.03302Z",
-        "upstreamUpdatedAt": "2026-07-04T06:35:37.03302Z",
-        "verifiedAt": "2026-08-05T02:02:20+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-04T06:35:37.03302Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

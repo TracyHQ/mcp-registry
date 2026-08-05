@@ -18,18 +18,29 @@
       "operator": {
         "name": "mess"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mess.fyi/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:10+00:00",
+        "probeEndpoint": "https://mess.fyi/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-03T00:21:20.826992Z",
-        "upstreamUpdatedAt": "2026-08-03T00:21:20.826992Z",
-        "verifiedAt": "2026-08-05T02:03:10+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-03T00:21:20.826992Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

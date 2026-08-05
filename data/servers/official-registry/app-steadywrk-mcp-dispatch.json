@@ -27,12 +27,20 @@
       "operator": {
         "name": "steadywrk"
       },
+      "ecosystem": [],
+      "listingUrl": "https://steadywrk.app/developers/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:27+00:00",
+        "probeEndpoint": "https://steadywrk.app/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-03T16:14:16.320606Z",
         "upstreamUpdatedAt": "2026-08-03T16:14:16.320606Z",
-        "verifiedAt": "2026-08-05T02:02:27+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 0,
@@ -45,6 +53,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

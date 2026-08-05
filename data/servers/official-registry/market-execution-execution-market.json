@@ -19,18 +19,29 @@
       "operator": {
         "name": "UltravioletaDAO"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/UltravioletaDAO/execution-market",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:47+00:00",
+        "probeEndpoint": "https://mcp.execution.market/mcp/",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-20T01:32:32.770358Z",
-        "upstreamUpdatedAt": "2026-03-20T01:32:32.770358Z",
-        "verifiedAt": "2026-08-05T02:04:47+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-03-20T01:32:32.770358Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

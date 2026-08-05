@@ -20,12 +20,20 @@
       "operator": {
         "name": "praatmetjeboekhouding"
       },
+      "ecosystem": [],
+      "listingUrl": "https://praatmetjeboekhouding.nl",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:50+00:00",
+        "probeEndpoint": "https://api.praatmetjeboekhouding.nl/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-04T14:58:06.55828Z",
         "upstreamUpdatedAt": "2026-07-04T14:58:06.55828Z",
-        "verifiedAt": "2026-08-05T02:04:50+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "No Bearer token provided. Complete OAuth flow first."
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

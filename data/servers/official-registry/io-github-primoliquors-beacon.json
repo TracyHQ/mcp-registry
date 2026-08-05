@@ -19,12 +19,20 @@
       "operator": {
         "name": "primoliquors"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/primoliquors/beacon-skill",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:27+00:00",
+        "probeEndpoint": "https://beacon-index.onrender.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-17T02:35:40.41216Z",
         "upstreamUpdatedAt": "2026-07-17T02:35:40.41216Z",
-        "verifiedAt": "2026-08-05T02:04:27+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 4,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

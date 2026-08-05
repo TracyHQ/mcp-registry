@@ -100,12 +100,20 @@
       "operator": {
         "name": "cyanheads"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/cyanheads/usaspending-mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:59+00:00",
+        "probeEndpoint": "https://usaspending.caseyjhand.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-27T20:54:26.14292Z",
         "upstreamUpdatedAt": "2026-07-27T20:54:26.14292Z",
-        "verifiedAt": "2026-08-05T02:03:59+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 18,
         "readWriteSummary": {
           "read": 18,
@@ -118,6 +126,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

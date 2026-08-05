@@ -64,18 +64,29 @@
       "operator": {
         "name": "itcons-app"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/itcons-app/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:06+00:00",
+        "probeEndpoint": "https://mcp.itcons.app/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-21T11:42:39.419518Z",
-        "upstreamUpdatedAt": "2026-04-21T11:42:39.419518Z",
-        "verifiedAt": "2026-08-05T02:04:06+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-04-21T11:42:39.419518Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

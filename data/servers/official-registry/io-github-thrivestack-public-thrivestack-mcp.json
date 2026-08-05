@@ -27,12 +27,20 @@
       "operator": {
         "name": "Thrivestack-public"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Thrivestack-public/thrivestack-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:52+00:00",
+        "probeEndpoint": "https://api.app.thrivestack.ai/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-09T13:21:41.48607Z",
         "upstreamUpdatedAt": "2026-03-09T13:21:41.48607Z",
-        "verifiedAt": "2026-08-05T02:03:52+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "x-api-key"
@@ -45,6 +53,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

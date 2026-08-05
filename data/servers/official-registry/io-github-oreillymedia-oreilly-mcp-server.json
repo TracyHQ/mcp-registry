@@ -33,18 +33,29 @@
       "operator": {
         "name": "oreillymedia"
       },
+      "ecosystem": [],
+      "listingUrl": "https://oreilly.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:23+00:00",
+        "probeEndpoint": "https://api.oreilly.com/api/content-discovery/v1/mcp/",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-26T15:27:51.401367Z",
-        "upstreamUpdatedAt": "2026-06-26T15:27:51.401367Z",
-        "verifiedAt": "2026-08-05T02:04:23+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-26T15:27:51.401367Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

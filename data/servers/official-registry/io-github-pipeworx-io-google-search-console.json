@@ -20,12 +20,20 @@
       "operator": {
         "name": "pipeworx-io"
       },
+      "ecosystem": [],
+      "listingUrl": "https://pipeworx.io/packs/google_search_console",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:25+00:00",
+        "probeEndpoint": "https://gateway.pipeworx.io/google_search_console/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-01T23:10:15.717446Z",
         "upstreamUpdatedAt": "2026-06-01T23:10:15.717446Z",
-        "verifiedAt": "2026-08-05T02:04:25+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 35,
         "readWriteSummary": {
           "read": 30,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

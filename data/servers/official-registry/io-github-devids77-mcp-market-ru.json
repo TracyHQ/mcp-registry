@@ -20,12 +20,20 @@
       "operator": {
         "name": "devids77"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcp-market.ru",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:00+00:00",
+        "probeEndpoint": "https://mcp-market.ru/mcp/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-13T11:37:47.720373Z",
         "upstreamUpdatedAt": "2026-07-13T11:37:47.720373Z",
-        "verifiedAt": "2026-08-05T02:04:00+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 24,
         "readWriteSummary": {
           "read": 11,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

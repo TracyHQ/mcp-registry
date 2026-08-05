@@ -17,12 +17,22 @@
       "operator": {
         "name": "themineworks"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://github.com/themineworks/mcp-servers",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:01+00:00",
+        "probeEndpoint": "https://themineworks--ecommerce-intel-mcp.apify.actor/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T16:12:34.097958Z",
-        "upstreamUpdatedAt": "2026-07-31T16:12:34.097958Z",
-        "verifiedAt": "2026-08-05T02:03:01+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-31T16:12:34.097958Z"
       },
       "classification": {
         "capability": [
@@ -30,6 +40,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

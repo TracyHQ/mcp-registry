@@ -17,18 +17,28 @@
       "operator": {
         "name": "petraport"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:21+00:00",
+        "probeEndpoint": "https://petraport.ai/api/agent-commerce/v1/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-20T07:21:40.379291Z",
-        "upstreamUpdatedAt": "2026-07-20T07:21:40.379291Z",
-        "verifiedAt": "2026-08-05T02:02:21+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-20T07:21:40.379291Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

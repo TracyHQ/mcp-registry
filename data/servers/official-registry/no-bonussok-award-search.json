@@ -20,18 +20,29 @@
       "operator": {
         "name": "bonussok"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.bonussok.no",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:50+00:00",
+        "probeEndpoint": "https://www.bonussok.no/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-01T23:39:31.749683Z",
-        "upstreamUpdatedAt": "2026-08-01T23:39:31.749683Z",
-        "verifiedAt": "2026-08-05T02:04:50+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-01T23:39:31.749683Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

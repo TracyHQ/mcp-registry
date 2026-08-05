@@ -28,12 +28,20 @@
       "operator": {
         "name": "lazymac2x"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/lazymac2x/smart-data-extractor-worker",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:14+00:00",
+        "probeEndpoint": "https://api.lazy-mac.com/smart-data-extractor/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-17T12:55:36.083386Z",
         "upstreamUpdatedAt": "2026-05-17T12:55:36.083386Z",
-        "verifiedAt": "2026-08-05T02:04:14+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 0,
@@ -46,6 +54,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

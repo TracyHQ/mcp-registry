@@ -20,18 +20,29 @@
       "operator": {
         "name": "boxtoplay"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.boxtoplay.com/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:39+00:00",
+        "probeEndpoint": "https://api.boxtoplay.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T22:08:39.540754Z",
-        "upstreamUpdatedAt": "2026-08-02T22:08:39.540754Z",
-        "verifiedAt": "2026-08-05T02:02:39+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-02T22:08:39.540754Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

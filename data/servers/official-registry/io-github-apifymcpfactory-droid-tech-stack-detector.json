@@ -26,12 +26,20 @@
       "operator": {
         "name": "apifymcpfactory-droid"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/apifymcpfactory-droid/mcp-factory-servers",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:55+00:00",
+        "probeEndpoint": "https://mcp.apify.com?tools=apifmcpfactory/tech-stack-detector",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-20T10:07:26.537317Z",
         "upstreamUpdatedAt": "2026-07-20T10:07:26.537317Z",
-        "verifiedAt": "2026-08-05T02:03:55+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -18,12 +18,20 @@
       "operator": {
         "name": "merchantwords"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.merchantwords.com/developers/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:52+00:00",
+        "probeEndpoint": "https://mcp.merchantwords.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-07T17:12:47.685833Z",
         "upstreamUpdatedAt": "2026-07-07T17:12:47.685833Z",
-        "verifiedAt": "2026-08-05T02:02:52+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 5,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

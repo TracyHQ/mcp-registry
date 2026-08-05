@@ -42,18 +42,29 @@
       "operator": {
         "name": "golts"
       },
+      "ecosystem": [],
+      "listingUrl": "https://keepmysubs.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:50+00:00",
+        "probeEndpoint": "https://keepmysubs.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-11T20:57:46.318045Z",
-        "upstreamUpdatedAt": "2026-06-11T20:57:46.318045Z",
-        "verifiedAt": "2026-08-05T02:02:50+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-11T20:57:46.318045Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -20,12 +20,20 @@
       "operator": {
         "name": "mattherbert"
       },
+      "ecosystem": [],
+      "listingUrl": "https://offers.mattherbert.ca",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:29+00:00",
+        "probeEndpoint": "https://offers.mattherbert.ca/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-20T21:50:50.091514Z",
         "upstreamUpdatedAt": "2026-07-20T21:50:50.091514Z",
-        "verifiedAt": "2026-08-05T02:02:29+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

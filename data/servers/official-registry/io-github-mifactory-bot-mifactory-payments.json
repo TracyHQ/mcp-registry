@@ -17,12 +17,20 @@
       "operator": {
         "name": "mifactory-bot"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/mifactory-bot/mifactory-payments",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:29+00:00",
+        "probeEndpoint": "https://mifactory-payments.vercel.app/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-11T17:22:23.358606Z",
         "upstreamUpdatedAt": "2026-04-11T17:22:23.358606Z",
-        "verifiedAt": "2026-08-04T11:15:29+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 2,
@@ -35,6 +43,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

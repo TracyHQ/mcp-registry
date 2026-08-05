@@ -20,18 +20,29 @@
       "operator": {
         "name": "papayapay"
       },
+      "ecosystem": [],
+      "listingUrl": "https://papayapay.com/payabill",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:23+00:00",
+        "probeEndpoint": "https://mcp-agent.consumer-production.papayapay.com/payagent/mcp",
+        "probeHttpStatus": "403",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-09T20:10:01.087734Z",
-        "upstreamUpdatedAt": "2026-07-09T20:10:01.087734Z",
-        "verifiedAt": "2026-08-04T11:15:23+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-09T20:10:01.087734Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

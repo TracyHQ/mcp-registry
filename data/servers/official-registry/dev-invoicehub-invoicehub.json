@@ -18,12 +18,20 @@
       "operator": {
         "name": "einvoice-dev1"
       },
+      "ecosystem": [],
+      "listingUrl": "https://invoicehub.dev",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:26+00:00",
+        "probeEndpoint": "https://api.invoicehub.dev/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-27T02:26:19.431688Z",
         "upstreamUpdatedAt": "2026-07-27T02:26:19.431688Z",
-        "verifiedAt": "2026-08-04T11:15:26+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 2,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

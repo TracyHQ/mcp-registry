@@ -28,12 +28,20 @@
       "operator": {
         "name": "airroi"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.airroi.com/mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:35+00:00",
+        "probeEndpoint": "https://mcp.airroi.com",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T02:21:02.867661Z",
         "upstreamUpdatedAt": "2026-08-02T02:21:02.867661Z",
-        "verifiedAt": "2026-08-05T02:02:35+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "X-API-KEY"
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

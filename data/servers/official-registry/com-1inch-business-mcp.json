@@ -20,12 +20,20 @@
       "operator": {
         "name": "1inch"
       },
+      "ecosystem": [],
+      "listingUrl": "https://business.1inch.com/portal/documentation/ai-integration",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:32+00:00",
+        "probeEndpoint": "https://api.1inch.com/mcp/protocol",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-26T19:08:20.352491Z",
         "upstreamUpdatedAt": "2026-07-26T19:08:20.352491Z",
-        "verifiedAt": "2026-08-05T02:02:32+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 5,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

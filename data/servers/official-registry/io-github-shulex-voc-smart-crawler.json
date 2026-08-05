@@ -34,12 +34,20 @@
       "operator": {
         "name": "shulex-voc"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/shulex-voc/smart-crawler",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:31+00:00",
+        "probeEndpoint": "https://smartcrawler.io/mcp/",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-08T10:43:58.949101Z",
         "upstreamUpdatedAt": "2026-06-08T10:43:58.949101Z",
-        "verifiedAt": "2026-08-05T02:04:31+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -52,6 +60,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -19,12 +19,20 @@
       "operator": {
         "name": "estroni"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/estroni/storefront-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:03+00:00",
+        "probeEndpoint": "https://mcp.estroni.com.au/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-23T07:04:12.041157Z",
         "upstreamUpdatedAt": "2026-05-23T07:04:12.041157Z",
-        "verifiedAt": "2026-08-05T02:04:03+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 1,
         "readWriteSummary": {
           "read": 1,
@@ -37,6 +45,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

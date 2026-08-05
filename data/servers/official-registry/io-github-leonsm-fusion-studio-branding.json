@@ -19,12 +19,20 @@
       "operator": {
         "name": "Fision-Studio"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Fision-Studio/brand-compass",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:14+00:00",
+        "probeEndpoint": "https://app.thefusion.studio/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-07T12:10:34.322431Z",
         "upstreamUpdatedAt": "2026-04-07T12:10:34.322431Z",
-        "verifiedAt": "2026-08-05T02:04:14+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 0,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

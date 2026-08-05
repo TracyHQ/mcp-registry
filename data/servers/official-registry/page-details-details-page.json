@@ -28,12 +28,20 @@
       "operator": {
         "name": "details"
       },
+      "ecosystem": [],
+      "listingUrl": "https://details.page",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:51+00:00",
+        "probeEndpoint": "https://details.page/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T16:32:30.810435Z",
         "upstreamUpdatedAt": "2026-06-12T16:32:30.810435Z",
-        "verifiedAt": "2026-08-05T02:04:51+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -18,12 +18,20 @@
       "operator": {
         "name": "prelim"
       },
+      "ecosystem": [],
+      "listingUrl": "https://prelim.chat",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:30+00:00",
+        "probeEndpoint": "https://mcp.prelim.chat/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-23T02:28:40.69201Z",
         "upstreamUpdatedAt": "2026-05-23T02:28:40.69201Z",
-        "verifiedAt": "2026-08-05T02:02:30+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized"
@@ -34,6 +42,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

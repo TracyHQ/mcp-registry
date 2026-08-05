@@ -18,12 +18,20 @@
       "operator": {
         "name": "meni"
       },
+      "ecosystem": [],
+      "listingUrl": "https://meni.ge/docs/llm-api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:11+00:00",
+        "probeEndpoint": "https://api.meni.ge/llm/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T20:10:05.166787Z",
         "upstreamUpdatedAt": "2026-06-12T20:10:05.166787Z",
-        "verifiedAt": "2026-08-05T02:03:11+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 6,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

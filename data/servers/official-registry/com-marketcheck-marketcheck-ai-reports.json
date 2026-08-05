@@ -18,12 +18,20 @@
       "operator": {
         "name": "MarketcheckHub"
       },
+      "ecosystem": [],
+      "listingUrl": "https://reports.marketcheck.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:51+00:00",
+        "probeEndpoint": "https://reports.marketcheck.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T01:55:50.581436Z",
         "upstreamUpdatedAt": "2026-06-12T01:55:50.581436Z",
-        "verifiedAt": "2026-08-05T02:02:51+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "authentication required"
@@ -34,6 +42,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

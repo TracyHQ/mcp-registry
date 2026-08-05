@@ -24,18 +24,29 @@
       "operator": {
         "name": "keremurat"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/keremurat/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:24+00:00",
+        "probeEndpoint": "https://server.smithery.ai/@keremurat/mcp/mcp",
+        "probeHttpStatus": "403",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-10-03T13:28:45.319778Z",
-        "upstreamUpdatedAt": "2025-10-03T13:28:45.319778Z",
-        "verifiedAt": "2026-08-05T02:02:24+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2025-10-03T13:28:45.319778Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

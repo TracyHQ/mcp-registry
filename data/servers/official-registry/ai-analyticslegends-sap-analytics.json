@@ -20,12 +20,20 @@
       "operator": {
         "name": "analyticslegends"
       },
+      "ecosystem": [],
+      "listingUrl": "https://analyticslegends.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:19+00:00",
+        "probeEndpoint": "https://analyticslegends.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-30T11:41:55.972984Z",
         "upstreamUpdatedAt": "2026-07-30T11:41:55.972984Z",
-        "verifiedAt": "2026-08-04T11:15:19+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 15,
         "readWriteSummary": {
           "read": 15,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

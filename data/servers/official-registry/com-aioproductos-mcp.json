@@ -39,12 +39,20 @@
       "operator": {
         "name": "AIOProductOS"
       },
+      "ecosystem": [],
+      "listingUrl": "https://aioproductos.com/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:35+00:00",
+        "probeEndpoint": "https://platform.aioproductos.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-30T01:32:44.290978Z",
         "upstreamUpdatedAt": "2026-07-30T01:32:44.290978Z",
-        "verifiedAt": "2026-08-05T02:02:35+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 71,
         "readWriteSummary": {
           "read": 35,
@@ -57,6 +65,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

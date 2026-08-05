@@ -29,12 +29,20 @@
       "operator": {
         "name": "LLM-Pulse"
       },
+      "ecosystem": [],
+      "listingUrl": "https://api.llmpulse.ai/api-docs",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:44+00:00",
+        "probeEndpoint": "https://api.llmpulse.ai/api/v1/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-06T08:25:08.15078Z",
         "upstreamUpdatedAt": "2026-07-06T08:25:08.15078Z",
-        "verifiedAt": "2026-08-05T02:03:44+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -48,6 +56,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

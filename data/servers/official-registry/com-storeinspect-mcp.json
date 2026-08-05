@@ -19,12 +19,22 @@
       "operator": {
         "name": "StoreInspect"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://github.com/StoreInspect/storeinspect-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:00+00:00",
+        "probeEndpoint": "https://mcp.storeinspect.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T10:26:34.287714Z",
-        "upstreamUpdatedAt": "2026-08-02T10:26:34.287714Z",
-        "verifiedAt": "2026-08-05T02:03:00+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-02T10:26:34.287714Z"
       },
       "classification": {
         "capability": [
@@ -32,6 +42,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

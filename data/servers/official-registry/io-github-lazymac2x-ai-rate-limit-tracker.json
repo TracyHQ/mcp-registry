@@ -17,12 +17,20 @@
       "operator": {
         "name": "lazymac2x"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/lazymac2x/ai-rate-limit-tracker-api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:11+00:00",
+        "probeEndpoint": "https://api.lazy-mac.com/ai-rate-limit-tracker/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-16T11:53:39.190832Z",
         "upstreamUpdatedAt": "2026-05-16T11:53:39.190832Z",
-        "verifiedAt": "2026-08-05T02:04:11+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 3,
@@ -35,6 +43,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

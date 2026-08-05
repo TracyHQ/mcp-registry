@@ -28,12 +28,20 @@
       "operator": {
         "name": "Turbo-Puffin"
       },
+      "ecosystem": [],
+      "listingUrl": "https://measure.events",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:21+00:00",
+        "probeEndpoint": "https://lets.measure.events/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-05T15:19:20.415714Z",
         "upstreamUpdatedAt": "2026-03-05T15:19:20.415714Z",
-        "verifiedAt": "2026-08-05T02:04:21+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 3,
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

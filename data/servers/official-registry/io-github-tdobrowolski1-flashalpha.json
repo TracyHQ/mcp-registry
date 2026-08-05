@@ -93,12 +93,20 @@
       "operator": {
         "name": "FlashAlpha-lab"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/FlashAlpha-lab/flashalpha-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:35+00:00",
+        "probeEndpoint": "https://lab.flashalpha.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-07T19:45:09.036669Z",
         "upstreamUpdatedAt": "2026-06-07T19:45:09.036669Z",
-        "verifiedAt": "2026-08-05T02:04:35+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 73,
         "readWriteSummary": {
           "read": 73,
@@ -111,6 +119,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

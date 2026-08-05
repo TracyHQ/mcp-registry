@@ -17,12 +17,20 @@
       "operator": {
         "name": "jdhart81"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/jdhart81/viridis-agent-fleet",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:07+00:00",
+        "probeEndpoint": "https://mcp.viridisconservation.com/metering/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-15T17:05:42.436466Z",
         "upstreamUpdatedAt": "2026-07-15T17:05:42.436466Z",
-        "verifiedAt": "2026-08-05T02:04:07+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 11,
         "readWriteSummary": {
           "read": 5,
@@ -35,6 +43,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

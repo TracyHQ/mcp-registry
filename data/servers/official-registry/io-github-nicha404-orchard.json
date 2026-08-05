@@ -20,18 +20,29 @@
       "operator": {
         "name": "Nicha404"
       },
+      "ecosystem": [],
+      "listingUrl": "https://orchard-dashboard.pages.dev/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:45+00:00",
+        "probeEndpoint": "https://orchard-mcp.orchardagentic.workers.dev/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-18T09:47:57.861373Z",
-        "upstreamUpdatedAt": "2026-07-18T09:47:57.861373Z",
-        "verifiedAt": "2026-08-05T02:03:45+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-18T09:47:57.861373Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -27,12 +27,20 @@
       "operator": {
         "name": "facet"
       },
+      "ecosystem": [],
+      "listingUrl": "https://facet.llc",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:47+00:00",
+        "probeEndpoint": "https://api.facet.llc/ucp/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-18T01:26:28.280027Z",
         "upstreamUpdatedAt": "2026-07-18T01:26:28.280027Z",
-        "verifiedAt": "2026-08-05T02:04:47+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 8,
@@ -45,6 +53,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

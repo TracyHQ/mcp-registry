@@ -20,18 +20,29 @@
       "operator": {
         "name": "MHNCity"
       },
+      "ecosystem": [],
+      "listingUrl": "https://noon-ai.dyndns-server.com/mcp-proof",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:21+00:00",
+        "probeEndpoint": "https://noon-ai.dyndns-server.com/face-blur-redaction-mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-01T07:41:49.912636Z",
-        "upstreamUpdatedAt": "2026-06-01T07:41:49.912636Z",
-        "verifiedAt": "2026-08-04T11:15:21+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-01T07:41:49.912636Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

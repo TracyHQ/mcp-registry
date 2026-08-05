@@ -20,12 +20,20 @@
       "operator": {
         "name": "krosos"
       },
+      "ecosystem": [],
+      "listingUrl": "https://krosos.com/docs/api-access",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:50+00:00",
+        "probeEndpoint": "https://app.krosos.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-29T10:34:08.478108Z",
         "upstreamUpdatedAt": "2026-07-29T10:34:08.478108Z",
-        "verifiedAt": "2026-08-05T02:02:50+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 6,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -28,12 +28,20 @@
       "operator": {
         "name": "opendealer"
       },
+      "ecosystem": [],
+      "listingUrl": "https://opendealer.pro",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:26+00:00",
+        "probeEndpoint": "https://mcp.opendealer.app/rpc",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-02T21:45:53.023827Z",
         "upstreamUpdatedAt": "2026-07-02T21:45:53.023827Z",
-        "verifiedAt": "2026-08-05T02:02:26+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 27,
         "readWriteSummary": {
           "read": 27,
@@ -46,6 +54,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

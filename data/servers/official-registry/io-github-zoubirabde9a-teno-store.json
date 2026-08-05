@@ -20,18 +20,29 @@
       "operator": {
         "name": "zoubirabde9a"
       },
+      "ecosystem": [],
+      "listingUrl": "https://teno-store.com/developers",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:39+00:00",
+        "probeEndpoint": "https://api.teno-store.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-15T20:36:49.440426Z",
-        "upstreamUpdatedAt": "2026-07-15T20:36:49.440426Z",
-        "verifiedAt": "2026-08-05T02:04:39+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-15T20:36:49.440426Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

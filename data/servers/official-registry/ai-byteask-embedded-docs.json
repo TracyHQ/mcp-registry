@@ -18,12 +18,20 @@
       "operator": {
         "name": "ByteAsk"
       },
+      "ecosystem": [],
+      "listingUrl": "https://docs.byteask.ai/embedded",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:18+00:00",
+        "probeEndpoint": "https://mcp.byteask.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-19T12:57:43.612963Z",
         "upstreamUpdatedAt": "2026-06-19T12:57:43.612963Z",
-        "verifiedAt": "2026-08-05T02:02:18+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 2,
@@ -36,6 +44,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

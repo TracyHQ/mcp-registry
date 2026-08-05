@@ -31,12 +31,20 @@
       "operator": {
         "name": "SidneyBissoli"
       },
+      "ecosystem": [],
+      "listingUrl": "https://senado.sidneybissoli.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:28+00:00",
+        "probeEndpoint": "https://senado.sidneybissoli.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-08T23:15:25.771272Z",
         "upstreamUpdatedAt": "2026-07-08T23:15:25.771272Z",
-        "verifiedAt": "2026-08-04T11:15:28+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 67,
         "readWriteSummary": {
           "read": 67,
@@ -49,6 +57,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -24,18 +24,28 @@
       "operator": {
         "name": "smithery"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:24+00:00",
+        "probeEndpoint": "https://server.smithery.ai/@RectiFlex/centerassist-mcp1/mcp",
+        "probeHttpStatus": "403",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-10-08T05:13:44.681143Z",
-        "upstreamUpdatedAt": "2025-10-08T05:13:44.681143Z",
-        "verifiedAt": "2026-08-05T02:02:24+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2025-10-08T05:13:44.681143Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -20,12 +20,22 @@
       "operator": {
         "name": "pipeworx-io"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://pipeworx.io/packs/shopify",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:32+00:00",
+        "probeEndpoint": "https://gateway.pipeworx.io/shopify/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-22T01:32:25.632123Z",
         "upstreamUpdatedAt": "2026-04-22T01:32:25.632123Z",
-        "verifiedAt": "2026-08-04T11:15:32+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 36,
         "readWriteSummary": {
           "read": 31,
@@ -39,6 +49,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

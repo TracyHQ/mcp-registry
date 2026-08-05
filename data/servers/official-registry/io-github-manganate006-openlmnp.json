@@ -26,12 +26,20 @@
       "operator": {
         "name": "manganate006"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/manganate006/openlmnp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:15+00:00",
+        "probeEndpoint": "https://app.openlmnp.fr/mcp?demo_token=openlmnp_demo_ro_ebd891f45e8a771ca1a718f239b733b438a31d48",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-30T07:21:30.859603Z",
         "upstreamUpdatedAt": "2026-07-30T07:21:30.859603Z",
-        "verifiedAt": "2026-08-05T02:04:15+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 44,
         "readWriteSummary": {
           "read": 23,
@@ -44,6 +52,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

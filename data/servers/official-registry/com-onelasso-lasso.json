@@ -18,12 +18,20 @@
       "operator": {
         "name": "onelasso"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.onelasso.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:55+00:00",
+        "probeEndpoint": "https://api.lassotech.com/api/v1/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T20:09:34.907185Z",
         "upstreamUpdatedAt": "2026-06-12T20:09:34.907185Z",
-        "verifiedAt": "2026-08-05T02:02:55+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "AUTHENTICATION_REQUIRED"
@@ -34,6 +42,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

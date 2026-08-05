@@ -27,12 +27,19 @@
       "operator": {
         "name": "qr-manager"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:22+00:00",
+        "probeEndpoint": "https://qr-manager.ai/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-17T05:06:20.934627Z",
         "upstreamUpdatedAt": "2026-06-17T05:06:20.934627Z",
-        "verifiedAt": "2026-08-05T02:02:22+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -45,6 +52,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

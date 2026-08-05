@@ -18,12 +18,20 @@
       "operator": {
         "name": "mart402"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mart402.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:51+00:00",
+        "probeEndpoint": "https://mart402.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T11:49:41.657154Z",
         "upstreamUpdatedAt": "2026-07-31T11:49:41.657154Z",
-        "verifiedAt": "2026-08-05T02:02:51+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 15,
         "readWriteSummary": {
           "read": 4,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

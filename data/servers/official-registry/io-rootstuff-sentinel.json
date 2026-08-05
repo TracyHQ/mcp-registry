@@ -31,12 +31,20 @@
       "operator": {
         "name": "rootstuff"
       },
+      "ecosystem": [],
+      "listingUrl": "https://sentinel.rootstuff.io/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:42+00:00",
+        "probeEndpoint": "https://sentinel.rootstuff.io/mcp/sentinel-oauth",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-07T05:14:17.616154Z",
         "upstreamUpdatedAt": "2026-07-07T05:14:17.616154Z",
-        "verifiedAt": "2026-08-05T02:04:42+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -49,6 +57,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

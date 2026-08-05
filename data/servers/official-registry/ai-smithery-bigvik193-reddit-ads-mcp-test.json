@@ -26,12 +26,20 @@
       "operator": {
         "name": "BigVik193"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/BigVik193/reddit-ads-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:23+00:00",
+        "probeEndpoint": "https://server.smithery.ai/@BigVik193/reddit-ads-mcp-test/mcp",
+        "probeHttpStatus": "403",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-09-14T21:38:57.984339Z",
         "upstreamUpdatedAt": "2025-09-14T21:38:57.984339Z",
-        "verifiedAt": "2026-08-05T02:02:23+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -44,6 +52,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

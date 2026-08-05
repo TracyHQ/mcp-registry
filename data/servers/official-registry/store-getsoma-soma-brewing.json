@@ -20,12 +20,20 @@
       "operator": {
         "name": "getsoma"
       },
+      "ecosystem": [],
+      "listingUrl": "https://getsoma.store/agents",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:55+00:00",
+        "probeEndpoint": "https://getsoma.store/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-27T14:06:16.065317Z",
         "upstreamUpdatedAt": "2026-07-27T14:06:16.065317Z",
-        "verifiedAt": "2026-08-05T02:04:55+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 13,
         "readWriteSummary": {
           "read": 12,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

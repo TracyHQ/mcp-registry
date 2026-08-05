@@ -20,18 +20,29 @@
       "operator": {
         "name": "nflmcp"
       },
+      "ecosystem": [],
+      "listingUrl": "https://nflmcp.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:54+00:00",
+        "probeEndpoint": "https://mcp.nflmcp.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-22T20:51:29.233801Z",
-        "upstreamUpdatedAt": "2026-07-22T20:51:29.233801Z",
-        "verifiedAt": "2026-08-05T02:02:54+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-22T20:51:29.233801Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

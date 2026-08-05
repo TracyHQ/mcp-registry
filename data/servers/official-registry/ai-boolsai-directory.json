@@ -19,12 +19,20 @@
       "operator": {
         "name": "Boolsai-ai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Boolsai-ai/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:18+00:00",
+        "probeEndpoint": "https://directory.boolsai.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-19T13:30:35.464226Z",
         "upstreamUpdatedAt": "2026-05-19T13:30:35.464226Z",
-        "verifiedAt": "2026-08-05T02:02:18+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 19,
         "readWriteSummary": {
           "read": 6,
@@ -37,6 +45,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

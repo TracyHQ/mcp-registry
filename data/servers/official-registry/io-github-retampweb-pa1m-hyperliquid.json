@@ -19,12 +19,19 @@
       "operator": {
         "name": "retampweb"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:28+00:00",
+        "probeEndpoint": "https://hyperliquid.hypa1m.xyz/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-27T13:06:43.140719Z",
         "upstreamUpdatedAt": "2026-07-27T13:06:43.140719Z",
-        "verifiedAt": "2026-08-05T02:04:28+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 14,
         "readWriteSummary": {
           "read": 14,
@@ -37,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

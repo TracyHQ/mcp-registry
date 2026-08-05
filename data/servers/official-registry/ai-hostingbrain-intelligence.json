@@ -18,18 +18,29 @@
       "operator": {
         "name": "hostingbrain"
       },
+      "ecosystem": [],
+      "listingUrl": "https://hostingbrain.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:19+00:00",
+        "probeEndpoint": "https://mcp.hostingbrain.ai/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-04T13:38:10.359005Z",
-        "upstreamUpdatedAt": "2026-07-04T13:38:10.359005Z",
-        "verifiedAt": "2026-08-04T11:15:19+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-04T13:38:10.359005Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -18,12 +18,20 @@
       "operator": {
         "name": "marketscore"
       },
+      "ecosystem": [],
+      "listingUrl": "https://app.marketscore.ru",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:15+00:00",
+        "probeEndpoint": "https://app.marketscore.ru/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-30T16:20:27.683467Z",
         "upstreamUpdatedAt": "2026-06-30T16:20:27.683467Z",
-        "verifiedAt": "2026-08-05T02:04:15+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized: подключите аккаунт через OAuth или укажите ключ"
@@ -34,6 +42,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

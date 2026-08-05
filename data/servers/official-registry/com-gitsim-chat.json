@@ -19,12 +19,19 @@
       "operator": {
         "name": "gitsim"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:46+00:00",
+        "probeEndpoint": "https://chat.gitsim.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-01T15:29:07.96264Z",
         "upstreamUpdatedAt": "2026-04-01T15:29:07.96264Z",
-        "verifiedAt": "2026-08-05T02:02:46+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 7,
@@ -37,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

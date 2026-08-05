@@ -37,12 +37,22 @@
       "operator": {
         "name": "curievision"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://chat.curie.app",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:31+00:00",
+        "probeEndpoint": "https://chat.curie.app/api/mcp/global",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-20T06:10:54.531321Z",
         "upstreamUpdatedAt": "2026-05-20T06:10:54.531321Z",
-        "verifiedAt": "2026-08-05T02:02:31+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 30,
         "readWriteSummary": {
           "read": 16,
@@ -57,6 +67,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

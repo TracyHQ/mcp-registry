@@ -19,12 +19,20 @@
       "operator": {
         "name": "mcp-dir"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/mcp-dir/microvix-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:19+00:00",
+        "probeEndpoint": "https://api.mcp.ai/p_microvix",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T18:59:08.373433Z",
         "upstreamUpdatedAt": "2026-06-12T18:59:08.373433Z",
-        "verifiedAt": "2026-08-05T02:04:19+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 16,
         "readWriteSummary": {
           "read": 13,
@@ -37,6 +45,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

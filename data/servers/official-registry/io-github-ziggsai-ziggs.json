@@ -38,18 +38,29 @@
       "operator": {
         "name": "ZiggsAI"
       },
+      "ecosystem": [],
+      "listingUrl": "https://ziggsai.com/docs#connect-assistant",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:53+00:00",
+        "probeEndpoint": "https://mcp.ziggsai.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-04T04:36:38.299505Z",
-        "upstreamUpdatedAt": "2026-08-04T04:36:38.299505Z",
-        "verifiedAt": "2026-08-05T02:03:53+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-04T04:36:38.299505Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

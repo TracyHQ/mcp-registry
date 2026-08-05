@@ -17,12 +17,19 @@
       "operator": {
         "name": "inboxguard"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:40+00:00",
+        "probeEndpoint": "https://mcp.inboxguard.io/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T20:45:12.899693Z",
         "upstreamUpdatedAt": "2026-06-12T20:45:12.899693Z",
-        "verifiedAt": "2026-08-05T02:04:40+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 28,
         "readWriteSummary": {
           "read": 20,
@@ -35,6 +42,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -38,12 +38,20 @@
       "operator": {
         "name": "ABTdomain"
       },
+      "ecosystem": [],
+      "listingUrl": "https://domainkits.com/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:15+00:00",
+        "probeEndpoint": "https://api.domainkits.com/v1/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T07:59:04.310993Z",
         "upstreamUpdatedAt": "2026-07-31T07:59:04.310993Z",
-        "verifiedAt": "2026-08-05T02:03:15+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 28,
         "readWriteSummary": {
           "read": 25,
@@ -56,6 +64,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

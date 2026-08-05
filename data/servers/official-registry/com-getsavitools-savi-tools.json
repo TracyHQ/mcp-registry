@@ -18,12 +18,20 @@
       "operator": {
         "name": "getsavitools"
       },
+      "ecosystem": [],
+      "listingUrl": "https://getsavitools.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:45+00:00",
+        "probeEndpoint": "https://getsavitools.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-15T16:50:51.176468Z",
         "upstreamUpdatedAt": "2026-07-15T16:50:51.176468Z",
-        "verifiedAt": "2026-08-05T02:02:45+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 25,
         "readWriteSummary": {
           "read": 25,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

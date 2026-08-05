@@ -27,12 +27,20 @@
       "operator": {
         "name": "elevation-ai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/elevation-ai/portal-appgen",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:26+00:00",
+        "probeEndpoint": "https://ai-elevation.azurewebsites.net/mcp",
+        "probeHttpStatus": "403",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-05T18:29:58.925642Z",
         "upstreamUpdatedAt": "2026-03-05T18:29:58.925642Z",
-        "verifiedAt": "2026-08-05T02:04:26+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "elevated-auth"
@@ -45,6 +53,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

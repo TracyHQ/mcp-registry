@@ -17,12 +17,19 @@
       "operator": {
         "name": "getcims"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:45+00:00",
+        "probeEndpoint": "https://api.getcims.com/functions/v1/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-12T12:30:24.431398Z",
         "upstreamUpdatedAt": "2026-02-12T12:30:24.431398Z",
-        "verifiedAt": "2026-08-05T02:02:45+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 7,
@@ -35,6 +42,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

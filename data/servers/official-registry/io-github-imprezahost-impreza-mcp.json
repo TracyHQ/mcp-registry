@@ -50,12 +50,20 @@
       "operator": {
         "name": "imprezahost"
       },
+      "ecosystem": [],
+      "listingUrl": "https://docs.imprezahost.com/tutorials/ai-mcp-integration.html",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:05+00:00",
+        "probeEndpoint": "https://mcp.imprezahost.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-04T16:35:09.368169Z",
         "upstreamUpdatedAt": "2026-08-04T16:35:09.368169Z",
-        "verifiedAt": "2026-08-05T02:04:05+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 1,
         "readWriteSummary": {
           "read": 0,
@@ -68,6 +76,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

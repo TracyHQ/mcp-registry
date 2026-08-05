@@ -27,12 +27,20 @@
       "operator": {
         "name": "gocreativeai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://predict.gocreativeai.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:46+00:00",
+        "probeEndpoint": "https://predict.gocreativeai.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-25T02:05:00.899491Z",
         "upstreamUpdatedAt": "2026-06-25T02:05:00.899491Z",
-        "verifiedAt": "2026-08-05T02:02:46+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 1,
@@ -45,6 +53,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -25,12 +25,19 @@
       "operator": {
         "name": "philmccarty"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:24+00:00",
+        "probeEndpoint": "https://appleadsmcp.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-11T11:18:48.923802Z",
         "upstreamUpdatedAt": "2026-02-11T11:18:48.923802Z",
-        "verifiedAt": "2026-08-05T02:04:24+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -43,6 +50,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

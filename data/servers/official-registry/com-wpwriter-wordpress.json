@@ -20,12 +20,22 @@
       "operator": {
         "name": "yaniv-fink"
       },
+      "ecosystem": [
+        "wordpress"
+      ],
+      "listingUrl": "https://www.wpwriter.com/docs/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:26+00:00",
+        "probeEndpoint": "https://mcp.wpwriter.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-21T08:00:19.40073Z",
-        "upstreamUpdatedAt": "2026-06-21T08:00:19.40073Z",
-        "verifiedAt": "2026-08-04T11:15:26+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-21T08:00:19.40073Z"
       },
       "classification": {
         "capability": [
@@ -33,6 +43,9 @@
         ],
         "platform": [
           "WordPress"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

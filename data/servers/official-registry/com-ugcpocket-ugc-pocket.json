@@ -25,12 +25,20 @@
       "operator": {
         "name": "ugcpocket"
       },
+      "ecosystem": [],
+      "listingUrl": "https://ugcpocket.com/for-agents",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:03+00:00",
+        "probeEndpoint": "https://ugcpocket.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-02T21:00:08.684093Z",
         "upstreamUpdatedAt": "2026-07-02T21:00:08.684093Z",
-        "verifiedAt": "2026-08-05T02:03:03+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 5,
@@ -43,6 +51,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

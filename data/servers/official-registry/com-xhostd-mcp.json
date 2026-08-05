@@ -20,18 +20,29 @@
       "operator": {
         "name": "yairl"
       },
+      "ecosystem": [],
+      "listingUrl": "https://xhostd.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:05+00:00",
+        "probeEndpoint": "https://mcp.xhostd.com/mcp/",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-13T06:18:19.291389Z",
-        "upstreamUpdatedAt": "2026-06-13T06:18:19.291389Z",
-        "verifiedAt": "2026-08-05T02:03:05+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-13T06:18:19.291389Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

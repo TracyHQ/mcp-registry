@@ -20,12 +20,20 @@
       "operator": {
         "name": "chia-health"
       },
+      "ecosystem": [],
+      "listingUrl": "https://chia.health",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:11+00:00",
+        "probeEndpoint": "https://mcp.chia.health/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-18T19:08:55.956873Z",
         "upstreamUpdatedAt": "2026-03-18T19:08:55.956873Z",
-        "verifiedAt": "2026-08-05T02:03:11+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 34,
         "readWriteSummary": {
           "read": 17,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

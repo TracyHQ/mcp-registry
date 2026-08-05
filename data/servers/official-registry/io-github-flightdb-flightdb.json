@@ -20,12 +20,20 @@
       "operator": {
         "name": "flightdb"
       },
+      "ecosystem": [],
+      "listingUrl": "https://flightdb.org/mcp/connect",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:03+00:00",
+        "probeEndpoint": "https://flightdb.org/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-03T15:00:10.02667Z",
         "upstreamUpdatedAt": "2026-06-03T15:00:10.02667Z",
-        "verifiedAt": "2026-08-05T02:04:03+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized: Authentication required"
@@ -36,6 +44,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

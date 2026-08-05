@@ -27,12 +27,20 @@
       "operator": {
         "name": "brunoamorim39"
       },
+      "ecosystem": [],
+      "listingUrl": "https://usecarscout.com/tools/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:04+00:00",
+        "probeEndpoint": "https://mcp.usecarscout.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-01T22:35:40.296546Z",
         "upstreamUpdatedAt": "2026-04-01T22:35:40.296546Z",
-        "verifiedAt": "2026-08-05T02:03:04+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 3,
@@ -45,6 +53,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -34,18 +34,29 @@
       "operator": {
         "name": "chadanalytics"
       },
+      "ecosystem": [],
+      "listingUrl": "https://chadanalytics.com/docs/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:21+00:00",
+        "probeEndpoint": "https://chadanalytics.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-21T18:19:42.64812Z",
-        "upstreamUpdatedAt": "2026-07-21T18:19:42.64812Z",
-        "verifiedAt": "2026-08-04T11:15:21+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-21T18:19:42.64812Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

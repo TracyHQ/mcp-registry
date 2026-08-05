@@ -18,18 +18,29 @@
       "operator": {
         "name": "plero"
       },
+      "ecosystem": [],
+      "listingUrl": "https://plero.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:21+00:00",
+        "probeEndpoint": "https://plero.ai/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T20:01:54.276248Z",
-        "upstreamUpdatedAt": "2026-07-31T20:01:54.276248Z",
-        "verifiedAt": "2026-08-05T02:02:21+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-31T20:01:54.276248Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

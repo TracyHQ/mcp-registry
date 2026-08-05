@@ -39,12 +39,22 @@
       "operator": {
         "name": "DOOMSCROLLR"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://mcp.doomscrollr.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:43+00:00",
+        "probeEndpoint": "https://mcp.doomscrollr.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-14T05:11:16.518793Z",
         "upstreamUpdatedAt": "2026-05-14T05:11:16.518793Z",
-        "verifiedAt": "2026-08-05T02:02:43+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized"
@@ -56,6 +66,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

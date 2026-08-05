@@ -19,18 +19,28 @@
       "operator": {
         "name": "trackordernow"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:25+00:00",
+        "probeEndpoint": "https://apps.trackordernow.com/s/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-09T07:41:25.397726Z",
-        "upstreamUpdatedAt": "2026-06-09T07:41:25.397726Z",
-        "verifiedAt": "2026-08-04T11:15:25+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-09T07:41:25.397726Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

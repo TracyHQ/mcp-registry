@@ -17,12 +17,19 @@
       "operator": {
         "name": "Ainode-tech"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:15+00:00",
+        "probeEndpoint": "https://xero.api.ainode.tech/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-30T07:11:31.358911Z",
         "upstreamUpdatedAt": "2026-04-30T07:11:31.358911Z",
-        "verifiedAt": "2026-08-05T02:03:15+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 0,
@@ -35,6 +42,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

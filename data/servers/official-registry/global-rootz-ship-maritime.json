@@ -18,12 +18,20 @@
       "operator": {
         "name": "rootz-global"
       },
+      "ecosystem": [],
+      "listingUrl": "https://ship.rootz.global",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:11+00:00",
+        "probeEndpoint": "https://ship.rootz.global/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-24T02:08:57.207762Z",
         "upstreamUpdatedAt": "2026-07-24T02:08:57.207762Z",
-        "verifiedAt": "2026-08-05T02:03:11+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 12,
         "readWriteSummary": {
           "read": 0,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

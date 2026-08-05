@@ -20,12 +20,20 @@
       "operator": {
         "name": "blocksize"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcp.blocksize.info/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:27+00:00",
+        "probeEndpoint": "https://mcp.blocksize.info/mcp/server/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-28T23:25:32.256777Z",
         "upstreamUpdatedAt": "2026-07-28T23:25:32.256777Z",
-        "verifiedAt": "2026-08-04T11:15:27+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 8,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

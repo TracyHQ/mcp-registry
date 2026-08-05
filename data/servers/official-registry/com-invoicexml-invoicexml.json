@@ -20,18 +20,29 @@
       "operator": {
         "name": "InvoiceXML"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.invoicexml.com/mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:22+00:00",
+        "probeEndpoint": "https://mcp.invoicexml.com",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-29T17:06:38.466232Z",
-        "upstreamUpdatedAt": "2026-05-29T17:06:38.466232Z",
-        "verifiedAt": "2026-08-04T11:15:22+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-29T17:06:38.466232Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -20,18 +20,29 @@
       "operator": {
         "name": "avadev"
       },
+      "ecosystem": [],
+      "listingUrl": "https://developer.avalara.com/mcp-servers/cross-border",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:21+00:00",
+        "probeEndpoint": "https://mcp.avalara.com/cross-border",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-25T17:21:50.625008Z",
-        "upstreamUpdatedAt": "2026-06-25T17:21:50.625008Z",
-        "verifiedAt": "2026-08-04T11:15:21+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-25T17:21:50.625008Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

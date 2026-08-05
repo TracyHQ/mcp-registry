@@ -20,12 +20,20 @@
       "operator": {
         "name": "hogarmas"
       },
+      "ecosystem": [],
+      "listingUrl": "https://hogarmas.net/connect-ai/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:48+00:00",
+        "probeEndpoint": "https://agents.hogarmas.net/mcp/agent-surface",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-04T19:01:09.190641Z",
         "upstreamUpdatedAt": "2026-08-04T19:01:09.190641Z",
-        "verifiedAt": "2026-08-05T02:04:48+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 6,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

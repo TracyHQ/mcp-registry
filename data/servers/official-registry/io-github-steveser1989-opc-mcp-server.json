@@ -47,12 +47,20 @@
       "operator": {
         "name": "Steveser1989"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.myopc.io",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:51+00:00",
+        "probeEndpoint": "https://www.myopc.io/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-29T16:41:55.733343Z",
-        "upstreamUpdatedAt": "2026-05-29T16:41:55.733343Z",
-        "verifiedAt": "2026-08-05T02:03:51+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-29T16:41:55.733343Z"
       },
       "classification": {
         "capability": [
@@ -60,6 +68,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

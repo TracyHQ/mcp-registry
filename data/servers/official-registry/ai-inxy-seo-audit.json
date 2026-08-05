@@ -18,12 +18,22 @@
       "operator": {
         "name": "riverliu8"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://inxy.ai/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:19+00:00",
+        "probeEndpoint": "https://inxy.ai/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-14T20:05:43.547521Z",
         "upstreamUpdatedAt": "2026-06-14T20:05:43.547521Z",
-        "verifiedAt": "2026-08-05T02:02:19+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 2,
@@ -37,6 +47,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

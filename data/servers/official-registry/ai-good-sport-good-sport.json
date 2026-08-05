@@ -20,18 +20,29 @@
       "operator": {
         "name": "good-sport"
       },
+      "ecosystem": [],
+      "listingUrl": "https://good-sport.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:19+00:00",
+        "probeEndpoint": "https://mcp.good-sport.ai/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-09T02:16:30.532709Z",
-        "upstreamUpdatedAt": "2026-07-09T02:16:30.532709Z",
-        "verifiedAt": "2026-08-05T02:02:19+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-09T02:16:30.532709Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

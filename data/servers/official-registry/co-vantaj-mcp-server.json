@@ -18,12 +18,20 @@
       "operator": {
         "name": "vantaj"
       },
+      "ecosystem": [],
+      "listingUrl": "https://vantaj.co/docs/mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:31+00:00",
+        "probeEndpoint": "https://api.vantaj.co/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-11T15:01:22.104589Z",
         "upstreamUpdatedAt": "2026-07-11T15:01:22.104589Z",
-        "verifiedAt": "2026-08-05T02:02:31+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 13,
         "readWriteSummary": {
           "read": 8,
@@ -36,6 +44,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

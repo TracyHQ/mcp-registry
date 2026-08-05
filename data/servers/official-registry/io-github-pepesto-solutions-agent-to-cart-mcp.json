@@ -19,12 +19,20 @@
       "operator": {
         "name": "pepesto-solutions"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/pepesto-solutions/agent-to-cart-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:24+00:00",
+        "probeEndpoint": "https://mcp.pepesto.com",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-27T15:01:09.809523Z",
         "upstreamUpdatedAt": "2026-06-27T15:01:09.809523Z",
-        "verifiedAt": "2026-08-05T02:04:24+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 1,
         "readWriteSummary": {
           "read": 0,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

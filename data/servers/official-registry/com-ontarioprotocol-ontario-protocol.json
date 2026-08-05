@@ -20,12 +20,20 @@
       "operator": {
         "name": "thom899g"
       },
+      "ecosystem": [],
+      "listingUrl": "https://ontarioprotocol.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:55+00:00",
+        "probeEndpoint": "https://ontarioprotocol.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T00:09:37.644051Z",
         "upstreamUpdatedAt": "2026-07-31T00:09:37.644051Z",
-        "verifiedAt": "2026-08-05T02:02:55+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 6,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

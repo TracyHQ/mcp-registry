@@ -18,12 +18,20 @@
       "operator": {
         "name": "sparkmastergrape"
       },
+      "ecosystem": [],
+      "listingUrl": "https://dnsofmoney.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:33+00:00",
+        "probeEndpoint": "https://api.dnsofmoney.com/mcp/rpc",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-22T15:13:10.485914Z",
         "upstreamUpdatedAt": "2026-06-22T15:13:10.485914Z",
-        "verifiedAt": "2026-08-04T11:15:33+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 5,
@@ -36,6 +44,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

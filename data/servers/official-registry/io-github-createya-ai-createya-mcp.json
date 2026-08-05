@@ -26,12 +26,20 @@
       "operator": {
         "name": "Createya-ai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Createya-ai/createya-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:41+00:00",
+        "probeEndpoint": "https://api.createya.ai/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-29T16:40:16.119135Z",
         "upstreamUpdatedAt": "2026-04-29T16:40:16.119135Z",
-        "verifiedAt": "2026-08-05T02:03:41+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -44,6 +52,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

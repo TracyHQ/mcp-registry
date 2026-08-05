@@ -18,18 +18,29 @@
       "operator": {
         "name": "contix"
       },
+      "ecosystem": [],
+      "listingUrl": "https://contix.es",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:09+00:00",
+        "probeEndpoint": "https://api.contix.es/api/v1/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-12T00:22:58.096194Z",
-        "upstreamUpdatedAt": "2026-07-12T00:22:58.096194Z",
-        "verifiedAt": "2026-08-05T02:03:09+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-12T00:22:58.096194Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

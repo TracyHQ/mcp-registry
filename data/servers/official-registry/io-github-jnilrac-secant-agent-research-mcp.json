@@ -20,12 +20,20 @@
       "operator": {
         "name": "jnilrac"
       },
+      "ecosystem": [],
+      "listingUrl": "https://agentic.secantoutreach.com/agent-research",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:07+00:00",
+        "probeEndpoint": "https://agentic.secantoutreach.com/mcp/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-25T07:21:38.850357Z",
         "upstreamUpdatedAt": "2026-05-25T07:21:38.850357Z",
-        "verifiedAt": "2026-08-05T02:04:07+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 1,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

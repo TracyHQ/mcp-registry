@@ -39,12 +39,20 @@
       "operator": {
         "name": "pixelvault-dev"
       },
+      "ecosystem": [],
+      "listingUrl": "https://pixelvault.dev",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:27+00:00",
+        "probeEndpoint": "https://mcp.pixelvault.dev/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-27T10:01:55.173559Z",
         "upstreamUpdatedAt": "2026-07-27T10:01:55.173559Z",
-        "verifiedAt": "2026-08-05T02:04:27+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 5,
@@ -57,6 +65,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

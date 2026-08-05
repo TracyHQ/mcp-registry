@@ -20,18 +20,29 @@
       "operator": {
         "name": "tom18a"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.sitevitals.co.uk/docs/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:35+00:00",
+        "probeEndpoint": "https://www.sitevitals.co.uk/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-26T11:07:36.167115Z",
-        "upstreamUpdatedAt": "2026-03-26T11:07:36.167115Z",
-        "verifiedAt": "2026-08-05T02:04:35+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-03-26T11:07:36.167115Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

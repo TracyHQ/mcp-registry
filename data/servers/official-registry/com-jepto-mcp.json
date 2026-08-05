@@ -17,12 +17,19 @@
       "operator": {
         "name": "jepto"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:48+00:00",
+        "probeEndpoint": "https://mcp.jepto.com",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-09-15T11:36:02.956033Z",
         "upstreamUpdatedAt": "2025-09-15T11:36:02.956033Z",
-        "verifiedAt": "2026-08-05T02:02:48+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Missing Authentication Token"
@@ -33,6 +40,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

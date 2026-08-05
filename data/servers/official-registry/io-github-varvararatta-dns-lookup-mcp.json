@@ -19,12 +19,20 @@
       "operator": {
         "name": "varvararatta"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/varvararatta/botfactory-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:34+00:00",
+        "probeEndpoint": "https://dns-lookup-mcp.mcpize.run/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-09T07:08:25.409414Z",
         "upstreamUpdatedAt": "2026-07-09T07:08:25.409414Z",
-        "verifiedAt": "2026-08-04T11:15:34+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 3,
@@ -37,6 +45,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

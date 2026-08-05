@@ -20,12 +20,20 @@
       "operator": {
         "name": "galaxymind"
       },
+      "ecosystem": [],
+      "listingUrl": "https://galaxymind.space/docs/api#mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:55+00:00",
+        "probeEndpoint": "https://galaxymind.space/api/mcp/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-29T11:50:34.36363Z",
         "upstreamUpdatedAt": "2026-07-29T11:50:34.36363Z",
-        "verifiedAt": "2026-08-05T02:04:55+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 10,
         "readWriteSummary": {
           "read": 10,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

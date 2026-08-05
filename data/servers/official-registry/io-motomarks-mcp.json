@@ -20,12 +20,20 @@
       "operator": {
         "name": "motomarks"
       },
+      "ecosystem": [],
+      "listingUrl": "https://motomarks.io/docs/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:41+00:00",
+        "probeEndpoint": "https://motomarks.io/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-16T12:13:18.953728Z",
         "upstreamUpdatedAt": "2026-07-16T12:13:18.953728Z",
-        "verifiedAt": "2026-08-05T02:04:41+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized: Authentication required"
@@ -36,6 +44,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

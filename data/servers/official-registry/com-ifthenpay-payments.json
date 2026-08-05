@@ -19,12 +19,20 @@
       "operator": {
         "name": "ifthenpay"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/ifthenpay/mcp-payments",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:22+00:00",
+        "probeEndpoint": "https://ai.ifthenpay.com/mcp/payments/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-25T10:52:34.197667Z",
         "upstreamUpdatedAt": "2026-06-25T10:52:34.197667Z",
-        "verifiedAt": "2026-08-04T11:15:22+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 2,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

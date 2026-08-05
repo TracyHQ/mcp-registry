@@ -329,12 +329,20 @@
       "operator": {
         "name": "cloudflare"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/cloudflare/mcp-server-cloudflare",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:21+00:00",
+        "probeEndpoint": "https://docs.mcp.cloudflare.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-09-16T22:06:29.987729Z",
         "upstreamUpdatedAt": "2025-09-16T22:06:29.987729Z",
-        "verifiedAt": "2026-08-04T11:15:21+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 2,
@@ -347,6 +355,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

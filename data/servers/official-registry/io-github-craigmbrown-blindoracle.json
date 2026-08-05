@@ -17,18 +17,29 @@
       "operator": {
         "name": "craigmbrown"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/craigmbrown/blindoracle-docs",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:58+00:00",
+        "probeEndpoint": "https://craigmbrown.com/api/v2/",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-30T17:50:28.275312Z",
-        "upstreamUpdatedAt": "2026-05-30T17:50:28.275312Z",
-        "verifiedAt": "2026-08-05T02:03:58+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-30T17:50:28.275312Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

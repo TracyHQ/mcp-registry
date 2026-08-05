@@ -29,12 +29,20 @@
       "operator": {
         "name": "acrylicfiddle"
       },
+      "ecosystem": [],
+      "listingUrl": "https://x402tools.xyz",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:53+00:00",
+        "probeEndpoint": "https://mcp.x402tools.xyz/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-27T16:34:48.771188Z",
         "upstreamUpdatedAt": "2026-07-27T16:34:48.771188Z",
-        "verifiedAt": "2026-08-05T02:03:53+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 11,
         "readWriteSummary": {
           "read": 11,
@@ -47,6 +55,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

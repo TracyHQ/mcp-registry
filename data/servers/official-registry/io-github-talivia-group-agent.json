@@ -44,12 +44,20 @@
       "operator": {
         "name": "talivia-group"
       },
+      "ecosystem": [],
+      "listingUrl": "https://talivia.com/ai-agent-kit",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:34+00:00",
+        "probeEndpoint": "https://talivia.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T09:35:50.571919Z",
         "upstreamUpdatedAt": "2026-08-02T09:35:50.571919Z",
-        "verifiedAt": "2026-08-05T02:04:34+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Authorization required"
@@ -60,6 +68,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

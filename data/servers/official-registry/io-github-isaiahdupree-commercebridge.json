@@ -18,12 +18,22 @@
       "operator": {
         "name": "IsaiahDupree"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://commercebridge-isaiahduprees-projects.vercel.app",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:43+00:00",
+        "probeEndpoint": "https://commercebridge-isaiahduprees-projects.vercel.app/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-01T01:45:46.316399Z",
         "upstreamUpdatedAt": "2026-08-01T01:45:46.316399Z",
-        "verifiedAt": "2026-08-05T02:03:43+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 14,
         "readWriteSummary": {
           "read": 14,
@@ -37,6 +47,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

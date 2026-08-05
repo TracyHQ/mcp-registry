@@ -20,12 +20,20 @@
       "operator": {
         "name": "sherweb"
       },
+      "ecosystem": [],
+      "listingUrl": "https://helpdesk.sherweb.com/en-us/knowledge-base/articles/KA-05021",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:59+00:00",
+        "probeEndpoint": "https://mcp.sherweb.com",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-21T15:54:33.60902Z",
-        "upstreamUpdatedAt": "2026-07-21T15:54:33.60902Z",
-        "verifiedAt": "2026-08-05T02:02:59+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-21T15:54:33.60902Z"
       },
       "classification": {
         "capability": [
@@ -33,6 +41,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

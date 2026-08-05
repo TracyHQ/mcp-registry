@@ -20,12 +20,20 @@
       "operator": {
         "name": "vboykoCTO"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.agenticshelf.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:18+00:00",
+        "probeEndpoint": "https://api.agenticshelf.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-06T16:24:16.952518Z",
         "upstreamUpdatedAt": "2026-05-06T16:24:16.952518Z",
-        "verifiedAt": "2026-08-05T02:02:18+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 5,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

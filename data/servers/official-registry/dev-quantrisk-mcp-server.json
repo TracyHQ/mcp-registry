@@ -38,12 +38,20 @@
       "operator": {
         "name": "78degrees"
       },
+      "ecosystem": [],
+      "listingUrl": "https://quantrisk.dev",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:09+00:00",
+        "probeEndpoint": "https://quantrisk-mcp.quantrisk.workers.dev/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-09T21:53:30.280311Z",
         "upstreamUpdatedAt": "2026-05-09T21:53:30.280311Z",
-        "verifiedAt": "2026-08-05T02:03:09+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 10,
         "readWriteSummary": {
           "read": 1,
@@ -56,6 +64,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

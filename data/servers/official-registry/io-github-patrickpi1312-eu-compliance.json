@@ -20,12 +20,20 @@
       "operator": {
         "name": "PatrickPi1312"
       },
+      "ecosystem": [],
+      "listingUrl": "https://eucompliance.tools",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:47+00:00",
+        "probeEndpoint": "https://mcp.eucompliance.tools/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T08:50:12.545015Z",
         "upstreamUpdatedAt": "2026-07-31T08:50:12.545015Z",
-        "verifiedAt": "2026-08-05T02:03:47+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 17,
         "readWriteSummary": {
           "read": 7,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

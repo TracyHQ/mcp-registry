@@ -27,12 +27,20 @@
       "operator": {
         "name": "getboxkite"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.getboxkite.com/agents",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:45+00:00",
+        "probeEndpoint": "https://app.getboxkite.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T04:05:58.310817Z",
         "upstreamUpdatedAt": "2026-07-31T04:05:58.310817Z",
-        "verifiedAt": "2026-08-05T02:02:45+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 6,
@@ -45,6 +53,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

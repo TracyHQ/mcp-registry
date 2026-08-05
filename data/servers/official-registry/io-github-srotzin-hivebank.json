@@ -20,12 +20,20 @@
       "operator": {
         "name": "srotzin"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.hiveagentiq.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:33+00:00",
+        "probeEndpoint": "https://hivebank.onrender.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-14T22:00:15.169395Z",
         "upstreamUpdatedAt": "2026-04-14T22:00:15.169395Z",
-        "verifiedAt": "2026-08-05T02:04:33+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

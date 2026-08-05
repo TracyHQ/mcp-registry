@@ -20,12 +20,22 @@
       "operator": {
         "name": "pipeworx-io"
       },
+      "ecosystem": [
+        "webflow"
+      ],
+      "listingUrl": "https://pipeworx.io/packs/webflow",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:32+00:00",
+        "probeEndpoint": "https://gateway.pipeworx.io/webflow/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-03T20:10:51.441125Z",
         "upstreamUpdatedAt": "2026-06-03T20:10:51.441125Z",
-        "verifiedAt": "2026-08-04T11:15:32+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 36,
         "readWriteSummary": {
           "read": 31,
@@ -39,6 +49,9 @@
         ],
         "platform": [
           "Webflow"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

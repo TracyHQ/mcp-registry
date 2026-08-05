@@ -19,18 +19,28 @@
       "operator": {
         "name": "lemonadolabs"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:14+00:00",
+        "probeEndpoint": "https://mcp.lemonado.io/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-11-19T12:49:26.412731Z",
-        "upstreamUpdatedAt": "2025-11-19T12:49:26.412731Z",
-        "verifiedAt": "2026-08-05T02:04:14+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2025-11-19T12:49:26.412731Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

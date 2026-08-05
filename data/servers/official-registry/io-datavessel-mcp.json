@@ -20,12 +20,23 @@
       "operator": {
         "name": "datavessel"
       },
+      "ecosystem": [
+        "wordpress",
+        "shopify"
+      ],
+      "listingUrl": "https://datavessel.io",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:13+00:00",
+        "probeEndpoint": "https://mcp.datavessel.io/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-01T12:39:56.862309Z",
-        "upstreamUpdatedAt": "2026-08-01T12:39:56.862309Z",
-        "verifiedAt": "2026-08-05T02:03:13+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-01T12:39:56.862309Z"
       },
       "classification": {
         "capability": [
@@ -35,6 +46,9 @@
         "platform": [
           "WordPress",
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

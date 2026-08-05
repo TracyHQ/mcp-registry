@@ -19,12 +19,19 @@
       "operator": {
         "name": "timzinin"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:03+00:00",
+        "probeEndpoint": "https://api.timzinin.com/mcp/compliance-tools",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-01T07:10:47.441529Z",
         "upstreamUpdatedAt": "2026-08-01T07:10:47.441529Z",
-        "verifiedAt": "2026-08-05T02:03:03+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 0,
@@ -37,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

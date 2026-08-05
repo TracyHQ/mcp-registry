@@ -17,18 +17,28 @@
       "operator": {
         "name": "catchmetrics"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:27+00:00",
+        "probeEndpoint": "https://mcp.catchmetrics.io",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-09-28T14:07:41.27568Z",
-        "upstreamUpdatedAt": "2025-09-28T14:07:41.27568Z",
-        "verifiedAt": "2026-08-04T11:15:27+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2025-09-28T14:07:41.27568Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

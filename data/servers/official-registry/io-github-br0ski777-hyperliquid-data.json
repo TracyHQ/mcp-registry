@@ -20,12 +20,20 @@
       "operator": {
         "name": "Br0ski777"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Br0ski777/hyperliquid-data-x402",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:24+00:00",
+        "probeEndpoint": "https://hyperliquid-data.api.klymax402.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-16T13:32:32.499801Z",
         "upstreamUpdatedAt": "2026-05-16T13:32:32.499801Z",
-        "verifiedAt": "2026-08-05T02:03:24+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 6,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

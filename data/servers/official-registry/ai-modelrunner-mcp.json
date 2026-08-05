@@ -20,12 +20,20 @@
       "operator": {
         "name": "modelrunner"
       },
+      "ecosystem": [],
+      "listingUrl": "https://modelrunner.ai/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:20+00:00",
+        "probeEndpoint": "https://mcp.modelrunner.run/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-23T19:05:13.941128Z",
         "upstreamUpdatedAt": "2026-07-23T19:05:13.941128Z",
-        "verifiedAt": "2026-08-05T02:02:20+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized: valid Bearer token required"
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

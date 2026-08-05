@@ -17,12 +17,20 @@
       "operator": {
         "name": "ToolOracle"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/ToolOracle/xrploracle",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:44+00:00",
+        "probeEndpoint": "https://feedoracle.io/xrpl/mcp/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-07T19:27:07.748683Z",
         "upstreamUpdatedAt": "2026-05-07T19:27:07.748683Z",
-        "verifiedAt": "2026-08-05T02:04:44+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 31,
         "readWriteSummary": {
           "read": 4,
@@ -35,6 +43,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

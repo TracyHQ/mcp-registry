@@ -28,12 +28,20 @@
       "operator": {
         "name": "LayeroInfra"
       },
+      "ecosystem": [],
+      "listingUrl": "https://docs.layero.ru/en/plugin/intro/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:52+00:00",
+        "probeEndpoint": "https://mcp.layero.ru/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T14:40:16.04551Z",
         "upstreamUpdatedAt": "2026-08-02T14:40:16.04551Z",
-        "verifiedAt": "2026-08-05T02:04:52+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 27,
         "readWriteSummary": {
           "read": 18,
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

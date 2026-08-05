@@ -63,12 +63,20 @@
       "operator": {
         "name": "cosmicjs"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.cosmicjs.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:41+00:00",
+        "probeEndpoint": "https://mcp.cosmicjs.com/v1/buckets/{bucket_slug}",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T03:20:24.526057Z",
         "upstreamUpdatedAt": "2026-07-31T03:20:24.526057Z",
-        "verifiedAt": "2026-08-05T02:02:41+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -81,6 +89,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

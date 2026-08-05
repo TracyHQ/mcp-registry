@@ -17,12 +17,20 @@
       "operator": {
         "name": "ToolOracle"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/ToolOracle/shoporacle",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:43+00:00",
+        "probeEndpoint": "https://tooloracle.io/shop/mcp/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-17T17:00:54.925678Z",
         "upstreamUpdatedAt": "2026-03-17T17:00:54.925678Z",
-        "verifiedAt": "2026-08-05T02:04:43+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 11,
         "readWriteSummary": {
           "read": 5,
@@ -35,6 +43,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

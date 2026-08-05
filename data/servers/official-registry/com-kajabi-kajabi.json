@@ -20,18 +20,29 @@
       "operator": {
         "name": "kajabi"
       },
+      "ecosystem": [],
+      "listingUrl": "https://kajabi.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:49+00:00",
+        "probeEndpoint": "https://mcp.kajabi.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T22:48:07.196596Z",
-        "upstreamUpdatedAt": "2026-06-12T22:48:07.196596Z",
-        "verifiedAt": "2026-08-05T02:02:49+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-12T22:48:07.196596Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

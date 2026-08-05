@@ -18,12 +18,20 @@
       "operator": {
         "name": "rxmanager"
       },
+      "ecosystem": [],
+      "listingUrl": "https://rxmanager.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:23+00:00",
+        "probeEndpoint": "https://mcp.rxmanager.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-11T03:04:45.957939Z",
         "upstreamUpdatedAt": "2026-06-11T03:04:45.957939Z",
-        "verifiedAt": "2026-08-05T02:02:23+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 5,
@@ -36,6 +44,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

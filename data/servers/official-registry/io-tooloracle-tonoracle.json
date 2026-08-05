@@ -17,12 +17,20 @@
       "operator": {
         "name": "ToolOracle"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/ToolOracle/tonoracle",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:43+00:00",
+        "probeEndpoint": "https://tooloracle.io/ton/mcp/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-07T19:27:17.686411Z",
         "upstreamUpdatedAt": "2026-05-07T19:27:17.686411Z",
-        "verifiedAt": "2026-08-05T02:04:43+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 11,
         "readWriteSummary": {
           "read": 2,
@@ -35,6 +43,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

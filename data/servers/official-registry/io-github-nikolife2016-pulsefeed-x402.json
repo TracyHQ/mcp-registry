@@ -29,12 +29,20 @@
       "operator": {
         "name": "Nikolife2016"
       },
+      "ecosystem": [],
+      "listingUrl": "https://pulsefeed.dev",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:46+00:00",
+        "probeEndpoint": "https://pulsefeed.dev/mcp-server",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T08:03:03.369565Z",
         "upstreamUpdatedAt": "2026-07-31T08:03:03.369565Z",
-        "verifiedAt": "2026-08-05T02:03:46+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 10,
         "readWriteSummary": {
           "read": 10,
@@ -47,6 +55,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

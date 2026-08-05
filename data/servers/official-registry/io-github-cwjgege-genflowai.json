@@ -31,12 +31,20 @@
       "operator": {
         "name": "cwjgege"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/cwjgege/genflowai-codex-plugin",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:58+00:00",
+        "probeEndpoint": "https://www.genflowai.io/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-29T04:35:39.150256Z",
         "upstreamUpdatedAt": "2026-06-29T04:35:39.150256Z",
-        "verifiedAt": "2026-08-05T02:03:58+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization",
@@ -50,6 +58,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

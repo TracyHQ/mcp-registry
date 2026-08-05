@@ -19,12 +19,20 @@
       "operator": {
         "name": "stellagent"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/stellagent/presso-setup",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:50+00:00",
+        "probeEndpoint": "https://mcp.presso.now/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-27T16:31:16.176024Z",
         "upstreamUpdatedAt": "2026-02-27T16:31:16.176024Z",
-        "verifiedAt": "2026-08-05T02:04:50+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized: Missing API key or token. Please login with 'presso login' or check your API key settings at https://app.presso.now"
@@ -35,6 +43,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

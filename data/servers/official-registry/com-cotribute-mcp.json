@@ -20,18 +20,29 @@
       "operator": {
         "name": "cotribute"
       },
+      "ecosystem": [],
+      "listingUrl": "https://cotribute.com/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:41+00:00",
+        "probeEndpoint": "https://mcp.cotribute.co",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-02T17:36:23.586559Z",
-        "upstreamUpdatedAt": "2026-06-02T17:36:23.586559Z",
-        "verifiedAt": "2026-08-05T02:02:41+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-02T17:36:23.586559Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

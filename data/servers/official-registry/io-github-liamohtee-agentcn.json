@@ -20,12 +20,20 @@
       "operator": {
         "name": "liamohtee"
       },
+      "ecosystem": [],
+      "listingUrl": "https://compliancecn.netlify.app/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:15+00:00",
+        "probeEndpoint": "https://compliancecn.netlify.app/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-21T19:53:16.647277Z",
         "upstreamUpdatedAt": "2026-07-21T19:53:16.647277Z",
-        "verifiedAt": "2026-08-05T02:04:15+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 3,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

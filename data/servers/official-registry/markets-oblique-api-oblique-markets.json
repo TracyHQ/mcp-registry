@@ -20,12 +20,20 @@
       "operator": {
         "name": "oblique-markets"
       },
+      "ecosystem": [],
+      "listingUrl": "https://api.oblique.markets",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:47+00:00",
+        "probeEndpoint": "https://api.oblique.markets/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-29T19:46:52.967742Z",
         "upstreamUpdatedAt": "2026-07-29T19:46:52.967742Z",
-        "verifiedAt": "2026-08-05T02:04:47+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 16,
         "readWriteSummary": {
           "read": 1,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

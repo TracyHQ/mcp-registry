@@ -17,12 +17,20 @@
       "operator": {
         "name": "m190"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/m190/usefulapi-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:45+00:00",
+        "probeEndpoint": "https://autumn.usefulapi.io/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-17T20:28:12.228553Z",
         "upstreamUpdatedAt": "2026-07-17T20:28:12.228553Z",
-        "verifiedAt": "2026-08-05T02:04:45+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 18,
         "readWriteSummary": {
           "read": 12,
@@ -35,6 +43,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -17,12 +17,20 @@
       "operator": {
         "name": "lonniev"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/lonniev/tollbooth-authority",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:15+00:00",
+        "probeEndpoint": "https://tollbooth-authority.fastmcp.app/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-16T19:33:39.29115Z",
         "upstreamUpdatedAt": "2026-07-16T19:33:39.29115Z",
-        "verifiedAt": "2026-08-05T02:04:15+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 66,
         "readWriteSummary": {
           "read": 24,
@@ -35,6 +43,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

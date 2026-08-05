@@ -18,12 +18,20 @@
       "operator": {
         "name": "zenovay"
       },
+      "ecosystem": [],
+      "listingUrl": "https://zenovay.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:26+00:00",
+        "probeEndpoint": "https://api.zenovay.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-17T19:03:56.902034Z",
         "upstreamUpdatedAt": "2026-07-17T19:03:56.902034Z",
-        "verifiedAt": "2026-08-04T11:15:26+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Missing authentication. Connect via OAuth 2.1 at https://api.zenovay.com/mcp"
@@ -34,6 +42,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

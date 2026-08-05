@@ -20,12 +20,20 @@
       "operator": {
         "name": "pipeworx-io"
       },
+      "ecosystem": [],
+      "listingUrl": "https://pipeworx.io/packs/npi-registry",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:25+00:00",
+        "probeEndpoint": "https://gateway.pipeworx.io/npi-registry/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-13T15:41:10.686939Z",
         "upstreamUpdatedAt": "2026-05-13T15:41:10.686939Z",
-        "verifiedAt": "2026-08-05T02:04:25+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 33,
         "readWriteSummary": {
           "read": 28,
@@ -38,6 +46,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

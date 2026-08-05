@@ -21,18 +21,28 @@
       "operator": {
         "name": "singular"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:49+00:00",
+        "probeEndpoint": "https://mcp.singular.net/mcp-server/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-09-25T09:51:48.507426Z",
-        "upstreamUpdatedAt": "2025-09-25T09:51:48.507426Z",
-        "verifiedAt": "2026-08-05T02:04:49+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2025-09-25T09:51:48.507426Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

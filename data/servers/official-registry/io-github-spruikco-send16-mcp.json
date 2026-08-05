@@ -36,12 +36,20 @@
       "operator": {
         "name": "spruikco"
       },
+      "ecosystem": [],
+      "listingUrl": "https://send16.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:32+00:00",
+        "probeEndpoint": "https://mcp.send16.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-12T09:48:16.525896Z",
         "upstreamUpdatedAt": "2026-07-12T09:48:16.525896Z",
-        "verifiedAt": "2026-08-05T02:04:32+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 79,
         "readWriteSummary": {
           "read": 32,
@@ -54,6 +62,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

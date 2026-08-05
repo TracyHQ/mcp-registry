@@ -20,12 +20,20 @@
       "operator": {
         "name": "WellApp-ai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://docs.wellapp.ai/mcp/introduction",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:53+00:00",
+        "probeEndpoint": "https://api.wellapp.ai/v1/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-11T11:27:12.502612Z",
         "upstreamUpdatedAt": "2026-02-11T11:27:12.502612Z",
-        "verifiedAt": "2026-08-05T02:03:53+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 25,
         "readWriteSummary": {
           "read": 12,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

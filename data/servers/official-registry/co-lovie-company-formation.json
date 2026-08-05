@@ -29,18 +29,29 @@
       "operator": {
         "name": "lovieco"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/lovieco/lovie-company-formation-mcp-npx",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:31+00:00",
+        "probeEndpoint": "https://mcp.lovie.co/mcp/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-16T10:27:33.61459Z",
-        "upstreamUpdatedAt": "2026-06-16T10:27:33.61459Z",
-        "verifiedAt": "2026-08-05T02:02:31+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-16T10:27:33.61459Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -18,12 +18,22 @@
       "operator": {
         "name": "giuseppesocci-bot"
       },
+      "ecosystem": [
+        "wordpress"
+      ],
+      "listingUrl": "https://bridge.kalicart.com/mcp/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:04+00:00",
+        "probeEndpoint": "https://dashboard.kalicart.com/mcp-public",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-04T20:05:15.679589Z",
         "upstreamUpdatedAt": "2026-07-04T20:05:15.679589Z",
-        "verifiedAt": "2026-08-05T02:04:04+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 5,
@@ -38,6 +48,9 @@
         ],
         "platform": [
           "WordPress"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

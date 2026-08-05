@@ -20,12 +20,20 @@
       "operator": {
         "name": "Harper-Labs"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.youtubestudiomcp.com/docs",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:06+00:00",
+        "probeEndpoint": "https://mcp.youtubestudiomcp.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-24T19:43:25.086279Z",
         "upstreamUpdatedAt": "2026-05-24T19:43:25.086279Z",
-        "verifiedAt": "2026-08-05T02:03:06+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized. Complete OAuth and send the resulting Bearer token."
@@ -36,6 +44,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

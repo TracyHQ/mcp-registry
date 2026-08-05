@@ -39,18 +39,29 @@
       "operator": {
         "name": "jdmay2"
       },
+      "ecosystem": [],
+      "listingUrl": "https://docs.qwady.app",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:27+00:00",
+        "probeEndpoint": "https://borough.qwady.app/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-20T16:40:27.384696Z",
-        "upstreamUpdatedAt": "2026-02-20T16:40:27.384696Z",
-        "verifiedAt": "2026-08-05T02:02:27+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-02-20T16:40:27.384696Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

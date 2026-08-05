@@ -20,12 +20,22 @@
       "operator": {
         "name": "dizzyvinci"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://apify.com/dizzyvinci/shopify-catalog-monitor",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:29+00:00",
+        "probeEndpoint": "https://mcp.apify.com?tools=dizzyvinci/shopify-catalog-monitor",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-05T12:59:31.152821Z",
-        "upstreamUpdatedAt": "2026-06-05T12:59:31.152821Z",
-        "verifiedAt": "2026-08-04T11:15:29+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-05T12:59:31.152821Z"
       },
       "classification": {
         "capability": [
@@ -33,6 +43,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

@@ -20,12 +20,20 @@
       "operator": {
         "name": "akkilahdot"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.akkilahdot.fi/api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:09+00:00",
+        "probeEndpoint": "https://www.akkilahdot.fi/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-16T12:55:22.785036Z",
         "upstreamUpdatedAt": "2026-07-16T12:55:22.785036Z",
-        "verifiedAt": "2026-08-05T02:03:09+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -28,12 +28,20 @@
       "operator": {
         "name": "atlasemoji"
       },
+      "ecosystem": [],
+      "listingUrl": "https://atlasemoji.com/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:37+00:00",
+        "probeEndpoint": "https://atlasemoji.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-11T14:04:53.219763Z",
         "upstreamUpdatedAt": "2026-07-11T14:04:53.219763Z",
-        "verifiedAt": "2026-08-05T02:02:37+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 17,
         "readWriteSummary": {
           "read": 16,
@@ -46,6 +54,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

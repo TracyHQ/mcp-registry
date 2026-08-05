@@ -20,12 +20,20 @@
       "operator": {
         "name": "timix"
       },
+      "ecosystem": [],
+      "listingUrl": "https://timix.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:24+00:00",
+        "probeEndpoint": "https://api.timix.ai/api/integration/v1/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-15T10:32:15.514926Z",
         "upstreamUpdatedAt": "2026-07-15T10:32:15.514926Z",
-        "verifiedAt": "2026-08-05T02:02:24+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 114,
         "readWriteSummary": {
           "read": 27,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

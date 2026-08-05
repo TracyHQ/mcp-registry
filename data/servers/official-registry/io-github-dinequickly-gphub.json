@@ -20,12 +20,20 @@
       "operator": {
         "name": "dinequickly"
       },
+      "ecosystem": [],
+      "listingUrl": "https://gphub.app",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:01+00:00",
+        "probeEndpoint": "https://gphub.app/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-23T22:36:27.924665Z",
         "upstreamUpdatedAt": "2026-07-23T22:36:27.924665Z",
-        "verifiedAt": "2026-08-05T02:04:01+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Not connected to GP Hub. Configure the Authorization header with your GP Hub MCP token."
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

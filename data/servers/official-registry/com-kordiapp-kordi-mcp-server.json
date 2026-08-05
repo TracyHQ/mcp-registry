@@ -28,12 +28,20 @@
       "operator": {
         "name": "kordi-labs"
       },
+      "ecosystem": [],
+      "listingUrl": "https://kordiapp.com/developers?ref=registry",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:50+00:00",
+        "probeEndpoint": "https://kordiapp.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-10T16:42:07.441776Z",
         "upstreamUpdatedAt": "2026-06-10T16:42:07.441776Z",
-        "verifiedAt": "2026-08-05T02:02:50+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -46,6 +54,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

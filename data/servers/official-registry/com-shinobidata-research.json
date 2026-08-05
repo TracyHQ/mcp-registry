@@ -19,18 +19,28 @@
       "operator": {
         "name": "shinobidata"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:59+00:00",
+        "probeEndpoint": "https://mcp.shinobidata.com/api/mcp/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-10T04:40:40.610665Z",
-        "upstreamUpdatedAt": "2026-05-10T04:40:40.610665Z",
-        "verifiedAt": "2026-08-05T02:02:59+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-10T04:40:40.610665Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

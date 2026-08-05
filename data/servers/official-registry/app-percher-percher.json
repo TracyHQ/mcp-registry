@@ -31,18 +31,28 @@
       "operator": {
         "name": "percher"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:27+00:00",
+        "probeEndpoint": "https://mcp.percher.app/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-01T20:14:53.423756Z",
-        "upstreamUpdatedAt": "2026-07-01T20:14:53.423756Z",
-        "verifiedAt": "2026-08-05T02:02:27+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-01T20:14:53.423756Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

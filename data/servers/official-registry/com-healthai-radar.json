@@ -20,12 +20,20 @@
       "operator": {
         "name": "healthai-hq"
       },
+      "ecosystem": [],
+      "listingUrl": "https://constat.dev/connect",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:47+00:00",
+        "probeEndpoint": "https://constat.dev/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-30T03:24:08.805083Z",
         "upstreamUpdatedAt": "2026-07-30T03:24:08.805083Z",
-        "verifiedAt": "2026-08-05T02:02:47+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 14,
         "readWriteSummary": {
           "read": 8,
@@ -38,6 +46,9 @@
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -20,12 +20,20 @@
       "operator": {
         "name": "shuqairns"
       },
+      "ecosystem": [],
+      "listingUrl": "https://taskrail.alamavar.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:35+00:00",
+        "probeEndpoint": "https://taskrail.alamavar.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-30T03:03:53.808471Z",
         "upstreamUpdatedAt": "2026-07-30T03:03:53.808471Z",
-        "verifiedAt": "2026-08-05T02:02:35+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 4,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

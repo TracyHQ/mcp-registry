@@ -20,18 +20,29 @@
       "operator": {
         "name": "lowwmax"
       },
+      "ecosystem": [],
+      "listingUrl": "https://numetric.work",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:56+00:00",
+        "probeEndpoint": "https://numetric-mcp.virifi.xyz/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-04T10:56:15.367395Z",
-        "upstreamUpdatedAt": "2026-08-04T10:56:15.367395Z",
-        "verifiedAt": "2026-08-05T02:04:56+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-04T10:56:15.367395Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

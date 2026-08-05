@@ -41,12 +41,20 @@
       "operator": {
         "name": "themewireco"
       },
+      "ecosystem": [],
+      "listingUrl": "https://synchronity.app",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:35+00:00",
+        "probeEndpoint": "https://api.synchronity.app/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-21T16:28:03.599817Z",
         "upstreamUpdatedAt": "2026-07-21T16:28:03.599817Z",
-        "verifiedAt": "2026-08-05T02:04:35+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 26,
         "readWriteSummary": {
           "read": 12,
@@ -60,6 +68,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

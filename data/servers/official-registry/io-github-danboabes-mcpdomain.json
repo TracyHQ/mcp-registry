@@ -51,12 +51,20 @@
       "operator": {
         "name": "danboabes"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcpdomain.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:59+00:00",
+        "probeEndpoint": "https://mcpdomain.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-18T19:16:58.204495Z",
         "upstreamUpdatedAt": "2026-04-18T19:16:58.204495Z",
-        "verifiedAt": "2026-08-05T02:03:59+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 2,
@@ -69,6 +77,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

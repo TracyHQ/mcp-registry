@@ -20,12 +20,20 @@
       "operator": {
         "name": "agentsprice"
       },
+      "ecosystem": [],
+      "listingUrl": "https://agentsprice.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:35+00:00",
+        "probeEndpoint": "https://agentsprice.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T05:23:06.515976Z",
         "upstreamUpdatedAt": "2026-06-12T05:23:06.515976Z",
-        "verifiedAt": "2026-08-05T02:02:35+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 12,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

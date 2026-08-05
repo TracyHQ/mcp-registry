@@ -18,12 +18,20 @@
       "operator": {
         "name": "eurolytics"
       },
+      "ecosystem": [],
+      "listingUrl": "https://eurolytics.app",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:26+00:00",
+        "probeEndpoint": "https://eurolytics.app/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-12T05:10:58.068927Z",
         "upstreamUpdatedAt": "2026-07-12T05:10:58.068927Z",
-        "verifiedAt": "2026-08-05T02:02:26+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Missing or invalid Authorization header"
@@ -34,6 +42,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

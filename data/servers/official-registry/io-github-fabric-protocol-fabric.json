@@ -26,12 +26,20 @@
       "operator": {
         "name": "Fabric-Protocol"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Fabric-Protocol/fabric",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:43+00:00",
+        "probeEndpoint": "https://fabric-api-393345198409.us-west1.run.app/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-28T09:53:04.388162Z",
         "upstreamUpdatedAt": "2026-02-28T09:53:04.388162Z",
-        "verifiedAt": "2026-08-05T02:03:43+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 3,
@@ -44,6 +52,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

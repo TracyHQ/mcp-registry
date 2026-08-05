@@ -24,12 +24,20 @@
       "operator": {
         "name": "skybridge"
       },
+      "ecosystem": [],
+      "listingUrl": "https://skybridge.tech",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:55+00:00",
+        "probeEndpoint": "https://ecommerce.skybridge.tech",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-20T10:22:33.40208Z",
         "upstreamUpdatedAt": "2026-02-20T10:22:33.40208Z",
-        "verifiedAt": "2026-08-05T02:04:55+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 1,
@@ -42,6 +50,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

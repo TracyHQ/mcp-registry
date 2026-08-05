@@ -20,12 +20,20 @@
       "operator": {
         "name": "obriym-crm"
       },
+      "ecosystem": [],
+      "listingUrl": "https://obriym-crm.com/integrations/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:54+00:00",
+        "probeEndpoint": "https://obriym-crm.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-01T13:38:38.648014Z",
         "upstreamUpdatedAt": "2026-08-01T13:38:38.648014Z",
-        "verifiedAt": "2026-08-05T02:02:54+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 42,
         "readWriteSummary": {
           "read": 22,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

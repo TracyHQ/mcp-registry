@@ -20,12 +20,20 @@
       "operator": {
         "name": "Br0ski777"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Br0ski777/uuid-generator-x402",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:36+00:00",
+        "probeEndpoint": "https://uuid-generator.api.klymax402.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-16T13:33:19.2373Z",
         "upstreamUpdatedAt": "2026-05-16T13:33:19.2373Z",
-        "verifiedAt": "2026-08-05T02:03:36+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 1,
         "readWriteSummary": {
           "read": 0,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

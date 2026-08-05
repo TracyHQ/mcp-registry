@@ -18,12 +18,20 @@
       "operator": {
         "name": "domaindrift"
       },
+      "ecosystem": [],
+      "listingUrl": "https://domaindrift.io/agents",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:14+00:00",
+        "probeEndpoint": "https://domaindrift.io/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-22T15:26:47.803018Z",
         "upstreamUpdatedAt": "2026-07-22T15:26:47.803018Z",
-        "verifiedAt": "2026-08-05T02:03:14+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 5,
@@ -36,6 +44,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

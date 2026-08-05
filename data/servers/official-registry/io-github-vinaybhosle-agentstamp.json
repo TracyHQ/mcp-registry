@@ -17,12 +17,20 @@
       "operator": {
         "name": "vinaybhosle"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/vinaybhosle/agentstamp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:37+00:00",
+        "probeEndpoint": "https://agentstamp.org/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-22T06:24:18.794308Z",
         "upstreamUpdatedAt": "2026-03-22T06:24:18.794308Z",
-        "verifiedAt": "2026-08-05T02:04:37+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 19,
         "readWriteSummary": {
           "read": 13,
@@ -35,6 +43,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -18,12 +18,20 @@
       "operator": {
         "name": "AymanElhakim"
       },
+      "ecosystem": [],
+      "listingUrl": "https://wassel.cloud",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:15+00:00",
+        "probeEndpoint": "https://api.wassel.cloud/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-14T21:57:34.467232Z",
-        "upstreamUpdatedAt": "2026-06-14T21:57:34.467232Z",
-        "verifiedAt": "2026-08-05T02:03:15+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-14T21:57:34.467232Z"
       },
       "classification": {
         "capability": [
@@ -31,6 +39,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

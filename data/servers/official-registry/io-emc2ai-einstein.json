@@ -31,12 +31,20 @@
       "operator": {
         "name": "ChuXo"
       },
+      "ecosystem": [],
+      "listingUrl": "https://emc2ai.io",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:14+00:00",
+        "probeEndpoint": "https://emc2ai.io/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-22T21:40:57.186204Z",
         "upstreamUpdatedAt": "2026-03-22T21:40:57.186204Z",
-        "verifiedAt": "2026-08-05T02:03:14+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 75,
         "readWriteSummary": {
           "read": 1,
@@ -49,6 +57,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -19,18 +19,29 @@
       "operator": {
         "name": "devcham"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/devcham/jacktrade",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:31+00:00",
+        "probeEndpoint": "https://frostsa2.ed1.jacktrade.xyz/jacktrade/mcp_api/v1/message",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-24T06:45:31.036715Z",
-        "upstreamUpdatedAt": "2026-04-24T06:45:31.036715Z",
-        "verifiedAt": "2026-08-05T02:02:31+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-04-24T06:45:31.036715Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

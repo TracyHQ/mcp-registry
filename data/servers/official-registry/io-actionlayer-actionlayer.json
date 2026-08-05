@@ -43,18 +43,29 @@
       "operator": {
         "name": "actionlayer"
       },
+      "ecosystem": [],
+      "listingUrl": "https://actionlayer.io",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:12+00:00",
+        "probeEndpoint": "https://api.actionlayer.io/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-14T18:22:46.693023Z",
-        "upstreamUpdatedAt": "2026-07-14T18:22:46.693023Z",
-        "verifiedAt": "2026-08-05T02:03:12+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-14T18:22:46.693023Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

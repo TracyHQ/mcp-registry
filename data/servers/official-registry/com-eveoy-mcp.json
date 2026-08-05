@@ -20,12 +20,20 @@
       "operator": {
         "name": "eveoy"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcp.eveoy.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:44+00:00",
+        "probeEndpoint": "https://mcp.eveoy.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-16T16:41:51.605604Z",
         "upstreamUpdatedAt": "2026-07-16T16:41:51.605604Z",
-        "verifiedAt": "2026-08-05T02:02:44+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 11,
         "readWriteSummary": {
           "read": 6,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

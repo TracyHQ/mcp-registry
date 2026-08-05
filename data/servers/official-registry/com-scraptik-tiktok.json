@@ -18,12 +18,20 @@
       "operator": {
         "name": "scraptik"
       },
+      "ecosystem": [],
+      "listingUrl": "https://scraptik.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:57+00:00",
+        "probeEndpoint": "https://mcp.scraptik.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-13T11:03:11.861205Z",
         "upstreamUpdatedAt": "2026-07-13T11:03:11.861205Z",
-        "verifiedAt": "2026-08-05T02:02:57+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 19,
         "readWriteSummary": {
           "read": 6,
@@ -36,6 +44,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

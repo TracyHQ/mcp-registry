@@ -27,12 +27,20 @@
       "operator": {
         "name": "design-smith"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/design-smith/MuntuAI-MCP",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:00+00:00",
+        "probeEndpoint": "https://api.muntuai.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-09T23:28:11.473348Z",
         "upstreamUpdatedAt": "2026-05-09T23:28:11.473348Z",
-        "verifiedAt": "2026-08-05T02:04:00+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -45,6 +53,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

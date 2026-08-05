@@ -18,18 +18,29 @@
       "operator": {
         "name": "jmpy-me"
       },
+      "ecosystem": [],
+      "listingUrl": "https://jmpy.me",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:43+00:00",
+        "probeEndpoint": "https://jmpy.me/mcp/sse",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-18T16:23:04.836886Z",
-        "upstreamUpdatedAt": "2026-04-18T16:23:04.836886Z",
-        "verifiedAt": "2026-08-05T02:03:43+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-04-18T16:23:04.836886Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -17,18 +17,29 @@
       "operator": {
         "name": "agility"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/agility/agility-mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:21+00:00",
+        "probeEndpoint": "https://mcp.agilitycms.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-03T11:39:31.404447Z",
-        "upstreamUpdatedAt": "2026-08-03T11:39:31.404447Z",
-        "verifiedAt": "2026-08-04T11:15:21+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-08-03T11:39:31.404447Z"
       },
       "classification": {
         "capability": [
           "Site Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

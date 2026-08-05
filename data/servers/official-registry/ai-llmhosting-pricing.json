@@ -20,12 +20,20 @@
       "operator": {
         "name": "zayedAlmansoori"
       },
+      "ecosystem": [],
+      "listingUrl": "https://llmhosting.ai/mcp-docs",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:19+00:00",
+        "probeEndpoint": "https://llmhosting.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-09T19:54:38.601862Z",
         "upstreamUpdatedAt": "2026-07-09T19:54:38.601862Z",
-        "verifiedAt": "2026-08-04T11:15:19+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 3,
@@ -38,6 +46,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

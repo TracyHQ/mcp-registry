@@ -20,12 +20,20 @@
       "operator": {
         "name": "Br0ski777"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Br0ski777/sms-validator-x402",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:30+00:00",
+        "probeEndpoint": "https://sms-validator.api.klymax402.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-16T13:33:01.151921Z",
         "upstreamUpdatedAt": "2026-05-16T13:33:01.151921Z",
-        "verifiedAt": "2026-08-05T02:03:30+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 1,
         "readWriteSummary": {
           "read": 1,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

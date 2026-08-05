@@ -18,18 +18,29 @@
       "operator": {
         "name": "goodbarber"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.goodbarber.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:07+00:00",
+        "probeEndpoint": "https://mcp.goodbarber.dev/mcp/sse",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-01T14:43:37.04613Z",
-        "upstreamUpdatedAt": "2026-06-01T14:43:37.04613Z",
-        "verifiedAt": "2026-08-05T02:03:07+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-01T14:43:37.04613Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

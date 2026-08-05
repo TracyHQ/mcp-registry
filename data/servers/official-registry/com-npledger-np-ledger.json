@@ -20,12 +20,20 @@
       "operator": {
         "name": "npledger"
       },
+      "ecosystem": [],
+      "listingUrl": "https://npledger.com/docs/integrations/ai-agents/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:54+00:00",
+        "probeEndpoint": "https://mcp.npledger.com/v1/",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T03:41:58.935318Z",
         "upstreamUpdatedAt": "2026-06-12T03:41:58.935318Z",
-        "verifiedAt": "2026-08-05T02:02:54+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized"
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

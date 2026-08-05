@@ -28,12 +28,20 @@
       "operator": {
         "name": "fashionmascherine-svg"
       },
+      "ecosystem": [],
+      "listingUrl": "https://apify.com/opportunity-biz/document-to-json-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:03+00:00",
+        "probeEndpoint": "https://mcp.apify.com/?actors=opportunity-biz/document-to-json-mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-24T17:38:23.829707Z",
         "upstreamUpdatedAt": "2026-06-24T17:38:23.829707Z",
-        "verifiedAt": "2026-08-05T02:04:03+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -46,6 +54,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

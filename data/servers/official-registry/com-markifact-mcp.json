@@ -20,12 +20,22 @@
       "operator": {
         "name": "markifact"
       },
+      "ecosystem": [
+        "shopify"
+      ],
+      "listingUrl": "https://markifact.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:51+00:00",
+        "probeEndpoint": "https://api.markifact.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-04T04:58:45.132138Z",
-        "upstreamUpdatedAt": "2026-05-04T04:58:45.132138Z",
-        "verifiedAt": "2026-08-05T02:02:51+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-04T04:58:45.132138Z"
       },
       "classification": {
         "capability": [
@@ -33,6 +43,9 @@
         ],
         "platform": [
           "Shopify"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

@@ -37,18 +37,29 @@
       "operator": {
         "name": "JDWilliums"
       },
+      "ecosystem": [],
+      "listingUrl": "https://jamp.io/docs/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:43+00:00",
+        "probeEndpoint": "https://mcp.jamp.io/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-23T13:25:01.3136Z",
-        "upstreamUpdatedAt": "2026-07-23T13:25:01.3136Z",
-        "verifiedAt": "2026-08-05T02:03:43+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-23T13:25:01.3136Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

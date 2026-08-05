@@ -19,12 +19,20 @@
       "operator": {
         "name": "endennn"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/endennn/torify-examples",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:09+00:00",
+        "probeEndpoint": "https://torify-mcp.torify.workers.dev",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-18T13:49:32.927718Z",
         "upstreamUpdatedAt": "2026-05-18T13:49:32.927718Z",
-        "verifiedAt": "2026-08-05T02:03:09+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 24,
         "readWriteSummary": {
           "read": 24,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

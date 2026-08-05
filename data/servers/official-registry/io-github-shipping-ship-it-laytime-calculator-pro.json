@@ -18,18 +18,29 @@
       "operator": {
         "name": "shipping-ship-it"
       },
+      "ecosystem": [],
+      "listingUrl": "https://navitt.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:33+00:00",
+        "probeEndpoint": "https://navitt-mcp.marine-356.workers.dev/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-15T08:13:58.446849Z",
-        "upstreamUpdatedAt": "2026-06-15T08:13:58.446849Z",
-        "verifiedAt": "2026-08-04T11:15:33+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-15T08:13:58.446849Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

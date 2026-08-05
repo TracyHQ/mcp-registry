@@ -34,12 +34,20 @@
       "operator": {
         "name": "Severin2k"
       },
+      "ecosystem": [],
+      "listingUrl": "https://blumen-komander.de/ki-florist",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:50+00:00",
+        "probeEndpoint": "https://mcp.blumen-verschicken.online/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-21T20:05:00.703519Z",
         "upstreamUpdatedAt": "2026-07-21T20:05:00.703519Z",
-        "verifiedAt": "2026-08-05T02:03:50+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 5,
@@ -52,6 +60,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

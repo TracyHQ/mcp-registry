@@ -17,12 +17,20 @@
       "operator": {
         "name": "lazymac2x"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/lazymac2x/graphql-dos-shield-api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:14+00:00",
+        "probeEndpoint": "https://api.lazy-mac.com/graphql-dos-shield/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-16T12:00:05.682079Z",
         "upstreamUpdatedAt": "2026-05-16T12:00:05.682079Z",
-        "verifiedAt": "2026-08-05T02:04:14+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 1,
@@ -35,6 +43,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

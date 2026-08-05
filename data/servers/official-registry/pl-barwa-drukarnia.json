@@ -18,12 +18,20 @@
       "operator": {
         "name": "barwa"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.barwa.pl/article/ai-integracje/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:51+00:00",
+        "probeEndpoint": "https://mcp.barwa.pl/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-16T13:41:10.766878Z",
         "upstreamUpdatedAt": "2026-07-16T13:41:10.766878Z",
-        "verifiedAt": "2026-08-05T02:04:51+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 5,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

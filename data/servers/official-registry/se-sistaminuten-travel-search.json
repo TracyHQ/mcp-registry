@@ -20,12 +20,20 @@
       "operator": {
         "name": "sistaminuten"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.sistaminuten.se/api",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:53+00:00",
+        "probeEndpoint": "https://www.sistaminuten.se/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-16T12:55:20.599096Z",
         "upstreamUpdatedAt": "2026-07-16T12:55:20.599096Z",
-        "verifiedAt": "2026-08-05T02:04:53+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

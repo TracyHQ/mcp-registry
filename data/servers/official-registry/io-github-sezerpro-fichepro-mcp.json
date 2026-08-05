@@ -20,12 +20,20 @@
       "operator": {
         "name": "SezerPro"
       },
+      "ecosystem": [],
+      "listingUrl": "https://fichepro.ai/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:50+00:00",
+        "probeEndpoint": "https://www.fichepro.ai/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-15T22:16:06.911081Z",
         "upstreamUpdatedAt": "2026-04-15T22:16:06.911081Z",
-        "verifiedAt": "2026-08-05T02:03:50+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Missing token. Provide it via the Authorization: Bearer header."
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

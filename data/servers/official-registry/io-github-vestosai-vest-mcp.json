@@ -18,12 +18,20 @@
       "operator": {
         "name": "VestOSAI"
       },
+      "ecosystem": [],
+      "listingUrl": "https://getvest.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:53+00:00",
+        "probeEndpoint": "https://mcp.getvest.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-30T13:26:47.029214Z",
         "upstreamUpdatedAt": "2026-05-30T13:26:47.029214Z",
-        "verifiedAt": "2026-08-05T02:03:53+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 5,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

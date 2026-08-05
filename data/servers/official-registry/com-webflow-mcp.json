@@ -17,12 +17,22 @@
       "operator": {
         "name": "webflow"
       },
+      "ecosystem": [
+        "webflow"
+      ],
+      "listingUrl": "https://github.com/webflow/mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:25+00:00",
+        "probeEndpoint": "https://mcp.webflow.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-10-27T21:00:28.378216Z",
-        "upstreamUpdatedAt": "2025-10-27T21:00:28.378216Z",
-        "verifiedAt": "2026-08-04T11:15:25+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2025-10-27T21:00:28.378216Z"
       },
       "classification": {
         "capability": [
@@ -30,6 +40,9 @@
         ],
         "platform": [
           "Webflow"
+        ],
+        "pricing": [
+          "unknown"
         ],
         "directory": [
           "official-mcp-registry"

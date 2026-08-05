@@ -27,12 +27,20 @@
       "operator": {
         "name": "MarcioKorpHub"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/MarcioKorpHub/contazz-autopilot-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:44+00:00",
+        "probeEndpoint": "https://appcontazz.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-19T03:24:25.148087Z",
         "upstreamUpdatedAt": "2026-05-19T03:24:25.148087Z",
-        "verifiedAt": "2026-08-05T02:03:44+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 61,
         "readWriteSummary": {
           "read": 40,
@@ -45,6 +53,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

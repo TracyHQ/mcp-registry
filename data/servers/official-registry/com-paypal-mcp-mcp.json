@@ -37,12 +37,19 @@
       "operator": {
         "name": "paypal"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:23+00:00",
+        "probeEndpoint": "https://mcp.paypal.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2025-10-28T19:34:19.455268Z",
         "upstreamUpdatedAt": "2025-10-28T19:34:19.455268Z",
-        "verifiedAt": "2026-08-04T11:15:23+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -55,6 +62,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

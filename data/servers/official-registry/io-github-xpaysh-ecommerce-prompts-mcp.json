@@ -18,12 +18,20 @@
       "operator": {
         "name": "xpaysh"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.xpay.sh/prompts/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:38+00:00",
+        "probeEndpoint": "https://prompts-mcp.xpay.sh/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-27T07:12:02.156972Z",
         "upstreamUpdatedAt": "2026-07-27T07:12:02.156972Z",
-        "verifiedAt": "2026-08-05T02:04:38+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 4,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

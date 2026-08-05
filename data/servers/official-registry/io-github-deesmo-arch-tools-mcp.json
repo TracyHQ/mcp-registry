@@ -22,12 +22,20 @@
       "operator": {
         "name": "Deesmo"
       },
+      "ecosystem": [],
+      "listingUrl": "https://archtools.dev",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:41+00:00",
+        "probeEndpoint": "https://archtools.dev/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-28T19:56:40.259775Z",
         "upstreamUpdatedAt": "2026-07-28T19:56:40.259775Z",
-        "verifiedAt": "2026-08-05T02:03:41+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 63,
         "readWriteSummary": {
           "read": 16,
@@ -40,6 +48,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

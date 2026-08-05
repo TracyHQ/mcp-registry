@@ -33,12 +33,20 @@
       "operator": {
         "name": "Jumpseller"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/Jumpseller/api-docs",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:49+00:00",
+        "probeEndpoint": "https://mcp.jumpseller.com/",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-28T00:55:08.57565Z",
         "upstreamUpdatedAt": "2026-03-28T00:55:08.57565Z",
-        "verifiedAt": "2026-08-05T02:02:49+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "X-LOGIN-KEY",
@@ -53,6 +61,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

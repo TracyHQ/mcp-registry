@@ -18,12 +18,20 @@
       "operator": {
         "name": "abhinandansethi"
       },
+      "ecosystem": [],
+      "listingUrl": "https://lrlabs.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:53+00:00",
+        "probeEndpoint": "https://lrlabs.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-02T07:12:34.908054Z",
         "upstreamUpdatedAt": "2026-08-02T07:12:34.908054Z",
-        "verifiedAt": "2026-08-05T02:03:53+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 3,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

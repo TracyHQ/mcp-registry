@@ -26,18 +26,29 @@
       "operator": {
         "name": "agnicpay-prog"
       },
+      "ecosystem": [],
+      "listingUrl": "https://pay.agnic.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:54+00:00",
+        "probeEndpoint": "https://mcp.agnic.ai/sse",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-19T02:12:12.741122Z",
-        "upstreamUpdatedAt": "2026-03-19T02:12:12.741122Z",
-        "verifiedAt": "2026-08-05T02:03:54+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-03-19T02:12:12.741122Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

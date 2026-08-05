@@ -20,12 +20,20 @@
       "operator": {
         "name": "futia"
       },
+      "ecosystem": [],
+      "listingUrl": "https://futia.io",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:14+00:00",
+        "probeEndpoint": "https://futia.io/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-28T20:20:49.010264Z",
         "upstreamUpdatedAt": "2026-07-28T20:20:49.010264Z",
-        "verifiedAt": "2026-08-05T02:03:14+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 1,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

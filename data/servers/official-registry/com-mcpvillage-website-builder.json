@@ -28,12 +28,20 @@
       "operator": {
         "name": "mcpvillage"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcpvillage.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:52+00:00",
+        "probeEndpoint": "https://mcpvillage.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-01T07:24:54.078458Z",
         "upstreamUpdatedAt": "2026-06-01T07:24:54.078458Z",
-        "verifiedAt": "2026-08-05T02:02:52+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -46,6 +54,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

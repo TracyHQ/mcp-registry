@@ -20,12 +20,20 @@
       "operator": {
         "name": "TONresistor"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/TONresistor/resistance-tools-mcp#readme",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:52+00:00",
+        "probeEndpoint": "https://app.resistance.dog/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-03T03:33:14.4208Z",
         "upstreamUpdatedAt": "2026-08-03T03:33:14.4208Z",
-        "verifiedAt": "2026-08-05T02:03:52+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 46,
         "readWriteSummary": {
           "read": 25,
@@ -38,6 +46,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

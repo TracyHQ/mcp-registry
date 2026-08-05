@@ -26,12 +26,19 @@
       "operator": {
         "name": "wistia"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:37+00:00",
+        "probeEndpoint": "https://api.wistia.com/mcp/api",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-15T17:42:17.830195Z",
         "upstreamUpdatedAt": "2026-04-15T17:42:17.830195Z",
-        "verifiedAt": "2026-08-05T02:04:37+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -44,6 +51,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

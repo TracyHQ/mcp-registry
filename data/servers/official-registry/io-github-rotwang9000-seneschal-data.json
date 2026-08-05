@@ -20,12 +20,20 @@
       "operator": {
         "name": "Rotwang9000"
       },
+      "ecosystem": [],
+      "listingUrl": "https://seneschal.space",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:48+00:00",
+        "probeEndpoint": "https://mcp.seneschal.space/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-29T06:08:39.440181Z",
         "upstreamUpdatedAt": "2026-05-29T06:08:39.440181Z",
-        "verifiedAt": "2026-08-05T02:03:48+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 35,
         "readWriteSummary": {
           "read": 5,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

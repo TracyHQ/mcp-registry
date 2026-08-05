@@ -19,18 +19,28 @@
       "operator": {
         "name": "studiomeyer"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:43+00:00",
+        "probeEndpoint": "https://crm.studiomeyer.io/mcp",
+        "probeHttpStatus": "403",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-03T12:30:39.084473Z",
-        "upstreamUpdatedAt": "2026-05-03T12:30:39.084473Z",
-        "verifiedAt": "2026-08-05T02:04:43+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-03T12:30:39.084473Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

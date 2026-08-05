@@ -19,12 +19,20 @@
       "operator": {
         "name": "eigi-ai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/eigi-ai/eigi-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:02+00:00",
+        "probeEndpoint": "https://mcp.eigi.ai/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-14T11:01:29.39195Z",
         "upstreamUpdatedAt": "2026-02-14T11:01:29.39195Z",
-        "verifiedAt": "2026-08-05T02:04:02+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Unauthorized - OAuth authentication required"
@@ -35,6 +43,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

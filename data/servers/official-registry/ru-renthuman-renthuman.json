@@ -18,12 +18,20 @@
       "operator": {
         "name": "renthuman"
       },
+      "ecosystem": [],
+      "listingUrl": "https://renthuman.ru/en/developers.html",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:52+00:00",
+        "probeEndpoint": "https://renthuman.ru/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-11T09:58:12.294776Z",
         "upstreamUpdatedAt": "2026-06-11T09:58:12.294776Z",
-        "verifiedAt": "2026-08-05T02:04:52+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 3,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

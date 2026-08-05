@@ -17,12 +17,20 @@
       "operator": {
         "name": "lawyerd999"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/lawyerd999/dmca-takedown-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:49+00:00",
+        "probeEndpoint": "https://mcp.lawyerd.net/takedown",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-02T10:56:35.559315Z",
         "upstreamUpdatedAt": "2026-07-02T10:56:35.559315Z",
-        "verifiedAt": "2026-08-05T02:04:49+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 3,
@@ -35,6 +43,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -17,12 +17,20 @@
       "operator": {
         "name": "m190"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/m190/usefulapi-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:34+00:00",
+        "probeEndpoint": "https://dnsimple.usefulapi.io/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-17T20:23:38.726903Z",
         "upstreamUpdatedAt": "2026-07-17T20:23:38.726903Z",
-        "verifiedAt": "2026-08-04T11:15:34+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 12,
         "readWriteSummary": {
           "read": 9,
@@ -35,6 +43,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

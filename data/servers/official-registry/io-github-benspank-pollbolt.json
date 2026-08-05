@@ -18,12 +18,20 @@
       "operator": {
         "name": "BenSpank"
       },
+      "ecosystem": [],
+      "listingUrl": "https://pollbolt.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:15+00:00",
+        "probeEndpoint": "https://api.pollbolt.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-14T15:26:14.871291Z",
         "upstreamUpdatedAt": "2026-06-14T15:26:14.871291Z",
-        "verifiedAt": "2026-08-05T02:03:15+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 15,
         "readWriteSummary": {
           "read": 7,
@@ -36,6 +44,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

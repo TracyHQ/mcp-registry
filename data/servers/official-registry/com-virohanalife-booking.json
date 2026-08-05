@@ -18,12 +18,20 @@
       "operator": {
         "name": "virohanalife"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.virohanalife.com/book.html",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:05+00:00",
+        "probeEndpoint": "https://www.virohanalife.com/mcp/booking",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-28T05:27:42.705234Z",
         "upstreamUpdatedAt": "2026-06-28T05:27:42.705234Z",
-        "verifiedAt": "2026-08-05T02:03:05+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 1,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

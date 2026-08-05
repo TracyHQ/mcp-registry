@@ -20,12 +20,20 @@
       "operator": {
         "name": "siima"
       },
+      "ecosystem": [],
+      "listingUrl": "https://siima.online/ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:51+00:00",
+        "probeEndpoint": "https://api.siima.online/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-10T12:11:51.769721Z",
         "upstreamUpdatedAt": "2026-07-10T12:11:51.769721Z",
-        "verifiedAt": "2026-08-05T02:04:51+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 3,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

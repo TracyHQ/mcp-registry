@@ -19,12 +19,20 @@
       "operator": {
         "name": "openaccountants"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/openaccountants/openaccountants",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:23+00:00",
+        "probeEndpoint": "https://www.openaccountants.com/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-20T17:43:53.192427Z",
         "upstreamUpdatedAt": "2026-05-20T17:43:53.192427Z",
-        "verifiedAt": "2026-08-05T02:04:23+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 14,
         "readWriteSummary": {
           "read": 13,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

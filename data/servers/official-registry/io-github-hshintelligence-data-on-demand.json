@@ -20,12 +20,20 @@
       "operator": {
         "name": "hshintelligence"
       },
+      "ecosystem": [],
+      "listingUrl": "https://dod.hshintelligence.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:05+00:00",
+        "probeEndpoint": "https://dod.hshintelligence.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-28T13:15:57.892729Z",
         "upstreamUpdatedAt": "2026-06-28T13:15:57.892729Z",
-        "verifiedAt": "2026-08-05T02:04:05+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 32,
         "readWriteSummary": {
           "read": 5,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

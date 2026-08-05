@@ -26,12 +26,20 @@
       "operator": {
         "name": "lastmanupinc-hub"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/lastmanupinc-hub/Toolbox",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:09+00:00",
+        "probeEndpoint": "https://axis-api-6c7z.onrender.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-13T02:30:36.707419Z",
         "upstreamUpdatedAt": "2026-04-13T02:30:36.707419Z",
-        "verifiedAt": "2026-08-05T02:04:09+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 37,
         "readWriteSummary": {
           "read": 17,
@@ -44,6 +52,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

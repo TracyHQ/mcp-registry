@@ -19,12 +19,20 @@
       "operator": {
         "name": "mcp-dir"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/mcp-dir/omie-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:20+00:00",
+        "probeEndpoint": "https://api.mcp.ai/p_omie",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-10T18:10:40.924081Z",
         "upstreamUpdatedAt": "2026-06-10T18:10:40.924081Z",
-        "verifiedAt": "2026-08-05T02:04:20+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 35,
         "readWriteSummary": {
           "read": 18,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

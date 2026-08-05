@@ -18,12 +18,20 @@
       "operator": {
         "name": "luniumpay"
       },
+      "ecosystem": [],
+      "listingUrl": "https://luniumpay.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:51+00:00",
+        "probeEndpoint": "https://api.luniumpay.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-01T08:45:55.654873Z",
         "upstreamUpdatedAt": "2026-08-01T08:45:55.654873Z",
-        "verifiedAt": "2026-08-05T02:02:51+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 5,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

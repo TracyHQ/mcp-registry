@@ -18,12 +18,20 @@
       "operator": {
         "name": "ohmyfin"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcp.ohmyfin.ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:21+00:00",
+        "probeEndpoint": "https://mcp.ohmyfin.ai/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T11:47:06.337981Z",
         "upstreamUpdatedAt": "2026-06-12T11:47:06.337981Z",
-        "verifiedAt": "2026-08-05T02:02:21+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 33,
         "readWriteSummary": {
           "read": 11,
@@ -37,6 +45,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

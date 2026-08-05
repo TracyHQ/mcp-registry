@@ -20,18 +20,29 @@
       "operator": {
         "name": "rwesleyevans"
       },
+      "ecosystem": [],
+      "listingUrl": "https://htmlvault.com/connect",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:48+00:00",
+        "probeEndpoint": "https://htmlvault.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-26T07:03:45.078281Z",
-        "upstreamUpdatedAt": "2026-07-26T07:03:45.078281Z",
-        "verifiedAt": "2026-08-05T02:02:48+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-26T07:03:45.078281Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

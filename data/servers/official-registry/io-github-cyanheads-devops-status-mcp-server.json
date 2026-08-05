@@ -124,12 +124,20 @@
       "operator": {
         "name": "cyanheads"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/cyanheads/devops-status-mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:59+00:00",
+        "probeEndpoint": "https://devops-status.caseyjhand.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-31T08:14:50.004656Z",
         "upstreamUpdatedAt": "2026-07-31T08:14:50.004656Z",
-        "verifiedAt": "2026-08-05T02:03:59+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 6,
@@ -142,6 +150,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -20,12 +20,20 @@
       "operator": {
         "name": "thefanvault"
       },
+      "ecosystem": [],
+      "listingUrl": "https://fanvault.shop/developers/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:35+00:00",
+        "probeEndpoint": "https://fanvault.shop/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-14T04:12:18.087943Z",
-        "upstreamUpdatedAt": "2026-07-14T04:12:18.087943Z",
-        "verifiedAt": "2026-08-05T02:04:35+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-14T04:12:18.087943Z"
       },
       "classification": {
         "capability": [
@@ -33,6 +41,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

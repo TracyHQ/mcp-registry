@@ -27,12 +27,20 @@
       "operator": {
         "name": "biznetai"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/biznetai/biznetai-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:56+00:00",
+        "probeEndpoint": "https://biznetaimcp.consumergenie.net/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-13T22:59:21.044479Z",
         "upstreamUpdatedAt": "2026-07-13T22:59:21.044479Z",
-        "verifiedAt": "2026-08-05T02:03:56+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -46,6 +54,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

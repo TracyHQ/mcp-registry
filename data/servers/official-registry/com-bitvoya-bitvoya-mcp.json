@@ -27,12 +27,20 @@
       "operator": {
         "name": "seanbabalala"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/seanbabalala/bitvoya-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:38+00:00",
+        "probeEndpoint": "https://bitvoya.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-13T15:11:58.522865Z",
         "upstreamUpdatedAt": "2026-04-13T15:11:58.522865Z",
-        "verifiedAt": "2026-08-05T02:02:38+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -45,6 +53,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

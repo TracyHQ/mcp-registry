@@ -20,12 +20,20 @@
       "operator": {
         "name": "hogarmas"
       },
+      "ecosystem": [],
+      "listingUrl": "https://hogarmas.net/ai-transparency/",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:48+00:00",
+        "probeEndpoint": "https://agents.hogarmas.net/mcp/ai-transparency",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-08-01T16:35:19.33772Z",
         "upstreamUpdatedAt": "2026-08-01T16:35:19.33772Z",
-        "verifiedAt": "2026-08-05T02:04:48+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 4,
         "readWriteSummary": {
           "read": 4,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

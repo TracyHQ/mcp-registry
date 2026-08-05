@@ -19,12 +19,20 @@
       "operator": {
         "name": "mcp-dir"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/mcp-dir/f360-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:17+00:00",
+        "probeEndpoint": "https://api.mcp.ai/p_f360",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-12T18:57:24.338023Z",
         "upstreamUpdatedAt": "2026-06-12T18:57:24.338023Z",
-        "verifiedAt": "2026-08-05T02:04:17+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 19,
         "readWriteSummary": {
           "read": 16,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -51,18 +51,29 @@
       "operator": {
         "name": "sravanmodugula-solved"
       },
+      "ecosystem": [],
+      "listingUrl": "https://nexatron.io",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:32+00:00",
+        "probeEndpoint": "https://api.nexatron.io/api/v1/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-22T02:58:28.283041Z",
-        "upstreamUpdatedAt": "2026-06-22T02:58:28.283041Z",
-        "verifiedAt": "2026-08-05T02:04:32+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-22T02:58:28.283041Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

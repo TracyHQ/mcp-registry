@@ -18,12 +18,20 @@
       "operator": {
         "name": "andycarey1969"
       },
+      "ecosystem": [],
+      "listingUrl": "https://manageyourloans.com.au",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:28+00:00",
+        "probeEndpoint": "https://mcp-myl-oov7xgbxua-ts.a.run.app/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-20T02:59:32.356258Z",
         "upstreamUpdatedAt": "2026-07-20T02:59:32.356258Z",
-        "verifiedAt": "2026-08-05T02:02:28+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 4,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -29,12 +29,20 @@
       "operator": {
         "name": "lithvall"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/lithvall/TrustBench",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:15+00:00",
+        "probeEndpoint": "https://trustbench.io/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-15T11:58:14.981915Z",
         "upstreamUpdatedAt": "2026-05-15T11:58:14.981915Z",
-        "verifiedAt": "2026-08-05T02:04:15+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 3,
         "readWriteSummary": {
           "read": 3,
@@ -47,6 +55,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

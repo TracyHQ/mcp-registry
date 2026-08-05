@@ -19,18 +19,29 @@
       "operator": {
         "name": "BrightSiteHQ"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/BrightSiteHQ/brightsite-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:03:39+00:00",
+        "probeEndpoint": "https://onbrightsite.com/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-12T16:04:11.266854Z",
-        "upstreamUpdatedAt": "2026-05-12T16:04:11.266854Z",
-        "verifiedAt": "2026-08-05T02:03:39+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-12T16:04:11.266854Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

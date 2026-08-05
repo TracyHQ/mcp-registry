@@ -28,12 +28,20 @@
       "operator": {
         "name": "Grenzfrei"
       },
+      "ecosystem": [],
+      "listingUrl": "https://sprytools.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:59+00:00",
+        "probeEndpoint": "https://api.sprytools.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-30T00:01:31.898646Z",
         "upstreamUpdatedAt": "2026-06-30T00:01:31.898646Z",
-        "verifiedAt": "2026-08-05T02:02:59+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 9,
         "readWriteSummary": {
           "read": 4,
@@ -46,6 +54,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

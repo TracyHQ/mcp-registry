@@ -24,18 +24,29 @@
       "operator": {
         "name": "ovrsea"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.ovrsea.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:55+00:00",
+        "probeEndpoint": "https://mcp.ovrsea.com",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-13T13:41:49.747406Z",
-        "upstreamUpdatedAt": "2026-05-13T13:41:49.747406Z",
-        "verifiedAt": "2026-08-05T02:02:55+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-13T13:41:49.747406Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

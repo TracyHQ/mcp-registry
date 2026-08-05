@@ -17,12 +17,19 @@
       "operator": {
         "name": "robtex"
       },
+      "ecosystem": [],
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:57+00:00",
+        "probeEndpoint": "https://mcp.robtex.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-02-18T16:49:12.314659Z",
         "upstreamUpdatedAt": "2026-02-18T16:49:12.314659Z",
-        "verifiedAt": "2026-08-05T02:02:57+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 46,
         "readWriteSummary": {
           "read": 46,
@@ -35,6 +42,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

@@ -26,12 +26,20 @@
       "operator": {
         "name": "daemoon-dev"
       },
+      "ecosystem": [],
+      "listingUrl": "https://daemoon.dev",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:04:07+00:00",
+        "probeEndpoint": "https://daemoon.dev/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-18T16:27:04.372426Z",
         "upstreamUpdatedAt": "2026-06-18T16:27:04.372426Z",
-        "verifiedAt": "2026-08-05T02:04:07+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [
             "Authorization"
@@ -45,6 +53,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

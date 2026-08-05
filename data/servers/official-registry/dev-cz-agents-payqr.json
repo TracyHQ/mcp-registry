@@ -29,12 +29,20 @@
       "operator": {
         "name": "martinhavel"
       },
+      "ecosystem": [],
+      "listingUrl": "https://qr.cz-agents.dev",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:06+00:00",
+        "probeEndpoint": "https://payqr.cz-agents.dev/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-02T11:42:29.170187Z",
         "upstreamUpdatedAt": "2026-06-02T11:42:29.170187Z",
-        "verifiedAt": "2026-08-05T02:03:06+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 6,
         "readWriteSummary": {
           "read": 6,
@@ -47,6 +55,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

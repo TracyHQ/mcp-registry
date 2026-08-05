@@ -20,12 +20,20 @@
       "operator": {
         "name": "chadrnewell-hash"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.radiusos.ai/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:22+00:00",
+        "probeEndpoint": "https://www.radiusos.ai/api/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-22T19:14:38.551374Z",
         "upstreamUpdatedAt": "2026-04-22T19:14:38.551374Z",
-        "verifiedAt": "2026-08-05T02:02:22+00:00",
-        "probeStatus": "auth_required",
         "authHint": {
           "declared_headers": [],
           "server_message": "Missing Authorization: Bearer <api-key> header or ?api_key= query parameter"
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

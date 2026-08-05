@@ -28,12 +28,20 @@
       "operator": {
         "name": "rubin-trade"
       },
+      "ecosystem": [],
+      "listingUrl": "https://code.rubin.trade/ai",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:56+00:00",
+        "probeEndpoint": "https://mcp.mainnet.rubin.trade/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-22T05:18:01.387205Z",
         "upstreamUpdatedAt": "2026-06-22T05:18:01.387205Z",
-        "verifiedAt": "2026-08-05T02:04:56+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 26,
         "readWriteSummary": {
           "read": 16,
@@ -46,6 +54,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

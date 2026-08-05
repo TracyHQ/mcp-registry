@@ -18,12 +18,20 @@
       "operator": {
         "name": "wanakahaus"
       },
+      "ecosystem": [],
+      "listingUrl": "https://wanakahaus.nz",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:50+00:00",
+        "probeEndpoint": "https://wanakahaus.nz/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-28T08:26:31.432071Z",
         "upstreamUpdatedAt": "2026-07-28T08:26:31.432071Z",
-        "verifiedAt": "2026-08-05T02:04:50+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 3,
@@ -36,6 +44,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

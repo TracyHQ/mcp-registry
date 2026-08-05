@@ -19,12 +19,20 @@
       "operator": {
         "name": "mcp-dir"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/mcp-dir/cplug-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:17+00:00",
+        "probeEndpoint": "https://api.mcp.ai/p_cplug",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-10T18:21:57.238084Z",
         "upstreamUpdatedAt": "2026-06-10T18:21:57.238084Z",
-        "verifiedAt": "2026-08-05T02:04:17+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 4,
@@ -37,6 +45,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

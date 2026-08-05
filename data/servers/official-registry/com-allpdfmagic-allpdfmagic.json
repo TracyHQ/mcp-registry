@@ -20,12 +20,20 @@
       "operator": {
         "name": "allpdfmagic"
       },
+      "ecosystem": [],
+      "listingUrl": "https://www.allpdfmagic.com/docs/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:02:35+00:00",
+        "probeEndpoint": "https://api.allpdfmagic.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-18T05:14:18.38123Z",
         "upstreamUpdatedAt": "2026-07-18T05:14:18.38123Z",
-        "verifiedAt": "2026-08-05T02:02:35+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 7,
         "readWriteSummary": {
           "read": 1,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

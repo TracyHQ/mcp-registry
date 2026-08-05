@@ -18,18 +18,29 @@
       "operator": {
         "name": "skulayer"
       },
+      "ecosystem": [],
+      "listingUrl": "https://skulayer.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:59+00:00",
+        "probeEndpoint": "https://skulayer.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-25T19:20:02.433184Z",
-        "upstreamUpdatedAt": "2026-07-25T19:20:02.433184Z",
-        "verifiedAt": "2026-08-05T02:02:59+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-07-25T19:20:02.433184Z"
       },
       "classification": {
         "capability": [
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

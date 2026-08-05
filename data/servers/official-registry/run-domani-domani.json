@@ -18,12 +18,20 @@
       "operator": {
         "name": "gwendall"
       },
+      "ecosystem": [],
+      "listingUrl": "https://domani.run",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:53+00:00",
+        "probeEndpoint": "https://domani.run/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-10T14:01:45.466164Z",
         "upstreamUpdatedAt": "2026-07-10T14:01:45.466164Z",
-        "verifiedAt": "2026-08-05T02:04:53+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 122,
         "readWriteSummary": {
           "read": 47,
@@ -36,6 +44,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

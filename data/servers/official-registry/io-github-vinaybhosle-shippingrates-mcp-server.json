@@ -19,12 +19,20 @@
       "operator": {
         "name": "vinaybhosle"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/vinaybhosle/shippingrates-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:34+00:00",
+        "probeEndpoint": "https://mcp.shippingrates.org/mcp/",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-04T16:31:29.377482Z",
         "upstreamUpdatedAt": "2026-04-04T16:31:29.377482Z",
-        "verifiedAt": "2026-08-04T11:15:34+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 26,
         "readWriteSummary": {
           "read": 26,
@@ -37,6 +45,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

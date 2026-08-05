@@ -20,12 +20,20 @@
       "operator": {
         "name": "gameanalytics"
       },
+      "ecosystem": [],
+      "listingUrl": "https://gameanalytics.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-04T11:15:21+00:00",
+        "probeEndpoint": "https://mcp.docs.gameanalytics.com",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-23T07:27:57.70911Z",
         "upstreamUpdatedAt": "2026-04-23T07:27:57.70911Z",
-        "verifiedAt": "2026-08-04T11:15:21+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 2,
@@ -38,6 +46,9 @@
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

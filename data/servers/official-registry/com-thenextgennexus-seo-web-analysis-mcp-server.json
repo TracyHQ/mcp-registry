@@ -26,12 +26,20 @@
       "operator": {
         "name": "thenextgennexus"
       },
+      "ecosystem": [],
+      "listingUrl": "https://apify.com/nexgendata/seo-web-analysis-mcp-server",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:02+00:00",
+        "probeEndpoint": "https://nexgendata-mcp-proxy.steve-corbeil.workers.dev/seo-web-analysis-mcp-server/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-04-26T18:49:36.741963Z",
         "upstreamUpdatedAt": "2026-04-26T18:49:36.741963Z",
-        "verifiedAt": "2026-08-05T02:03:02+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 5,
         "readWriteSummary": {
           "read": 5,
@@ -44,6 +52,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

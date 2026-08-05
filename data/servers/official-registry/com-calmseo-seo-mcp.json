@@ -20,18 +20,29 @@
       "operator": {
         "name": "noahflk"
       },
+      "ecosystem": [],
+      "listingUrl": "https://calmseo.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:39+00:00",
+        "probeEndpoint": "https://mcp.calmseo.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-15T20:12:13.234302Z",
-        "upstreamUpdatedAt": "2026-05-15T20:12:13.234302Z",
-        "verifiedAt": "2026-08-05T02:02:39+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-05-15T20:12:13.234302Z"
       },
       "classification": {
         "capability": [
           "Analytics"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

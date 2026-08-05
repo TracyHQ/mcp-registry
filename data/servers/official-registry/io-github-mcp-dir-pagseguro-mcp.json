@@ -19,12 +19,20 @@
       "operator": {
         "name": "mcp-dir"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/mcp-dir/pagseguro-mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:20+00:00",
+        "probeEndpoint": "https://api.mcp.ai/p_pagseguro",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-10T18:11:19.332017Z",
         "upstreamUpdatedAt": "2026-06-10T18:11:19.332017Z",
-        "verifiedAt": "2026-08-05T02:04:20+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 17,
         "readWriteSummary": {
           "read": 9,
@@ -38,6 +46,9 @@
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

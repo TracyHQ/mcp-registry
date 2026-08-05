@@ -19,18 +19,29 @@
       "operator": {
         "name": "sevalla-hosting"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/sevalla-hosting/mcp",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-04T11:15:33+00:00",
+        "probeEndpoint": "https://mcp.sevalla.com/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-21T06:16:05.645908Z",
-        "upstreamUpdatedAt": "2026-03-21T06:16:05.645908Z",
-        "verifiedAt": "2026-08-04T11:15:33+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-03-21T06:16:05.645908Z"
       },
       "classification": {
         "capability": [
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

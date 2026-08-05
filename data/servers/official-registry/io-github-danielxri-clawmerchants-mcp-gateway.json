@@ -17,12 +17,20 @@
       "operator": {
         "name": "danielxri"
       },
+      "ecosystem": [],
+      "listingUrl": "https://github.com/danielxri/clawmerchants.git",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:03:59+00:00",
+        "probeEndpoint": "https://clawmerchants.com/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-03-27T10:27:02.356754Z",
         "upstreamUpdatedAt": "2026-03-27T10:27:02.356754Z",
-        "verifiedAt": "2026-08-05T02:03:59+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 2,
         "readWriteSummary": {
           "read": 2,
@@ -36,6 +44,9 @@
           "Infrastructure"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

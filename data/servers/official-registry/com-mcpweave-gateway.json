@@ -20,18 +20,29 @@
       "operator": {
         "name": "mcpweave"
       },
+      "ecosystem": [],
+      "listingUrl": "https://mcpweave.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "auth_required",
+        "probeCheckedAt": "2026-08-05T02:02:52+00:00",
+        "probeEndpoint": "https://app.mcpweave.com/gateway/mcp",
+        "probeHttpStatus": "401",
+        "probeConfidence": "medium",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-06-08T06:51:41.122498Z",
-        "upstreamUpdatedAt": "2026-06-08T06:51:41.122498Z",
-        "verifiedAt": "2026-08-05T02:02:52+00:00",
-        "probeStatus": "auth_required"
+        "upstreamUpdatedAt": "2026-06-08T06:51:41.122498Z"
       },
       "classification": {
         "capability": [
           "Billing & Payments"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

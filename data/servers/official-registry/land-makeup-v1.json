@@ -20,12 +20,20 @@
       "operator": {
         "name": "makeup"
       },
+      "ecosystem": [],
+      "listingUrl": "https://makeup.land",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:47+00:00",
+        "probeEndpoint": "https://makeup.land/api/mcp",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-05-24T18:23:47.767965Z",
         "upstreamUpdatedAt": "2026-05-24T18:23:47.767965Z",
-        "verifiedAt": "2026-08-05T02:04:47+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 8,
         "readWriteSummary": {
           "read": 8,
@@ -38,6 +46,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],

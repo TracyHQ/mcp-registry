@@ -18,12 +18,20 @@
       "operator": {
         "name": "dtajitdinov-aris"
       },
+      "ecosystem": [],
+      "listingUrl": "https://starsphera.com",
+      "businessModel": [
+        "unknown"
+      ],
       "evidence": {
+        "probeStatus": "tools_listed",
+        "probeCheckedAt": "2026-08-05T02:04:01+00:00",
+        "probeEndpoint": "https://starsphera.com/mcp/sse",
+        "probeHttpStatus": "200",
+        "probeConfidence": "high",
         "upstreamRegistry": "https://registry.modelcontextprotocol.io",
         "upstreamPublishedAt": "2026-07-17T12:25:55.169882Z",
         "upstreamUpdatedAt": "2026-07-17T12:25:55.169882Z",
-        "verifiedAt": "2026-08-05T02:04:01+00:00",
-        "probeStatus": "tools_listed",
         "toolCount": 13,
         "readWriteSummary": {
           "read": 3,
@@ -36,6 +44,9 @@
           "Store Management"
         ],
         "platform": [],
+        "pricing": [
+          "unknown"
+        ],
         "directory": [
           "official-mcp-registry"
         ],
