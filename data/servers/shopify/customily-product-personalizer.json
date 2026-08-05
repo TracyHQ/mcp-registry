@@ -36,17 +36,13 @@
         "ecosystem": [
           "shopify"
         ],
-        "installs": {
-          "count": 27628,
-          "source": "third-party-measured"
-        },
         "hosting": "remote-capable"
       },
       "curation": {
         "tier": "listed"
       },
-      "updatedAt": "2026-08-05T12:22:43+00:00",
-      "digest": "sha256:2bb095856389a9f4f0033488a5716f5ff0d5d36f2b5bf111081488cb5ecb8d5a"
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:691f85efa734611bfdf7b32109f070f3480c7e9ca77da3028ba8bb44148928cb"
     }
   }
 }

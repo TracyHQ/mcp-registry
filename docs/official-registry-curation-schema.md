@@ -237,14 +237,21 @@ This is sourced entirely from local analysis of the plugin's own repository, ans
 
 This answers "did the vendor publish a statement about MCP somewhere," which is a distinct question from `verification.endpoint` ("did Tracy find a live, working endpoint"). A vendor can have announced support without maintaining a live endpoint, or vice versa.
 
-### `classification.installs` (migration-specific, plugin namespace only)
+### `classification.installs` — removed 2026-08-05, not shipped
 
-| Field | Type | Range (measured) | Meaning |
-|---|---|---|---|
-| `count` | integer | e.g. `200000` | Reported active installations, when available. |
-| `source` | string | e.g. `"directory-reported"`, `"third-party-measured"` | How the count was obtained (from official directory, from third-party crawler, etc). |
+The migration briefly carried `classification.installs { count, source }` (wordpress.org's own
+bucketed "active installs" count, or a third-party-measured Shopify figure). Cut before this
+landed: `directory-reported` counts are wordpress.org's own coarse self-reported buckets (10, 100,
+1,000, 10,000, ...), not a measured fact, and judged not trustworthy enough to publish next to
+fields this dataset otherwise backs with a real check. Removed for both sources uniformly (97/98
+records had it — 23 `directory-reported`, 74 `third-party-measured`) rather than keeping one and
+dropping the other, since a reader filtering on "does this record have an install count" would
+otherwise get an inconsistent answer depending on which namespace they're looking at for no
+principled reason.
 
-This field does not exist in `official-registry/` because the official MCP registry publishes no install metrics for any server. It is specific to plugin/extension namespaces that can query their hosting platforms' directories.
+If this comes back, it should carry the same discipline every other number in this schema does:
+a `source` naming exactly how it was obtained, and a place in the record that makes clear it is an
+estimate, not a measurement Tracy performed itself.
 
 ### Namespace-level constants for `directory` field
 

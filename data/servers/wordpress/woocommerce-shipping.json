@@ -56,17 +56,13 @@
         ],
         "access": [
           "read-only"
-        ],
-        "installs": {
-          "count": 70000,
-          "source": "directory-reported"
-        }
+        ]
       },
       "curation": {
         "tier": "listed"
       },
-      "updatedAt": "2026-08-05T12:22:43+00:00",
-      "digest": "sha256:4138d3f0cdeaa6efe7fbed19526c6434045221cc1c98a008b20dec8c9341bafb"
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:cd395b8026e1a8e3bb0e1db0fa9cf281f3f8d84940e99de7ee34c839a0657199"
     }
   }
 }

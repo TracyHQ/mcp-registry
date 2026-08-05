@@ -46,17 +46,13 @@
         "ecosystem": [
           "wordpress"
         ],
-        "installs": {
-          "count": 30000,
-          "source": "directory-reported"
-        },
         "hosting": "remote-capable"
       },
       "curation": {
         "tier": "listed"
       },
-      "updatedAt": "2026-08-05T12:22:43+00:00",
-      "digest": "sha256:3e91f30fda6cbb751ffea957ca7577aa0853f20d3cf2240f0ae9ffc1d334b261"
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:b0dc4207a12fe5130554f63e83b439f4168774d1ab14c035835842148d1061f0"
     }
   }
 }

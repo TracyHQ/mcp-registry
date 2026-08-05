@@ -53,17 +53,13 @@
         ],
         "ecosystem": [
           "wordpress"
-        ],
-        "installs": {
-          "count": 900000,
-          "source": "directory-reported"
-        }
+        ]
       },
       "curation": {
         "tier": "listed"
       },
-      "updatedAt": "2026-08-05T12:22:43+00:00",
-      "digest": "sha256:5bf2cd29397006e4eea15c8fe27de05d7e0c3f68d0b0671a285fdd13f111fcd3"
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:a76aae3a2c347fcd1484102be630ce558aea204561c5e315b42de5aa257db4e0"
     }
   }
 }

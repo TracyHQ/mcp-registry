@@ -49,17 +49,13 @@
         "access": [
           "no-credential"
         ],
-        "installs": {
-          "count": 40000,
-          "source": "directory-reported"
-        },
         "hosting": "remote-capable"
       },
       "curation": {
         "tier": "listed"
       },
-      "updatedAt": "2026-08-05T12:22:43+00:00",
-      "digest": "sha256:198a25faf342a485a67e9e08d737a8dcf6baa6c4c0a7ad82528efd7be2d2a1c0"
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:653085e8581ed555e0d644a9dd9a865eaee33c42b398f87e6836b10f535ebe60"
     }
   }
 }

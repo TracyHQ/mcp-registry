@@ -50,17 +50,13 @@
         ],
         "access": [
           "can-write-you-approve"
-        ],
-        "installs": {
-          "count": 40000,
-          "source": "directory-reported"
-        }
+        ]
       },
       "curation": {
         "tier": "listed"
       },
-      "updatedAt": "2026-08-05T12:22:43+00:00",
-      "digest": "sha256:d5939112264ebda425a110edbc5bbdc99a097e55b787dd8326312e8b57fb5627"
+      "updatedAt": "2026-08-05T16:12:09+00:00",
+      "digest": "sha256:c883cd8b99880cb6d715f1ab208c91a9a87a35852d881169916b7af195910f8f"
     }
   }
 }
