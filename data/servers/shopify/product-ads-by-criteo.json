@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/product-ads-by-criteo",
   "title": "Criteo GO",
+  "description": "Shopify extension by Criteo, surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://www.criteo.com/",
   "_meta": {
     "ai.tracy.registry/curation": {

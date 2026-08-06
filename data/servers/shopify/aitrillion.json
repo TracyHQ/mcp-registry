@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/aitrillion",
   "title": "AiT Loyalty, Email & WhatsApp",
+  "description": "Shopify extension by AiTrillion, surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://www.aitrillion.com?utm_campaign=link_click_home",
   "_meta": {
     "ai.tracy.registry/curation": {

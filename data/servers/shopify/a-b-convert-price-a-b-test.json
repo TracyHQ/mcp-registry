@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/a-b-convert-price-a-b-test",
   "title": "ABConvert: A/B Testing",
+  "description": "Shopify extension by ABConvert, surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://abconvert.io",
   "_meta": {
     "ai.tracy.registry/curation": {

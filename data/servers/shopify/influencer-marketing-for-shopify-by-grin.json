@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/influencer-marketing-for-shopify-by-grin",
   "title": "GRIN Influencer Marketing",
+  "description": "Shopify extension by Grin, Inc., surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://www.grin.co/",
   "_meta": {
     "ai.tracy.registry/curation": {

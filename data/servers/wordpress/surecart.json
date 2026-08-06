@@ -54,5 +54,6 @@
       "updatedAt": "2026-08-05T16:12:09+00:00",
       "digest": "sha256:1132ec07965a902650f1e3bfd5ed9c8d3c89e19d5bac4e069a42f0271b5b1d4d"
     }
-  }
+  },
+  "description": "WordPress extension by SureCart, surveyed for MCP and agent-facing surface. Source scan found 92 REST route registrations, 4 CLI commands. No vendor MCP endpoint answered on the paths tried."
 }

@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/referralcandy",
   "title": "Referral Candy & Affiliate",
+  "description": "Shopify extension by ReferralCandy, surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "http://www.referralcandy.com/",
   "_meta": {
     "ai.tracy.registry/curation": {

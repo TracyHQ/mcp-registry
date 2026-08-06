@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/bundle-products-mbc",
   "title": "MBC Mix and Match Bundles App",
+  "description": "Shopify extension by CAPITALIPLY LLC, surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://mbc-bundles.com/",
   "_meta": {
     "ai.tracy.registry/curation": {

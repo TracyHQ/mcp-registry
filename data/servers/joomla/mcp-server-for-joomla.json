@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "joomla/mcp-server-for-joomla",
   "title": "MCP Server for Joomla",
+  "description": "MCP support for Joomla from Onepoint, generally available. The listing has no vendor domain of its own to probe.",
   "version": "1.6.0",
   "websiteUrl": "https://extensions.joomla.org/extension/mcp-server-for-joomla/",
   "_meta": {

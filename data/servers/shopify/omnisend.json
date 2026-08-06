@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/omnisend",
   "title": "Omnisend Email Marketing & SMS",
+  "description": "MCP support for Shopify from Omnisend, generally available. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://www.omnisend.com",
   "_meta": {
     "ai.tracy.registry/curation": {
