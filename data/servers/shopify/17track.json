@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/17track",
   "title": "17TRACK Order Tracking",
+  "description": "MCP support for Shopify from 17TRACK, via a third-party wrapper. A live MCP endpoint answered Tracy’s probe.",
   "websiteUrl": "https://www.17track.com",
   "_meta": {
     "ai.tracy.registry/curation": {

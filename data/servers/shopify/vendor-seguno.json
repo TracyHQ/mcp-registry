@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/vendor-seguno",
   "title": "Seguno",
+  "description": "Shopify extension by Seguno, surveyed for MCP and agent-facing surface. The listing has no vendor domain of its own to probe.",
   "websiteUrl": "https://apps.shopify.com/partners/seguno",
   "_meta": {
     "ai.tracy.registry/curation": {

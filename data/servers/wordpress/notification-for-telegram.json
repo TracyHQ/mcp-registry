@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "wordpress/notification-for-telegram",
   "title": "Notification for Telegram",
+  "description": "WordPress extension by rainafarai, surveyed for MCP and agent-facing surface. Source scan found 1 registered ability, 1 REST route registration. A live MCP endpoint answered Tracy’s probe.",
   "version": "3.5.2",
   "websiteUrl": "https://www.reggae.it/my-wordpress-plugins",
   "_meta": {

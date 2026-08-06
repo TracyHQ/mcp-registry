@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "wordpress/cartflows",
   "title": "CartFlows – Funnel Builder & Checkout Plugin for WooCommerce",
+  "description": "WordPress extension by Brainstorm Force, surveyed for MCP and agent-facing surface. Source scan found 26 REST route registrations, 5 CLI commands. Probing was blocked before an endpoint could answer.",
   "version": "3.1.3",
   "websiteUrl": "https://cartflows.com/",
   "_meta": {

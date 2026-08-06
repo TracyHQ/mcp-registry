@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/freegifts",
   "title": "BOGOS: Free Gift Bundle Upsell",
+  "description": "Shopify extension by BOGOS, surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://bogos.io/",
   "_meta": {
     "ai.tracy.registry/curation": {

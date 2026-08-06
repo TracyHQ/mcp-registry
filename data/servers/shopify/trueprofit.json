@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/trueprofit",
   "title": "TP: True Profit Analytics",
+  "description": "Shopify extension by TrueProfit Real-time Profit & LTV tracking, surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://trueprofit.io",
   "_meta": {
     "ai.tracy.registry/curation": {

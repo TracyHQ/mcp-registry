@@ -29,6 +29,10 @@ jobs:
           }
 
       - run: pnpm validate
+      # Descriptions are derived from _meta evidence and committed into data/;
+      # a record whose evidence moved without its description is stale prose
+      # about measurements that no longer say that.
+      - run: node scripts/derive-descriptions.mjs --check
       - run: pnpm build-dist
       # After the build on purpose: the strings that reach consumers are
       # generated into dist/, not written in a source file.

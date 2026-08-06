@@ -48,6 +48,12 @@ jobs:
       # compare sha256. If a timestamp or filesystem ordering ever leaks in, it
       # dies here rather than by silently producing a deploy that differs from
       # the last one for reasons nobody can explain.
+      # Descriptions are derived from _meta evidence and committed into data/;
+      # one whose evidence moved without it is stale prose about measurements
+      # that no longer say that.
+      - name: Check descriptions are current
+        run: node scripts/derive-descriptions.mjs --check
+
       - name: Check determinism
         run: node scripts/build-dist.mjs --check
 

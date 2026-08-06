@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "wordpress/ameliabooking",
   "title": "Booking for Appointments and Events Calendar – Amelia",
+  "description": "WordPress extension by Melograno Venture Studio, surveyed for MCP and agent-facing surface. Source scan found 18 registered abilities, 9 REST route registrations, 1 CLI command. No vendor MCP endpoint answered on the paths tried.",
   "version": "2.4.5",
   "websiteUrl": "https://wpamelia.com/",
   "_meta": {

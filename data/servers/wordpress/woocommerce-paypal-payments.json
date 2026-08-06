@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "wordpress/woocommerce-paypal-payments",
   "title": "WooCommerce PayPal Payments",
+  "description": "MCP support for WordPress from WooCommerce, in beta. Source scan found 37 REST route registrations. No vendor MCP endpoint answered on the paths tried.",
   "version": "4.1.1",
   "websiteUrl": "https://woocommerce.com/products/woocommerce-paypal-payments/",
   "_meta": {

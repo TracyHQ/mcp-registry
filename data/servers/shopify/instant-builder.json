@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/instant-builder",
   "title": "Instant AI Page Builder",
+  "description": "Shopify extension by Instant Commerce B.V., surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://instant.so",
   "_meta": {
     "ai.tracy.registry/curation": {

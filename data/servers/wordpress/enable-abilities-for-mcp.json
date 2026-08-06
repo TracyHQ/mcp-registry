@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "wordpress/enable-abilities-for-mcp",
   "title": "Enable Abilities for MCP",
+  "description": "WordPress extension by fabiomontenegro1987, surveyed for MCP and agent-facing surface. The listing has no vendor domain of its own to probe.",
   "version": "2.0.24",
   "websiteUrl": "https://wordpress.org/plugins/enable-abilities-for-mcp/",
   "_meta": {

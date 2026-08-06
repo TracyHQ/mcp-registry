@@ -2,6 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "shopify/helpdesk",
   "title": "Gorgias: AI, Helpdesk & Chat",
+  "description": "Shopify extension by Gorgias Inc., surveyed for MCP and agent-facing surface. An endpoint answered Tracy’s probe and requires authentication.",
   "websiteUrl": "https://www.gorgias.com",
   "_meta": {
     "ai.tracy.registry/curation": {
